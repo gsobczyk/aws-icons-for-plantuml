@@ -140,7 +140,7 @@ iotRule --> errorQueue : Failed action message
 
 This code generates the following diagram:
 
-![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FBasic%2520Usage.puml)
+![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/examples/Basic%2520Usage.puml)
 
 ### Raw Sprites
 
@@ -169,7 +169,7 @@ mySecondFunction --> mySecondML
 
 This code generates the following diagram:
 
-![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FRaw%2520Sprite%2520Usage.puml)
+![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/examples/Raw%2520Sprite%2520Usage.puml)
 
 ### Simplified View
 
@@ -210,11 +210,11 @@ recordVote --> voteDb
 
 This code generates the following diagram:
 
-![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FTwo%2520Modes%2520-%2520Technical%2520View.puml)
+![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/examples/Two%2520Modes%2520-%2520Technical%2520View.puml)
 
 And if the `!include AWSPuml/AWSSimplified.puml`is uncommented, this simplified view is created:
 
-![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FTwo%2520Modes%2520-%2520Simple%2520View.puml)
+![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/examples/Two%2520Modes%2520-%2520Simple%2520View.puml)
 
 ### Sequence Diagrams
 
@@ -249,7 +249,7 @@ api -> user: Returns status code
 
 This code generates the fully detailed diagram with stereotypes. The participants follow the spot letter and stereotype formatting, with the icon to the left of the description.
 
-![Technical View Sequence Diagram](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FSequence%2520-%2520Technical.puml)
+![Technical View Sequence Diagram](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/examples/Sequence%2520-%2520Technical.puml)
 
 ```bash
 @startuml Sequence Diagram - Sprites
@@ -290,7 +290,7 @@ api -> user: Returns status code
 
 This code generates the same sequence diagram demonstrating how text and icon (sprite) positioning can be modified.
 
-![Sprite View Sequence Diagram](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FSequence%2520-%2520Sprites.puml)
+![Sprite View Sequence Diagram](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/examples/Sequence%2520-%2520Sprites.puml)
 
 
 ## Distribution "Dist" Details
