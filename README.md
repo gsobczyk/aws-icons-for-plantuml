@@ -36,13 +36,13 @@ In order to incorporate and use the *AWS Icons for PlantUML* resources, `!includ
 
 To get started, include the `AWSCommon.puml` file from the `dist` directory in each `.puml` file or PlantUML diagram. This can be referenced by a URL directly to this repository, or by including the file locally. To use this repository, use the following:
 
-<pre><code>!includeurl https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/<b>v4.0</b>/dist/AWSCommon.puml
+<pre><code>!include https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/<b>v4.0</b>/dist/AWSCommon.puml
 </code></pre>
 This references the latest *GitHub release* version of the referenced file  from GitHub when an Internet connection is available. You can also use the *master* branch by replacing `v4.0` (or which ever version you are using) with `master`.
 
 All examples reference *master* and are designed with the most recent files. For consistency of UML diagrams when referencing the files directly via GitHub and not generated locally, it is recommended to use a specific release version.
 
-For local access use `!include` instead of `!includeurl` and include the path to the file's location:
+For local access use the path to the file's location:
 
 ```bash
 !include path/to/AWSCommon.puml
@@ -66,11 +66,11 @@ For example, including these files from the repository (URL), the includes would
 
 ```bash
 ' Define the main location (URL or local file path)
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
+!define AWSPuml https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/dist
 ' Include main AWSCommon and then sprite files
-!includeurl AWSPuml/AWSCommon.puml
-!includeurl AWSPuml/BusinessApplications/all.puml
-!incudeurl AWSPuml/Storage/SimpleStorageServiceS3.puml
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/BusinessApplications/all.puml
+!inlcude AWSPuml/Storage/SimpleStorageServiceS3.puml
 ```
 
 This defines the macro `AWSPuml` to point to the root of the `dist/` directory, which reduces the size of the include statements. Next the `AWSCommon.puml` file is loaded, and then the actual resource files. In this example, all of the entities in the *BusinessApplications* directory are added, and then only the *AmazonSimpleStorageServiceS3* entity from the *Storage* directory.
@@ -84,10 +84,10 @@ This is the [`examples/HelloWorld.puml`](<examples/HelloWorld.puml>) diagram cod
 ```bash
 @startuml Hello World
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
-!includeurl AWSPuml/AWSCommon.puml
-!includeurl AWSPuml/EndUserComputing/all.puml
-!includeurl AWSPuml/Storage/SimpleStorageServiceS3.puml
+!define AWSPuml https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/EndUserComputing/all.puml
+!include AWSPuml/Storage/SimpleStorageServiceS3.puml
 
 actor "Person" as personAlias
 WorkDocs(desktopAlias, "Label", "Technology", "Optional Description")
@@ -101,7 +101,7 @@ desktopAlias --> storageAlias
 
 This code generates the following diagram:
 
-![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/examples/HelloWorld.puml)
+![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/examples/HelloWorld.puml)
 
 ## Examples
 
@@ -111,17 +111,17 @@ Consider these as starting points for how to use the resources in your own docum
 
 ### Basic Usage
 
-This example shows AWS IoT processing of messages via the Rules Engine with an error action. It utilizes AWS service entities to show a simple architecture workflow. Each entity has a unique entity name and icon (`<<foo..>>`), name of function, and additional details or constraints. 
+This example shows AWS IoT processing of messages via the Rules Engine with an error action. It utilizes AWS service entities to show a simple architecture workflow. Each entity has a unique entity name and icon (`<<foo..>>`), name of function, and additional details or constraints.
 
 ```bash
 @startuml Basic Usage - AWS IoT Rules Engine
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
-!includeurl AWSPuml/AWSCommon.puml
-!includeurl AWSPuml/InternetOfThings/IoTRule.puml
-!includeurl AWSPuml/InternetOfThings/IoTAction.puml
-!includeurl AWSPuml/Analytics/KinesisDataStreams.puml
-!includeurl AWSPuml/ApplicationIntegration/SimpleQueueServiceSQS.puml
+!define AWSPuml https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/InternetOfThings/IoTRule.puml
+!include AWSPuml/InternetOfThings/IoTAction.puml
+!include AWSPuml/Analytics/KinesisDataStreams.puml
+!include AWSPuml/ApplicationIntegration/SimpleQueueServiceSQS.puml
 
 left to right direction
 
@@ -150,10 +150,10 @@ The individual icon sprites (complete list [here](AWSSymbols.md)) can be include
 ```bash
 @startuml Raw usage - Sprites
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
-!includeurl AWSPuml/AWSCommon.puml
-!includeurl AWSPuml/MachineLearning/SageMakerModel.puml
-!includeurl AWSPuml/Robotics/RoboMaker.puml
+!define AWSPuml https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/MachineLearning/SageMakerModel.puml
+!include AWSPuml/Robotics/RoboMaker.puml
 
 component "<color:green><$SageMakerModel></color>" as myMLModel
 database "<color:#232F3E><$RoboMaker></color>" as myRoboticService
@@ -167,7 +167,7 @@ mySecondFunction --> mySecondML
 @enduml
 ```
 
-This code generates the following diagram: 
+This code generates the following diagram:
 
 ![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FRaw%2520Sprite%2520Usage.puml)
 
@@ -178,17 +178,17 @@ In some cases, PlantUML diagrams may contain too much information, but are still
 ```bash
 @startuml Two Modes - Technical View
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
-!includeurl AWSPuml/AWSCommon.puml
+!define AWSPuml https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/dist
+!include AWSPuml/AWSCommon.puml
 
 ' Uncomment the following line to create simplified view
-' !includeurl AWSPuml/AWSSimplified.puml
+' !include AWSPuml/AWSSimplified.puml
 
-!includeurl AWSPuml/General/Users.puml
-!includeurl AWSPuml/Mobile/APIGateway.puml
-!includeurl AWSPuml/SecurityIdentityAndCompliance/Cognito.puml
-!includeurl AWSPuml/Compute/Lambda.puml
-!includeurl AWSPuml/Database/DynamoDB.puml
+!include AWSPuml/General/Users.puml
+!include AWSPuml/Mobile/APIGateway.puml
+!include AWSPuml/SecurityIdentityAndCompliance/Cognito.puml
+!include AWSPuml/Compute/Lambda.puml
+!include AWSPuml/Database/DynamoDB.puml
 
 left to right direction
 
@@ -212,7 +212,7 @@ This code generates the following diagram:
 
 ![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FTwo%2520Modes%2520-%2520Technical%2520View.puml)
 
-And if the `!includeurl AWSPuml/AWSSimplified.puml`is uncommented, this simplified view is created:
+And if the `!include AWSPuml/AWSSimplified.puml`is uncommented, this simplified view is created:
 
 ![](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fawslabs%2Faws-icons-for-plantuml%2Fmaster%2Fexamples%2FTwo%2520Modes%2520-%2520Simple%2520View.puml)
 
@@ -223,12 +223,12 @@ Icons can also be used in UML sequence diagrams, either in full stereotype or by
 ```bash
 @startuml Sequence Diagram - Spots and stereotypes
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
-!includeurl AWSPuml/AWSCommon.puml
-!includeurl AWSPuml/Compute/all.puml
-!includeurl AWSPuml/Mobile/APIGateway.puml
-!includeurl AWSPuml/General/InternetGateway.puml
-!includeurl AWSPuml/Database/DynamoDB.puml
+!define AWSPuml https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/Compute/all.puml
+!include AWSPuml/Mobile/APIGateway.puml
+!include AWSPuml/General/InternetGateway.puml
+!include AWSPuml/Database/DynamoDB.puml
 
 actor User as user
 APIGatewayParticipant(api, Credit Card System, All methods are POST)
@@ -254,12 +254,12 @@ This code generates the fully detailed diagram with stereotypes. The participant
 ```bash
 @startuml Sequence Diagram - Sprites
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
-!includeurl AWSPuml/AWSCommon.puml
-!includeurl AWSPuml/Compute/all.puml
-!includeurl AWSPuml/Mobile/APIGateway.puml
-!includeurl AWSPuml/General/InternetGateway.puml
-!includeurl AWSPuml/Database/DynamoDB.puml
+!define AWSPuml https://raw.githubusercontent.com/gsobczyk/aws-icons-for-plantuml/master/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/Compute/all.puml
+!include AWSPuml/Mobile/APIGateway.puml
+!include AWSPuml/General/InternetGateway.puml
+!include AWSPuml/Database/DynamoDB.puml
 
 'Comment out to use default PlantUML sequence formatting
 skinparam participant {
