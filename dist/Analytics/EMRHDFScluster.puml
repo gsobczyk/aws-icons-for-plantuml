@@ -1,0 +1,14 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EMRHDFScluster [64x64/16z] {
+rPS54jim400jMKpx_zzsr81YJE8hxc1WRU71zBjH-e5I5_J2eEclTSqhvegV_OrqqVVJ3VFt_IZqALhcqvp4Rq1KrtthWJ9_hgi4oTm8O2PJlvc3BgpFdyvy
+l0-ciUJdoCEd--21F1jZ2kG-WwwhNEdKJZhJ8n1kqsZZwXbUqMTJ7mlbe0o_f1lrn3SLwZZk6SBc5lXZtwtMI3UOF_V3PeySrBvwDc_yLDSqm4zB4aIR6wnz
+pHvvMZ5pOy-lQKc6j92LourETcx7zzEAIjgHwT-QxtpbqkFDSmNJVQTlX7U-iazPtmE0CWpE_BNSYH3dXQ-E_BgMEwg23K3mDynqvA_b4SBAwlz7VlPw_s2I
+fxV-OO0e8ulAVVdunUidtJ_f-H6TN-dz4TnVKVoGnozv_9J7Rtd-4ESlUVwKvczX_I2eNoxMJoe3KLY_2Uj7MVqgh9__PlqU_xl-Hzw_3LQ-l7-LzyzoVW
+}
+
+AWSEntityColoring(EMRHDFScluster)
+!define EMRHDFScluster(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMRHDFScluster, EMRHDFScluster)
+!define EMRHDFScluster(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMRHDFScluster, EMRHDFScluster)
+!define EMRHDFSclusterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMRHDFScluster, EMRHDFScluster)
+!define EMRHDFSclusterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMRHDFScluster, EMRHDFScluster)

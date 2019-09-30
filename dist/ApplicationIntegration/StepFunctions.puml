@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $StepFunctions [64x64/16z] {
-xTPLOWOn20JW8KW2U__prcLTGht_zpvn8NwicvjcrX9nmGD9n4cLkXjma4SumQDBVUvPKBydxq2BQ8177mL408rUIW1fz7CYlvnf8qHjn4yVkdKI9p1u0_XS
-tcELVsw-5Ne2q9EYr_86q1ZAF4-odxTfRoKkCTWG8wzvjmLVpnSPUyqh5cpzkixmQrxhXApdepqhg9FJghFxFrWk7tPr_Cl-hwsVw9WnxCh-6HRgbVFZTS6x
-pc-uv-xFzz__xFkLVJ-pxtVc_yZ_N_d_C_z_Vt_zaQ-VylLRldxCrw_Vx-Rc7W
+xPO53iCm40JNRiom_tzj6SBWKuKPGN7Qn8VrRvoSy8x4pZ5cibMl5dTiPQFle9tJS6pJ2tGXYqPXan-V_qo7sEOds8TlaThyebGcirAbyG0yO2tWMy-VNW7A
+ayUq7bNhuUjjM7CFhNEFoXs-nI9sZz_1B0337JTkK3XBMVVVf_Fmty_gW0sV-QAV0Fg5uzZlrlm0fNieNCQ-jkj-w7zSFZvdMF9xLFNoMVoOK3dhTxOFthx7
+X3ZdHumm7z_50VPverFoaz8XzRBruISE24VzoCb17Rh-wVyVEp_h1vY7loD-Q-U_FtzOKtoJtizIvO7yvPVVyxRwKTBwxUJzOnEQXlubxf_o_YsV7_BvDPsV
+napcfs1-Y_S7-VuYtv_a-vjyVvJlh_BzMSx9oGq
 }
 
 AWSEntityColoring(StepFunctions)

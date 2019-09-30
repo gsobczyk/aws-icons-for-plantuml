@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $CloudTrail [64x64/16z] {
-xTC5biCm30JGaIsS-zztorm7zd6VVnW40VFdJDCqLPYgHVqpMWKNMjml1AAU6IgGs1_-A5i6EFT9WRya2-xIOQ_TI34ZjtVV-4BH6u2Mt4JV-oq1cZOWkOL8
-VMHqaex63UhpjheKRfiQI7H-Pp2kSXd6Ez1yfVaEz1XTz0wqueA-yfMoBoPmjDhmSmsb5rUKI8qkNLntrdwlJmrdbJWQLZ7uA7Cxgsn7VIL-rTx-Go-oL8Ec
-Dv-3gGPzNKG1Ii6DlT-c_AhoWimivbszXKiDmekF14UiV1Sca1pzUdPjEWD7GiCNmy-I6jIpolE6eHyy-HkcQPeE
+xT87akKW30JGbWq28wI-_stNtamD_gdo5C-1dE6tiopB4bPLQmj-98e05odEzza6qTPxKu4qlik04dyc0XnyZyl_JKnWV4j27MSZGJT_VVOx1mKv0KYTBr4q
+3aA0f3kaymMnIN1KS92isFa2Ho97uRmaT3xNaJbNKVdKiI5nhW7RmOSY0zau5pK1AVX0Vd9Adh47Rnr3wLH6uQtUd4-4I70kFEBypl0KlA4mpYLSn0sdBJXN
+qJYd-oLvluByVllHk_Ct_SL3jR7g7yP1R73E5FnY3XHk-ADmKA2SYlvBnFdH-nynNa68tpGF_klWn2iOMTqWnga3bOAB6qx2YedidEjgB7e9rrEXwHU7ytjO
+bcNv0G
 }
 
 AWSEntityColoring(CloudTrail)

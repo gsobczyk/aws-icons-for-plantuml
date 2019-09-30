@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $SageMakerNotebook [64x64/16z] {
-vPS54iCm30HDgU_q__-METACmhHbs48sO8SL4JlHqi5En9OlGYyYafJlRxnKrQ_1I-6w_1XJ0d6zZe_7IIT6tGVb0N7NAJg4xZ-Ra4zVQA7xfPI6WkjDVZqs
-qFpjzqjNGDmAzV8XBz3F_-qNgiL9z_ErpAkVlx-z_2eCwdhxaRZTBDJlTmErSVKBsSIr_28fAeJJbq5-IDaWcVqonTbl-F8Vxjk_VmtxlmY-GUtX2x_eiVwU
-lcZcw2SliC3-OuF7FxlViEFNy7v3Zzy7wMUFtnpOuyVX-yz1u-VZz1i-Vnf__jQ9E7J-kWek
+vPTL0eCm40KRhsGtzxzjSOtZC1_umoRwEWyaZLbUeua7aKtpO9AmvF4TYxRczIiMTR8yPOmL-M99ctq7jC_R_ttr3iIf4knv75z0tDxjUQcKGeF5KjRdNKZV
+__jTrbzXXcFZBmAlFpzn_dxQpk_hymV5KkJud_eZ6XpyJkgFyy8V54ksq1ySaXTIIZHGB4MzBwGT7l7_lFuNvY7E7tV1xkXl-VjF_nyPafudW3qwCJ_rZ-db
+btm7V9xbxu3yelvtsdyixR-MzfzB--zd-kl7RrVqru-Vb_kxR7xv_2a9jdZ-k7p-UZn_
 }
 
 AWSEntityColoring(SageMakerNotebook)

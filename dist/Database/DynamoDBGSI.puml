@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $DynamoDBGSI [64x64/16z] {
-xPS5he0m44IdNhZ_VRzqXmIt9K5VT99zwDQWnhHWRATfM56tC4Yj5E3gUSmXVWg5H3y8z6EO8ZM-Hy6BNqaoz2r6OJth2c7KTvWYhF0_toxxqHKYVKcUVd2Z
-iFxy_eLh0TXMCZ1k7Xn0Q06uLh8mOPvhZFzW2at_IBBqlPb2qNzN6Z_V-C-faDa_IQ2VqnJvcFxBkI8v6yII97fOfX5OVpBwvzUFNyN_k_Fu_SQlUlu-V_tM
-hfzQjFk7Kx-VTlzsxlZ_VEtvINr-Et_yQy_FQdu1
+xPT7TiCm34G1Y174Vl_JfX2CuwRs9jtwkrbyLw4H39zXwJmkywRNCuH2EOMYv2pDmhV-ML9oTOiVjH7V_5YBfQdxGUU8xxvIGytFbhZxZkRGHLyW__1vknzS
+8vXVB8tTLpT7kFVynRtFdo2-494xWsWuIqBibY4SrZEOdixIGABBtFd-P_K_hTQ_eBz_yoTfJEPdIwxxeymn_O_wF-e_XqOslrgAtKzXZhnIlsLJ_NBA9nAJ
+JnzffC7I78dfXm4_F_pxGV_VtwxVetxH_etFRtX-mVCJ1DqVyFs50H_St_vs_H_r3zzl-Fs8tg_e_Gpp0W
 }
 
 AWSEntityColoring(DynamoDBGSI)

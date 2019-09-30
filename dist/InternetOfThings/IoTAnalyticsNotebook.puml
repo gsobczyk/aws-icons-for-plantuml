@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $IoTAnalyticsNotebook [64x64/16z] {
-xPS55iGm20KBVD9o_mElAxNmwZ8hrUX4Y_L08GeFAWjGmOTN2w4DuHMQ1RGvF6LNrGJXCI0ytL0pkHrwL3Q7XttW-tMoDhWnl0uCpm1ACmL0zsj16pIW_bRi
-ZvcJcTmEyV3UNpTP_b2sGHd-ulvz_MbPjS2xy-VhVudmB2B93BV3vxgPZFeB-_V-XhSVuZPsvY-U_rd6JtLTrX5hFn9llqW_qEblpVEVdp-Mg7ySrT_fpw-V
-b_EtSFZX-wSGEdp_E7p_kZnN
+rPTLOiKm3C3YsE6ikVzjvux9MxoYzVDG3wesuEu3gFYcfsKeMD9NFmyL-GU_v4dApxvta_YR-O3eonW14PzVHubtNpZsw9Ww96ZARqgVKagT-_4DE2Oa2V_R
+yGEh_TPUzKC_cPb-s_tSkW3-w2ENuUQPRq3HN-nN7YJmdls8YFj5lhb1FxsFCSQr7z_0ysE101F7Jz7_81z90lxg1sRwoRz_-_aF7_Y7NvOFq3TTrv_qvs-g
+7q1J_IpEN_hvLvu_Z5r_-ldRVZzv_MQadxn-tjxFhBzz_wGYRzq_Rjs_teD7
 }
 
 AWSEntityColoring(IoTAnalyticsNotebook)

@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $ElasticLoadBalancing [64x64/16z] {
-xLO5ikj039EzNaDw__EM6NUY3m-YGj0mCaxV10iMX4SHqe8jRAwu0ysxeCqJBo1sXuO-qtnV7VJ8B7b37auKnSfp_Yl5dy8_lnlkzwdI0RHk0_6BXWFqobA3
-k0Bu6BrKGCtTJG69eqCAhTMK4JMGPNbIPKTpAQDfsyycfukWOpJd0fAtJ2fw1tmmHe9yl0N9uHphJmYHkWxi6mPhz-e3zEAJ2m3nrzpRyyIzf92vlIRJ48yt
-BmcV1oBoaQJfRMM9tAgFLyaWKi_LoXv0dHqYvLd_MVx8-97vG-OlKJzq_VBzW-vVTF-a-pSxF-ZvHSxFRpx_XTwV-FsDtn_v_VN_Oy623G
+xLO5biD02FqmRlJ-fwrxz0thcr-9uhhx7TYmGKhEhPyyCuxmqaiEk1WOjez18vJZGInY5tr4kF01Tz5xrCk9GViE-gJKNmZvT30h_DTAIgcygXa0sEW9RZ7G
+5XUOT0-rE70o02WiXByOW7rCoPzEybKX0tDKf-RI5iCCLw_drUFYjCfmiZ9BA3yhm_3dp0rhSvpggoSPCG9fVOuFRu7ARXt2Y9u9r9uxG96P5A6HXmPtao81
+e3XjVHXDtFX88H_zj3CzofXJOA_10DTBC4VzCLLPGdonoY5VrPn8OIOPPyjdWEJ6K4klrL_hFtNyzFcZprzz_UZhLzy_zFrhl7_6Zlwfxz_w-Q6VN-D8FsZ-
+A_SNxVwatT-K-wDoV_r1sB3X
 }
 
 AWSEntityColoring(ElasticLoadBalancing)

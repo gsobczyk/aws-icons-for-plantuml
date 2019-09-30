@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $EC2F1Instance [64x64/16z] {
-xPS55eGm34HfEybm_mlZxdbXVJyk7qazkvKaShezGiZ3BPW7Yu_rzZjzI0F9mwsIAWrOlTY6tEvd1hx8ZmrgzRNrniZR_0xn-y7p_U4zq--V_g5ZEBAbFzXH
-Uqb9DQN_r8zQRzKMVv3IVRymhoQxZtuNCTBXLuG3VpT-aYhs_Iv-E-a7vgpPzJlamDUAqJUdF-hjwVTxu_UMlZ_z8n0dFf0Eql-LzR-t_lhN_vxsyv_-t-FR
-yFlUySD__EKUl_h7ptvA
+xPVLGiOm34PNpoh9-xyjfCXSGd0uDzFpIxxgyAwaaXV7MBAP7qCfvimlI8jZHZBp8o3PCpyJBeuZiJSTWNwf3wM3HAV7HbHB1vP-8I5buwE07H_DS1k3E_uW
+u1lvFZ1DwhUk-IaveVz4qVlECrNgrwwvRvdVV_x6FZDq-4IKFz0pZvw9bQWAyb_weV6nYUhFVdPCdphmBJwyd8xUAtp6dVY7zIiffRZnD_LRvBUfdvbyIVxi
+OskjJhuuV-3ZvU_NrkzR-lhyFO2Vhkm8IP3_Pux_sl7hV_pNp9__-NyFNxz-rQ-VXHJj_k5__wNUl-htpteU
 }
 
 AWSEntityColoring(EC2F1Instance)

@@ -1,8 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $Blockchain [64x64/16z] {
-xPE5WSGm30HNkEw_ubV-c9ar8GicRBoAHXP7WOPV2g0hFyQbSCFtb_ljjzz--ymvt3yyuLCnHrBs39KdV7Z-4t34pj1nqW-wcP4b9QrWrf3Jq1bd-0vLA06a
-JKFB6bAdeP_bonYc8o9OXw766jPX37cE3v75_TTmUVyrzBZm_TNGBtf_rt-_w_-Vw__Vry-_zjjlltrUIcxuLt0_7shNe885SXNu1lu
+xPU5OiCm30MV6IfB__-t2sUyEHvFLxh2DKo0OYvovBY4tLyjGkab0yvWnanzaLuOy2Dz--1UU-srrvvfevtAqavzlMUF3KjkLqTsLy-lzmsP5Yeoogfbqhfg
+Hdkhlt6A8JQU8k8KGcAQbDlqOUBRE_e2vn0O0ALP4qtAOTRodZvRaU2brihHYRZ8aueF8ZPtzAMKlP-qenyTVqunfct-JRhFlqMdVdJvZQu_W-llpzh-jDTU
+U-qpjqxeGN-5lOUnvX9kxrs8_GHliM6iwySQCtG5YP_17G
 }
 
 AWSEntityColoring(Blockchain)

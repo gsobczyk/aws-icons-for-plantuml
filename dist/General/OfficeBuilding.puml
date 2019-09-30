@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $OfficeBuilding [64x64/16z] {
-xPLL0hGm30Q_j3Ia9Bt_SNyXh4jWtUPXqC45zu4Em1BO3c0ieBO3AXOWpNW7QxAiL-oWb_Gf9zTblTlBN__hOtgPqB6lzh-tElOg4prEaTkQiIyz0zoNiT-G
-p_IwWh43wuhpVOU0xdoV4P2ZlXigWGS1t38mt5I7BkxPZ51jv_gxoOndzCte-FqdQr_GKqfmkLCYZ7Q5VS3TUzfyzDF1AFtk_tNlp_tVtu2NxxFqX28Ck5aA
-tDHBZdksTkhwjo_uVbrz_gaK89SEaxkICRcKz0RF7n5SxjMOA-wBAK5i0Do32ToaLcQ-_s8AkDK4xj__y_h-_l-lWA0N3f3pVSoPFgdDG1DEGRF0BVaB
+xPTbri8m50LlX7XVzh_QJtfnUoq7X_anw62n0sw3iNiOp27s0o9cK0_xYXcKBYbkaQINUVs07OPBUkiSu9oziATPVljlhvDB9JBsjGiWlOwzL58oJk7xch4F
+EG4fXx7VuC_qCYn9s24DI-Hyxw7WRzs7LWrIAm1TMW9jQWjw7tkt_ELHENuL70NRUvpM7nt_5-hvpJVVdvxM6-S0woneYdREt7xy5QP-VhUp_zFEcGyOVwM_
+zVe9hPrQlws56up_a_K-PyETUxD_qoPdF-Vtf-N3zgzqxlidlNSX03uiiFGYU2mTWdk1-MSCA7frZTBxA6AHfG5qampQYimRlzNwly7uV_jRdLyAIb-YGZdV
+wvpfhKp9nIh_cXKChial
 }
 
 AWSEntityColoring(OfficeBuilding)

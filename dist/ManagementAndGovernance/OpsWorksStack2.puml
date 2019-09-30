@@ -1,6 +1,6 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
-sprite $OpsWorksStack2 [64x64/16z] xTSv0S0m5CFGtgtDdsyl0ac-Lsb_03JbpUL-VghS-VBPjagzS7wzV6wbJkltsgPIc_1uF1xV6HwFn-FnU7pyR-a_Xl-Q_dFU0m
+sprite $OpsWorksStack2 [64x64/16z] xTT50S100CJ0CeD_jUsXWDlz9lyHaCwl7yJwnAzNxWfyU8s6vCzLwgn-xQHMF1wFnpU4n-FnU3mUx_-RqM3-g_lFVZy
 
 AWSEntityColoring(OpsWorksStack2)
 !define OpsWorksStack2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, OpsWorksStack2, OpsWorksStack2)

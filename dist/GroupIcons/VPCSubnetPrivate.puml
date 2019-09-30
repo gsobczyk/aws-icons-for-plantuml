@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $VPCSubnetPrivate [64x64/16z] {
-xTHLWeH038JX2cb9rVtlkpBkGuVrvNj1VvpcpxLQILmWUcizcDGT6zwPuG0czmc0Szm4bA34AC2KEBjrSKFTHgz03HRYZiBGn166UXAemZYYmtZ6q3cVAehE
-LXHK3VIETjut-63FCx-fNtx_l7L-pjBCS9TPU_xXRjXLYescfxqpxg3FwiKxDA_dNUEzjAZljVO5lGE0fti7IW4ysNUWIs7ecNupgxEX8zTxicTihhyZUVra
-0TpppuyiwVUtixluT4z3BEZNlZNc-utnNdVDwgtu7SNcz8yyxHdjeU0pUeW_oMhr2W
+xTG50eD034JHcQL9MKlkVzkwwzQ5NqKU3lwh3GtL76Ekj-ein3HAlaMR0kn4EW9gxNm4ZgjFgsDYPArU48elAm7Io2CuvQiA4PkuTRiWehCMdn5svhU0tE9x
+gE-aw5ky8lfE4Jhugx9fBbDlMqszBAPSAd4M0AxQ6P4kUe0d0wxmOlL49bTvFzdN-Tpt-NPlWcbYjte1LGcvqHUmJB-9V9kFaDMZuos-WDaz4-Ksxmg847hp
+-LDCKxlLhmx-xTx9Ue-tjtkyrNjAzctFdw0d2zVuSrtsDPwj-WyrD3G1
 }
 
 AWSEntityColoring(VPCSubnetPrivate)

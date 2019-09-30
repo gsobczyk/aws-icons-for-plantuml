@@ -1,8 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $IoTGreengrassConnector [64x64/16z] {
-xTH50i0m20H0eh3_Vt2zr9KhSwiiyL37EUTSo9LdXLJXMSs1BiMAjQ1LiLOZdSle2Gy4Y5ft_RQJwKm1m2beiNLU8o4nW78UbqJga5T9pWeaG2AzoLCK8D6E
-ZlS-h_DnQ7xNfppFMJpcgHmwK86moq_EyW6e--uplM-VM0SG1zhzv_7h0E80i_mbdw6CUMl_3VDdMp_h_Z7kN-lvCPvVu_rXlB-CzwVz_dREETS2
+xTH7siOW20HWqgCYS__JVZqyjh-ovTsbZ5temJddtBm7pcySI1Klzvc-j4IK5dsFKbnexC1JvXUfyy8l6Ky7ZGG0hCCxwloX4sG0WNed83kflSwNNmGuk_WA
+Y0Q6_Qj5W9KQkNxNv-k-CjMsTbB7jPABvgkbsgYIWBdDlws3_0magWYOVjy_9SWrbvUzNjBn_ElDsjz9N8w_v0yeOzuwVbs_z9VrOuXr_wpdntX-hVV7U7-D
+zSDOluprqrw_dNFEtG4
 }
 
 AWSEntityColoring(IoTGreengrassConnector)

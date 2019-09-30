@@ -1,8 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $SNSTopic [64x64/16z] {
-xPHLWiOm28GdYjp_m1lRtnvJR_agSGK61sDadYO3SAegKvI13d2YJ5EmIXil4LD4MJJUnjlunVwxD7uMn-_nvBOFOcOQXt58DV48DGdmDKbmp3zTX_u80r81
-gFpL8KiX8DOa8jGamsb9wDMLHTMryPo0J4GPI3LnY5Jmy1z9XAjzFhfo7y_p_iCEot5kmKYBtsNtjvI5_hFOVvV6pvBuVR3-cFwO_fZ-cFuOVm
+xPH5WWCn30HB7bOixVz_k-x5kyE9wr83PcZkpC0ZEma7oiSP55G_Jbt4R_sDBhQpwu_we_xvv_SC2k3HZJz6_eH3ZOXg7D4mTcbcaHPcQSUa0_iggdf_-LCX
+czAeSi6bcRKfLsRzSufKiPIX_kVF3aVR48TTCjPJOsAMPYPfnRnf1-c0FLGVorpfOiqqm8mkVckMOftLIm4ii_VyPzgzxz-vupzt_SxTltFFpxddzzpxSyxz
+VOdy6VbZ_VV7BfK_8tz6_gJkhqTc57PfPf4MPccdI8wfw8Fap-0J
 }
 
 AWSEntityColoring(SNSTopic)

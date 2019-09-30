@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $SitetoSiteVPN [64x64/16z] {
-xTDd0i8m20NW1sH0Sl_xkeqhbU8VrtEFBmNIjk_DF_-OMHnh8W2SWqla7HO6K29SGCMshvQ1l9udi9tweFKLrC6t2m2sqZFgrIXMTg3Wgsq4UQNjMoqt1vHz
-0yMUSqBT5rnlfbd7J9Ou8-t7bxITCZuBs1pSiQbJ3beCG4iBE3m_gLySzKVcPuClBp3VFmMPv_oP-LQj-TAtlbz_rhvzyLXB8a9W6JbzpXvVC8-vV3Pz56Ed
-ByS-Rnls-j5cOHAD-mmGe55l8Dr-bAXNfEq0YEAUMrTmk7y19q89UnDW-odYntNJN_JjatrXZVcHp_Ebl-P97WSkNp4DUtopUTfNvPz_DW
+xPA5aiKW34Ll20v9__zlbtRjAQMiowbUPau6oV9h-USV5P5vkte3WCDS2Gq0iMM0qenkOPAs7ub0EEvxsETvLuF3CoWm-X8gaHpqBSf92aTNKC6dKSZee2dR
+KXFYnNJgEYhxkjac7f0lThEDPh3iwtwTQVPrEMNBwi0oeAks4dh6bjS2fbT06J1T0ADzdxe0hFtvEzqucVz9zZ0x6y2T_JlHEmNkdrzf-aZ_tFENtFGn8ifP
+3YqF8gvXmEw4fnnqm4-uZmpvGUfDUD2F9-bqnlQm7vbicVS3O80owmkejcXd_GBVtaGwwLUmhg_fzJkm9wHfNnr0BKtw3O-ylCKFA6_o_HVxaUkR_CRVyusz
+3GtvXN0FrcK0kKlJVnF__FC
 }
 
 AWSEntityColoring(SitetoSiteVPN)

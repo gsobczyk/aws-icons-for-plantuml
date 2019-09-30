@@ -1,10 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $CostManagement [64x64/16z] {
-xTO3jiH0443HilQ_tq5wxEfllEZeneAlwZ_SBn7Oj1i07RrLjpZpMjdic_j_NuUclAkPBfbFU8QJABfUmJQJvv83DtqnLSNUbs3RemWVFRNtduZm3RusnOcl
-bhSb1Q_zyTkIl-OTTdcC14RqglVzQiwWuAi-CglI3qLLPNLyg8WU4X5j-JB0yw3hyxIoQJ-Qy7LQtwlfCUEcTqGu3QdbyqRTxNDc4g9NRER8FHyYcfag4kN0
-sZp-vGdECTzVZydZd_9buw530Ay9ds5cuqqIEVmd7t_4PZRc3XRQFtuSnsyLi0bxFjsNxRkFkKV7UzxgTNypX1Tzckcjp5_qMRVxjVzF_pww-PcVwFqy4Cz4
-2FjmAlWDhG4
+xTO5ejn0281XODpW_hTjsNWrp7FvrkMF6y0tdBJtC8NsqKCesQPa08ThJr34QXmz4MHXctVUV_ToOk-5Qzar5cClx4_x5RWXnZv3vGIT7ne6Qn-So80cY-ZC
+FSOOe0khYRuuvsYwbuTnxXVt-cNTrGnT5f7M5IbtUkdBcWEeOn5XNOzt-wQl7NQELII-sNTHlMs6g6JeH_f5OLDVW2uGZJsoy47A6_HdrTf3BcSHXwblX5VE
+Ddx-ZQslH9w5FL6JuOXSiFKzfSp2EQKk3MBoO9j_fU-LVhOkV_vjVHhd_x74cH3hL3zAgSkHPCpqJv__tZkpFkldEh9r_W58vnz0v_ydcXZ__gp4qlEVtE_n
+DxUFlwhyHRlPoz-yo-kVx_w9r_z8a8TLl_HJZXwd46oz3tPUHxz0f0a8dy4F
 }
 
 AWSEntityColoring(CostManagement)

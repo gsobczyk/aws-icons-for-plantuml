@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $CloudFormationStack [64x64/16z] {
-xTT5UWH134DX-PiYwVxt3GxRGwvmwj-stgePtwvE061YcWmmAerlFQkbL6xxWfJo4_hLhxuYfMvxSQHGRxt49Ca0j9xMW7bspSt3C5unWC4hjiy_ngJN_ihX
-RTzhRBpteyQwRbn_ZQyz6sA5lxzV_Uhpzy_y_Jlx_9X-VirhxgbiADqfCBz4yFwG39tY2R77InX5zrPgqZWXjN3ftv-Lhpq7JWmslmolltAbTyllxrU_-cf7
-whQt4zlUBQF_jzTUJWkNqV_ZXVi_NWBL0JRLsOJBR_SC
+xTK5hWCn34NHvrHLh42z_zL-AC_Ommn7hFYAGbWQyG04E1d0ZTApwuLVlKSlVWtzsPyzenT-zRVSossK-qjn0C9mhaxZCaXg9219ZQRtCmEv-VrBRCkFFhCj
+DPs_yEW3R7xJ_TcV_V3xC_J-3dq_XhvVmr4i2mGV5GyAiSn-_noYA55Fwl_hzIi5aLmW4lIa-N_oey-4BvGbw4dp_FbdZu97hoQNxy_-xDbzuMT_SLykZzwO
+j6zb42MOayFlFx52kB9ojIUNzWi
 }
 
 AWSEntityColoring(CloudFormationStack)

@@ -1,10 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $Robotics [64x64/16z] {
-xTO7ejmW38JX6J601FU_R-JN-nhI4__kvTjUZD_L5H-NH6chLS2UVPjZiNZjnu_sbx-yjs9Mck_vA8191YWsl9CjHkJOI5_tKSCBikAvkkx7x63jlH9zRhr-
-ddjdqXRRxvzB_Ztllv7s7JxGEsBVEoJufezAtCKQ6xu1wXxXNK1RzeBYSJq4BNgztjMW9T_VxcdeA_xzksvSy1t-rZlwQJ_5d7VLk7yVTL1gdlJkLd8EmaPc
-87oCOkxdl05r375q-Fq3fyQe2Kxve9Y-eHL4RgBaQdgASSAxeVBO5dAHDK9tYmhpszx8UWyZHlQuJ4_Q2IzJ-hUbb-aly0Me7_iAbDi-ok7dMpuFN-8h_nW9
-qxiCvBdFd-oJT5r__1H_-Hgh-Ik_qO_piBAJ4OznA_mBVGC
+xTLNOYGX34NH9mc9q0ZlVxU3dBCBUhBh_X5EXuh06MtsoB4LuovcQ5sj04A8QFfwize0qZNUl_2dFxqN5T7YUzuL9Af2KD_mdQYEuJv69UhhtlFeIW1fzp9M
+VTJ0vN8fZClUyUjtNpkgR_ceg_OhplyGPXdxtj4QVDztcA5lUiyCH9nzmrSYQzszDoEgozvW_hZNO8lUNavLs99lA2yd2jgAvtJpgiGB_XAN_9kfuzuuX6Q_
+EuyQbEsexvrrSZ39Y6kOEBvRkVTZNX17BzFyY2dwn9JZ248E-S76qrTKXST6hQZJi_4uuBiWXny6QZ7H23R2PqZ_sYUcy3EVAXfn6CCJfw-zc8H_q_HYylVx
+HFIH9qfVUrTahczzvGprhtp43B4t2PYFNN-MKf8tpKdx9U_lqv--35-il_1RtNimqrPoxqdKycfcYN4ViQp7J7YCriFVqGy
 }
 
 AWSEntityColoring(Robotics)

@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $RDSPIOP [64x64/16z] {
-xTT9bWKX24JH45AGsF-22pzPVQzJtoJRUnm7Ch7WlmiJL9sBTSoSPBZzCm-INgV7XOMk83iakM0f2LACL2ocf0K3ooKcVTqxCrltTlpnnxzs_F777t_yySso
-tXut3O1wZFc8opBztNCM0YK5wFNOWC5P_uE_DEYGwOKqUJp2EIHb-zqBEgEyCG3qoPoEHkg__4W4o6JJuqzU9LdveDMxQ_hMIVdTp-GBN-ntFzm4vSUpr_JX
-Vk4FNf2LTmu0MhSEu9y-fGA30si-AKUG-idxttnptalBmr0v-SD-QUtzJHEvdt6NU7S_xUwtpVsukL_tz_FkVdy2
+xTT9kgOW38NX0v6h2IPd_xijytVLbzsi7hwHtIim3BP4dQTp5JnRUB45MIVffikfr9naVwuU3HTgaJiGCWINaY15oOQBDLA3ZiivWxJhthYbrxscNwxxvN_o
+mmy__F333p_yy4NDTAv0DIi0clcwvCMSBzgkhzoAg9X8UNqRNe4UP2JRzL-JXpsza2ejQ9ldAahMVIzOw4-lZDnwiXw6GhOZVdxxDJe08QSJleb7Vtgdliw4
+pbvdKdPz5lBs-LqXvyrdXds_TXMyzazxxMdpqViNTdqouEMD3g3bPPu_E-DJDfILZb-z7l9OoUva-z5hUlkRZvUNYEsY64dFOzl76_cF-QMKdo_g98-ByddX
+ZBlpqztvxURyU7D-lJy_tvtVlm4
 }
 
 AWSEntityColoring(RDSPIOP)

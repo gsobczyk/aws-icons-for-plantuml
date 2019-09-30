@@ -1,10 +1,11 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $IoTAnalyticsDataStore [64x64/16z] {
-xPS5iiCm30NpnBh_XVyuPR3SdpBiO663tXbhUab0B6g-nbIOSAbBOf5d21CQoj3O2U4piVULejGr6-4gXBr_0YJgaGtjsuWcQ-zMGJh_0Jq_Cfsd4lRCcCuZ
-cJODiKpftZp6FZArwnk6kbL-Xg2q9RBm6s6CZipMxChNM1z3UMy10CIwTaChVuButlgBS8_OMtykc2eVgylqCm64hsuCjR_VdzbSd-trD_GBtiCNTuOtQ97V
--a0sU96ly_aZmkdzdf-D_K6_NDjyttxNV_3TWj_buEl3txrVCSypkCb_-_MPB-lNZ66DQ_jTvci48nfFw_VNhma3UoPOx99-0V5g_-S2bFvu_pdqV_qIh84h
---MlwFVw_VlryyFryylryzFryzlrysCzlxuaVm
+xPS5kcCX34Odm0qa4BB_tSxDymfIrrEN7p_zcdztYGkOA9SY7zTC2OERpVgOHVSWEVfnn-atMqNAYaZLRoHrXm7q6Io4mGFyl0q-89Mg1a5xv69X2erlGA1g
+O_2jtaLL4Be3HFjEuokeojsq0QoA-pzAgcvYQrLJ8p_NVo-l4llpZwATl54PNMFao5MrcwVFBmYdnJk0x-rtVaaiQbJgvG5YqMzghNR-rmVzfaI0Njvz3hDK
+tQ6MpucvKTu0ls1YpcKbCoTS_ETanla-zv-FEI-GLue_Ai-gqQaHZied4NHY-6lF__R-Zd-_nlxIql9teKb_2qNpz_i3ypTIcV7NRVWhvgySxg_e7kGmVoEn
+7UAotZ755_GttzhVyFRtslxos5-UzrU--Ekl6_hhOylVw6VtpmKqVyi7vYy6zoB-8dC0DcxZBrL1LuqZ_GLORyPLrk_q_--drm-dro-drq-drs-dru-drw_N
+vpy
 }
 
 AWSEntityColoring(IoTAnalyticsDataStore)

@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $CommandLineInterface [64x64/16z] {
-xTO5heGm58NXMxl6_jVxNCOEEQ6HaVw1-8VJDf-YrIe6NTpoAdHwstSt8k_8QqPyRbyxJh4l9OTOI3leUqzj7cqSyriIRT3NHbMHPqD-1DL0NfDAdzt7dDTY
-Srx4PdmQE03XmG5O3mv0UtW0tkC3y1uVWFSvfCnuAw9JzmyuuG6d_J_tquBq_pohdEIa_-Uf_QJWFBvtqW_0MP_-WEFdydZz5FbRxAwVK9Q_zPtvFmRAypS3
-wyV7RBLw1m
+xTO5RiH044JHCGvsr_rl6w6veWekVj62tu38xNVHktU0tXMt5CMIuSBd89UlVQnIaVaCCxWvp05Ufjwx7Z5K2nES1kunpoXJiobzqojnFqnI0_Dgp2UJIdzr
+_mmN-dkFdtaOVkAHkuAV-192mJSzMK3sP07PamLaJnRGFLz0ztm1tJjYw1tVzgZT-btsdEj-vN3iKltAspQ7v5Vk6CEcflcLE_Ay5atpA_TltHyf9C19WlT6
+kEQTQCcllQGdxMOyvldyP5Xcl4_d9rPPVEJlV_3viIs-yldHmJizutVHktSV
 }
 
 AWSEntityColoring(CommandLineInterface)

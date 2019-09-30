@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $CertificateManager [64x64/16z] {
-xPO5WaCX30KV986alVzzDrcf2wJhPRxBuBPn5ek5CGt2Tibl6APTziM6Q5TyVps4NlMt8_hsgayo1A5zKVdf42sL_pqwKVv4v-_wkD-1_eXV0Nh0xwWLFU-x
-x45aVDCkNCFr4qjNc_C9GV6qzuAWplaCYDf7MWIGoVmpoYx9MY3JvISekjSJvIyVUQwk9tpR-vRn5UmdZQBGZE_FnW2RtsHyHWLAWLyuuuVT_7M4aF6fYCNL
-f536DzlV9Vmplizd8bAlUpg61tqhGDnt75DiC7uBuhf30njD__lFfZkcycyuIxzDbPyuKNwourVLlsRMBvjtRgrVRa3xNkcqwVNRhWHbjtvRB1Ol
+xTO5ckGW54NXYqDuil_T3fHRvYEqT-SlbnCtRNQx7SSmAFAhlc1OUTKlo3naMUkB3gblx6cjzsb8mFAw7xNM9we3g7pYyWlXJNq5wbjw3_Wtz1NUeSxt7hN2
+p_H2IuuEJhKznRoGREizEbjLgqNdj_K9ICIYZJ3rJzjwJR2i9soHDY-_14DwG0PfOladED7EjNoYPpWzzJpJLqHL8jM8EjCN58v0uFPcfezmWBLeBt6czwqk
+8iK2VgOF9eisaasOwKMkxqRxDP_QIp-HaYg5Ur46UtCyn5VSCuEzSYEgmXVKiGxsrFIUBlHYTFfB_-92DlKvfTINNphByYFMV-PrUh9-_LBm7rvF79go-Vej
+wqcwNB_jThj_
 }
 
 AWSEntityColoring(CertificateManager)

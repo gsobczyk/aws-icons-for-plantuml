@@ -1,8 +1,8 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $AutoScalingGroup [64x64/16z] {
-xPPLeiD030EbWBNtl_23ejima-SlC4wMbPe90hDfEccJT80sIPzGm0W275qW0qMAoCRvbYa1IPcbiGXGSXpA3pzySenlhoKZkLkzoIjhteXyo6-3zgLJ7Ox3
-5N2w75K_WuC0Q4u724TMzGbFnV-4xVylg_w_oPDQKLRjlqnJns_g_9amVo-tViCFt_9xViadvwUf-MrYVfoONoVcv-NoUn3y0W
+xPP50iGm24MH92iWzp_jkDI5yIblLtcqyL_72GBLntGYVKW787r8lnVmw8p8xW89M16L8VbyoLOHgsMfNex-dH_pmm-VoBTohal6h75hCQMtvfMWBFUDWRIZ
+izNbwBN0NTSP9M43GW3IXWv8s23rVSOcqFK1ct3VDxrZGjt_9sczy43_FJ1-3yuV1qJRNB_XXo_5ZhuLyVdvcf_oe_djmVpuO7vzC3-_Bhy7mHu
 }
 
 AWSEntityColoring(AutoScalingGroup)

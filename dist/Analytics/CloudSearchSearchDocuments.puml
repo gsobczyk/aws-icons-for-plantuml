@@ -1,10 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $CloudSearchSearchDocuments [64x64/16z] {
-xPS5bWD120K_j07tl-yAgncXUIyk5HcjTiNfe3pOeAibqO4DXgMHRLzR2hMnuoE5FBBV9AJD_AvnpS_yEaBgGvO_oo0GCr8m4sW8uvTcfWLEcPMVKzIi7VW_
-rsrUV_x-shT10Ag4T00qREqtzJpCyRHhM_f4uc7EyBGAqT9de9iVOjZCkX-MFekP4YQGcWbl-DNyGMaXnQEnklB5q-MPY1ZVhyZI_odzfY7zfmPMlZ2SpCp1
-YxggdlOydeUAFse1Qcz8qNe5IiM2eOeKghBV_ubB0FDq_BIGSJu_d_w7dZyf9lRd_UVCzJSTFuuglzVwfx_MFxVc7rz-nzVVyUldL_qTltzB8sVOlnwnVpw6
-Tm
+xPS5RaGn30LV74RV_xQLossqSQHb6C7Yw1k2E1d6q2R603Dby2QZ0ZELjsd0J65ESOTno1_OeX_qpVtxgVK5BMj-6Khd5J-K9V5y-TVhrT-sIY1hiOMr1AhD
+ufl8t1qWUBL-WklCyO_Fd20ahNz2OfvzhYHl-v8CW2hFVXeVEUX8x2FzzudQHmuQ4diZ-kzRQI2p6e5ZvWBOoV-8Yw107tdEVfIuB5nSuc4bppZvdPapjkPV
+PkQv_po2lCrhlm1067F_97R1q183mRQ_VXYS3R2FoHBkDoOu8EI4BLAEW0l_7rZ7xlmTY_bFRedLre-iz-zu_uZu7tl_qyVlaVKlPzu_rVL3yL_ddxxa0Su_
+Z-phzJksVyUUdn-w_jZrZx-_7Nz_FFx-Ulpz-NZU
 }
 
 AWSEntityColoring(CloudSearchSearchDocuments)

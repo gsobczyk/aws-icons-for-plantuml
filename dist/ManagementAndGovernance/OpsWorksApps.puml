@@ -1,8 +1,8 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $OpsWorksApps [64x64/16z] {
-xTV50GGm24JHED9_lx4IXlMTVt-t2AHu6UvoCJZPFBixfZVCsvjBWnAtwwqbg6PVx-dftJhckztx9r8nNqMsVtj3uSPZtYyLAFs-zukUdfwUdfwUFho_HUUl
-uFuQtP_ZBG
+xTUr0SD044JHOuR-gpMxWLcnvkSlEbmbJnim_U5jmhKNDrEG-VWQeUhVHmKLh-3fwHFcqyVhrWBcGsjQxL_fS6MP-wjNg7xE_KTFJqzFJqzFBv_Vy8nmVfNE
+p_AU
 }
 
 AWSEntityColoring(OpsWorksApps)

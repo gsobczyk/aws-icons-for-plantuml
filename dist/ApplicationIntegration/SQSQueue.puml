@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $SQSQueue [64x64/16z] {
-xTK5kWCX30HW4XB8pFtlM_TsmxVFXQci_Yje-SMPcPdn_kRuZWk9DuQKdGUZlob173oil2c6p_CM8Rk5HkY-Z29idNTWxojGznxmTTwENaazUXlvwJMwZBtq
-qDVUmT2Hro3yjJUGgBcl867BdlJCEvbvECYsx1i9H-AbWkXBleEealh3BUIrbyF3fLxtt9RkRo2R9fvng84bVoZzoCi_92j_2JBrVTH-Ukfzt7vzqHUhPUnB
-jK_llzCxU3l-4xxEgnrsYfaSJZNznFclwPlIJfvlpg6CWJTp78gglZbQ_dLcPhO
+xTLLWWGX34LHI4BXlFtlTYZ6XJ1kpMsNyrEO-SFjThjOtbtidF21QFYQoplAzTPxywxy5_gZLkelKglq5whrqFpaj-w1uG6_zDlRrtaxyL8phJtbAYzx3pHP
+UMc0dthWqFq1w1v1ym6wZm2IdNcR04JDMzU0FFCPQCwgtYG0zcNV9P9HFUTn2L_su-9brdmRGpZpO_0MurT8k_vK5kENhJx-Dgi-hkTld7hhdLbxuxpzwlM_
+VMYFVGjly-ozFQ7tD4RMynUUVv7VLRprxwzxszxFcpqlbNjtR2wwtUuA
 }
 
 AWSEntityColoring(SQSQueue)

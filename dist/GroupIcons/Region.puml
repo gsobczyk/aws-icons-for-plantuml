@@ -1,8 +1,8 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $Region [64x64/16z] {
-xTCtTiGm303HGM00xdzWTsmsI0BjofnMxuivVhFJQQZOhFC9O6MU3HimoxwZ3b5FWHORoHvFPUINRdZltxhsN_Dhh_Ofq5lhV_yb7PbtVBolmSYopmuze-od
-u15rhrXiU4DZnojMzclvTR-sltv-3KR5hmoPE-yt58sTz-lWD_pNshLNjm-vcrVVx-hQnx_rnnz_VCP6Ig_ImKfBNbOMVz_fz0C
+xTCtOi0W44JH8IC1k_U_hQdSA0zsjr-XUme4_SiigmMV1y-x0v1uNv6wmw3zXb3WXFOI05Jbap3vIX5zqPVzBddqjsLzz35T586epxxfHHb-BFWArvNtEx0f
+xxj3KTvBGD85dn1amKj0LCfV__wrlnv-tck5QuI_M7w4ruWeh_RlTjfUWFp2trQVVSmt5Q7__pdpvisRPvDPn2upXdSt0p3laVB-jwJ_dsNz
 }
 
 AWSEntityColoring(Region)

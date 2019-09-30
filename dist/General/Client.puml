@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $Client [64x64/16z] {
-xTT5WWKn24NHXyHX_yjjTuUsBpdpMruH702jAOeRD3nf4AvqJ-i0o7m99yXoevk-8gK-wTi8QizwyJ1vqQ-GrxqYG5_tWW3vcNxtkz_zxdU_-pa2vgi-wdbF
-OmKDGlsfzSSa9D2ywJ7SLuhxm1LUdhGOrwYEb4hu8SG9X3lSBQKpVkBv3VVPQbYR3-ldYPGP-dxrEKRi-s_-d76i7_w2_6tVxNkzzFVt3nqf_QR7T2kSKEu-
-7FKqnRLgdc8LjxZKXC8u09S
+xTT5Oa0n28JXWHSNvlwdhRk7Ufjl_-yYW1yWvkAG8ov8frCNdAbqgm24d8Sw79CcW985BeLKGCWCrBwe0fcKgpvmMNZGsvB7VS22y3FwtUz-zxlV_Uv7Np0U
+zOiUzD9jBh4kTtkFstu876HSzEYaJGSZEyxefDDKd9FINOhWWuWw2AveCpfOqylSw6IACvqSnM6G3O0O1rp6qlmSuZt7lVdvTPKF76ltf_E1yBLzUsT_jEVt
+XmQNTj5ZaaaT4Zbn9j8jubocKyObJSKXANw0Km
 }
 
 AWSEntityColoring(Client)

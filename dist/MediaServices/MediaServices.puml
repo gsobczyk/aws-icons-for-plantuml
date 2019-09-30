@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $MediaServices [64x64/16z] {
-xTK5WiH024JH0WgA-rzutRMRzPtyyKbUNF1J7Tdjfy6Jkm5-xxDtqoFF_-4FVtZLypQy7CyBBVj4rjE8NFQ4-bdWnloVUzbdUBfxQD6hzCGJ5evSz0xBHpu1
-ji0rBp3WklU2MxIGgpwx7DJjk33j-cx2wlfFidhVj-B-q9luxa9yn9U3Soy2xB5FGsYy_HImxF7-Su3puwS3Ni-FtmONlTGBvy_W_1twpxv-pQ-Vy-lt_Fxn
-l--VXp-yTgj7Vj3dUNXCSiDjDWh_eNC
+xTP5WYGn34JHaAcCYlkVjhcOB0zFvz-_H1Em9OiTE9PoU-yGIxPLCk3bYpiKMXj0EFfCjVMB_EOtp-iCdjfRRwVrrWrU0wwBqvuLjLzMK3ZhYoWlKyaMVzs7
+vtkpdhpqt8KGqgJdQCeppmmN0mgdl7guIfxu1koeCkc7v1rYvy4F2JxDUvNAvYL_lOG8dDfy8RM8QwIgbfmxhLwL8o4TfeJTAzcGzcB5zuYyxAaPafUVdyqX
+3khQzwiZmZKk_hyXGP1rVVn4X4vT7h-guzRyYPZsjlbhNp_Mrw_rzNDz_RRj7vVrtx5_sTeyDlyJp__3MZlpItrvY9Eb_DxxcEp5uF2LEEVDEH4S4dluEte5
 }
 
 AWSEntityColoring(MediaServices)

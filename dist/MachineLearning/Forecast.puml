@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $Forecast [64x64/16z] {
-xTHNOiGW38JXaGG2JUv_tZIb5xoGdkL_SVtS3R-htMxNH5MTRnPzMAG7KFbc5SFoh3xoMWRrt0Vslcyyg41Q4t_F7pqOWtOoEET3S9-bdVCLQbabvtq7ueBP
-YY-ehTxcP5EVz1r2msqIRAYd-QWb4pWDjRdBZ7VSPwGXI4vvXJz-zuO-wJkKaN7QvxoB013fAruG5QAgm9oFsnei5sbplW5PM_IQMQpvnzPyUDPNFRAoxCMh
-bmzu8za-uFL7_VRswDkZZvEz52kQNgzd9RqLCyn-lrddpFZzE6Z6wraU-XXtu24O9nXuLpbEdP_KRhUx0W
+xT07rfuW48NXom1AdRl_tUO0V_kQYkc9xodMXwR_KLTN9Aa_9-wagimYLYAVyfetgspU00ZFVS1ciNd6BU-MZJAL381xxHEtqmKcPucl_Ak3AMyvIA6s9ZnL
+y9xhXpZfLrW_2iDEULPZbE_flFS8EVIYCjl8Gvxl5OWwz8moOJtagUio4YGwX9IYcV4HxpdIePAK6UyGI-vfyuNK2Sy2gn-Ty2jYD3qfdF7igQ0662iMcFEr
+fGcU0ObAF-UpwG6fUqvxE_9wRlxFpdbDiLTE-ehHSjfB2671UjexalcxlFvMVtb-UhxxIlAODzvxDxnTl9VXdVSUSi0Rj8RlDU_HEkArZ2fPoqW_RtUzxhNj
+OVR2Xezof4ZzMV58-kzqTVKD
 }
 
 AWSEntityColoring(Forecast)

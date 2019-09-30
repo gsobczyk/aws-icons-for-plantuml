@@ -1,8 +1,8 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $EC2ElasticIPAddress [64x64/16z] {
-xTJ50SH020LG_4__5QyhOILSUSS8Da9jOumnnEB8bNRHm8tH1qoR74TnXAFWkaXezRin7R7Yg0h0m5O0Vyx93WGLJj4b5uNWrt3sJu1uBxZiuCZIIm4y9L7w
-EO3bYauHIvRRfToHrE8rGEHnEnPgQoruz_zk_StvDTUlkN_Q-xT_VlhdDzyVxZlkZyRzrRW_EyOOOnm
+xPJ50GHH24CPbo_qt-rcnzrovPqXE49Z68PX58qFmRTb8byeWmx4MYv8vOYaLH2ywrHyUfvah8xS7RpghDEl8eJE15BObRAZXKissK3CdpMXX42nImhkImS8
+dFQWGeDoMOEYirKvAE6q1JK4LjQIgpQxB2jvB53FuUS4d9pIR1hiD6xRvL7aAKLODzYhtm_aZfRrP_Dd-yVFZzyVVd_v--7lT_uVxiF_8FuNyJyf3CCmZ1y
 }
 
 AWSEntityColoring(EC2ElasticIPAddress)

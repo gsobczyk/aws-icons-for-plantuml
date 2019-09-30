@@ -1,8 +1,8 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $ECSContainer1 [64x64/16z] {
-xPLL0eKm30GRs-N-5qRot5t9_60xrDisQueYS3SnwjBnRZePVH9n5o0NlhMxiA_o0pvT797VWEaYW4nNO2zpw8EH4J8Z-QqfgIqpANALmHb_zMtRNsM-r2-_
-_FBBB__-_Tzy-wAUWhXB_ivrD_DLvwVVv_lA9-w2wJS-G3OZxiRQ0nH5CG
+xPK54WGX30InWa7p_z_U9kVkdYu1akbrCN-DefG-RgININTq1qxyNcwYB_raRY9zb5yQU42hFCJMx3JurlmqsDOYL-ioK_RzJY9M6XAHdWb4mKX6nB7Cz4D-
+sUlD_RrzbC_nrLTVVVNL7wEAFqvy_zUPVJyXyX0Xgm1O5W7UZ0N2NkPp_f-upSVIft4J9BwbEx1y6kLcaha3HL5c
 }
 
 AWSEntityColoring(ECSContainer1)

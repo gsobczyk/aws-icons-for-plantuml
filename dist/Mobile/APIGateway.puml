@@ -1,10 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $APIGateway [64x64/16z] {
-xTO5SiKm30JGZME1r_U_RySfjmhfbvlz67Z66KturtBbYei7fmxh2WZVH83gHtNiZxJWCp2fHTvq0cRVr-onxssxXQ6BZd-n7pzQLbkm1xtb7rgmoEj0-txy
-rTZhCQz7VEUhz9E-UcCpU_YYUJtd0H_VHWU43S0vNwInYVZJL_co-SVhd_NDR_C2pNgh90jSBEKLS3gA0vhm5PCD9hG9zRHtmFeoV7O3FDF_CdpIC_sJ0ZI1
-qW5XmbFhCdnMpUw_et0awnLwawUtoF-2-fMe7udwbQYVlw1-vNq_ulkgBzhsVTCIUvy0pDgsVDCPmEGCu_MXYTW_uEfSZyjeeaI-32m13aOH-A3dnFFZdygL
-AtS
+xTO5WkCm38NX5pJ9-kz_sWLt5aSf39FAJJup-LkBh_WA8FZhUctP_hjx_CMLUfVo_pvBky5rUehyT3a5i4sQIuryBREq6HphDhJJ8j_maKA3cBTLMeh3aGSl
+YxGsGYujrS6FytVmkaXH0XGbmFsSTmUIIkZ7tnVykF4gZyEVjrlztfpUMiVltlRRlDIeKiMaJ9Tqcrzpf-TifpVFUNtP-cV-dRSFzNHp7kY1dwx0GppKtM6H
+fGeFy5aoJ8j9-G5-rrGXArCdxJTxaogmoA1AxLRFfhbXMg3DshZPaoJBofYKU82dRBx8yAqyRFo1QS611uu_olZauUFN1dwm1rvy_Nhy-X6lNuzVFrz-_VeJ
+B-Ivx3dsI-bSsd_fPOczpPBMaKJi1rubpHPunzj-Ii9ZxoUScdDuwcjfbgObyijqXmduVqb4FiPn4j7vCS37IH3-zyRYAxxYEm
 }
 
 AWSEntityColoring(APIGateway)

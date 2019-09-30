@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $Forums [64x64/16z] {
-pTT94W8X38NX920pzp-kiqiwL1uKVljVUmxGSJwO-MVEhPirNj97COc_Ff19K7kNnsIYlxK-v2PwNyT4wLNh-bPDsgVlW6TF8Pi5-WTiHY-vcMN2hp-tNf99
-MVZyYaBffIdakdTTuQvx3WhU-VucRvBMVF-hlQ_FdiIR2Ps67Zz-_V3v3Jm_c-UNX356v_TKFpOrlsLiqVkFVxyxWC7vXSxFuz3r2tpzyVNR-VLd8AcApVDR
-iaBsdJ--VpB3UtJ_Ujm3
+nTT74WGX20NG3tQmazp_j9DdQT75r_BjpG70S5CEcm284GHG8-Xd_AmXsKm-xLU4h6xxwQZJ6-qNgqitsizNgQgqZwm_8oJ_svShfFpRnmc0zGXRmUD96DwE
+4dQWoVkzzf2huVjLXzC-cIFrRI_P8VNs_FxjSyZUvlyl5bO4WCvXYj7O-VFxnxz_ulvqZjyfrmaTl_kt5wrhy_wv_vj__sJyOkFdS7p-8aRWyZSsVspt_bDn
+T8xVUZYqK_pcwoV-_oS8MxyEzmG
 }
 
 AWSEntityColoring(Forums)

@@ -1,9 +1,9 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $WorkDocs [64x64/16z] {
-xPP73iCm30IN145AzF__ctle21kubxcvpBXRobFmyjB3PsYqxvWbUD-y87p0uLDPAG22zhCWua0iyNCGeFn1WF870SeV12X_4A3z6k1z8a3u9K3xH83mIu3s
-YG3Xbm3j4m7Ahm7Uhm7UPmCEqTv48bKiJJHT191l0BGblWXymVbd-ew--p8_SvclUkprcnrx_MR7Nh_giTSViVJwZ_LRM-Rt_ey_CSzl-kcR5m0lsBmVe8d1
-_9KWUfw2bvSF
+xSz9ZiH024HHCcob1Jbm_zlsll4GKbLvZltx0Z_5ththDhTAUvFP6UjLieObFc2Y7eRv2tWFcmtmtkS3l9yFy7u-mFlv0E_d0xoV3_2U210-16XF12WV0xoF
+0TuJ0Sh70EzZWFSnmFiET3PWaj0gO7t0v1cZAo22_nEH-eb74ltWVdSLOxsdv1zvrS-y-sT-7FtG_tC-zlzfElR_OJZsVxDZ_mS-yxL-vblRyVwiOIbfM5xo
+xEPzDthTJx5tx_u
 }
 
 AWSEntityColoring(WorkDocs)

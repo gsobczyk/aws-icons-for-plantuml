@@ -47,6 +47,20 @@ class Icon:
         try:
             target = self.target
             color = self.color
+            # env gm convert -modulate 100,0 -normalize Fargate.png result.png
+            subprocess.run(
+                [
+                    "env "
+                    "gm "
+                    "convert "
+                    "-modulate "
+                    "100,0 "
+                    "-normalize "
+                    f"{path}/{target}.png "
+                    f"{path}/{target}.gray.png "
+                ],
+                shell=True
+            )
             result = subprocess.run(
                 [
                     "java",
@@ -54,11 +68,11 @@ class Icon:
                     "./plantuml.jar",
                     "-encodesprite",
                     "16z",
-                    f"{path}/{target}.png",
+                    f"{path}/{target}.gray.png",
                 ],
                 shell=False,
                 stdout=PIPE,
-                stderr=PIPE,
+                stderr=PIPE
             )
             puml_content += result.stdout.decode("UTF-8")
             puml_content += f"AWSEntityColoring({target})\n"

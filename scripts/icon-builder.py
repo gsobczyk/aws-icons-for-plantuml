@@ -95,7 +95,7 @@ def verify_environment():
         sys.exit(1)
     # Verify other files and folders exist
     dir = Path("../source")
-    q = dir / "AWScommon.puml"
+    q = dir / "AWSCommon.puml"
     if not q.exists():
         print("File AWScommon.puml not found is source/ directory")
         sys.exit(1)

@@ -1,0 +1,14 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Quicksight [64x64/16z] {
+xTPLSYGn54JH56Dbxd-rHiM4nlZCTdVV_rCeuk_eqYMPUvhFOcpgILzWh3pjC-emL9xtGuROnlEUhoIDseuF-0B0TRtJQy2t0a-zqrSqAM6ytrSfOjgyxlhV
+8qK4chpOOcpR1TG03uH3D7Wf0q0ML-f0vvmKJNx2p-anjN5ffcRq3LMgwFh7cwYEOlGTaOmOshZTQth0UqHgupQ_UCv0thdLBouwhpi-5ZVwnMyzTSlTuaQ_
+-FABs_tYlFVttEONToWIbnyELQBDx_pEQovkz3lNW6kBs_pEgOhR5hVvdK-utXqEqUmrxlWsVmgwqS_9dLCTIKeOHZzogll74WD2GA31F_cnT4GW7gB1wt2k
+p_1W2kiu99hyG9OwghWbIRJvYK1bDF6935u9piFpdPvYTYvEyPsUulfOx_N5J_43FcDys1lg7pm_LPGFdz--uln8cUFlwDAbQm
+}
+
+AWSEntityColoring(Quicksight)
+!define Quicksight(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Quicksight, Quicksight)
+!define Quicksight(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Quicksight, Quicksight)
+!define QuicksightParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Quicksight, Quicksight)
+!define QuicksightParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Quicksight, Quicksight)

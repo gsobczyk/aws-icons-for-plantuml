@@ -1,9 +1,10 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $ServerMigrationService [64x64/16z] {
-xTK5ejim48JXMH3CzlxdBNh39Adj8t_XsByPudtOxLezrsD8nmLXZ6YmUcgyzsznGiRxEC6PlhV4cEa5gKprjQGM8j5huyBwHm5WRQ3dmU--LrV0-7Alr-lV
-5CfNUzTKimywb4lxt-3HQkspFGK20CPdlLkgf_k_0bQBG3cu_JRq5X4qb9Vt7xC_GSZQ-QCeVQLt0CxvdZqtud2VQD2vFXdgKj-XItqekDGx-ch_bilVrhOV
-5Mskpzpdxryi0ejxlRYTmA6ljb40vUNxjyR6aBJqk8lz31aRCl-A0Rt_VkFsRKnkVmKZ3Fr_ztiVxh7rrHWpib_GAkFTskr-
+xTK5ei8m44NH5q-QaVslzYk3Qt2vEEsfYpv6dpxrQJKwZHFMydAIxuXjENUoBxgSFy_BYATkiOvu3wiC-LQi_kELMkSprbyhWDXFy3BlprFB0KXoj8_EghR-
+FI3miJu7gvbNoGXorlvFoDBRHADUF3m093daSxIcvVtVWDIgHv03Fi2gorvA_trFA0Uyi2LYVX4xVzxv4r7v79y1P1dtGjKZy8Yt926EUIkYdUK9uIol0NoM
+pw1p_JsNlv-t_IHWEiDpG1w_Vt5rIBhB-voMmjmt-oi0gBeZSbXjlfaIh51OTyPhYGqGjlI4YFxUH9L9Jq-yazcnaa3tyFwvlNDdUItPV4kiW_twS-gJwCFs
+wTCt
 }
 
 AWSEntityColoring(ServerMigrationService)

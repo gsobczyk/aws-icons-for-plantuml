@@ -1,8 +1,8 @@
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 sprite $StorageGatewayNonCachedVolume [64x64/16z] {
-xTUt4GCn44DHUd3xRrYXPerqHnFYfvXN0DAjybAEGvQ2uLaMoywZlGwHR-brxPwdfwUdfwUdfwUdfw-O9jGLFyGr5lrGBVkfz_dawT6-mNizUw_ptfGV_klG
-yn0TdlxpmdpK1m
+xTUt5SD040DHakVjzj-jujLv4s9Il5y0dbkztq9leICj5L_kFrhiAtmmquMQDyzqvfw7XuU7XuU7XuU7XrUfIAtuG4LXnNkYm2BoQpxnFJ4FF_XlgVHfzDzu
+cU-v-8-3_-hvxel_ElZF_tFndo_r0m
 }
 
 AWSEntityColoring(StorageGatewayNonCachedVolume)
