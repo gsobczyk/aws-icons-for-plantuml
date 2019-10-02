@@ -9,9 +9,14 @@ u_qRdn-TwRpYyFpGymigM7Z5yVcbvoTIaELJSNn-wlaD5NHXU7wVpm-iE9mVpkSNLXpEB-Vp4okEvgVp
 Rod6dVkR_Vvelx_Qxyzs-GC
 }
 
-AWSEntityColoring(CloudFrontStreamingDistribution)
 !define CloudFrontStreamingDistributionColor #693CC5
+AWSEntityColoring2(CloudFrontStreamingDistribution, CloudFrontStreamingDistributionColor)
+AWSEntityBoundary(CloudFrontStreamingDistribution, CloudFrontStreamingDistributionColor)
+!define CloudFrontStreamingDistribution(e_alias, e_label) AWSEntity(e_alias, e_label, CloudFrontStreamingDistributionColor, CloudFrontStreamingDistribution, CloudFrontStreamingDistribution)
 !define CloudFrontStreamingDistribution(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudFrontStreamingDistributionColor, CloudFrontStreamingDistribution, CloudFrontStreamingDistribution)
 !define CloudFrontStreamingDistribution(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudFrontStreamingDistributionColor, CloudFrontStreamingDistribution, CloudFrontStreamingDistribution)
+!define CloudFrontStreamingDistributionBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudFrontStreamingDistributionColor, CloudFrontStreamingDistribution, CloudFrontStreamingDistribution)
+!define CloudFrontStreamingDistributionBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudFrontStreamingDistributionColor, CloudFrontStreamingDistribution, CloudFrontStreamingDistribution)
+!define CloudFrontStreamingDistributionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudFrontStreamingDistributionColor, CloudFrontStreamingDistribution, CloudFrontStreamingDistribution)
 !define CloudFrontStreamingDistributionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudFrontStreamingDistributionColor, CloudFrontStreamingDistribution, CloudFrontStreamingDistribution)
 !define CloudFrontStreamingDistributionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudFrontStreamingDistributionColor, CloudFrontStreamingDistribution, CloudFrontStreamingDistribution)

@@ -6,9 +6,14 @@ ElCdCJGUvIydSvIbrEc-SRgl93t9hFPLabFy2gadFV383Y_fk_DyYdLr_IIM-wtV3ixgVrhq_sxpz_hx
 NEd9wBlFBhtC-TMT7EK3xWGE--BT7hnCL-JBbry
 }
 
-AWSEntityColoring(CorporateDataCenter)
 !define CorporateDataCenterColor #232F3E
+AWSEntityColoring2(CorporateDataCenter, CorporateDataCenterColor)
+AWSEntityBoundary(CorporateDataCenter, CorporateDataCenterColor)
+!define CorporateDataCenter(e_alias, e_label) AWSEntity(e_alias, e_label, CorporateDataCenterColor, CorporateDataCenter, CorporateDataCenter)
 !define CorporateDataCenter(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CorporateDataCenterColor, CorporateDataCenter, CorporateDataCenter)
 !define CorporateDataCenter(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CorporateDataCenterColor, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenterBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CorporateDataCenterColor, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenterBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CorporateDataCenterColor, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CorporateDataCenterColor, CorporateDataCenter, CorporateDataCenter)
 !define CorporateDataCenterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CorporateDataCenterColor, CorporateDataCenter, CorporateDataCenter)
 !define CorporateDataCenterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CorporateDataCenterColor, CorporateDataCenter, CorporateDataCenter)

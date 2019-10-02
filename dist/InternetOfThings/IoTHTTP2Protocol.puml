@@ -7,9 +7,14 @@ NXJja-zdJzJil9-dOWDJmY46nzRN_j4Vdtm1XvUnwNnURVRHModbhSz8T40QAv4_UZSpl7hlE8xjZhHE
 cp7pyEV_Xv_zcDm0Tqzdhq2zzoa6Ho634ATp4GiEensXy8__JyD_YuAVxv_R_ziMlkLlgVVJRVZR_sDTUdxS_b-F93xfRtl3fwp_HQ_d3m
 }
 
-AWSEntityColoring(IoTHTTP2Protocol)
 !define IoTHTTP2ProtocolColor #3F8624
+AWSEntityColoring2(IoTHTTP2Protocol, IoTHTTP2ProtocolColor)
+AWSEntityBoundary(IoTHTTP2Protocol, IoTHTTP2ProtocolColor)
+!define IoTHTTP2Protocol(e_alias, e_label) AWSEntity(e_alias, e_label, IoTHTTP2ProtocolColor, IoTHTTP2Protocol, IoTHTTP2Protocol)
 !define IoTHTTP2Protocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTHTTP2ProtocolColor, IoTHTTP2Protocol, IoTHTTP2Protocol)
 !define IoTHTTP2Protocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTHTTP2ProtocolColor, IoTHTTP2Protocol, IoTHTTP2Protocol)
+!define IoTHTTP2ProtocolBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTHTTP2ProtocolColor, IoTHTTP2Protocol, IoTHTTP2Protocol)
+!define IoTHTTP2ProtocolBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTHTTP2ProtocolColor, IoTHTTP2Protocol, IoTHTTP2Protocol)
+!define IoTHTTP2ProtocolParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTHTTP2ProtocolColor, IoTHTTP2Protocol, IoTHTTP2Protocol)
 !define IoTHTTP2ProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTHTTP2ProtocolColor, IoTHTTP2Protocol, IoTHTTP2Protocol)
 !define IoTHTTP2ProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTHTTP2ProtocolColor, IoTHTTP2Protocol, IoTHTTP2Protocol)

@@ -8,9 +8,14 @@ LyXdlfEaEYSqj2l-cFc3EF_j-G0keFwZt-dAAnW-fq1Zww9tNoME14Nn1nIIhzlXtw_Z0lKd2Ww_vsE-
 Ye9wlmVSh_qruZzXaWFu8N9uriNyDOEnsKFi3JnMdZvOfzlbjISGg_dodI_WrNm9PM1JIo5rGrIrWdL6MdedWBlvEsYb5kyRLVMtCKllVad-yO__0G
 }
 
-AWSEntityColoring(TensorFlowonAWS)
 !define TensorFlowonAWSColor #1C7B68
+AWSEntityColoring2(TensorFlowonAWS, TensorFlowonAWSColor)
+AWSEntityBoundary(TensorFlowonAWS, TensorFlowonAWSColor)
+!define TensorFlowonAWS(e_alias, e_label) AWSEntity(e_alias, e_label, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
 !define TensorFlowonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
 !define TensorFlowonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
 !define TensorFlowonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
 !define TensorFlowonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)

@@ -8,9 +8,14 @@ AZbxTOCWZvgGkyDssLCwza2IDxqWqSDVzyFiXsGmOi3q35lNUqKa5H_QF7vhVS2McbIZHNtI9mnf0s3Q
 -532dJxXm5IHtNu7cdYfffq85Ad2vpJSoQc339JHHxrnsNi1RVHyI0K8it-sWDa_N40IdrCh_5ya_gcVd_y
 }
 
-AWSEntityColoring(Lex)
 !define LexColor #1C7B68
+AWSEntityColoring2(Lex, LexColor)
+AWSEntityBoundary(Lex, LexColor)
+!define Lex(e_alias, e_label) AWSEntity(e_alias, e_label, LexColor, Lex, Lex)
 !define Lex(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, LexColor, Lex, Lex)
 !define Lex(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, LexColor, Lex, Lex)
+!define LexBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, LexColor, Lex, Lex)
+!define LexBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, LexColor, Lex, Lex)
+!define LexParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, LexColor, Lex, Lex)
 !define LexParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, LexColor, Lex, Lex)
 !define LexParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, LexColor, Lex, Lex)

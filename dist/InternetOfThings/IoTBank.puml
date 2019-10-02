@@ -9,9 +9,14 @@ In0rPcVwtawM-eidP2eTy2E8jxlCJ_nvUQqZDke_pqcxxq_wGDr06y5hN-Rd9_74xzHa_LO_7jgIdxu_
 CJgjCYuY-wB_alcnNs_uwJD6zj_iRu2b_rRvfRuXgVpUUlppv-EtFny_ylWrFMJe_K_7ptzr_CxOf_C7-oddJty-V_pp-Uj-_lot-Ge
 }
 
-AWSEntityColoring(IoTBank)
 !define IoTBankColor #3F8624
+AWSEntityColoring2(IoTBank, IoTBankColor)
+AWSEntityBoundary(IoTBank, IoTBankColor)
+!define IoTBank(e_alias, e_label) AWSEntity(e_alias, e_label, IoTBankColor, IoTBank, IoTBank)
 !define IoTBank(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTBankColor, IoTBank, IoTBank)
 !define IoTBank(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTBankColor, IoTBank, IoTBank)
+!define IoTBankBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTBankColor, IoTBank, IoTBank)
+!define IoTBankBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTBankColor, IoTBank, IoTBank)
+!define IoTBankParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTBankColor, IoTBank, IoTBank)
 !define IoTBankParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTBankColor, IoTBank, IoTBank)
 !define IoTBankParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTBankColor, IoTBank, IoTBank)

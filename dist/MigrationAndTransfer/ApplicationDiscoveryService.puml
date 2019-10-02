@@ -9,9 +9,14 @@ rmzJj2CmlKecW9ntzYVBGI_iTWJoV81pZGw02yMIDB85Z2s10eGncsCMDQq4gsLBWAjs1yGkEY4ZMGZM
 as_WNaikTURO5vZy6xWj11Ry0DPNWVm5NzCbm0xZ2_vDeAD-mRy9y9Ty4x2NxPr_L-_XJlvDe7EZ-AQ_P_3pxGL4UVCCh8ze-eXHwz1V1V_m3_y1
 }
 
-AWSEntityColoring(ApplicationDiscoveryService)
 !define ApplicationDiscoveryServiceColor #1C7B68
+AWSEntityColoring2(ApplicationDiscoveryService, ApplicationDiscoveryServiceColor)
+AWSEntityBoundary(ApplicationDiscoveryService, ApplicationDiscoveryServiceColor)
+!define ApplicationDiscoveryService(e_alias, e_label) AWSEntity(e_alias, e_label, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
 !define ApplicationDiscoveryService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
 !define ApplicationDiscoveryService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
 !define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
 !define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)

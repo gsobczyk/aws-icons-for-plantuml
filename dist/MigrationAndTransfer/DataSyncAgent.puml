@@ -8,9 +8,14 @@ xM_h_72R46_mPNcsV_gsfixktwxGrbJ-ZvE_F1Ofvewu-_liao8xGHD0bGeTPVVtsR-w2DRmcYwFLKhM
 xZy_V_p-FfeVHlFBQ7uQpM-3-N4mluxdvz7y_Wy
 }
 
-AWSEntityColoring(DataSyncAgent)
 !define DataSyncAgentColor #1C7B68
+AWSEntityColoring2(DataSyncAgent, DataSyncAgentColor)
+AWSEntityBoundary(DataSyncAgent, DataSyncAgentColor)
+!define DataSyncAgent(e_alias, e_label) AWSEntity(e_alias, e_label, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
 !define DataSyncAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
 !define DataSyncAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
 !define DataSyncAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
 !define DataSyncAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)

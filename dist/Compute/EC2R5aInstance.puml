@@ -7,9 +7,14 @@ J_mJQ-6BFNy4H8JDIfvAhcR5WNyd-Kbd540otaIxxWNXUlxRoBfdlfQSfzMrN2mrymb_xlbpLgYTPve0
 xI6MyTdyPvc9MZUzanIBBk7j5ExHiw9Bzw9OyLVohqGzua1KNQZSXCcGnD9A93h9_x7j_s_Rhs_x_vl-yvl_S_2_7x_-VlmyAFxj_E4x__hr_FNty-VVwmS
 }
 
-AWSEntityColoring(EC2R5aInstance)
 !define EC2R5aInstanceColor #D86613
+AWSEntityColoring2(EC2R5aInstance, EC2R5aInstanceColor)
+AWSEntityBoundary(EC2R5aInstance, EC2R5aInstanceColor)
+!define EC2R5aInstance(e_alias, e_label) AWSEntity(e_alias, e_label, EC2R5aInstanceColor, EC2R5aInstance, EC2R5aInstance)
 !define EC2R5aInstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EC2R5aInstanceColor, EC2R5aInstance, EC2R5aInstance)
 !define EC2R5aInstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EC2R5aInstanceColor, EC2R5aInstance, EC2R5aInstance)
+!define EC2R5aInstanceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EC2R5aInstanceColor, EC2R5aInstance, EC2R5aInstance)
+!define EC2R5aInstanceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EC2R5aInstanceColor, EC2R5aInstance, EC2R5aInstance)
+!define EC2R5aInstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EC2R5aInstanceColor, EC2R5aInstance, EC2R5aInstance)
 !define EC2R5aInstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EC2R5aInstanceColor, EC2R5aInstance, EC2R5aInstance)
 !define EC2R5aInstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EC2R5aInstanceColor, EC2R5aInstance, EC2R5aInstance)

@@ -7,9 +7,14 @@ SwkQ550PVQ61Nol8hO--jppZbdei4CNeeNBazOAbV4gtWfattlCfnmKnvR6b3Jnw3hP9xz8tVRhkqwRt
 VhnWmYVdTr8GZTztV-hc_M6jzzxVganZultlHtnhluuA001W28ZsRxqGxslG0NUmNx2VjjyG_I__p_67yXlo8_ChyZFoE_e3-Wlw4_gR-cDq3W
 }
 
-AWSEntityColoring(EC2AutoScalingResource)
 !define EC2AutoScalingResourceColor #D86613
+AWSEntityColoring2(EC2AutoScalingResource, EC2AutoScalingResourceColor)
+AWSEntityBoundary(EC2AutoScalingResource, EC2AutoScalingResourceColor)
+!define EC2AutoScalingResource(e_alias, e_label) AWSEntity(e_alias, e_label, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
 !define EC2AutoScalingResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
 !define EC2AutoScalingResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
+!define EC2AutoScalingResourceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
+!define EC2AutoScalingResourceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
+!define EC2AutoScalingResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
 !define EC2AutoScalingResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
 !define EC2AutoScalingResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)

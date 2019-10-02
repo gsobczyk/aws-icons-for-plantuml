@@ -9,9 +9,14 @@ jsfx_dwTwzfwQ-kullB5lpNzS6UBwR0r7DrdvPL7-5gS7edh6cCHnU0G_Ew7gdmjUb70F03PIJyGdGMY
 UQzrE4bJPFf-YkIzyvut6u9omTCK4KZDtKTHgE2WNuYcZ_yXbtLmZSzegNg5rW8PdWlzQYG7Laed_QrQdGr_Ezxol-tJfty
 }
 
-AWSEntityColoring(Config)
 !define ConfigColor #CC2264
+AWSEntityColoring2(Config, ConfigColor)
+AWSEntityBoundary(Config, ConfigColor)
+!define Config(e_alias, e_label) AWSEntity(e_alias, e_label, ConfigColor, Config, Config)
 !define Config(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ConfigColor, Config, Config)
 !define Config(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ConfigColor, Config, Config)
+!define ConfigBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ConfigColor, Config, Config)
+!define ConfigBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ConfigColor, Config, Config)
+!define ConfigParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ConfigColor, Config, Config)
 !define ConfigParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ConfigColor, Config, Config)
 !define ConfigParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ConfigColor, Config, Config)

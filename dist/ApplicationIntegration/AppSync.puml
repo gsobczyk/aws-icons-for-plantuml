@@ -9,9 +9,14 @@ oF5whfnzFoihCs2GmmDIk2h9Ae0Rl4PwMlmnMH74APNQsqSTP-iNqynszrNWam2HnuDpk-8uE_kInwtH
 Gmx_2hsFu__tp42SJzEd8BPzVX189VL9tEQNL6gjQtwHF5-SW5fok49YLVAD-QqRyzlBy-Ftn2z-yHS
 }
 
-AWSEntityColoring(AppSync)
 !define AppSyncColor #CC2264
+AWSEntityColoring2(AppSync, AppSyncColor)
+AWSEntityBoundary(AppSync, AppSyncColor)
+!define AppSync(e_alias, e_label) AWSEntity(e_alias, e_label, AppSyncColor, AppSync, AppSync)
 !define AppSync(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AppSyncColor, AppSync, AppSync)
 !define AppSync(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AppSyncColor, AppSync, AppSync)
+!define AppSyncBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, AppSyncColor, AppSync, AppSync)
+!define AppSyncBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, AppSyncColor, AppSync, AppSync)
+!define AppSyncParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, AppSyncColor, AppSync, AppSync)
 !define AppSyncParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AppSyncColor, AppSync, AppSync)
 !define AppSyncParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AppSyncColor, AppSync, AppSync)

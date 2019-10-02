@@ -7,9 +7,14 @@ qJYd-oLvluByVllHk_Ct_SL3jR7g7yP1R73E5FnY3XHk-ADmKA2SYlvBnFdH-nynNa68tpGF_klWn2iO
 bcNv0G
 }
 
-AWSEntityColoring(CloudTrail)
 !define CloudTrailColor #CC2264
+AWSEntityColoring2(CloudTrail, CloudTrailColor)
+AWSEntityBoundary(CloudTrail, CloudTrailColor)
+!define CloudTrail(e_alias, e_label) AWSEntity(e_alias, e_label, CloudTrailColor, CloudTrail, CloudTrail)
 !define CloudTrail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudTrailColor, CloudTrail, CloudTrail)
 !define CloudTrail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudTrailColor, CloudTrail, CloudTrail)
+!define CloudTrailBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudTrailColor, CloudTrail, CloudTrail)
+!define CloudTrailBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudTrailColor, CloudTrail, CloudTrail)
+!define CloudTrailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudTrailColor, CloudTrail, CloudTrail)
 !define CloudTrailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudTrailColor, CloudTrail, CloudTrail)
 !define CloudTrailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudTrailColor, CloudTrail, CloudTrail)

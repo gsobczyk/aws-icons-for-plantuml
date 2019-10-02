@@ -7,9 +7,14 @@ zVe9hPrQlws56up_a_K-PyETUxD_qoPdF-Vtf-N3zgzqxlidlNSX03uiiFGYU2mTWdk1-MSCA7frZTBx
 wvpfhKp9nIh_cXKChial
 }
 
-AWSEntityColoring(OfficeBuilding)
 !define OfficeBuildingColor #232F3E
+AWSEntityColoring2(OfficeBuilding, OfficeBuildingColor)
+AWSEntityBoundary(OfficeBuilding, OfficeBuildingColor)
+!define OfficeBuilding(e_alias, e_label) AWSEntity(e_alias, e_label, OfficeBuildingColor, OfficeBuilding, OfficeBuilding)
 !define OfficeBuilding(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OfficeBuildingColor, OfficeBuilding, OfficeBuilding)
 !define OfficeBuilding(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OfficeBuildingColor, OfficeBuilding, OfficeBuilding)
+!define OfficeBuildingBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, OfficeBuildingColor, OfficeBuilding, OfficeBuilding)
+!define OfficeBuildingBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, OfficeBuildingColor, OfficeBuilding, OfficeBuilding)
+!define OfficeBuildingParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, OfficeBuildingColor, OfficeBuilding, OfficeBuilding)
 !define OfficeBuildingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OfficeBuildingColor, OfficeBuilding, OfficeBuilding)
 !define OfficeBuildingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OfficeBuildingColor, OfficeBuilding, OfficeBuilding)

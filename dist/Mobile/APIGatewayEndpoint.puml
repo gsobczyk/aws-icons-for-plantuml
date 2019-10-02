@@ -7,9 +7,14 @@ hEknAjklttIvkVRTon-ErwbCJxwdCy--vq_o_pubelNr9a-Gae1K1DJgFt_vFt_x__lswqVsVRRzseFY
 JO0azmOui-rvDcv_TS0waU4rsYi09a3olTTLSmkGyQX-6IuMGBtjEvlR5PJilG3bDGNWqFEsZ_iX6RovVcsldzlhz_RnG_lufNtyr3v-Qny_jezVFxyz0W
 }
 
-AWSEntityColoring(APIGatewayEndpoint)
 !define APIGatewayEndpointColor #D6242D
+AWSEntityColoring2(APIGatewayEndpoint, APIGatewayEndpointColor)
+AWSEntityBoundary(APIGatewayEndpoint, APIGatewayEndpointColor)
+!define APIGatewayEndpoint(e_alias, e_label) AWSEntity(e_alias, e_label, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
 !define APIGatewayEndpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
 !define APIGatewayEndpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpointBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpointBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpointParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
 !define APIGatewayEndpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
 !define APIGatewayEndpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)

@@ -7,9 +7,14 @@ qURFhQH0Wv1Auv_L__n6tzygazo7dy-V1BblRfs_ZTpFvSRr8wlolxv-iQf_q_Np6_G_I_qAr-TgjwYB
 6xls1YO7xuPjdG-dMLJ20xrLw5R-LAH-s7LgNVNfiyhpZsZh1rdUT4lhHqDK-Xvzst1ufHzG9r-p_JNssU-nBWecNqzhk_nQMpw6V_vv0G
 }
 
-AWSEntityColoring(DatabaseMigrationService)
 !define DatabaseMigrationServiceColor #3B48CC
+AWSEntityColoring2(DatabaseMigrationService, DatabaseMigrationServiceColor)
+AWSEntityBoundary(DatabaseMigrationService, DatabaseMigrationServiceColor)
+!define DatabaseMigrationService(e_alias, e_label) AWSEntity(e_alias, e_label, DatabaseMigrationServiceColor, DatabaseMigrationService, DatabaseMigrationService)
 !define DatabaseMigrationService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DatabaseMigrationServiceColor, DatabaseMigrationService, DatabaseMigrationService)
 !define DatabaseMigrationService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DatabaseMigrationServiceColor, DatabaseMigrationService, DatabaseMigrationService)
+!define DatabaseMigrationServiceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DatabaseMigrationServiceColor, DatabaseMigrationService, DatabaseMigrationService)
+!define DatabaseMigrationServiceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DatabaseMigrationServiceColor, DatabaseMigrationService, DatabaseMigrationService)
+!define DatabaseMigrationServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DatabaseMigrationServiceColor, DatabaseMigrationService, DatabaseMigrationService)
 !define DatabaseMigrationServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DatabaseMigrationServiceColor, DatabaseMigrationService, DatabaseMigrationService)
 !define DatabaseMigrationServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DatabaseMigrationServiceColor, DatabaseMigrationService, DatabaseMigrationService)

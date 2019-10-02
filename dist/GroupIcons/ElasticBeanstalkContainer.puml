@@ -9,9 +9,14 @@ P9xv0t8z7Qa2L6vcBkRMp0u7nCgHxu-_PpYbjI8EABmtSa0Z-woXXr60A66aAW34pXTfaHZxw539_tCm
 QcPVoVkJ-tn-Qf_DTntufVgHlpIVnVXp_Vdp7m
 }
 
-AWSEntityColoring(ElasticBeanstalkContainer)
 !define ElasticBeanstalkContainerColor #232F3E
+AWSEntityColoring2(ElasticBeanstalkContainer, ElasticBeanstalkContainerColor)
+AWSEntityBoundary(ElasticBeanstalkContainer, ElasticBeanstalkContainerColor)
+!define ElasticBeanstalkContainer(e_alias, e_label) AWSEntity(e_alias, e_label, ElasticBeanstalkContainerColor, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
 !define ElasticBeanstalkContainer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticBeanstalkContainerColor, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
 !define ElasticBeanstalkContainer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticBeanstalkContainerColor, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
+!define ElasticBeanstalkContainerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElasticBeanstalkContainerColor, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
+!define ElasticBeanstalkContainerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElasticBeanstalkContainerColor, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
+!define ElasticBeanstalkContainerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElasticBeanstalkContainerColor, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
 !define ElasticBeanstalkContainerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticBeanstalkContainerColor, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
 !define ElasticBeanstalkContainerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticBeanstalkContainerColor, ElasticBeanstalkContainer, ElasticBeanstalkContainer)

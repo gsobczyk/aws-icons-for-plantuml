@@ -7,9 +7,14 @@ dm4I_Yhvc7OjG4cN2j3IhaXZ7o4Knpv1A4tvu9uMPhqTFSPam0g-RziGx9DBCKtwp01ddUzdPL9wOd2C
 jJSUyEOVUrkArVcUu5Mt_x5tz3Gtw_b5SvxnCfxmL5fzLR6o7_U7VPxtUUV5rszocS7qCBcfBBn-7STPUFqyZiXyM6y
 }
 
-AWSEntityColoring(IAMEncryptedData)
 !define IAMEncryptedDataColor #D6242D
+AWSEntityColoring2(IAMEncryptedData, IAMEncryptedDataColor)
+AWSEntityBoundary(IAMEncryptedData, IAMEncryptedDataColor)
+!define IAMEncryptedData(e_alias, e_label) AWSEntity(e_alias, e_label, IAMEncryptedDataColor, IAMEncryptedData, IAMEncryptedData)
 !define IAMEncryptedData(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMEncryptedDataColor, IAMEncryptedData, IAMEncryptedData)
 !define IAMEncryptedData(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMEncryptedDataColor, IAMEncryptedData, IAMEncryptedData)
+!define IAMEncryptedDataBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IAMEncryptedDataColor, IAMEncryptedData, IAMEncryptedData)
+!define IAMEncryptedDataBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IAMEncryptedDataColor, IAMEncryptedData, IAMEncryptedData)
+!define IAMEncryptedDataParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IAMEncryptedDataColor, IAMEncryptedData, IAMEncryptedData)
 !define IAMEncryptedDataParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMEncryptedDataColor, IAMEncryptedData, IAMEncryptedData)
 !define IAMEncryptedDataParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMEncryptedDataColor, IAMEncryptedData, IAMEncryptedData)

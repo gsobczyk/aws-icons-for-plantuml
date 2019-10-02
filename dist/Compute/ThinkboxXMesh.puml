@@ -8,9 +8,14 @@ HwFQguxtiDYa-deAVRFdKrhcUDVjzJtvCxnfRyj7rC_p-3q-jL0Y0SxYPoSg04w_7lO_ugn-mgZ_nU9H
 slSwl-eCVmrhOtuAVXI_yj5erln-ujcUtygrM_l3WrJot_VNt_VdV7ydWAtzFRyV919j9IpTBuukUy-r-qNRO5lHdm1A7pb9_-b-NBzVr-_dzVlzJM_w1m
 }
 
-AWSEntityColoring(ThinkboxXMesh)
 !define ThinkboxXMeshColor #D86613
+AWSEntityColoring2(ThinkboxXMesh, ThinkboxXMeshColor)
+AWSEntityBoundary(ThinkboxXMesh, ThinkboxXMeshColor)
+!define ThinkboxXMesh(e_alias, e_label) AWSEntity(e_alias, e_label, ThinkboxXMeshColor, ThinkboxXMesh, ThinkboxXMesh)
 !define ThinkboxXMesh(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ThinkboxXMeshColor, ThinkboxXMesh, ThinkboxXMesh)
 !define ThinkboxXMesh(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ThinkboxXMeshColor, ThinkboxXMesh, ThinkboxXMesh)
+!define ThinkboxXMeshBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ThinkboxXMeshColor, ThinkboxXMesh, ThinkboxXMesh)
+!define ThinkboxXMeshBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ThinkboxXMeshColor, ThinkboxXMesh, ThinkboxXMesh)
+!define ThinkboxXMeshParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ThinkboxXMeshColor, ThinkboxXMesh, ThinkboxXMesh)
 !define ThinkboxXMeshParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ThinkboxXMeshColor, ThinkboxXMesh, ThinkboxXMesh)
 !define ThinkboxXMeshParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ThinkboxXMeshColor, ThinkboxXMesh, ThinkboxXMesh)

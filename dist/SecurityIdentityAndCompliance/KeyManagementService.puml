@@ -8,9 +8,14 @@ dPo0ea_I7ApvgmHtiW6cVzvxI_t4sBCZOFh7_EJoft7wMG8ofMb4eEXYhs9WyZhoi4sNUus4TVyWKoIF
 cg6CAJthnyoFllYfYc7-3LJrKzazVsSsrhznYPyl81rzTcVmxFZ37dqoPspTkVzuJizwCrP_KuBZ_AMx0do4xRgB7d13zz47wd_myl8B
 }
 
-AWSEntityColoring(KeyManagementService)
 !define KeyManagementServiceColor #D6242D
+AWSEntityColoring2(KeyManagementService, KeyManagementServiceColor)
+AWSEntityBoundary(KeyManagementService, KeyManagementServiceColor)
+!define KeyManagementService(e_alias, e_label) AWSEntity(e_alias, e_label, KeyManagementServiceColor, KeyManagementService, KeyManagementService)
 !define KeyManagementService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, KeyManagementServiceColor, KeyManagementService, KeyManagementService)
 !define KeyManagementService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, KeyManagementServiceColor, KeyManagementService, KeyManagementService)
+!define KeyManagementServiceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, KeyManagementServiceColor, KeyManagementService, KeyManagementService)
+!define KeyManagementServiceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, KeyManagementServiceColor, KeyManagementService, KeyManagementService)
+!define KeyManagementServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, KeyManagementServiceColor, KeyManagementService, KeyManagementService)
 !define KeyManagementServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, KeyManagementServiceColor, KeyManagementService, KeyManagementService)
 !define KeyManagementServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, KeyManagementServiceColor, KeyManagementService, KeyManagementService)

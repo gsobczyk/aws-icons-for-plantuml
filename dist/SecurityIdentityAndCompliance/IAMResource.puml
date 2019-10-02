@@ -6,9 +6,14 @@ qbT_nAh5qyU-tlKP3anB4-3RdYb3feCAWLbLXO-aZylRti4jGtFdRqoyPg7rb3jKbTpm-zuTnbcqYxtF
 vrvCq0BKUjDwPJhZeLu3H6FbvlmF_5ZF7Ymfv-nwZ_6iZFMAa5K96j8RCxqW-iLUplT_jhT4Y4X4s52Oxk7MR5_IhInp_QE9Vld_jVx_NFz_RzksVG4
 }
 
-AWSEntityColoring(IAMResource)
 !define IAMResourceColor #D6242D
+AWSEntityColoring2(IAMResource, IAMResourceColor)
+AWSEntityBoundary(IAMResource, IAMResourceColor)
+!define IAMResource(e_alias, e_label) AWSEntity(e_alias, e_label, IAMResourceColor, IAMResource, IAMResource)
 !define IAMResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMResourceColor, IAMResource, IAMResource)
 !define IAMResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMResourceColor, IAMResource, IAMResource)
+!define IAMResourceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IAMResourceColor, IAMResource, IAMResource)
+!define IAMResourceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IAMResourceColor, IAMResource, IAMResource)
+!define IAMResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IAMResourceColor, IAMResource, IAMResource)
 !define IAMResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMResourceColor, IAMResource, IAMResource)
 !define IAMResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMResourceColor, IAMResource, IAMResource)

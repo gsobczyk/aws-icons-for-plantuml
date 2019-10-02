@@ -11,9 +11,14 @@ zKkfadAKBsBQP_soVp3lca28XrooVxhz6q_p64RvF9TI2iB-RGu2R60UvQjlTMD1u_pYf436f_Ahz_5S
 eVUlUl_y8UYV_zY__-t-yCVxomllJ_tzpNNtjx_U7rz_V-tlpw_46m
 }
 
-AWSEntityColoring(IoTLambdaFunction)
 !define IoTLambdaFunctionColor #3F8624
+AWSEntityColoring2(IoTLambdaFunction, IoTLambdaFunctionColor)
+AWSEntityBoundary(IoTLambdaFunction, IoTLambdaFunctionColor)
+!define IoTLambdaFunction(e_alias, e_label) AWSEntity(e_alias, e_label, IoTLambdaFunctionColor, IoTLambdaFunction, IoTLambdaFunction)
 !define IoTLambdaFunction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTLambdaFunctionColor, IoTLambdaFunction, IoTLambdaFunction)
 !define IoTLambdaFunction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTLambdaFunctionColor, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunctionBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTLambdaFunctionColor, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunctionBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTLambdaFunctionColor, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunctionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTLambdaFunctionColor, IoTLambdaFunction, IoTLambdaFunction)
 !define IoTLambdaFunctionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTLambdaFunctionColor, IoTLambdaFunction, IoTLambdaFunction)
 !define IoTLambdaFunctionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTLambdaFunctionColor, IoTLambdaFunction, IoTLambdaFunction)

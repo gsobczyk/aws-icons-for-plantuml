@@ -8,9 +8,14 @@ V-FM_MitaT1e_GUfLuyiR14hNg7odtdlVw5o_yfjv1RRBJuDSlAI8ZtYmyuuqhwhM_t_m_ZCn1sEMfBD
 WtYqviKifSBFCfYSnzoM9bx9ULLRT1N7USUEaoMr3kgyeuGctixILgdTDCbnE_6r34tAvDuF3v7kUAWV7s9zQEHhyx-y4gHyv_YDlm
 }
 
-AWSEntityColoring(ElasticContainerService)
 !define ElasticContainerServiceColor #D86613
+AWSEntityColoring2(ElasticContainerService, ElasticContainerServiceColor)
+AWSEntityBoundary(ElasticContainerService, ElasticContainerServiceColor)
+!define ElasticContainerService(e_alias, e_label) AWSEntity(e_alias, e_label, ElasticContainerServiceColor, ElasticContainerService, ElasticContainerService)
 !define ElasticContainerService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticContainerServiceColor, ElasticContainerService, ElasticContainerService)
 !define ElasticContainerService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticContainerServiceColor, ElasticContainerService, ElasticContainerService)
+!define ElasticContainerServiceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElasticContainerServiceColor, ElasticContainerService, ElasticContainerService)
+!define ElasticContainerServiceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElasticContainerServiceColor, ElasticContainerService, ElasticContainerService)
+!define ElasticContainerServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElasticContainerServiceColor, ElasticContainerService, ElasticContainerService)
 !define ElasticContainerServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticContainerServiceColor, ElasticContainerService, ElasticContainerService)
 !define ElasticContainerServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticContainerServiceColor, ElasticContainerService, ElasticContainerService)

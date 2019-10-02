@@ -9,9 +9,14 @@ KiYrpxdMcgELM0bAwgVVbDs_MJzMIwRN5Bgaw3YmpJPyj_y0NwFLaaifhHz7QSry173ooz2_Nd_UuWwU
 2WvHfidb_0duav-19KiQt9__68gBRfB2vlxhTvMaADNHDtVN3tqfz6wA2-3--eMcpl7qOFtKrA2gyrZznf9gaMqUgX_FpjdWuVgLFSRc3-fd0F-h_FBBlm
 }
 
-AWSEntityColoring(Neptune)
 !define NeptuneColor #3B48CC
+AWSEntityColoring2(Neptune, NeptuneColor)
+AWSEntityBoundary(Neptune, NeptuneColor)
+!define Neptune(e_alias, e_label) AWSEntity(e_alias, e_label, NeptuneColor, Neptune, Neptune)
 !define Neptune(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, NeptuneColor, Neptune, Neptune)
 !define Neptune(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, NeptuneColor, Neptune, Neptune)
+!define NeptuneBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, NeptuneColor, Neptune, Neptune)
+!define NeptuneBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, NeptuneColor, Neptune, Neptune)
+!define NeptuneParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, NeptuneColor, Neptune, Neptune)
 !define NeptuneParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, NeptuneColor, Neptune, Neptune)
 !define NeptuneParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, NeptuneColor, Neptune, Neptune)

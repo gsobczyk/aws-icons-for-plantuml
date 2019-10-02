@@ -7,9 +7,14 @@ Uhxejpv_bB9VzDMvnyV_zj-ZEPGU-FwgYRuzolZ_Hr-U7NNUVyyFqrw1UjbJugyBeKWaBjAt_vwVvjR_
 hm
 }
 
-AWSEntityColoring(IoTHTTPProtocol)
 !define IoTHTTPProtocolColor #3F8624
+AWSEntityColoring2(IoTHTTPProtocol, IoTHTTPProtocolColor)
+AWSEntityBoundary(IoTHTTPProtocol, IoTHTTPProtocolColor)
+!define IoTHTTPProtocol(e_alias, e_label) AWSEntity(e_alias, e_label, IoTHTTPProtocolColor, IoTHTTPProtocol, IoTHTTPProtocol)
 !define IoTHTTPProtocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTHTTPProtocolColor, IoTHTTPProtocol, IoTHTTPProtocol)
 !define IoTHTTPProtocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTHTTPProtocolColor, IoTHTTPProtocol, IoTHTTPProtocol)
+!define IoTHTTPProtocolBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTHTTPProtocolColor, IoTHTTPProtocol, IoTHTTPProtocol)
+!define IoTHTTPProtocolBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTHTTPProtocolColor, IoTHTTPProtocol, IoTHTTPProtocol)
+!define IoTHTTPProtocolParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTHTTPProtocolColor, IoTHTTPProtocol, IoTHTTPProtocol)
 !define IoTHTTPProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTHTTPProtocolColor, IoTHTTPProtocol, IoTHTTPProtocol)
 !define IoTHTTPProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTHTTPProtocolColor, IoTHTTPProtocol, IoTHTTPProtocol)

@@ -9,9 +9,14 @@ Y3EX2SdF-cy88G1IJOcZHG39NOdcLPxrdsSMzq8OxfRF__uh2PAjwB_hWKNqp_srklzE1rRys9_NMrQV
 Fp-Fdz_7zuVZ-yln_Udu_dPyVro_l_vZyyehFm4
 }
 
-AWSEntityColoring(SecurityHub)
 !define SecurityHubColor #D6242D
+AWSEntityColoring2(SecurityHub, SecurityHubColor)
+AWSEntityBoundary(SecurityHub, SecurityHubColor)
+!define SecurityHub(e_alias, e_label) AWSEntity(e_alias, e_label, SecurityHubColor, SecurityHub, SecurityHub)
 !define SecurityHub(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SecurityHubColor, SecurityHub, SecurityHub)
 !define SecurityHub(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SecurityHubColor, SecurityHub, SecurityHub)
+!define SecurityHubBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SecurityHubColor, SecurityHub, SecurityHub)
+!define SecurityHubBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SecurityHubColor, SecurityHub, SecurityHub)
+!define SecurityHubParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SecurityHubColor, SecurityHub, SecurityHub)
 !define SecurityHubParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SecurityHubColor, SecurityHub, SecurityHub)
 !define SecurityHubParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SecurityHubColor, SecurityHub, SecurityHub)

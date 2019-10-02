@@ -7,9 +7,14 @@ cZNrp_o6h0vzYV_eZszz2NJNIB6FlXUIUYF8bv7BC0c4va_-idiW00J8dy-aH-XMKnQD8FyiwBxo65Lo
 fQIJrSfQXrOXPaWoliPlovvaTCtfHEkqlyTbsk_yXOhlhE58DYjpnlOv4aI0E4Ticmh5UivT2zHjVSsOUrzfscNDsADjuoHMbtqQjV5NkRYuk0S
 }
 
-AWSEntityColoring(IoTSiteWise)
 !define IoTSiteWiseColor #3F8624
+AWSEntityColoring2(IoTSiteWise, IoTSiteWiseColor)
+AWSEntityBoundary(IoTSiteWise, IoTSiteWiseColor)
+!define IoTSiteWise(e_alias, e_label) AWSEntity(e_alias, e_label, IoTSiteWiseColor, IoTSiteWise, IoTSiteWise)
 !define IoTSiteWise(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTSiteWiseColor, IoTSiteWise, IoTSiteWise)
 !define IoTSiteWise(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTSiteWiseColor, IoTSiteWise, IoTSiteWise)
+!define IoTSiteWiseBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTSiteWiseColor, IoTSiteWise, IoTSiteWise)
+!define IoTSiteWiseBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTSiteWiseColor, IoTSiteWise, IoTSiteWise)
+!define IoTSiteWiseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTSiteWiseColor, IoTSiteWise, IoTSiteWise)
 !define IoTSiteWiseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTSiteWiseColor, IoTSiteWise, IoTSiteWise)
 !define IoTSiteWiseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTSiteWiseColor, IoTSiteWise, IoTSiteWise)

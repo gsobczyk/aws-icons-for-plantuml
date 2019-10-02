@@ -7,9 +7,14 @@ KXFYnNJgEYhxkjac7f0lThEDPh3iwtwTQVPrEMNBwi0oeAks4dh6bjS2fbT06J1T0ADzdxe0hFtvEzqu
 3GtvXN0FrcK0kKlJVnF__FC
 }
 
-AWSEntityColoring(SitetoSiteVPN)
 !define SitetoSiteVPNColor #693CC5
+AWSEntityColoring2(SitetoSiteVPN, SitetoSiteVPNColor)
+AWSEntityBoundary(SitetoSiteVPN, SitetoSiteVPNColor)
+!define SitetoSiteVPN(e_alias, e_label) AWSEntity(e_alias, e_label, SitetoSiteVPNColor, SitetoSiteVPN, SitetoSiteVPN)
 !define SitetoSiteVPN(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SitetoSiteVPNColor, SitetoSiteVPN, SitetoSiteVPN)
 !define SitetoSiteVPN(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SitetoSiteVPNColor, SitetoSiteVPN, SitetoSiteVPN)
+!define SitetoSiteVPNBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SitetoSiteVPNColor, SitetoSiteVPN, SitetoSiteVPN)
+!define SitetoSiteVPNBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SitetoSiteVPNColor, SitetoSiteVPN, SitetoSiteVPN)
+!define SitetoSiteVPNParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SitetoSiteVPNColor, SitetoSiteVPN, SitetoSiteVPN)
 !define SitetoSiteVPNParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SitetoSiteVPNColor, SitetoSiteVPN, SitetoSiteVPN)
 !define SitetoSiteVPNParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SitetoSiteVPNColor, SitetoSiteVPN, SitetoSiteVPN)

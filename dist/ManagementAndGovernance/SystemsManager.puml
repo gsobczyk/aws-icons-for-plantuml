@@ -9,9 +9,14 @@ jTQCKCk97Zyl4Ykll2klPWh7pWS0HdUlKVsE2S3a0MO5dIe2G6w6Ir1p7g88hZ428TxCYiQZJCwHzcoV
 1IUnEJapJdR7zn6C11WP4ThkzJthJYRKrWAK79DlI3WpladxoNJ-Olxvvpy
 }
 
-AWSEntityColoring(SystemsManager)
 !define SystemsManagerColor #CC2264
+AWSEntityColoring2(SystemsManager, SystemsManagerColor)
+AWSEntityBoundary(SystemsManager, SystemsManagerColor)
+!define SystemsManager(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerColor, SystemsManager, SystemsManager)
 !define SystemsManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerColor, SystemsManager, SystemsManager)
 !define SystemsManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerColor, SystemsManager, SystemsManager)
+!define SystemsManagerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerColor, SystemsManager, SystemsManager)
+!define SystemsManagerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerColor, SystemsManager, SystemsManager)
+!define SystemsManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerColor, SystemsManager, SystemsManager)
 !define SystemsManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerColor, SystemsManager, SystemsManager)
 !define SystemsManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerColor, SystemsManager, SystemsManager)

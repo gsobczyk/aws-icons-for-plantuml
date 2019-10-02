@@ -8,9 +8,14 @@ krZZnDixl6wyGoLKc0d4RCm6VvjdUzZWYpsi-v-18oqp-PFSB_VZ8KEJzPFKx2F244JlGXqJ_TEI091O
 nkp-ZOZ5quP-a3xJd-Vw9SYtV9YLot_zI3_ReP-NuhWZVtbIl_t1w093d3y_zDGnwv_9yyi1VkoUdxldz-xyi3k_xCvFk_FRvlouER_-flZYY_y
 }
 
-AWSEntityColoring(EMR)
 !define EMRColor #693CC5
+AWSEntityColoring2(EMR, EMRColor)
+AWSEntityBoundary(EMR, EMRColor)
+!define EMR(e_alias, e_label) AWSEntity(e_alias, e_label, EMRColor, EMR, EMR)
 !define EMR(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EMRColor, EMR, EMR)
 !define EMR(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EMRColor, EMR, EMR)
+!define EMRBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EMRColor, EMR, EMR)
+!define EMRBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EMRColor, EMR, EMR)
+!define EMRParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EMRColor, EMR, EMR)
 !define EMRParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EMRColor, EMR, EMR)
 !define EMRParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EMRColor, EMR, EMR)

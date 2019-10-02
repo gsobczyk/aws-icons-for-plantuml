@@ -9,9 +9,14 @@ Z8ttVyM54aEGQyr8wfVLyiZyLIJpMNEk6dgpMc_qGSieqznjP5Hd7Eo3CJDEf2mo3lT1qcVNvJ_rNl-3
 zKGmTl2fkFZu-FWF
 }
 
-AWSEntityColoring(Textract)
 !define TextractColor #1C7B68
+AWSEntityColoring2(Textract, TextractColor)
+AWSEntityBoundary(Textract, TextractColor)
+!define Textract(e_alias, e_label) AWSEntity(e_alias, e_label, TextractColor, Textract, Textract)
 !define Textract(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TextractColor, Textract, Textract)
 !define Textract(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TextractColor, Textract, Textract)
+!define TextractBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TextractColor, Textract, Textract)
+!define TextractBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TextractColor, Textract, Textract)
+!define TextractParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TextractColor, Textract, Textract)
 !define TextractParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TextractColor, Textract, Textract)
 !define TextractParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TextractColor, Textract, Textract)

@@ -9,9 +9,14 @@ GNWM7GNwbNwuy5JFZFvXRyObHRhigxlhMt1UZ2i9_Tm3hl6whu07qiuAd3SikpnutPj3vmZeNAd8tDXM
 SQ7ZNU4UIukRGer6pI4rVa20h0_k3-Zy78r0RD-ylsnFU-B-DAaixczFt1z_ct__NW4
 }
 
-AWSEntityColoring(SNS)
 !define SNSColor #CC2264
+AWSEntityColoring2(SNS, SNSColor)
+AWSEntityBoundary(SNS, SNSColor)
+!define SNS(e_alias, e_label) AWSEntity(e_alias, e_label, SNSColor, SNS, SNS)
 !define SNS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SNSColor, SNS, SNS)
 !define SNS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SNSColor, SNS, SNS)
+!define SNSBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SNSColor, SNS, SNS)
+!define SNSBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SNSColor, SNS, SNS)
+!define SNSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SNSColor, SNS, SNS)
 !define SNSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SNSColor, SNS, SNS)
 !define SNSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SNSColor, SNS, SNS)

@@ -8,9 +8,14 @@ E5deNmmC2jlVCHcMmbdePmmebW_kYZT85fd2gUr733wggp1ZVpX2X_Gh1f-duv0lXq1xdZvVVLkTsbxe
 DyO4DvlDvWG
 }
 
-AWSEntityColoring(Amplify)
 !define AmplifyColor #D6242D
+AWSEntityColoring2(Amplify, AmplifyColor)
+AWSEntityBoundary(Amplify, AmplifyColor)
+!define Amplify(e_alias, e_label) AWSEntity(e_alias, e_label, AmplifyColor, Amplify, Amplify)
 !define Amplify(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AmplifyColor, Amplify, Amplify)
 !define Amplify(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AmplifyColor, Amplify, Amplify)
+!define AmplifyBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, AmplifyColor, Amplify, Amplify)
+!define AmplifyBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, AmplifyColor, Amplify, Amplify)
+!define AmplifyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, AmplifyColor, Amplify, Amplify)
 !define AmplifyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AmplifyColor, Amplify, Amplify)
 !define AmplifyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AmplifyColor, Amplify, Amplify)

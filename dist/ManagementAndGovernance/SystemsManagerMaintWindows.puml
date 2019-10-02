@@ -10,9 +10,14 @@ YRVem4Km-DxZtFpJU2gI-sXCl2cIdlaanMXylOxFVApC0n_-vVrm28UlV5TIUTr_Arsi-g-F7_bmG5uP
 pnox2UCYp_cpdh-xt_cxG_x-fdxWiNvWfNvGwnSprYzcgb-MwgVr-cszVbolNzVhvtNz0G
 }
 
-AWSEntityColoring(SystemsManagerMaintWindows)
 !define SystemsManagerMaintWindowsColor #CC2264
+AWSEntityColoring2(SystemsManagerMaintWindows, SystemsManagerMaintWindowsColor)
+AWSEntityBoundary(SystemsManagerMaintWindows, SystemsManagerMaintWindowsColor)
+!define SystemsManagerMaintWindows(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerMaintWindowsColor, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
 !define SystemsManagerMaintWindows(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerMaintWindowsColor, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
 !define SystemsManagerMaintWindows(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerMaintWindowsColor, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
+!define SystemsManagerMaintWindowsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerMaintWindowsColor, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
+!define SystemsManagerMaintWindowsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerMaintWindowsColor, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
+!define SystemsManagerMaintWindowsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerMaintWindowsColor, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
 !define SystemsManagerMaintWindowsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerMaintWindowsColor, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
 !define SystemsManagerMaintWindowsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerMaintWindowsColor, SystemsManagerMaintWindows, SystemsManagerMaintWindows)

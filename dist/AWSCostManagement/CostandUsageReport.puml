@@ -8,9 +8,14 @@ HerywRSqkFGiIyhV_dvUq4TybJ_dXF8CZzLFCwu8BnpgdrZU42c3lVvTfLSi63aoF-Dxa7EwaQMdXSny
 6Vx4_QaaP4xTtqhcrFwWDCxjByhS_ZI_lytlZ_Fxwv_F3p_y0W
 }
 
-AWSEntityColoring(CostandUsageReport)
 !define CostandUsageReportColor #3F8624
+AWSEntityColoring2(CostandUsageReport, CostandUsageReportColor)
+AWSEntityBoundary(CostandUsageReport, CostandUsageReportColor)
+!define CostandUsageReport(e_alias, e_label) AWSEntity(e_alias, e_label, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReport(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReport(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReportBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReportBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReportParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReportParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReportParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)

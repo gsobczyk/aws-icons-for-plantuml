@@ -9,9 +9,14 @@ RDfSYSxXYr_cHpj1gc_GdQzym_nItp0_rJVExwqt_F_WThnXul2Pi4DvEpcP_ebHVGh_6gy-XNzDI3w5
 pt_43m
 }
 
-AWSEntityColoring(VPCElasticNetworkAdapter)
 !define VPCElasticNetworkAdapterColor #693CC5
+AWSEntityColoring2(VPCElasticNetworkAdapter, VPCElasticNetworkAdapterColor)
+AWSEntityBoundary(VPCElasticNetworkAdapter, VPCElasticNetworkAdapterColor)
+!define VPCElasticNetworkAdapter(e_alias, e_label) AWSEntity(e_alias, e_label, VPCElasticNetworkAdapterColor, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
 !define VPCElasticNetworkAdapter(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, VPCElasticNetworkAdapterColor, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
 !define VPCElasticNetworkAdapter(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, VPCElasticNetworkAdapterColor, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
+!define VPCElasticNetworkAdapterBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, VPCElasticNetworkAdapterColor, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
+!define VPCElasticNetworkAdapterBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, VPCElasticNetworkAdapterColor, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
+!define VPCElasticNetworkAdapterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, VPCElasticNetworkAdapterColor, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
 !define VPCElasticNetworkAdapterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, VPCElasticNetworkAdapterColor, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
 !define VPCElasticNetworkAdapterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, VPCElasticNetworkAdapterColor, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)

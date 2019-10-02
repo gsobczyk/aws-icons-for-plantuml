@@ -6,9 +6,14 @@ GgsUvX5rMwFVXpYd9YzxZAI29W_HXFqYvChJ8k-sJnrr7JzokfznGISV53lCGuu_xnO13Nk_3S4DFtyk
 F-RDcx___-sE-Dx_rtl_d-zk1G
 }
 
-AWSEntityColoring(CloudFrontEdgeLocation)
 !define CloudFrontEdgeLocationColor #693CC5
+AWSEntityColoring2(CloudFrontEdgeLocation, CloudFrontEdgeLocationColor)
+AWSEntityBoundary(CloudFrontEdgeLocation, CloudFrontEdgeLocationColor)
+!define CloudFrontEdgeLocation(e_alias, e_label) AWSEntity(e_alias, e_label, CloudFrontEdgeLocationColor, CloudFrontEdgeLocation, CloudFrontEdgeLocation)
 !define CloudFrontEdgeLocation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudFrontEdgeLocationColor, CloudFrontEdgeLocation, CloudFrontEdgeLocation)
 !define CloudFrontEdgeLocation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudFrontEdgeLocationColor, CloudFrontEdgeLocation, CloudFrontEdgeLocation)
+!define CloudFrontEdgeLocationBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudFrontEdgeLocationColor, CloudFrontEdgeLocation, CloudFrontEdgeLocation)
+!define CloudFrontEdgeLocationBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudFrontEdgeLocationColor, CloudFrontEdgeLocation, CloudFrontEdgeLocation)
+!define CloudFrontEdgeLocationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudFrontEdgeLocationColor, CloudFrontEdgeLocation, CloudFrontEdgeLocation)
 !define CloudFrontEdgeLocationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudFrontEdgeLocationColor, CloudFrontEdgeLocation, CloudFrontEdgeLocation)
 !define CloudFrontEdgeLocationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudFrontEdgeLocationColor, CloudFrontEdgeLocation, CloudFrontEdgeLocation)

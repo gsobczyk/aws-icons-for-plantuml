@@ -8,9 +8,14 @@ qhnOli4GYHF6RPyNqBsE98-beRu3As_Cxof0TIAQnreZwzDrU_j_jrOA4sk6PCTaPCVRhDRgVM7DABBh
 SkIb09Il_kwS77fx2MOFCTkBxynRgVi0qVNqpU__Dh_rr_hqFTxLwh_3M_-BBz_fHzwkc_-HtnzbSDHKUPMwWrH-L9y1
 }
 
-AWSEntityColoring(S3GlacierVault)
 !define S3GlacierVaultColor #3F8624
+AWSEntityColoring2(S3GlacierVault, S3GlacierVaultColor)
+AWSEntityBoundary(S3GlacierVault, S3GlacierVaultColor)
+!define S3GlacierVault(e_alias, e_label) AWSEntity(e_alias, e_label, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
 !define S3GlacierVault(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
 !define S3GlacierVault(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVaultBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVaultBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVaultParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
 !define S3GlacierVaultParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
 !define S3GlacierVaultParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)

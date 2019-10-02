@@ -11,9 +11,14 @@ KO4HV5kG2m-TaewM2lWXGKu1slBdEddGe5cml67o4IGFSAyBH6jLGICLRW2WkHegymIPDce1W58d3UBq
 o-546mMom_yQw4c3r1dvws3k9fc_0JB_JlpF_tm3
 }
 
-AWSEntityColoring(ManagedServices)
 !define ManagedServicesColor #CC2264
+AWSEntityColoring2(ManagedServices, ManagedServicesColor)
+AWSEntityBoundary(ManagedServices, ManagedServicesColor)
+!define ManagedServices(e_alias, e_label) AWSEntity(e_alias, e_label, ManagedServicesColor, ManagedServices, ManagedServices)
 !define ManagedServices(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagedServicesColor, ManagedServices, ManagedServices)
 !define ManagedServices(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagedServicesColor, ManagedServices, ManagedServices)
+!define ManagedServicesBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ManagedServicesColor, ManagedServices, ManagedServices)
+!define ManagedServicesBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ManagedServicesColor, ManagedServices, ManagedServices)
+!define ManagedServicesParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ManagedServicesColor, ManagedServices, ManagedServices)
 !define ManagedServicesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagedServicesColor, ManagedServices, ManagedServices)
 !define ManagedServicesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagedServicesColor, ManagedServices, ManagedServices)

@@ -8,9 +8,14 @@ pbk7sedwriXFLpgXRSr2_A6Qh_vYLwNOPNC7ET27jLSYlUKWLGfgt-aNldovvxuIGRSPpHUSyiYBcKMq
 timfezga-9XI_ViiPN0rLzdNCaqZm2ad1gBdyuh0IR5VzLfhjuVJwVG7
 }
 
-AWSEntityColoring(Cognito)
 !define CognitoColor #D6242D
+AWSEntityColoring2(Cognito, CognitoColor)
+AWSEntityBoundary(Cognito, CognitoColor)
+!define Cognito(e_alias, e_label) AWSEntity(e_alias, e_label, CognitoColor, Cognito, Cognito)
 !define Cognito(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CognitoColor, Cognito, Cognito)
 !define Cognito(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CognitoColor, Cognito, Cognito)
+!define CognitoBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CognitoColor, Cognito, Cognito)
+!define CognitoBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CognitoColor, Cognito, Cognito)
+!define CognitoParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CognitoColor, Cognito, Cognito)
 !define CognitoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CognitoColor, Cognito, Cognito)
 !define CognitoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CognitoColor, Cognito, Cognito)

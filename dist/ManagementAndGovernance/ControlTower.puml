@@ -7,9 +7,14 @@ GOOAB4R6WPaHzGEvW9OdnQAZXvEU9rPIPuIWlYildkbU0I7lTgJSxMeOqRoWxkhtv_--_NIyRx_UqtuV
 _cXSpk1ucRyT_O0U6F5i_UYGUMG2k8cdwrSqQXnX-elwQt4Kr_lwFsoj-ev8-be9JoEQnJbDjy2Giv6cHMCDCsAp_BS6wcx_ija__Rx-BUFdt-NAbQy
 }
 
-AWSEntityColoring(ControlTower)
 !define ControlTowerColor #CC2264
+AWSEntityColoring2(ControlTower, ControlTowerColor)
+AWSEntityBoundary(ControlTower, ControlTowerColor)
+!define ControlTower(e_alias, e_label) AWSEntity(e_alias, e_label, ControlTowerColor, ControlTower, ControlTower)
 !define ControlTower(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ControlTowerColor, ControlTower, ControlTower)
 !define ControlTower(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ControlTowerColor, ControlTower, ControlTower)
+!define ControlTowerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ControlTowerColor, ControlTower, ControlTower)
+!define ControlTowerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ControlTowerColor, ControlTower, ControlTower)
+!define ControlTowerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ControlTowerColor, ControlTower, ControlTower)
 !define ControlTowerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ControlTowerColor, ControlTower, ControlTower)
 !define ControlTowerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ControlTowerColor, ControlTower, ControlTower)

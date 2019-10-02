@@ -10,9 +10,14 @@ d3s6ZS9euufFYbqg8aFhdL76LTdoi2i-0runARlThUrawWgMxJcy_hZhfiK3_bPJ3VqzmizBSOOnoCjD
 Eexe2G2iHmwe--KNChm5UAtUWtXCEERClZXCU1aFeN8x2XyBdrnzwlyV085F0U3b_mHw1B3x3o1U63_7ODfFkgNnvr4jybHlwtWDEfijDFu9VF753m
 }
 
-AWSEntityColoring(ThinkboxStoke)
 !define ThinkboxStokeColor #D86613
+AWSEntityColoring2(ThinkboxStoke, ThinkboxStokeColor)
+AWSEntityBoundary(ThinkboxStoke, ThinkboxStokeColor)
+!define ThinkboxStoke(e_alias, e_label) AWSEntity(e_alias, e_label, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
 !define ThinkboxStoke(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
 !define ThinkboxStoke(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStokeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStokeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStokeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
 !define ThinkboxStokeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
 !define ThinkboxStokeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)

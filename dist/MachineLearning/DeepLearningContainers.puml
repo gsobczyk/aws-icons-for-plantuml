@@ -8,9 +8,14 @@ K-ajEGJ-ouB3KU0bFzSxXAF2nJASyX_NwPnfASb1z8jqReNg0KWsFebGddNufiOlP3IUXUs_6jAjzllh
 wybuLHvF0IU8xeOF2EVpIN1VPz1bTZyhGEZFpHEGZNTe07nHun-Q7QJnhXO0I2ojgsgloL-Ng_kqUFmbrC7l6htc56DCfMsBFpu-VW
 }
 
-AWSEntityColoring(DeepLearningContainers)
 !define DeepLearningContainersColor #1C7B68
+AWSEntityColoring2(DeepLearningContainers, DeepLearningContainersColor)
+AWSEntityBoundary(DeepLearningContainers, DeepLearningContainersColor)
+!define DeepLearningContainers(e_alias, e_label) AWSEntity(e_alias, e_label, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
 !define DeepLearningContainers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
 !define DeepLearningContainers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainersBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainersBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainersParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
 !define DeepLearningContainersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
 !define DeepLearningContainersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)

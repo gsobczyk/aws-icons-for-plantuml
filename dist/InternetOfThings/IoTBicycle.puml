@@ -10,9 +10,14 @@ NkWCKPDP3_onVlkkk-ohY5aBkx8lmFRw7UFl57IvUbrHhvP5aca6hiT_x5_R6ttaRtOlRDlxTvmVHiY7
 xlbLvMDU1Qp_2uXQMKtKzAqS_GVdzv-_Vxc-V_lu_l7Nz1S
 }
 
-AWSEntityColoring(IoTBicycle)
 !define IoTBicycleColor #3F8624
+AWSEntityColoring2(IoTBicycle, IoTBicycleColor)
+AWSEntityBoundary(IoTBicycle, IoTBicycleColor)
+!define IoTBicycle(e_alias, e_label) AWSEntity(e_alias, e_label, IoTBicycleColor, IoTBicycle, IoTBicycle)
 !define IoTBicycle(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTBicycleColor, IoTBicycle, IoTBicycle)
 !define IoTBicycle(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTBicycleColor, IoTBicycle, IoTBicycle)
+!define IoTBicycleBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTBicycleColor, IoTBicycle, IoTBicycle)
+!define IoTBicycleBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTBicycleColor, IoTBicycle, IoTBicycle)
+!define IoTBicycleParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTBicycleColor, IoTBicycle, IoTBicycle)
 !define IoTBicycleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTBicycleColor, IoTBicycle, IoTBicycle)
 !define IoTBicycleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTBicycleColor, IoTBicycle, IoTBicycle)

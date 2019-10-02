@@ -9,9 +9,14 @@ TFaa_ZQVP4I7HVgidZYUQ-w9sJFjhx0CYlsPV7ium-qIg6JlXiUC4aKSykvMvNBgShz_ZGGQGnMvKnnM
 5t7N2WOvzY7454FmxF22oqF346vU9pDkueiDbLdcJQIbQoN8v_xMH1vAD7b7C8WuVCC_dHwjrjfw5vb_82Sd9ry
 }
 
-AWSEntityColoring(Cloudalt)
 !define CloudaltColor #232F3E
+AWSEntityColoring2(Cloudalt, CloudaltColor)
+AWSEntityBoundary(Cloudalt, CloudaltColor)
+!define Cloudalt(e_alias, e_label) AWSEntity(e_alias, e_label, CloudaltColor, Cloudalt, Cloudalt)
 !define Cloudalt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudaltColor, Cloudalt, Cloudalt)
 !define Cloudalt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudaltColor, Cloudalt, Cloudalt)
+!define CloudaltBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudaltColor, Cloudalt, Cloudalt)
+!define CloudaltBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudaltColor, Cloudalt, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudaltColor, Cloudalt, Cloudalt)
 !define CloudaltParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudaltColor, Cloudalt, Cloudalt)
 !define CloudaltParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudaltColor, Cloudalt, Cloudalt)

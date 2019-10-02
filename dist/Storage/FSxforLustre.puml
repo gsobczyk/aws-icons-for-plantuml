@@ -6,9 +6,14 @@ WCYK3QT91Odz9uUWBBi1O2X9EwCssh47RoeisS827vDiOtDcip2FfnK0dRdqtfI4_PlzNoBJnCPP0vrg
 g4oW4KSd_rblDE2SWGXfZNpFQUpB-gRlmmCnzdthSLfEfZcYqt6KAU53-lp-MOGf1ngDSoMJQQTnF6Pyo0ENiDx7tBzox6A6RQeQDZxntotBiYmF
 }
 
-AWSEntityColoring(FSxforLustre)
 !define FSxforLustreColor #3F8624
+AWSEntityColoring2(FSxforLustre, FSxforLustreColor)
+AWSEntityBoundary(FSxforLustre, FSxforLustreColor)
+!define FSxforLustre(e_alias, e_label) AWSEntity(e_alias, e_label, FSxforLustreColor, FSxforLustre, FSxforLustre)
 !define FSxforLustre(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, FSxforLustreColor, FSxforLustre, FSxforLustre)
 !define FSxforLustre(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, FSxforLustreColor, FSxforLustre, FSxforLustre)
+!define FSxforLustreBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, FSxforLustreColor, FSxforLustre, FSxforLustre)
+!define FSxforLustreBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, FSxforLustreColor, FSxforLustre, FSxforLustre)
+!define FSxforLustreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, FSxforLustreColor, FSxforLustre, FSxforLustre)
 !define FSxforLustreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, FSxforLustreColor, FSxforLustre, FSxforLustre)
 !define FSxforLustreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, FSxforLustreColor, FSxforLustre, FSxforLustre)

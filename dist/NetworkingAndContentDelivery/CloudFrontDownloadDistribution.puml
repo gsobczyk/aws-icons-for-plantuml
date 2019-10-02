@@ -9,9 +9,14 @@ fnoIKohaN_3vb7G6z05F0jZnGrk-uXybtu_9kos_wE_4Hmfda1-C0v0T_wgb5zNdgLK9p_nVu_LR_SD_
 mXygu_xmUd-HWHVUNs1_OlzvV-BzZVSdtjzuVsJZ_N5-VvtVd-Vtz_dtm_pxPVxznEythVN5-stk_JZ_Vfr_Fy_RFm
 }
 
-AWSEntityColoring(CloudFrontDownloadDistribution)
 !define CloudFrontDownloadDistributionColor #693CC5
+AWSEntityColoring2(CloudFrontDownloadDistribution, CloudFrontDownloadDistributionColor)
+AWSEntityBoundary(CloudFrontDownloadDistribution, CloudFrontDownloadDistributionColor)
+!define CloudFrontDownloadDistribution(e_alias, e_label) AWSEntity(e_alias, e_label, CloudFrontDownloadDistributionColor, CloudFrontDownloadDistribution, CloudFrontDownloadDistribution)
 !define CloudFrontDownloadDistribution(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudFrontDownloadDistributionColor, CloudFrontDownloadDistribution, CloudFrontDownloadDistribution)
 !define CloudFrontDownloadDistribution(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudFrontDownloadDistributionColor, CloudFrontDownloadDistribution, CloudFrontDownloadDistribution)
+!define CloudFrontDownloadDistributionBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudFrontDownloadDistributionColor, CloudFrontDownloadDistribution, CloudFrontDownloadDistribution)
+!define CloudFrontDownloadDistributionBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudFrontDownloadDistributionColor, CloudFrontDownloadDistribution, CloudFrontDownloadDistribution)
+!define CloudFrontDownloadDistributionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudFrontDownloadDistributionColor, CloudFrontDownloadDistribution, CloudFrontDownloadDistribution)
 !define CloudFrontDownloadDistributionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudFrontDownloadDistributionColor, CloudFrontDownloadDistribution, CloudFrontDownloadDistribution)
 !define CloudFrontDownloadDistributionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudFrontDownloadDistributionColor, CloudFrontDownloadDistribution, CloudFrontDownloadDistribution)

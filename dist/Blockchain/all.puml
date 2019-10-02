@@ -7,10 +7,15 @@ Hdkhlt6A8JQU8k8KGcAQbDlqOUBRE_e2vn0O0ALP4qtAOTRodZvRaU2brihHYRZ8aueF8ZPtzAMKlP-q
 U-qpjqxeGN-5lOUnvX9kxrs8_GHliM6iwySQCtG5YP_17G
 }
 
-AWSEntityColoring(Blockchain)
 !define BlockchainColor #D86613
+AWSEntityColoring2(Blockchain, BlockchainColor)
+AWSEntityBoundary(Blockchain, BlockchainColor)
+!define Blockchain(e_alias, e_label) AWSEntity(e_alias, e_label, BlockchainColor, Blockchain, Blockchain)
 !define Blockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BlockchainColor, Blockchain, Blockchain)
 !define Blockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BlockchainColor, Blockchain, Blockchain)
+!define BlockchainBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, BlockchainColor, Blockchain, Blockchain)
+!define BlockchainBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, BlockchainColor, Blockchain, Blockchain)
+!define BlockchainParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, BlockchainColor, Blockchain, Blockchain)
 !define BlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BlockchainColor, Blockchain, Blockchain)
 !define BlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BlockchainColor, Blockchain, Blockchain)
 
@@ -21,10 +26,15 @@ xn_2lVEYoAnTHv-sDxVVkQ2v_Di-86xgZttOvh4F3vDGjFYoBymBqe3EMCmq62Y6ATB922020UsBNhGG
 wyO5cfjeSlVnS-Vn-yZo09NyoBldGGFsoPhHL_sXSJiq3_D2-lw2ndc2Lqn_gOL8yfIOeA4U6M6he7cUvPE0KWg1kjv__vfBFVzGbylbyWi
 }
 
-AWSEntityColoring(ManagedBlockchain)
 !define ManagedBlockchainColor #D86613
+AWSEntityColoring2(ManagedBlockchain, ManagedBlockchainColor)
+AWSEntityBoundary(ManagedBlockchain, ManagedBlockchainColor)
+!define ManagedBlockchain(e_alias, e_label) AWSEntity(e_alias, e_label, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 
@@ -36,10 +46,15 @@ a7WYlv06rnV4_Tn6IyrvlMld5z8J0_lW-RiXa7MZYh0cEJyno9yuzDU_RDoD4vJMM1s8ye7nmh5_qkQt
 t_UFdzy_Vd___E7xvo_VFt_w_ldRdJjtFW
 }
 
-AWSEntityColoring(QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDBColor #D86613
+AWSEntityColoring2(QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDBColor)
+AWSEntityBoundary(QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDBColor)
+!define QuantumLedgerDatabaseQLDB(e_alias, e_label) AWSEntity(e_alias, e_label, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 

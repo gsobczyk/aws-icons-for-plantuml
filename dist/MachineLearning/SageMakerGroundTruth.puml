@@ -9,9 +9,14 @@ XdjmMWE-N5qWRvyRRYm-azMqUzEy_TCTFKSgSRzxM0bXwVzSVQJQGUtAw-ZAjyzzYMuKobVyuWWzaA_v
 MTyzhjVtVxmJV5BBi6HA3gDKoCi-syULf9bwFLHPKx4ptNixMKRAbdp5NtVUr-ccQZ-ml_xw1m
 }
 
-AWSEntityColoring(SageMakerGroundTruth)
 !define SageMakerGroundTruthColor #1C7B68
+AWSEntityColoring2(SageMakerGroundTruth, SageMakerGroundTruthColor)
+AWSEntityBoundary(SageMakerGroundTruth, SageMakerGroundTruthColor)
+!define SageMakerGroundTruth(e_alias, e_label) AWSEntity(e_alias, e_label, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
 !define SageMakerGroundTruth(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
 !define SageMakerGroundTruth(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
 !define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
 !define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)

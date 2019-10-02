@@ -8,9 +8,14 @@ fS0Qh_Ubm1glzwN06g_t7L2FyNgVAk0aNkqV2qGWqaC-DNIYlCRh_Ie-_RS-QXcF-mbNwgC--Jf6Ywps
 Va_S7v-zlpv_Vtxs_lu3
 }
 
-AWSEntityColoring(GlueDatacatalog)
 !define GlueDatacatalogColor #693CC5
+AWSEntityColoring2(GlueDatacatalog, GlueDatacatalogColor)
+AWSEntityBoundary(GlueDatacatalog, GlueDatacatalogColor)
+!define GlueDatacatalog(e_alias, e_label) AWSEntity(e_alias, e_label, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
 !define GlueDatacatalog(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
 !define GlueDatacatalog(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
+!define GlueDatacatalogBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
+!define GlueDatacatalogBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
+!define GlueDatacatalogParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
 !define GlueDatacatalogParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
 !define GlueDatacatalogParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)

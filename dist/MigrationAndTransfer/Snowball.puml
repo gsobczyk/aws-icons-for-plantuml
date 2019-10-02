@@ -6,9 +6,14 @@ HmaI3_Q5EytsP0yhAWfb6BwUZSM5lHun6sGggxszQVY2RcQFzfdD1UUtzsWtCDwl6kzpKEN1lXbIcJRQ
 NQz_ltNzxtU2C7Mm85Bf_Rzqr__N1_-V7_r_Vt3yy3zCqxG5
 }
 
-AWSEntityColoring(Snowball)
 !define SnowballColor #1C7B68
+AWSEntityColoring2(Snowball, SnowballColor)
+AWSEntityBoundary(Snowball, SnowballColor)
+!define Snowball(e_alias, e_label) AWSEntity(e_alias, e_label, SnowballColor, Snowball, Snowball)
 !define Snowball(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SnowballColor, Snowball, Snowball)
 !define Snowball(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SnowballColor, Snowball, Snowball)
+!define SnowballBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SnowballColor, Snowball, Snowball)
+!define SnowballBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SnowballColor, Snowball, Snowball)
+!define SnowballParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SnowballColor, Snowball, Snowball)
 !define SnowballParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SnowballColor, Snowball, Snowball)
 !define SnowballParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SnowballColor, Snowball, Snowball)

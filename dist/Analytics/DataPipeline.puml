@@ -7,9 +7,14 @@ m2z_Z4hSxYF9Y3_f5Qbt8GG7qudOKH7wWKIHX1wfxr9A7RGLqQDof-MFFBw7LWLQw9KJVQH8_5_V15w_
 _bt0ZigTZdzFqYDa4Jygctq1hBLGbHApida5Oj80T5g6dQcmbRBSvroYa78jAE_CZnzx
 }
 
-AWSEntityColoring(DataPipeline)
 !define DataPipelineColor #693CC5
+AWSEntityColoring2(DataPipeline, DataPipelineColor)
+AWSEntityBoundary(DataPipeline, DataPipelineColor)
+!define DataPipeline(e_alias, e_label) AWSEntity(e_alias, e_label, DataPipelineColor, DataPipeline, DataPipeline)
 !define DataPipeline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DataPipelineColor, DataPipeline, DataPipeline)
 !define DataPipeline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DataPipelineColor, DataPipeline, DataPipeline)
+!define DataPipelineBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DataPipelineColor, DataPipeline, DataPipeline)
+!define DataPipelineBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DataPipelineColor, DataPipeline, DataPipeline)
+!define DataPipelineParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DataPipelineColor, DataPipeline, DataPipeline)
 !define DataPipelineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DataPipelineColor, DataPipeline, DataPipeline)
 !define DataPipelineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DataPipelineColor, DataPipeline, DataPipeline)

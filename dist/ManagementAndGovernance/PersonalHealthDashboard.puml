@@ -8,9 +8,14 @@ j6664AGW3laQN6vT37hhqausrCDL7lAFuDPsiZwZe8Z3IRo8JT-68vJr3RRO9CL1ub5z2MNCNj7aEHAo
 nS9EevIdeUTGOxEavs67Qbp9Sz1KfMmLdKs2Ly41ILub8EfPGLv66mLXOtcT1hJBfzwbYPr6gkDr8lR5duBNqaXRuXkmW-R1ErIWoYSGoU_bdt--
 }
 
-AWSEntityColoring(PersonalHealthDashboard)
 !define PersonalHealthDashboardColor #CC2264
+AWSEntityColoring2(PersonalHealthDashboard, PersonalHealthDashboardColor)
+AWSEntityBoundary(PersonalHealthDashboard, PersonalHealthDashboardColor)
+!define PersonalHealthDashboard(e_alias, e_label) AWSEntity(e_alias, e_label, PersonalHealthDashboardColor, PersonalHealthDashboard, PersonalHealthDashboard)
 !define PersonalHealthDashboard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PersonalHealthDashboardColor, PersonalHealthDashboard, PersonalHealthDashboard)
 !define PersonalHealthDashboard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PersonalHealthDashboardColor, PersonalHealthDashboard, PersonalHealthDashboard)
+!define PersonalHealthDashboardBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, PersonalHealthDashboardColor, PersonalHealthDashboard, PersonalHealthDashboard)
+!define PersonalHealthDashboardBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, PersonalHealthDashboardColor, PersonalHealthDashboard, PersonalHealthDashboard)
+!define PersonalHealthDashboardParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, PersonalHealthDashboardColor, PersonalHealthDashboard, PersonalHealthDashboard)
 !define PersonalHealthDashboardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PersonalHealthDashboardColor, PersonalHealthDashboard, PersonalHealthDashboard)
 !define PersonalHealthDashboardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PersonalHealthDashboardColor, PersonalHealthDashboard, PersonalHealthDashboard)

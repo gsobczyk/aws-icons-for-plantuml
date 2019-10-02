@@ -8,9 +8,14 @@ cXy50TZOA23kv-_xKIFDZEh15gOsHT_OGS33kd1Gt_H3ioYxLsGD8wi9uomcgtvdyD7YupxHMgPy8u3b
 Vi9CuGuZhhGp9AKKUsYSMc6OuVmaxIv6zM6nU9_ggzDflj9d0oxjjJu0lhQN-YPM_xrVwHF1IdkjrtlxMczo-mUya_QZV7ny_0O
 }
 
-AWSEntityColoring(Connect)
 !define ConnectColor #3B48CC
+AWSEntityColoring2(Connect, ConnectColor)
+AWSEntityBoundary(Connect, ConnectColor)
+!define Connect(e_alias, e_label) AWSEntity(e_alias, e_label, ConnectColor, Connect, Connect)
 !define Connect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ConnectColor, Connect, Connect)
 !define Connect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ConnectColor, Connect, Connect)
+!define ConnectBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ConnectColor, Connect, Connect)
+!define ConnectBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ConnectColor, Connect, Connect)
+!define ConnectParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ConnectColor, Connect, Connect)
 !define ConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ConnectColor, Connect, Connect)
 !define ConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ConnectColor, Connect, Connect)

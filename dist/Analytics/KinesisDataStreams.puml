@@ -11,9 +11,14 @@ VT-y_cOO_qV7u9Fz4trJQodCq9lryN3MFzw_lGE51U62U5uFcJDSWV2Xl3YlppB2S7Q459COa1A2ptGX
 _Ex-p1t_f_pooty
 }
 
-AWSEntityColoring(KinesisDataStreams)
 !define KinesisDataStreamsColor #693CC5
+AWSEntityColoring2(KinesisDataStreams, KinesisDataStreamsColor)
+AWSEntityBoundary(KinesisDataStreams, KinesisDataStreamsColor)
+!define KinesisDataStreams(e_alias, e_label) AWSEntity(e_alias, e_label, KinesisDataStreamsColor, KinesisDataStreams, KinesisDataStreams)
 !define KinesisDataStreams(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, KinesisDataStreamsColor, KinesisDataStreams, KinesisDataStreams)
 !define KinesisDataStreams(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, KinesisDataStreamsColor, KinesisDataStreams, KinesisDataStreams)
+!define KinesisDataStreamsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, KinesisDataStreamsColor, KinesisDataStreams, KinesisDataStreams)
+!define KinesisDataStreamsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, KinesisDataStreamsColor, KinesisDataStreams, KinesisDataStreams)
+!define KinesisDataStreamsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, KinesisDataStreamsColor, KinesisDataStreams, KinesisDataStreams)
 !define KinesisDataStreamsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, KinesisDataStreamsColor, KinesisDataStreams, KinesisDataStreams)
 !define KinesisDataStreamsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, KinesisDataStreamsColor, KinesisDataStreams, KinesisDataStreams)

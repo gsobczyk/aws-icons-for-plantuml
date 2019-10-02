@@ -7,9 +7,14 @@ EljswUoJsOIlINZOiwGwlVqCUv-v_eSzfhog37jHZVhmz0UNNtZz1RUV-FORst_Y-s_u-14_ViMFd_7Z
 4mklAfrzqd_BqonqYaNIueGvT0T9NwCj
 }
 
-AWSEntityColoring(Compute)
 !define ComputeColor #D86613
+AWSEntityColoring2(Compute, ComputeColor)
+AWSEntityBoundary(Compute, ComputeColor)
+!define Compute(e_alias, e_label) AWSEntity(e_alias, e_label, ComputeColor, Compute, Compute)
 !define Compute(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ComputeColor, Compute, Compute)
 !define Compute(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ComputeColor, Compute, Compute)
+!define ComputeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ComputeColor, Compute, Compute)
+!define ComputeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ComputeColor, Compute, Compute)
+!define ComputeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ComputeColor, Compute, Compute)
 !define ComputeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ComputeColor, Compute, Compute)
 !define ComputeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ComputeColor, Compute, Compute)

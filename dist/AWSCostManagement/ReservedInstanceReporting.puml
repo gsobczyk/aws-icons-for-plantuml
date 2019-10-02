@@ -8,9 +8,14 @@ JpQNFw9n_emE3dneP6ESlsEByBWFSBuOxryUzm72sHi6EUF1_ZcnVq_K3z8O5_3x-YKQry-iQw5tzLF2
 GuU-0G
 }
 
-AWSEntityColoring(ReservedInstanceReporting)
 !define ReservedInstanceReportingColor #3F8624
+AWSEntityColoring2(ReservedInstanceReporting, ReservedInstanceReportingColor)
+AWSEntityBoundary(ReservedInstanceReporting, ReservedInstanceReportingColor)
+!define ReservedInstanceReporting(e_alias, e_label) AWSEntity(e_alias, e_label, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReporting(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReporting(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReportingBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReportingBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReportingParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReportingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReportingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)

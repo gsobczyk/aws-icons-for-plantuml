@@ -8,9 +8,14 @@ lg5bFraDGFjOmS6xdgXZsMEm-6PjJWDyBGqR7bCf3hkEbaawjZoi2adCfUGenDcEd7zo46RHrEpe-StC
 4U7lkeEaFoFl0G
 }
 
-AWSEntityColoring(SecIdentityAndCompliance)
 !define SecIdentityAndComplianceColor #D6242D
+AWSEntityColoring2(SecIdentityAndCompliance, SecIdentityAndComplianceColor)
+AWSEntityBoundary(SecIdentityAndCompliance, SecIdentityAndComplianceColor)
+!define SecIdentityAndCompliance(e_alias, e_label) AWSEntity(e_alias, e_label, SecIdentityAndComplianceColor, SecIdentityAndCompliance, SecIdentityAndCompliance)
 !define SecIdentityAndCompliance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SecIdentityAndComplianceColor, SecIdentityAndCompliance, SecIdentityAndCompliance)
 !define SecIdentityAndCompliance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SecIdentityAndComplianceColor, SecIdentityAndCompliance, SecIdentityAndCompliance)
+!define SecIdentityAndComplianceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SecIdentityAndComplianceColor, SecIdentityAndCompliance, SecIdentityAndCompliance)
+!define SecIdentityAndComplianceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SecIdentityAndComplianceColor, SecIdentityAndCompliance, SecIdentityAndCompliance)
+!define SecIdentityAndComplianceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SecIdentityAndComplianceColor, SecIdentityAndCompliance, SecIdentityAndCompliance)
 !define SecIdentityAndComplianceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SecIdentityAndComplianceColor, SecIdentityAndCompliance, SecIdentityAndCompliance)
 !define SecIdentityAndComplianceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SecIdentityAndComplianceColor, SecIdentityAndCompliance, SecIdentityAndCompliance)

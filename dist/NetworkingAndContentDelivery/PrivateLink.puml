@@ -8,9 +8,14 @@ Vx_H1Un7UeEEEEF79PVv1a2hA6pfdM7Z9BJ-f2faINJZtVGxRuv1HbXth3VK7-4FmLgNpG3Iwwp6y2Ir
 um3TZl3bdvXC9fCh
 }
 
-AWSEntityColoring(PrivateLink)
 !define PrivateLinkColor #693CC5
+AWSEntityColoring2(PrivateLink, PrivateLinkColor)
+AWSEntityBoundary(PrivateLink, PrivateLinkColor)
+!define PrivateLink(e_alias, e_label) AWSEntity(e_alias, e_label, PrivateLinkColor, PrivateLink, PrivateLink)
 !define PrivateLink(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PrivateLinkColor, PrivateLink, PrivateLink)
 !define PrivateLink(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PrivateLinkColor, PrivateLink, PrivateLink)
+!define PrivateLinkBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, PrivateLinkColor, PrivateLink, PrivateLink)
+!define PrivateLinkBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, PrivateLinkColor, PrivateLink, PrivateLink)
+!define PrivateLinkParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, PrivateLinkColor, PrivateLink, PrivateLink)
 !define PrivateLinkParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PrivateLinkColor, PrivateLink, PrivateLink)
 !define PrivateLinkParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PrivateLinkColor, PrivateLink, PrivateLink)

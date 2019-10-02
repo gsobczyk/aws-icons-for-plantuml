@@ -7,9 +7,14 @@ VGAc2KWsFxrzo14ca_TG3jkXj_W0wN0RmNZ-_h3lUUlzQzUfzVvT1EOPY3RlqYjcJkRlJmeKsV7z1mZk
 Pm
 }
 
-AWSEntityColoring(OpsWorksPermissions)
 !define OpsWorksPermissionsColor #CC2264
+AWSEntityColoring2(OpsWorksPermissions, OpsWorksPermissionsColor)
+AWSEntityBoundary(OpsWorksPermissions, OpsWorksPermissionsColor)
+!define OpsWorksPermissions(e_alias, e_label) AWSEntity(e_alias, e_label, OpsWorksPermissionsColor, OpsWorksPermissions, OpsWorksPermissions)
 !define OpsWorksPermissions(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OpsWorksPermissionsColor, OpsWorksPermissions, OpsWorksPermissions)
 !define OpsWorksPermissions(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OpsWorksPermissionsColor, OpsWorksPermissions, OpsWorksPermissions)
+!define OpsWorksPermissionsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, OpsWorksPermissionsColor, OpsWorksPermissions, OpsWorksPermissions)
+!define OpsWorksPermissionsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, OpsWorksPermissionsColor, OpsWorksPermissions, OpsWorksPermissions)
+!define OpsWorksPermissionsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, OpsWorksPermissionsColor, OpsWorksPermissions, OpsWorksPermissions)
 !define OpsWorksPermissionsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OpsWorksPermissionsColor, OpsWorksPermissions, OpsWorksPermissions)
 !define OpsWorksPermissionsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OpsWorksPermissionsColor, OpsWorksPermissions, OpsWorksPermissions)

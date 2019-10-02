@@ -14,9 +14,14 @@ WRoqXzAn8PcTep5T6bk_PkdLRSxGcjTInpSajcCKhEwMF1q8M-T8pEphsKN6qi_Fxw-tvb7z-vqHW2cA
 eMDbNd2_ZQzwlfVP_G4KoYpEPbdy9qG0bgz_HbQRk_uKZe7SV-87
 }
 
-AWSEntityColoring(RoboMakerFleetManagement)
 !define RoboMakerFleetManagementColor #D6242D
+AWSEntityColoring2(RoboMakerFleetManagement, RoboMakerFleetManagementColor)
+AWSEntityBoundary(RoboMakerFleetManagement, RoboMakerFleetManagementColor)
+!define RoboMakerFleetManagement(e_alias, e_label) AWSEntity(e_alias, e_label, RoboMakerFleetManagementColor, RoboMakerFleetManagement, RoboMakerFleetManagement)
 !define RoboMakerFleetManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RoboMakerFleetManagementColor, RoboMakerFleetManagement, RoboMakerFleetManagement)
 !define RoboMakerFleetManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RoboMakerFleetManagementColor, RoboMakerFleetManagement, RoboMakerFleetManagement)
+!define RoboMakerFleetManagementBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RoboMakerFleetManagementColor, RoboMakerFleetManagement, RoboMakerFleetManagement)
+!define RoboMakerFleetManagementBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RoboMakerFleetManagementColor, RoboMakerFleetManagement, RoboMakerFleetManagement)
+!define RoboMakerFleetManagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RoboMakerFleetManagementColor, RoboMakerFleetManagement, RoboMakerFleetManagement)
 !define RoboMakerFleetManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RoboMakerFleetManagementColor, RoboMakerFleetManagement, RoboMakerFleetManagement)
 !define RoboMakerFleetManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RoboMakerFleetManagementColor, RoboMakerFleetManagement, RoboMakerFleetManagement)

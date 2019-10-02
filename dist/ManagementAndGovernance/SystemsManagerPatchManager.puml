@@ -7,9 +7,14 @@ vUMi2yUy30W7lGpS-8DdPTqF6H3Vv_a0bd_7_0UWssY-0Q2tFm3n49U1ihmF7k1ICd-R05y1tXkEUOh3
 ca_M3Fd2gjaXduQkQYltGpoUSyvuCEF3qFL7lV_ph1jxFoyVPoCYV-ZgtlUpBZ-lgmwtV68PQ8LmVnjep1dsvls2-MhUJq2kjMZURnzuF-BlLxo4SRnl
 }
 
-AWSEntityColoring(SystemsManagerPatchManager)
 !define SystemsManagerPatchManagerColor #CC2264
+AWSEntityColoring2(SystemsManagerPatchManager, SystemsManagerPatchManagerColor)
+AWSEntityBoundary(SystemsManagerPatchManager, SystemsManagerPatchManagerColor)
+!define SystemsManagerPatchManager(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerPatchManagerColor, SystemsManagerPatchManager, SystemsManagerPatchManager)
 !define SystemsManagerPatchManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerPatchManagerColor, SystemsManagerPatchManager, SystemsManagerPatchManager)
 !define SystemsManagerPatchManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerPatchManagerColor, SystemsManagerPatchManager, SystemsManagerPatchManager)
+!define SystemsManagerPatchManagerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerPatchManagerColor, SystemsManagerPatchManager, SystemsManagerPatchManager)
+!define SystemsManagerPatchManagerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerPatchManagerColor, SystemsManagerPatchManager, SystemsManagerPatchManager)
+!define SystemsManagerPatchManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerPatchManagerColor, SystemsManagerPatchManager, SystemsManagerPatchManager)
 !define SystemsManagerPatchManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerPatchManagerColor, SystemsManagerPatchManager, SystemsManagerPatchManager)
 !define SystemsManagerPatchManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerPatchManagerColor, SystemsManagerPatchManager, SystemsManagerPatchManager)

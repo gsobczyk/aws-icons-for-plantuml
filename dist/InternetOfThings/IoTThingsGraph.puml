@@ -11,9 +11,14 @@ wvY1x7hH6YrHrQ3q5aZQsBKBeEfrhbEc6qTngL2y6c7ejI9Byj7wqkvRYMPMNQyro9frkUJDe1Josdgz
 7bad4FL-ErXe-Y_uTlsrVVZm7m
 }
 
-AWSEntityColoring(IoTThingsGraph)
 !define IoTThingsGraphColor #3F8624
+AWSEntityColoring2(IoTThingsGraph, IoTThingsGraphColor)
+AWSEntityBoundary(IoTThingsGraph, IoTThingsGraphColor)
+!define IoTThingsGraph(e_alias, e_label) AWSEntity(e_alias, e_label, IoTThingsGraphColor, IoTThingsGraph, IoTThingsGraph)
 !define IoTThingsGraph(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTThingsGraphColor, IoTThingsGraph, IoTThingsGraph)
 !define IoTThingsGraph(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTThingsGraphColor, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraphBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTThingsGraphColor, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraphBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTThingsGraphColor, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraphParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTThingsGraphColor, IoTThingsGraph, IoTThingsGraph)
 !define IoTThingsGraphParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTThingsGraphColor, IoTThingsGraph, IoTThingsGraph)
 !define IoTThingsGraphParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTThingsGraphColor, IoTThingsGraph, IoTThingsGraph)

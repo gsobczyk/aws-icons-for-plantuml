@@ -10,9 +10,14 @@ ddBmP917UbxI0Hsyr-2zWGATJuG9JRbng85FA6tOaC5UcVQkgDFBCnBZCzT8YsJm3OSJClWsd0qO5tqF
 F7PDjykHlkSt6OHsHYS5Xsf96Y8GWwPISQZ86M8Bpa3QWK-73bAVz67GvCFBsuMujYlSrXYu_5uQSwb0BJdgBtn_u_V7Vrh_0G
 }
 
-AWSEntityColoring(EC2Spotinstance)
 !define EC2SpotinstanceColor #D86613
+AWSEntityColoring2(EC2Spotinstance, EC2SpotinstanceColor)
+AWSEntityBoundary(EC2Spotinstance, EC2SpotinstanceColor)
+!define EC2Spotinstance(e_alias, e_label) AWSEntity(e_alias, e_label, EC2SpotinstanceColor, EC2Spotinstance, EC2Spotinstance)
 !define EC2Spotinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EC2SpotinstanceColor, EC2Spotinstance, EC2Spotinstance)
 !define EC2Spotinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EC2SpotinstanceColor, EC2Spotinstance, EC2Spotinstance)
+!define EC2SpotinstanceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EC2SpotinstanceColor, EC2Spotinstance, EC2Spotinstance)
+!define EC2SpotinstanceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EC2SpotinstanceColor, EC2Spotinstance, EC2Spotinstance)
+!define EC2SpotinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EC2SpotinstanceColor, EC2Spotinstance, EC2Spotinstance)
 !define EC2SpotinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EC2SpotinstanceColor, EC2Spotinstance, EC2Spotinstance)
 !define EC2SpotinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EC2SpotinstanceColor, EC2Spotinstance, EC2Spotinstance)

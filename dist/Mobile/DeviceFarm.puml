@@ -10,9 +10,14 @@ F6kVAYlwqRzRdZtwT3BElUmo7nftV0S0fp_o5W2WxFY0gWc5h_nAfdOHq_lzk_YpVyEsVmFAY2WaNtcI
 7LRgl_lNlN_-S__-rbiV0G
 }
 
-AWSEntityColoring(DeviceFarm)
 !define DeviceFarmColor #D6242D
+AWSEntityColoring2(DeviceFarm, DeviceFarmColor)
+AWSEntityBoundary(DeviceFarm, DeviceFarmColor)
+!define DeviceFarm(e_alias, e_label) AWSEntity(e_alias, e_label, DeviceFarmColor, DeviceFarm, DeviceFarm)
 !define DeviceFarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeviceFarmColor, DeviceFarm, DeviceFarm)
 !define DeviceFarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeviceFarmColor, DeviceFarm, DeviceFarm)
+!define DeviceFarmBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DeviceFarmColor, DeviceFarm, DeviceFarm)
+!define DeviceFarmBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DeviceFarmColor, DeviceFarm, DeviceFarm)
+!define DeviceFarmParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DeviceFarmColor, DeviceFarm, DeviceFarm)
 !define DeviceFarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeviceFarmColor, DeviceFarm, DeviceFarm)
 !define DeviceFarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeviceFarmColor, DeviceFarm, DeviceFarm)

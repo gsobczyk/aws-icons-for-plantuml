@@ -7,9 +7,14 @@ Owg4NV-YvE_ZwwSu5-gubD_WFx9_Uh_86-AQpuX77TTjh3ubVfaRnM_w1axCbl_VVwcqy1Utx3k0jBr-
 _lSYsFU_c_dE6DJwP-Rd46YoVgb-fVesDQAvnlVFVeVgLtouX_Rz1jxe7y9c3YY-UfRJV1qS-v5rdSC7dALtk0C
 }
 
-AWSEntityColoring(ECSService)
 !define ECSServiceColor #D86613
+AWSEntityColoring2(ECSService, ECSServiceColor)
+AWSEntityBoundary(ECSService, ECSServiceColor)
+!define ECSService(e_alias, e_label) AWSEntity(e_alias, e_label, ECSServiceColor, ECSService, ECSService)
 !define ECSService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ECSServiceColor, ECSService, ECSService)
 !define ECSService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ECSServiceColor, ECSService, ECSService)
+!define ECSServiceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ECSServiceColor, ECSService, ECSService)
+!define ECSServiceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ECSServiceColor, ECSService, ECSService)
+!define ECSServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ECSServiceColor, ECSService, ECSService)
 !define ECSServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ECSServiceColor, ECSService, ECSService)
 !define ECSServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ECSServiceColor, ECSService, ECSService)

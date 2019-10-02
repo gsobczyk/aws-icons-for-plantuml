@@ -9,9 +9,14 @@ ux-XphBEy-_RH3rs294tgtFdyUDL0UMx_c7-bIgGVHVTYF7g_gVRaO3v_i5KL_q5yDAlx5y5YDkXsN8N
 nDLraxtl9klypBYApTAozY9Nzo_V39SOpaFd9uixvqn-yVcvzVMrzwzlxB--VXO-zbz3Uu4VxG1W9FOuZOYIuS3pzr_oTKiWhe-JwNFvuny
 }
 
-AWSEntityColoring(RoboMakerSimulation)
 !define RoboMakerSimulationColor #D6242D
+AWSEntityColoring2(RoboMakerSimulation, RoboMakerSimulationColor)
+AWSEntityBoundary(RoboMakerSimulation, RoboMakerSimulationColor)
+!define RoboMakerSimulation(e_alias, e_label) AWSEntity(e_alias, e_label, RoboMakerSimulationColor, RoboMakerSimulation, RoboMakerSimulation)
 !define RoboMakerSimulation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RoboMakerSimulationColor, RoboMakerSimulation, RoboMakerSimulation)
 !define RoboMakerSimulation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RoboMakerSimulationColor, RoboMakerSimulation, RoboMakerSimulation)
+!define RoboMakerSimulationBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RoboMakerSimulationColor, RoboMakerSimulation, RoboMakerSimulation)
+!define RoboMakerSimulationBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RoboMakerSimulationColor, RoboMakerSimulation, RoboMakerSimulation)
+!define RoboMakerSimulationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RoboMakerSimulationColor, RoboMakerSimulation, RoboMakerSimulation)
 !define RoboMakerSimulationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RoboMakerSimulationColor, RoboMakerSimulation, RoboMakerSimulation)
 !define RoboMakerSimulationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RoboMakerSimulationColor, RoboMakerSimulation, RoboMakerSimulation)

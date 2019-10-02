@@ -8,9 +8,14 @@ DY2K4f3Hg7UklnxPnNxd-fkWakeOBOd2lEgzX-raBK4bTB_itTOgY53MCh_ZGx2YMlRlDJ_cxnwUXFPR
 glcDJ85QWTjUkdkNczwZJjzDZNuhivVVVsH_-jDV
 }
 
-AWSEntityColoring(LicenseManager)
 !define LicenseManagerColor #CC2264
+AWSEntityColoring2(LicenseManager, LicenseManagerColor)
+AWSEntityBoundary(LicenseManager, LicenseManagerColor)
+!define LicenseManager(e_alias, e_label) AWSEntity(e_alias, e_label, LicenseManagerColor, LicenseManager, LicenseManager)
 !define LicenseManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, LicenseManagerColor, LicenseManager, LicenseManager)
 !define LicenseManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, LicenseManagerColor, LicenseManager, LicenseManager)
+!define LicenseManagerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, LicenseManagerColor, LicenseManager, LicenseManager)
+!define LicenseManagerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, LicenseManagerColor, LicenseManager, LicenseManager)
+!define LicenseManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, LicenseManagerColor, LicenseManager, LicenseManager)
 !define LicenseManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, LicenseManagerColor, LicenseManager, LicenseManager)
 !define LicenseManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, LicenseManagerColor, LicenseManager, LicenseManager)

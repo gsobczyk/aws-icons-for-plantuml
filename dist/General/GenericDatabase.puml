@@ -6,9 +6,14 @@ oilTqo8d6Cq64ULQwHt8VZ8xI7AnaqRY1hEB87MQF-Y8JrsVzzNFYYz0s4mEowBu_7Z_TFdn_d7VRrvY
 L5-meU2YW2LOOtJ_z_lxz7w-lnl-2-kS5vnxYLk-nZd-zAS__UbFV_hJdpxkzR7dmv7dNnXzVX-S7mRdb-7vQNn-6vyVn-VNyVbvd0i
 }
 
-AWSEntityColoring(GenericDatabase)
 !define GenericDatabaseColor #232F3E
+AWSEntityColoring2(GenericDatabase, GenericDatabaseColor)
+AWSEntityBoundary(GenericDatabase, GenericDatabaseColor)
+!define GenericDatabase(e_alias, e_label) AWSEntity(e_alias, e_label, GenericDatabaseColor, GenericDatabase, GenericDatabase)
 !define GenericDatabase(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GenericDatabaseColor, GenericDatabase, GenericDatabase)
 !define GenericDatabase(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GenericDatabaseColor, GenericDatabase, GenericDatabase)
+!define GenericDatabaseBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, GenericDatabaseColor, GenericDatabase, GenericDatabase)
+!define GenericDatabaseBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, GenericDatabaseColor, GenericDatabase, GenericDatabase)
+!define GenericDatabaseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, GenericDatabaseColor, GenericDatabase, GenericDatabase)
 !define GenericDatabaseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GenericDatabaseColor, GenericDatabase, GenericDatabase)
 !define GenericDatabaseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GenericDatabaseColor, GenericDatabase, GenericDatabase)

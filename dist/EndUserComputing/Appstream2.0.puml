@@ -6,9 +6,14 @@ clUC05pwzRxOzzlk5kjRH9JOx2Rzl3vghjQDvuRIrv-2ymIQypRWFO6jRoayWRLlSKld2U3vCGbF04y0
 06y2U0BJoq2VVXN0Yq0jjyqvqcjw6U3_Yq2PtWRm1F0YW2VW_MXzh9Srnu_OU-zz
 }
 
-AWSEntityColoring(Appstream2.0)
 !define Appstream2.0Color #1C7B68
+AWSEntityColoring2(Appstream2.0, Appstream2.0Color)
+AWSEntityBoundary(Appstream2.0, Appstream2.0Color)
+!define Appstream2.0(e_alias, e_label) AWSEntity(e_alias, e_label, Appstream2.0Color, Appstream2.0, Appstream2.0)
 !define Appstream2.0(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, Appstream2.0Color, Appstream2.0, Appstream2.0)
 !define Appstream2.0(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, Appstream2.0Color, Appstream2.0, Appstream2.0)
+!define Appstream2.0Boundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, Appstream2.0Color, Appstream2.0, Appstream2.0)
+!define Appstream2.0Boundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, Appstream2.0Color, Appstream2.0, Appstream2.0)
+!define Appstream2.0Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, Appstream2.0Color, Appstream2.0, Appstream2.0)
 !define Appstream2.0Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, Appstream2.0Color, Appstream2.0, Appstream2.0)
 !define Appstream2.0Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, Appstream2.0Color, Appstream2.0, Appstream2.0)

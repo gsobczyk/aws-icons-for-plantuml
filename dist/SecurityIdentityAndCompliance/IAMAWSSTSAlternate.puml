@@ -8,9 +8,14 @@ v-ZTPETirOuKE_vr-UZWsIH6VFxpfTTLdnpJIoy7VOjwoGEESk7rWBEcc9TK3-Yp5yaTJWrlFzj9dVnp
 qm7GLPwpCybJkmDdbe2VzfKvrVG7x__hzq_VU__stVUFtt__-lttpz_V8m
 }
 
-AWSEntityColoring(IAMAWSSTSAlternate)
 !define IAMAWSSTSAlternateColor #D6242D
+AWSEntityColoring2(IAMAWSSTSAlternate, IAMAWSSTSAlternateColor)
+AWSEntityBoundary(IAMAWSSTSAlternate, IAMAWSSTSAlternateColor)
+!define IAMAWSSTSAlternate(e_alias, e_label) AWSEntity(e_alias, e_label, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
 !define IAMAWSSTSAlternate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
 !define IAMAWSSTSAlternate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
 !define IAMAWSSTSAlternateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
 !define IAMAWSSTSAlternateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)

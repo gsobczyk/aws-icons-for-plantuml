@@ -9,9 +9,14 @@ LHYjUhfJvYp9j_vahFges7CnuD1eUVp4l2jEsZ7wFl8wtlsLkN0e1ZKCHkPLE5lpXrTdzjMfldWNpX91
 _yFNBzwmEymhSfRbUWrRBtxl1jDVlyMTqPnyJ3581UoKm7mOltIVWjhgHziWYq4lkJImVnfNzh_swzSV
 }
 
-AWSEntityColoring(ResourceAccessManager)
 !define ResourceAccessManagerColor #D6242D
+AWSEntityColoring2(ResourceAccessManager, ResourceAccessManagerColor)
+AWSEntityBoundary(ResourceAccessManager, ResourceAccessManagerColor)
+!define ResourceAccessManager(e_alias, e_label) AWSEntity(e_alias, e_label, ResourceAccessManagerColor, ResourceAccessManager, ResourceAccessManager)
 !define ResourceAccessManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ResourceAccessManagerColor, ResourceAccessManager, ResourceAccessManager)
 !define ResourceAccessManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ResourceAccessManagerColor, ResourceAccessManager, ResourceAccessManager)
+!define ResourceAccessManagerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ResourceAccessManagerColor, ResourceAccessManager, ResourceAccessManager)
+!define ResourceAccessManagerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ResourceAccessManagerColor, ResourceAccessManager, ResourceAccessManager)
+!define ResourceAccessManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ResourceAccessManagerColor, ResourceAccessManager, ResourceAccessManager)
 !define ResourceAccessManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ResourceAccessManagerColor, ResourceAccessManager, ResourceAccessManager)
 !define ResourceAccessManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ResourceAccessManagerColor, ResourceAccessManager, ResourceAccessManager)

@@ -8,9 +8,14 @@ aCQJPJ91c88b0w6AUKB18GMUdhO8n1gYQuIm0fvuaLRk-ImXHNQ2TJmIX1JG6OAsL8nFDm9HBvSNKI_v
 y4uZrI4A9X-9Wbbml81yl75MG5s7zINjjdSa0hbVLZxJMIDGpE-n7l70s_xMQaa13-JfNyEqbtJP7zjSls1__SLyyyqF
 }
 
-AWSEntityColoring(SimpleStorageServiceS3)
 !define SimpleStorageServiceS3Color #3F8624
+AWSEntityColoring2(SimpleStorageServiceS3, SimpleStorageServiceS3Color)
+AWSEntityBoundary(SimpleStorageServiceS3, SimpleStorageServiceS3Color)
+!define SimpleStorageServiceS3(e_alias, e_label) AWSEntity(e_alias, e_label, SimpleStorageServiceS3Color, SimpleStorageServiceS3, SimpleStorageServiceS3)
 !define SimpleStorageServiceS3(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SimpleStorageServiceS3Color, SimpleStorageServiceS3, SimpleStorageServiceS3)
 !define SimpleStorageServiceS3(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SimpleStorageServiceS3Color, SimpleStorageServiceS3, SimpleStorageServiceS3)
+!define SimpleStorageServiceS3Boundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SimpleStorageServiceS3Color, SimpleStorageServiceS3, SimpleStorageServiceS3)
+!define SimpleStorageServiceS3Boundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SimpleStorageServiceS3Color, SimpleStorageServiceS3, SimpleStorageServiceS3)
+!define SimpleStorageServiceS3Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, SimpleStorageServiceS3Color, SimpleStorageServiceS3, SimpleStorageServiceS3)
 !define SimpleStorageServiceS3Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SimpleStorageServiceS3Color, SimpleStorageServiceS3, SimpleStorageServiceS3)
 !define SimpleStorageServiceS3Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SimpleStorageServiceS3Color, SimpleStorageServiceS3, SimpleStorageServiceS3)

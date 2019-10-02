@@ -7,9 +7,14 @@ pKyhssq3ADujfLLIywGmeV4uIbFSJLEv4BNg4_1ThdC70nig8nPlkf-KwfS3q3XFXNCWCs6g_biYWAdv
 rlF3U7xPpq_h-Ms87tlyjlhj-PCvVxFcZ-RyrPu_szdP-GG
 }
 
-AWSEntityColoring(IoTButton)
 !define IoTButtonColor #3F8624
+AWSEntityColoring2(IoTButton, IoTButtonColor)
+AWSEntityBoundary(IoTButton, IoTButtonColor)
+!define IoTButton(e_alias, e_label) AWSEntity(e_alias, e_label, IoTButtonColor, IoTButton, IoTButton)
 !define IoTButton(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTButtonColor, IoTButton, IoTButton)
 !define IoTButton(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTButtonColor, IoTButton, IoTButton)
+!define IoTButtonBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTButtonColor, IoTButton, IoTButton)
+!define IoTButtonBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTButtonColor, IoTButton, IoTButton)
+!define IoTButtonParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTButtonColor, IoTButton, IoTButton)
 !define IoTButtonParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTButtonColor, IoTButton, IoTButton)
 !define IoTButtonParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTButtonColor, IoTButton, IoTButton)

@@ -7,9 +7,14 @@ VkYxnnsMo4_hlrDYZQ-q9Hxw0o2GnyALOAT-MPU2xiiYWFoABq3Ycb08_JpzAICj4v1GyAaV6SWQhXNi
 gxuQibkYx_7lclorz3CoeSPbtnX9_BeVOHPntR_ZT_WT-RlM3vv1_OtvEsyjWCfRytVntVKR5iGYRI72X4MPiOtrv-l7Rd68wztwLJt-I3xuu1C
 }
 
-AWSEntityColoring(Redshift)
 !define RedshiftColor #693CC5
+AWSEntityColoring2(Redshift, RedshiftColor)
+AWSEntityBoundary(Redshift, RedshiftColor)
+!define Redshift(e_alias, e_label) AWSEntity(e_alias, e_label, RedshiftColor, Redshift, Redshift)
 !define Redshift(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RedshiftColor, Redshift, Redshift)
 !define Redshift(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RedshiftColor, Redshift, Redshift)
+!define RedshiftBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RedshiftColor, Redshift, Redshift)
+!define RedshiftBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RedshiftColor, Redshift, Redshift)
+!define RedshiftParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RedshiftColor, Redshift, Redshift)
 !define RedshiftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RedshiftColor, Redshift, Redshift)
 !define RedshiftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RedshiftColor, Redshift, Redshift)

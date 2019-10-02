@@ -10,9 +10,14 @@ gRiEKIH3FlXs7LJxy1rnrza7zkYdXndKOlYM0JCkfdpmFVIaKEHd_0AW7NsBdIvd-647_kXFc_QKsBxo
 21Q_kA8mdTmaAh1wdmgCkxeTvCtAyXQnAp3BiVX_
 }
 
-AWSEntityColoring(GlueCrawlers)
 !define GlueCrawlersColor #693CC5
+AWSEntityColoring2(GlueCrawlers, GlueCrawlersColor)
+AWSEntityBoundary(GlueCrawlers, GlueCrawlersColor)
+!define GlueCrawlers(e_alias, e_label) AWSEntity(e_alias, e_label, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
 !define GlueCrawlers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
 !define GlueCrawlers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
 !define GlueCrawlersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
 !define GlueCrawlersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)

@@ -9,9 +9,14 @@ ng2gn_huEZKtOIRfSsDXOeulA_2enY16c1iP0YoFpv1qYn0lz_9z9CHEouo-DbiR-eXMHQcGU-DxHOd8
 zOZaUo9I5mnKHh3lwOJkRPZTOak6n9j2V9if9cg-pzhK_NlxzUiF
 }
 
-AWSEntityColoring(WellArchitectedTool)
 !define WellArchitectedToolColor #CC2264
+AWSEntityColoring2(WellArchitectedTool, WellArchitectedToolColor)
+AWSEntityBoundary(WellArchitectedTool, WellArchitectedToolColor)
+!define WellArchitectedTool(e_alias, e_label) AWSEntity(e_alias, e_label, WellArchitectedToolColor, WellArchitectedTool, WellArchitectedTool)
 !define WellArchitectedTool(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, WellArchitectedToolColor, WellArchitectedTool, WellArchitectedTool)
 !define WellArchitectedTool(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, WellArchitectedToolColor, WellArchitectedTool, WellArchitectedTool)
+!define WellArchitectedToolBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, WellArchitectedToolColor, WellArchitectedTool, WellArchitectedTool)
+!define WellArchitectedToolBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, WellArchitectedToolColor, WellArchitectedTool, WellArchitectedTool)
+!define WellArchitectedToolParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, WellArchitectedToolColor, WellArchitectedTool, WellArchitectedTool)
 !define WellArchitectedToolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, WellArchitectedToolColor, WellArchitectedTool, WellArchitectedTool)
 !define WellArchitectedToolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, WellArchitectedToolColor, WellArchitectedTool, WellArchitectedTool)

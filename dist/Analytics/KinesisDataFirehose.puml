@@ -8,9 +8,14 @@ cCIhVKb06khQSm0WYYmSmr3pwp3A078NKnvD1SKzpWYbirsPeKqXfDA7JTyYQWxhgyQ-CEN6nropzIoZ
 89lxr-x--IVtRqRznyzFVSiVcxuCzN-B1mz-
 }
 
-AWSEntityColoring(KinesisDataFirehose)
 !define KinesisDataFirehoseColor #693CC5
+AWSEntityColoring2(KinesisDataFirehose, KinesisDataFirehoseColor)
+AWSEntityBoundary(KinesisDataFirehose, KinesisDataFirehoseColor)
+!define KinesisDataFirehose(e_alias, e_label) AWSEntity(e_alias, e_label, KinesisDataFirehoseColor, KinesisDataFirehose, KinesisDataFirehose)
 !define KinesisDataFirehose(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, KinesisDataFirehoseColor, KinesisDataFirehose, KinesisDataFirehose)
 !define KinesisDataFirehose(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, KinesisDataFirehoseColor, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehoseBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, KinesisDataFirehoseColor, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehoseBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, KinesisDataFirehoseColor, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehoseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, KinesisDataFirehoseColor, KinesisDataFirehose, KinesisDataFirehose)
 !define KinesisDataFirehoseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, KinesisDataFirehoseColor, KinesisDataFirehose, KinesisDataFirehose)
 !define KinesisDataFirehoseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, KinesisDataFirehoseColor, KinesisDataFirehose, KinesisDataFirehose)

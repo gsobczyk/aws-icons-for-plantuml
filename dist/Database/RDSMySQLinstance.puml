@@ -10,9 +10,14 @@ u5guxFX7wAL9rowr7AUmFV_4FyflT89rmuT6UYQFpVePBGS-EWwno6Rz60xSpUogseOVanWU6Itihd_C
 x_ppKZ_rKZ-olluXL-cgsbj9V5t__aVvEUoF_BNzK_is_xNzM_mkVrdSFvPJ_ke0bDVshv7IL_dNnVsp5o9AOg_N7vgixD-d_vc_tlEV_0K
 }
 
-AWSEntityColoring(RDSMySQLinstance)
 !define RDSMySQLinstanceColor #3B48CC
+AWSEntityColoring2(RDSMySQLinstance, RDSMySQLinstanceColor)
+AWSEntityBoundary(RDSMySQLinstance, RDSMySQLinstanceColor)
+!define RDSMySQLinstance(e_alias, e_label) AWSEntity(e_alias, e_label, RDSMySQLinstanceColor, RDSMySQLinstance, RDSMySQLinstance)
 !define RDSMySQLinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSMySQLinstanceColor, RDSMySQLinstance, RDSMySQLinstance)
 !define RDSMySQLinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSMySQLinstanceColor, RDSMySQLinstance, RDSMySQLinstance)
+!define RDSMySQLinstanceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RDSMySQLinstanceColor, RDSMySQLinstance, RDSMySQLinstance)
+!define RDSMySQLinstanceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RDSMySQLinstanceColor, RDSMySQLinstance, RDSMySQLinstance)
+!define RDSMySQLinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RDSMySQLinstanceColor, RDSMySQLinstance, RDSMySQLinstance)
 !define RDSMySQLinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSMySQLinstanceColor, RDSMySQLinstance, RDSMySQLinstance)
 !define RDSMySQLinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSMySQLinstanceColor, RDSMySQLinstance, RDSMySQLinstance)

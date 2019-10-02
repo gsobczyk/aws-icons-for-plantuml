@@ -7,9 +7,14 @@ p_H2IuuEJhKznRoGREizEbjLgqNdj_K9ICIYZJ3rJzjwJR2i9soHDY-_14DwG0PfOladED7EjNoYPpWz
 wqcwNB_jThj_
 }
 
-AWSEntityColoring(CertificateManager)
 !define CertificateManagerColor #D6242D
+AWSEntityColoring2(CertificateManager, CertificateManagerColor)
+AWSEntityBoundary(CertificateManager, CertificateManagerColor)
+!define CertificateManager(e_alias, e_label) AWSEntity(e_alias, e_label, CertificateManagerColor, CertificateManager, CertificateManager)
 !define CertificateManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CertificateManagerColor, CertificateManager, CertificateManager)
 !define CertificateManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CertificateManagerColor, CertificateManager, CertificateManager)
+!define CertificateManagerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CertificateManagerColor, CertificateManager, CertificateManager)
+!define CertificateManagerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CertificateManagerColor, CertificateManager, CertificateManager)
+!define CertificateManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CertificateManagerColor, CertificateManager, CertificateManager)
 !define CertificateManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CertificateManagerColor, CertificateManager, CertificateManager)
 !define CertificateManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CertificateManagerColor, CertificateManager, CertificateManager)

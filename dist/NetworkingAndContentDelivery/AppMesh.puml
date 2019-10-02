@@ -7,9 +7,14 @@ q4iz0RC-twjJ5bRfH6_sh1-4GDVaDdHWFE-rmQfJVGg-Fph8_raVx-npFDipz8oxJlKLick7PwW7xw-O
 _QER2xKM2Oi_xsTTMtCTyZLWhtk3OhhHsAHjzTblNLgxJid4vYFIrHDPfuqACKB8aBiki0Abplg2JeYil-__JHf3_ww7Xuy
 }
 
-AWSEntityColoring(AppMesh)
 !define AppMeshColor #693CC5
+AWSEntityColoring2(AppMesh, AppMeshColor)
+AWSEntityBoundary(AppMesh, AppMeshColor)
+!define AppMesh(e_alias, e_label) AWSEntity(e_alias, e_label, AppMeshColor, AppMesh, AppMesh)
 !define AppMesh(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AppMeshColor, AppMesh, AppMesh)
 !define AppMesh(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AppMeshColor, AppMesh, AppMesh)
+!define AppMeshBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, AppMeshColor, AppMesh, AppMesh)
+!define AppMeshBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, AppMeshColor, AppMesh, AppMesh)
+!define AppMeshParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, AppMeshColor, AppMesh, AppMesh)
 !define AppMeshParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AppMeshColor, AppMesh, AppMesh)
 !define AppMeshParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AppMeshColor, AppMesh, AppMesh)

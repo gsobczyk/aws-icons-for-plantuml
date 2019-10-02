@@ -8,9 +8,14 @@ v_RtVd7zFUUDnVC_A5xislm0sN_EVSX_hfzwnfn0clVYN3jwox4uUzzb5DsRrFfhhTh9Um7eYbUQV8CX
 DtjJm9k3lqZ2Yyydld9Lk9rlt5NcTRw8c_rzav_wrRwNG-E1FstPE-6qPXQpLjartzzx
 }
 
-AWSEntityColoring(SystemsManagerParameterStore)
 !define SystemsManagerParameterStoreColor #CC2264
+AWSEntityColoring2(SystemsManagerParameterStore, SystemsManagerParameterStoreColor)
+AWSEntityBoundary(SystemsManagerParameterStore, SystemsManagerParameterStoreColor)
+!define SystemsManagerParameterStore(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerParameterStoreColor, SystemsManagerParameterStore, SystemsManagerParameterStore)
 !define SystemsManagerParameterStore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerParameterStoreColor, SystemsManagerParameterStore, SystemsManagerParameterStore)
 !define SystemsManagerParameterStore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerParameterStoreColor, SystemsManagerParameterStore, SystemsManagerParameterStore)
+!define SystemsManagerParameterStoreBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerParameterStoreColor, SystemsManagerParameterStore, SystemsManagerParameterStore)
+!define SystemsManagerParameterStoreBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerParameterStoreColor, SystemsManagerParameterStore, SystemsManagerParameterStore)
+!define SystemsManagerParameterStoreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerParameterStoreColor, SystemsManagerParameterStore, SystemsManagerParameterStore)
 !define SystemsManagerParameterStoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerParameterStoreColor, SystemsManagerParameterStore, SystemsManagerParameterStore)
 !define SystemsManagerParameterStoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerParameterStoreColor, SystemsManagerParameterStore, SystemsManagerParameterStore)

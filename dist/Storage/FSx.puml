@@ -7,9 +7,14 @@ ttzI8STHHeYtVGh6UrZK4U9TNsNSEdwgtI3SzTlehnX7pq2vvwj58i_e_Dh_LnThLx8NWHkQEmO4_ZTV
 cyrcita7
 }
 
-AWSEntityColoring(FSx)
 !define FSxColor #3F8624
+AWSEntityColoring2(FSx, FSxColor)
+AWSEntityBoundary(FSx, FSxColor)
+!define FSx(e_alias, e_label) AWSEntity(e_alias, e_label, FSxColor, FSx, FSx)
 !define FSx(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, FSxColor, FSx, FSx)
 !define FSx(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, FSxColor, FSx, FSx)
+!define FSxBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, FSxColor, FSx, FSx)
+!define FSxBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, FSxColor, FSx, FSx)
+!define FSxParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, FSxColor, FSx, FSx)
 !define FSxParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, FSxColor, FSx, FSx)
 !define FSxParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, FSxColor, FSx, FSx)

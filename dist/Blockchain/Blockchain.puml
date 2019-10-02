@@ -6,9 +6,14 @@ Hdkhlt6A8JQU8k8KGcAQbDlqOUBRE_e2vn0O0ALP4qtAOTRodZvRaU2brihHYRZ8aueF8ZPtzAMKlP-q
 U-qpjqxeGN-5lOUnvX9kxrs8_GHliM6iwySQCtG5YP_17G
 }
 
-AWSEntityColoring(Blockchain)
 !define BlockchainColor #D86613
+AWSEntityColoring2(Blockchain, BlockchainColor)
+AWSEntityBoundary(Blockchain, BlockchainColor)
+!define Blockchain(e_alias, e_label) AWSEntity(e_alias, e_label, BlockchainColor, Blockchain, Blockchain)
 !define Blockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BlockchainColor, Blockchain, Blockchain)
 !define Blockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BlockchainColor, Blockchain, Blockchain)
+!define BlockchainBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, BlockchainColor, Blockchain, Blockchain)
+!define BlockchainBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, BlockchainColor, Blockchain, Blockchain)
+!define BlockchainParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, BlockchainColor, Blockchain, Blockchain)
 !define BlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BlockchainColor, Blockchain, Blockchain)
 !define BlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BlockchainColor, Blockchain, Blockchain)

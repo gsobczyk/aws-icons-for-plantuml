@@ -8,9 +8,14 @@ im5wqKV39s1qyJAaYrugcF-_YxT1kUWJ_Zj0VJFEfVKlJ_ESdN-GpdZwVth-yRn-Qumnmn4z_xvzxZEO
 ovlI1Uyz-NIqgkk-0WnTzHjWiA_w34cDViFNoBeF1a1PzP8CE6JPIuHTLhqF_PUzXA3Btflpw-Uljtxzy5QlNqzfVDkRw-Vo-zFTzxVRxu_ttr_llp_Vxty
 }
 
-AWSEntityColoring(IAMDataEncryptionKey)
 !define IAMDataEncryptionKeyColor #D6242D
+AWSEntityColoring2(IAMDataEncryptionKey, IAMDataEncryptionKeyColor)
+AWSEntityBoundary(IAMDataEncryptionKey, IAMDataEncryptionKeyColor)
+!define IAMDataEncryptionKey(e_alias, e_label) AWSEntity(e_alias, e_label, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
 !define IAMDataEncryptionKey(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
 !define IAMDataEncryptionKey(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
 !define IAMDataEncryptionKeyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
 !define IAMDataEncryptionKeyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)

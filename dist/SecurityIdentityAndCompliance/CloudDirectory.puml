@@ -8,9 +8,14 @@ h6L5rWjU2O2uTm3eQnz0kky5ClXS4be3-GGFWUpx3FMARc1tXdLKL-HzNt0qmZnjAM2VIEr0sVV60Chw
 -YrUFyRhrzyojzpo7m
 }
 
-AWSEntityColoring(CloudDirectory)
 !define CloudDirectoryColor #D6242D
+AWSEntityColoring2(CloudDirectory, CloudDirectoryColor)
+AWSEntityBoundary(CloudDirectory, CloudDirectoryColor)
+!define CloudDirectory(e_alias, e_label) AWSEntity(e_alias, e_label, CloudDirectoryColor, CloudDirectory, CloudDirectory)
 !define CloudDirectory(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudDirectoryColor, CloudDirectory, CloudDirectory)
 !define CloudDirectory(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudDirectoryColor, CloudDirectory, CloudDirectory)
+!define CloudDirectoryBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudDirectoryColor, CloudDirectory, CloudDirectory)
+!define CloudDirectoryBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudDirectoryColor, CloudDirectory, CloudDirectory)
+!define CloudDirectoryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudDirectoryColor, CloudDirectory, CloudDirectory)
 !define CloudDirectoryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudDirectoryColor, CloudDirectory, CloudDirectory)
 !define CloudDirectoryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudDirectoryColor, CloudDirectory, CloudDirectory)

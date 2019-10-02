@@ -8,9 +8,14 @@ VlvfvLfOD-wxtTDGgQHKkGVHFoEvrJoAmpZZTg0qbUEyJGBbclmbn21HwKsgUVe08vxwALer1dMQOpHc
 w_cbUTRvDViZIAAN-uFQnt_jZu4e74XsVyqZITN0RYUx0ETErlrPmmHtZUu6tP_B_Vs8kjxVejEWtM2f6N_n_88lcEVNlpu__nqlNhnuyGC
 }
 
-AWSEntityColoring(TapeStorage)
 !define TapeStorageColor #232F3E
+AWSEntityColoring2(TapeStorage, TapeStorageColor)
+AWSEntityBoundary(TapeStorage, TapeStorageColor)
+!define TapeStorage(e_alias, e_label) AWSEntity(e_alias, e_label, TapeStorageColor, TapeStorage, TapeStorage)
 !define TapeStorage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TapeStorageColor, TapeStorage, TapeStorage)
 !define TapeStorage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TapeStorageColor, TapeStorage, TapeStorage)
+!define TapeStorageBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TapeStorageColor, TapeStorage, TapeStorage)
+!define TapeStorageBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TapeStorageColor, TapeStorage, TapeStorage)
+!define TapeStorageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TapeStorageColor, TapeStorage, TapeStorage)
 !define TapeStorageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TapeStorageColor, TapeStorage, TapeStorage)
 !define TapeStorageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TapeStorageColor, TapeStorage, TapeStorage)

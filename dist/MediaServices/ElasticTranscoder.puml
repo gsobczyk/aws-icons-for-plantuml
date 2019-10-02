@@ -10,9 +10,14 @@ x30frWLkjaXdNbrfwvF_slZfHrPBabBlof0KfBm8jjZuTrW4c3L8EjVlwa7MD-jlAfHyYo8uu2FRwVkC
 UEJ-Kb9YS_2eZhy9AoWxm8mwmD-56MIvraCw77yVl9ZE3H3_15ZZZIljjh_-__ZXXzy
 }
 
-AWSEntityColoring(ElasticTranscoder)
 !define ElasticTranscoderColor #D86613
+AWSEntityColoring2(ElasticTranscoder, ElasticTranscoderColor)
+AWSEntityBoundary(ElasticTranscoder, ElasticTranscoderColor)
+!define ElasticTranscoder(e_alias, e_label) AWSEntity(e_alias, e_label, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
 !define ElasticTranscoder(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
 !define ElasticTranscoder(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoderBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoderBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoderParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
 !define ElasticTranscoderParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
 !define ElasticTranscoderParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)

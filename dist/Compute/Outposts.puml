@@ -6,9 +6,14 @@ LZ6V_pbPuHmDECzCsfNEBzx9UPchwVLtMEMcmAKBXyef1OcxYCQBYimf-MsWTBilB_KDVlIQuoQrfFCz
 6FCtQ_FVZFMdS_-otkilRlNgxSOLrtzFJptSdl_mb_LF__JnvV6pza7JQY-0sUxl7p32DMrhjhjp5iO2bQiyDe4is7MkAjuvNqdPNbrK_cCUZtS
 }
 
-AWSEntityColoring(Outposts)
 !define OutpostsColor #D86613
+AWSEntityColoring2(Outposts, OutpostsColor)
+AWSEntityBoundary(Outposts, OutpostsColor)
+!define Outposts(e_alias, e_label) AWSEntity(e_alias, e_label, OutpostsColor, Outposts, Outposts)
 !define Outposts(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OutpostsColor, Outposts, Outposts)
 !define Outposts(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OutpostsColor, Outposts, Outposts)
+!define OutpostsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, OutpostsColor, Outposts, Outposts)
+!define OutpostsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, OutpostsColor, Outposts, Outposts)
+!define OutpostsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, OutpostsColor, Outposts, Outposts)
 !define OutpostsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OutpostsColor, Outposts, Outposts)
 !define OutpostsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OutpostsColor, Outposts, Outposts)

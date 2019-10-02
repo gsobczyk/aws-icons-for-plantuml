@@ -10,9 +10,14 @@ __aiDGvgxu9fP_T78QutkZ6kZllZxFvgkBv0LNDLHpozVdrpB3cM88Bp13s_lvrVa_JKxbZfApG2VjbR
 eVwwz-FwVlqpySGJhm
 }
 
-AWSEntityColoring(CloudFront)
 !define CloudFrontColor #693CC5
+AWSEntityColoring2(CloudFront, CloudFrontColor)
+AWSEntityBoundary(CloudFront, CloudFrontColor)
+!define CloudFront(e_alias, e_label) AWSEntity(e_alias, e_label, CloudFrontColor, CloudFront, CloudFront)
 !define CloudFront(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudFrontColor, CloudFront, CloudFront)
 !define CloudFront(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudFrontColor, CloudFront, CloudFront)
+!define CloudFrontBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudFrontColor, CloudFront, CloudFront)
+!define CloudFrontBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudFrontColor, CloudFront, CloudFront)
+!define CloudFrontParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudFrontColor, CloudFront, CloudFront)
 !define CloudFrontParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudFrontColor, CloudFront, CloudFront)
 !define CloudFrontParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudFrontColor, CloudFront, CloudFront)

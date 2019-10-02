@@ -8,9 +8,14 @@ h8RPm-tUrcFWtpAWspbsyFDzEaMWptjFV3iTxgdS0p7ToztNh_S0OWJGr_vzkSCxVrB8484udAJjtLq-
 hGiyazSdMPELqQS3dxpKRBUY_3VGwlzJblFwllQrh_q2
 }
 
-AWSEntityColoring(ElementalMediaTailor)
 !define ElementalMediaTailorColor #D86613
+AWSEntityColoring2(ElementalMediaTailor, ElementalMediaTailorColor)
+AWSEntityBoundary(ElementalMediaTailor, ElementalMediaTailorColor)
+!define ElementalMediaTailor(e_alias, e_label) AWSEntity(e_alias, e_label, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
 !define ElementalMediaTailor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
 !define ElementalMediaTailor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
 !define ElementalMediaTailorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
 !define ElementalMediaTailorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)

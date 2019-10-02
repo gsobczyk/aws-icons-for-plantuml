@@ -9,9 +9,14 @@ L3j1khpsJpZldoQVqB_frhyU6towQ3q_Ff_E3q4-ONuzaZv4VfxVy4b_F-ghoRTyGBDBWjV7KvmOgcUx
 zptp1QocuVpwmwPugDNpy-mHLD-4Y8MXI6s5HWSNjRlt_GlVrFzlszIi-Nd_TAXFOzw_VTt-yS_a7__u3m
 }
 
-AWSEntityColoring(MQ)
 !define MQColor #CC2264
+AWSEntityColoring2(MQ, MQColor)
+AWSEntityBoundary(MQ, MQColor)
+!define MQ(e_alias, e_label) AWSEntity(e_alias, e_label, MQColor, MQ, MQ)
 !define MQ(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MQColor, MQ, MQ)
 !define MQ(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MQColor, MQ, MQ)
+!define MQBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, MQColor, MQ, MQ)
+!define MQBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, MQColor, MQ, MQ)
+!define MQParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, MQColor, MQ, MQ)
 !define MQParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MQColor, MQ, MQ)
 !define MQParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MQColor, MQ, MQ)

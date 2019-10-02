@@ -7,9 +7,14 @@ osVdsocjXJZbypVeHBk6UoFS8O_svhY7-DUAcx10kOVurqeuVVlRhrzwN2ihbFm5cxw5zFl7ziZT6R7f
 m-ExAmvPOPQ0bM_0Jcsa-27DcTd5a0oxXAmQySo2aF0ptM_ul_dYaA7Lo84VSd25lyPf9zQMxtnl_LEyUVCU
 }
 
-AWSEntityColoring(SystemsManagerRunCommand)
 !define SystemsManagerRunCommandColor #CC2264
+AWSEntityColoring2(SystemsManagerRunCommand, SystemsManagerRunCommandColor)
+AWSEntityBoundary(SystemsManagerRunCommand, SystemsManagerRunCommandColor)
+!define SystemsManagerRunCommand(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerRunCommandColor, SystemsManagerRunCommand, SystemsManagerRunCommand)
 !define SystemsManagerRunCommand(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerRunCommandColor, SystemsManagerRunCommand, SystemsManagerRunCommand)
 !define SystemsManagerRunCommand(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerRunCommandColor, SystemsManagerRunCommand, SystemsManagerRunCommand)
+!define SystemsManagerRunCommandBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerRunCommandColor, SystemsManagerRunCommand, SystemsManagerRunCommand)
+!define SystemsManagerRunCommandBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerRunCommandColor, SystemsManagerRunCommand, SystemsManagerRunCommand)
+!define SystemsManagerRunCommandParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerRunCommandColor, SystemsManagerRunCommand, SystemsManagerRunCommand)
 !define SystemsManagerRunCommandParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerRunCommandColor, SystemsManagerRunCommand, SystemsManagerRunCommand)
 !define SystemsManagerRunCommandParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerRunCommandColor, SystemsManagerRunCommand, SystemsManagerRunCommand)

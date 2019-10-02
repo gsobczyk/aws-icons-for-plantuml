@@ -9,9 +9,14 @@ MLBvN_8XedP9e2yV0McNEqJOxTtP5dNSDTbFZlqKkqRfjgMZjg4GRKkas8OfBmP6dw_bPLFP6_0lbMOp
 vcJO7OsLOFRZzInZXTFiddfnq2MezYaqmNTxH_VFS_gMuI7sDz4H_ETSGXneQcC-62qfk6AVmomUG1u0-3BjSnabUdLEVIpZQ-wnlox_-CT_
 }
 
-AWSEntityColoring(LakeFormation)
 !define LakeFormationColor #693CC5
+AWSEntityColoring2(LakeFormation, LakeFormationColor)
+AWSEntityBoundary(LakeFormation, LakeFormationColor)
+!define LakeFormation(e_alias, e_label) AWSEntity(e_alias, e_label, LakeFormationColor, LakeFormation, LakeFormation)
 !define LakeFormation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, LakeFormationColor, LakeFormation, LakeFormation)
 !define LakeFormation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, LakeFormationColor, LakeFormation, LakeFormation)
+!define LakeFormationBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, LakeFormationColor, LakeFormation, LakeFormation)
+!define LakeFormationBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, LakeFormationColor, LakeFormation, LakeFormation)
+!define LakeFormationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, LakeFormationColor, LakeFormation, LakeFormation)
 !define LakeFormationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, LakeFormationColor, LakeFormation, LakeFormation)
 !define LakeFormationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, LakeFormationColor, LakeFormation, LakeFormation)

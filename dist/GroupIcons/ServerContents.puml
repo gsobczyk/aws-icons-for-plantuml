@@ -5,9 +5,14 @@ xPQr0GCn54DbPdl_RTFdc4cl_unjLmXnSX0tHru2eXT0pf5NoBMN33LFlhHUodFaQ-XGbyXdTCXBv8lj
 VW
 }
 
-AWSEntityColoring(ServerContents)
 !define ServerContentsColor #232F3E
+AWSEntityColoring2(ServerContents, ServerContentsColor)
+AWSEntityBoundary(ServerContents, ServerContentsColor)
+!define ServerContents(e_alias, e_label) AWSEntity(e_alias, e_label, ServerContentsColor, ServerContents, ServerContents)
 !define ServerContents(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ServerContentsColor, ServerContents, ServerContents)
 !define ServerContents(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ServerContentsColor, ServerContents, ServerContents)
+!define ServerContentsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ServerContentsColor, ServerContents, ServerContents)
+!define ServerContentsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ServerContentsColor, ServerContents, ServerContents)
+!define ServerContentsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ServerContentsColor, ServerContents, ServerContents)
 !define ServerContentsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ServerContentsColor, ServerContents, ServerContents)
 !define ServerContentsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ServerContentsColor, ServerContents, ServerContents)

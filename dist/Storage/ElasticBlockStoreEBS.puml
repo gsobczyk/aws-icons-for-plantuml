@@ -7,9 +7,14 @@ qPbozAxpCTEivTb-8HlQFTyVVMq_-j6FFkk5_4pF3fdFFcGuriSr3uIfjhbhTGg0DvutzeUKtXo58iR-
 stllntVVhp_2CBm1
 }
 
-AWSEntityColoring(ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBSColor #3F8624
+AWSEntityColoring2(ElasticBlockStoreEBS, ElasticBlockStoreEBSColor)
+AWSEntityBoundary(ElasticBlockStoreEBS, ElasticBlockStoreEBSColor)
+!define ElasticBlockStoreEBS(e_alias, e_label) AWSEntity(e_alias, e_label, ElasticBlockStoreEBSColor, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticBlockStoreEBSColor, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticBlockStoreEBSColor, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBSBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElasticBlockStoreEBSColor, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBSBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElasticBlockStoreEBSColor, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElasticBlockStoreEBSColor, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticBlockStoreEBSColor, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticBlockStoreEBSColor, ElasticBlockStoreEBS, ElasticBlockStoreEBS)

@@ -8,9 +8,14 @@ jBUJtZoYVaTFzP3SzTfMJyk2MsFizAJM5AxfnlqF_UvU4NYrfWruPdI-pCIn8bt6I660ydKHmqJqCaPD
 D-OisM8UcPRdCcQiaC4zwkQwhchK13Jkqd0vJhdEVLQ_7kVikuwJnd_9cpVl0G
 }
 
-AWSEntityColoring(VPC)
 !define VPCColor #693CC5
+AWSEntityColoring2(VPC, VPCColor)
+AWSEntityBoundary(VPC, VPCColor)
+!define VPC(e_alias, e_label) AWSEntity(e_alias, e_label, VPCColor, VPC, VPC)
 !define VPC(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, VPCColor, VPC, VPC)
 !define VPC(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, VPCColor, VPC, VPC)
+!define VPCBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, VPCColor, VPC, VPC)
+!define VPCBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, VPCColor, VPC, VPC)
+!define VPCParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, VPCColor, VPC, VPC)
 !define VPCParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, VPCColor, VPC, VPC)
 !define VPCParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, VPCColor, VPC, VPC)

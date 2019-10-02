@@ -10,9 +10,14 @@ uxnSO41T1BGflwORvVrzEJGUnwTUtM46sBg24rjhJQiRgRSnzCAxC0K64sx8fdSBy3hwHvEISwxQdNT_
 Tx0485LzzTyuazyXgtFUynsj4XP2rl4s-eY-FwumkdB9kLInySx4md6x0_VmJPcMtkCOgjxyRu7_-8zd
 }
 
-AWSEntityColoring(Athena)
 !define AthenaColor #693CC5
+AWSEntityColoring2(Athena, AthenaColor)
+AWSEntityBoundary(Athena, AthenaColor)
+!define Athena(e_alias, e_label) AWSEntity(e_alias, e_label, AthenaColor, Athena, Athena)
 !define Athena(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AthenaColor, Athena, Athena)
 !define Athena(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AthenaColor, Athena, Athena)
+!define AthenaBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, AthenaColor, Athena, Athena)
+!define AthenaBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, AthenaColor, Athena, Athena)
+!define AthenaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, AthenaColor, Athena, Athena)
 !define AthenaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AthenaColor, Athena, Athena)
 !define AthenaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AthenaColor, Athena, Athena)

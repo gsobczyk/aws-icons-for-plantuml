@@ -9,9 +9,14 @@ ii_ZPJRI-iJisyd-uvlXGNEmxlZ9vFUpZ57C6k-QHzsLlnkLIRKYxbgsnl0clsaQ6rm_bxt2BGCY_6cS
 ParO14S024SNOVZYu5_E6q7IjTQpHb34Ng-3CjdiO9PpxAAzpdmRyOGPMVidKY8PQOyh9vyfWrBnsDdkbGc0a_vjQQsj_yxwh__w0G
 }
 
-AWSEntityColoring(CodeStar)
 !define CodeStarColor #3B48CC
+AWSEntityColoring2(CodeStar, CodeStarColor)
+AWSEntityBoundary(CodeStar, CodeStarColor)
+!define CodeStar(e_alias, e_label) AWSEntity(e_alias, e_label, CodeStarColor, CodeStar, CodeStar)
 !define CodeStar(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CodeStarColor, CodeStar, CodeStar)
 !define CodeStar(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CodeStarColor, CodeStar, CodeStar)
+!define CodeStarBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CodeStarColor, CodeStar, CodeStar)
+!define CodeStarBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CodeStarColor, CodeStar, CodeStar)
+!define CodeStarParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CodeStarColor, CodeStar, CodeStar)
 !define CodeStarParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CodeStarColor, CodeStar, CodeStar)
 !define CodeStarParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CodeStarColor, CodeStar, CodeStar)

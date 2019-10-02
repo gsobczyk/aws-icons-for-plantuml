@@ -7,9 +7,14 @@ X3ZdHumm7z_50VPverFoaz8XzRBruISE24VzoCb17Rh-wVyVEp_h1vY7loD-Q-U_FtzOKtoJtizIvO7y
 napcfs1-Y_S7-VuYtv_a-vjyVvJlh_BzMSx9oGq
 }
 
-AWSEntityColoring(StepFunctions)
 !define StepFunctionsColor #CC2264
+AWSEntityColoring2(StepFunctions, StepFunctionsColor)
+AWSEntityBoundary(StepFunctions, StepFunctionsColor)
+!define StepFunctions(e_alias, e_label) AWSEntity(e_alias, e_label, StepFunctionsColor, StepFunctions, StepFunctions)
 !define StepFunctions(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, StepFunctionsColor, StepFunctions, StepFunctions)
 !define StepFunctions(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, StepFunctionsColor, StepFunctions, StepFunctions)
+!define StepFunctionsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, StepFunctionsColor, StepFunctions, StepFunctions)
+!define StepFunctionsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, StepFunctionsColor, StepFunctions, StepFunctions)
+!define StepFunctionsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, StepFunctionsColor, StepFunctions, StepFunctions)
 !define StepFunctionsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, StepFunctionsColor, StepFunctions, StepFunctions)
 !define StepFunctionsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, StepFunctionsColor, StepFunctions, StepFunctions)

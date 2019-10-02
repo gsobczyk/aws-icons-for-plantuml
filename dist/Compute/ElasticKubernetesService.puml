@@ -9,9 +9,14 @@ oweESCf2W5h-BoiSMBhdRKyYN2iyG-VIxg9OMHEE2fvNE6qeIyVja-R5evYIkTIaZjUxQKmqS9LEtQ35
 mHAzl-B-hoFypVRVlW
 }
 
-AWSEntityColoring(ElasticKubernetesService)
 !define ElasticKubernetesServiceColor #D86613
+AWSEntityColoring2(ElasticKubernetesService, ElasticKubernetesServiceColor)
+AWSEntityBoundary(ElasticKubernetesService, ElasticKubernetesServiceColor)
+!define ElasticKubernetesService(e_alias, e_label) AWSEntity(e_alias, e_label, ElasticKubernetesServiceColor, ElasticKubernetesService, ElasticKubernetesService)
 !define ElasticKubernetesService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticKubernetesServiceColor, ElasticKubernetesService, ElasticKubernetesService)
 !define ElasticKubernetesService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticKubernetesServiceColor, ElasticKubernetesService, ElasticKubernetesService)
+!define ElasticKubernetesServiceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElasticKubernetesServiceColor, ElasticKubernetesService, ElasticKubernetesService)
+!define ElasticKubernetesServiceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElasticKubernetesServiceColor, ElasticKubernetesService, ElasticKubernetesService)
+!define ElasticKubernetesServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElasticKubernetesServiceColor, ElasticKubernetesService, ElasticKubernetesService)
 !define ElasticKubernetesServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticKubernetesServiceColor, ElasticKubernetesService, ElasticKubernetesService)
 !define ElasticKubernetesServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticKubernetesServiceColor, ElasticKubernetesService, ElasticKubernetesService)

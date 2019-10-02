@@ -7,9 +7,14 @@ u0eQiS5GDZy55Xi6GVtrz0Ans6B47k5CXsj1URc0derHw5eAFLjRNyekforC043iT3XveOC9iZZX3MWU
 JBOt6jJ368yKM82s7GxUS3Iqy_x6Ti46bEpyxFcp-ilQB-i_MVzDnqy-VlFv8v-_ylapdx_pzIDVl_BrCr-_y_r3ld_9zq_v_ks4ptxg7tyb__pp3G
 }
 
-AWSEntityColoring(TransitGateway)
 !define TransitGatewayColor #693CC5
+AWSEntityColoring2(TransitGateway, TransitGatewayColor)
+AWSEntityBoundary(TransitGateway, TransitGatewayColor)
+!define TransitGateway(e_alias, e_label) AWSEntity(e_alias, e_label, TransitGatewayColor, TransitGateway, TransitGateway)
 !define TransitGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TransitGatewayColor, TransitGateway, TransitGateway)
 !define TransitGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TransitGatewayColor, TransitGateway, TransitGateway)
+!define TransitGatewayBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TransitGatewayColor, TransitGateway, TransitGateway)
+!define TransitGatewayBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TransitGatewayColor, TransitGateway, TransitGateway)
+!define TransitGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TransitGatewayColor, TransitGateway, TransitGateway)
 !define TransitGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TransitGatewayColor, TransitGateway, TransitGateway)
 !define TransitGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TransitGatewayColor, TransitGateway, TransitGateway)

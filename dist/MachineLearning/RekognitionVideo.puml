@@ -12,9 +12,14 @@ UKwb3rxgHRteAMg4TxXa_Q7PQnpQ_0VuAbU0DjVRx_3Wx-ayk0mktE5sSFEo50gw64zg41Rp2M2KvEqP
 BXIe2owvc4ljXrhHkzog3dx5Vwwarwdu9rnFghKq_eWRM_bIDdzKQa0DVuF_0G
 }
 
-AWSEntityColoring(RekognitionVideo)
 !define RekognitionVideoColor #1C7B68
+AWSEntityColoring2(RekognitionVideo, RekognitionVideoColor)
+AWSEntityBoundary(RekognitionVideo, RekognitionVideoColor)
+!define RekognitionVideo(e_alias, e_label) AWSEntity(e_alias, e_label, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
 !define RekognitionVideo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
 !define RekognitionVideo(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
 !define RekognitionVideoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
 !define RekognitionVideoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)

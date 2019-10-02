@@ -9,9 +9,14 @@ CwjGopOB6FDxOGCGBFgQZEvM7yViQqUoqPDGTJZqXZ0YW540-E6zKkCBsvzZnMq2lDIthst_qH_hxtCd
 Twv8b0DJtVgpDFG2sM_qyxjEbX12CfhWha755STj_F6bwufA9bmg-rV9E5bvSXd2X8LaqWIJXCazFRnIUplhHZBY3PbNBE8jlWxztoWEt-lZupy
 }
 
-AWSEntityColoring(EMREngineMapRM3)
 !define EMREngineMapRM3Color #693CC5
+AWSEntityColoring2(EMREngineMapRM3, EMREngineMapRM3Color)
+AWSEntityBoundary(EMREngineMapRM3, EMREngineMapRM3Color)
+!define EMREngineMapRM3(e_alias, e_label) AWSEntity(e_alias, e_label, EMREngineMapRM3Color, EMREngineMapRM3, EMREngineMapRM3)
 !define EMREngineMapRM3(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EMREngineMapRM3Color, EMREngineMapRM3, EMREngineMapRM3)
 !define EMREngineMapRM3(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EMREngineMapRM3Color, EMREngineMapRM3, EMREngineMapRM3)
+!define EMREngineMapRM3Boundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EMREngineMapRM3Color, EMREngineMapRM3, EMREngineMapRM3)
+!define EMREngineMapRM3Boundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EMREngineMapRM3Color, EMREngineMapRM3, EMREngineMapRM3)
+!define EMREngineMapRM3Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, EMREngineMapRM3Color, EMREngineMapRM3, EMREngineMapRM3)
 !define EMREngineMapRM3Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EMREngineMapRM3Color, EMREngineMapRM3, EMREngineMapRM3)
 !define EMREngineMapRM3Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EMREngineMapRM3Color, EMREngineMapRM3, EMREngineMapRM3)

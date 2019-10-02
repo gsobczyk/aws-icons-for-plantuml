@@ -5,9 +5,14 @@ xPP50iGm24MH92iWzp_jkDI5yIblLtcqyL_72GBLntGYVKW787r8lnVmw8p8xW89M16L8VbyoLOHgsMf
 izNbwBN0NTSP9M43GW3IXWv8s23rVSOcqFK1ct3VDxrZGjt_9sczy43_FJ1-3yuV1qJRNB_XXo_5ZhuLyVdvcf_oe_djmVpuO7vzC3-_Bhy7mHu
 }
 
-AWSEntityColoring(AutoScalingGroup)
 !define AutoScalingGroupColor #232F3E
+AWSEntityColoring2(AutoScalingGroup, AutoScalingGroupColor)
+AWSEntityBoundary(AutoScalingGroup, AutoScalingGroupColor)
+!define AutoScalingGroup(e_alias, e_label) AWSEntity(e_alias, e_label, AutoScalingGroupColor, AutoScalingGroup, AutoScalingGroup)
 !define AutoScalingGroup(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AutoScalingGroupColor, AutoScalingGroup, AutoScalingGroup)
 !define AutoScalingGroup(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AutoScalingGroupColor, AutoScalingGroup, AutoScalingGroup)
+!define AutoScalingGroupBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, AutoScalingGroupColor, AutoScalingGroup, AutoScalingGroup)
+!define AutoScalingGroupBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, AutoScalingGroupColor, AutoScalingGroup, AutoScalingGroup)
+!define AutoScalingGroupParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, AutoScalingGroupColor, AutoScalingGroup, AutoScalingGroup)
 !define AutoScalingGroupParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AutoScalingGroupColor, AutoScalingGroup, AutoScalingGroup)
 !define AutoScalingGroupParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AutoScalingGroupColor, AutoScalingGroup, AutoScalingGroup)

@@ -9,9 +9,14 @@ Y-Hrw-RRFzbTMqh8yFoMdRy_l-gSTgTiC01dlM-azTUwkL7tjpBIxbI_NMcjZG5JdG623r3zLe4Iqp8c
 p_keyiNmhsHvpH_Af_b3ory2u8js-wzu8BJyvRFuNXp0M4GDC9KI2RZoQ2EC_7dBtqh02XtWY9LGjlnjNhw2bEXlAdqiilm4g_ch_Iv__Z_UlFa
 }
 
-AWSEntityColoring(SpotFleet)
 !define SpotFleetColor #232F3E
+AWSEntityColoring2(SpotFleet, SpotFleetColor)
+AWSEntityBoundary(SpotFleet, SpotFleetColor)
+!define SpotFleet(e_alias, e_label) AWSEntity(e_alias, e_label, SpotFleetColor, SpotFleet, SpotFleet)
 !define SpotFleet(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SpotFleetColor, SpotFleet, SpotFleet)
 !define SpotFleet(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SpotFleetColor, SpotFleet, SpotFleet)
+!define SpotFleetBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SpotFleetColor, SpotFleet, SpotFleet)
+!define SpotFleetBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SpotFleetColor, SpotFleet, SpotFleet)
+!define SpotFleetParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SpotFleetColor, SpotFleet, SpotFleet)
 !define SpotFleetParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SpotFleetColor, SpotFleet, SpotFleet)
 !define SpotFleetParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SpotFleetColor, SpotFleet, SpotFleet)

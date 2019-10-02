@@ -9,9 +9,14 @@ FpAgkn-HdGitFm6PJBx0aOS89OJ7_5c15CxWcuyibLehIavH_Cql-8r-zxU81B_xv2lG-B9FeersVySL
 QUGx88ck-Mym4wtwWp_XAxh53q2VDE0AKCX20z0tpwzoge3rrPuh3hItMd8kvLx0koCZlYW-q1Rf0kotqaNrCANN79WMO7QENyr_
 }
 
-AWSEntityColoring(ManagedMicrosoftAD)
 !define ManagedMicrosoftADColor #D6242D
+AWSEntityColoring2(ManagedMicrosoftAD, ManagedMicrosoftADColor)
+AWSEntityBoundary(ManagedMicrosoftAD, ManagedMicrosoftADColor)
+!define ManagedMicrosoftAD(e_alias, e_label) AWSEntity(e_alias, e_label, ManagedMicrosoftADColor, ManagedMicrosoftAD, ManagedMicrosoftAD)
 !define ManagedMicrosoftAD(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagedMicrosoftADColor, ManagedMicrosoftAD, ManagedMicrosoftAD)
 !define ManagedMicrosoftAD(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagedMicrosoftADColor, ManagedMicrosoftAD, ManagedMicrosoftAD)
+!define ManagedMicrosoftADBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ManagedMicrosoftADColor, ManagedMicrosoftAD, ManagedMicrosoftAD)
+!define ManagedMicrosoftADBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ManagedMicrosoftADColor, ManagedMicrosoftAD, ManagedMicrosoftAD)
+!define ManagedMicrosoftADParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ManagedMicrosoftADColor, ManagedMicrosoftAD, ManagedMicrosoftAD)
 !define ManagedMicrosoftADParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagedMicrosoftADColor, ManagedMicrosoftAD, ManagedMicrosoftAD)
 !define ManagedMicrosoftADParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagedMicrosoftADColor, ManagedMicrosoftAD, ManagedMicrosoftAD)

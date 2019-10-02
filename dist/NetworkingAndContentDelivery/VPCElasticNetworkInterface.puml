@@ -10,9 +10,14 @@ cOFQzVlUF_f1STAhk5VaKkxt3xj_HLLQjtilVmTSlt_P_JCNGEVtJxj_l-MZOtB_NZq_h9zVrizFw-Ut
 r--lw_VdTVq3
 }
 
-AWSEntityColoring(VPCElasticNetworkInterface)
 !define VPCElasticNetworkInterfaceColor #693CC5
+AWSEntityColoring2(VPCElasticNetworkInterface, VPCElasticNetworkInterfaceColor)
+AWSEntityBoundary(VPCElasticNetworkInterface, VPCElasticNetworkInterfaceColor)
+!define VPCElasticNetworkInterface(e_alias, e_label) AWSEntity(e_alias, e_label, VPCElasticNetworkInterfaceColor, VPCElasticNetworkInterface, VPCElasticNetworkInterface)
 !define VPCElasticNetworkInterface(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, VPCElasticNetworkInterfaceColor, VPCElasticNetworkInterface, VPCElasticNetworkInterface)
 !define VPCElasticNetworkInterface(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, VPCElasticNetworkInterfaceColor, VPCElasticNetworkInterface, VPCElasticNetworkInterface)
+!define VPCElasticNetworkInterfaceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, VPCElasticNetworkInterfaceColor, VPCElasticNetworkInterface, VPCElasticNetworkInterface)
+!define VPCElasticNetworkInterfaceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, VPCElasticNetworkInterfaceColor, VPCElasticNetworkInterface, VPCElasticNetworkInterface)
+!define VPCElasticNetworkInterfaceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, VPCElasticNetworkInterfaceColor, VPCElasticNetworkInterface, VPCElasticNetworkInterface)
 !define VPCElasticNetworkInterfaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, VPCElasticNetworkInterfaceColor, VPCElasticNetworkInterface, VPCElasticNetworkInterface)
 !define VPCElasticNetworkInterfaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, VPCElasticNetworkInterfaceColor, VPCElasticNetworkInterface, VPCElasticNetworkInterface)

@@ -9,10 +9,15 @@ vzxu0x8lNm4aPz2MvDIjoq1w0Q2G16Zd8hncI4Pbx4Jw-_n9CJrMAk49ERW_1ItcWS829pjo0yesVpzW
 _SlFoyzdlevXbxSZFV5NXHch-zxjQd2qi_dqJHplYp-mLw--0G
 }
 
-AWSEntityColoring(GroundStation)
 !define GroundStationColor #3B48CC
+AWSEntityColoring2(GroundStation, GroundStationColor)
+AWSEntityBoundary(GroundStation, GroundStationColor)
+!define GroundStation(e_alias, e_label) AWSEntity(e_alias, e_label, GroundStationColor, GroundStation, GroundStation)
 !define GroundStation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GroundStationColor, GroundStation, GroundStation)
 !define GroundStation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GroundStationColor, GroundStation, GroundStation)
+!define GroundStationBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, GroundStationColor, GroundStation, GroundStation)
+!define GroundStationBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, GroundStationColor, GroundStation, GroundStation)
+!define GroundStationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, GroundStationColor, GroundStation, GroundStation)
 !define GroundStationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GroundStationColor, GroundStation, GroundStation)
 !define GroundStationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GroundStationColor, GroundStation, GroundStation)
 
@@ -24,10 +29,15 @@ ZWffVIvxiB9ZHlnDcPO_Ib5ymnkJFk8ajkDzFLnb3R9yoxiLS5DpDssCOllppym0CHEGzMp-MgELqiRw
 R_mcEWX_HPy1
 }
 
-AWSEntityColoring(Satellite)
 !define SatelliteColor #3B48CC
+AWSEntityColoring2(Satellite, SatelliteColor)
+AWSEntityBoundary(Satellite, SatelliteColor)
+!define Satellite(e_alias, e_label) AWSEntity(e_alias, e_label, SatelliteColor, Satellite, Satellite)
 !define Satellite(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SatelliteColor, Satellite, Satellite)
 !define Satellite(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SatelliteColor, Satellite, Satellite)
+!define SatelliteBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SatelliteColor, Satellite, Satellite)
+!define SatelliteBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SatelliteColor, Satellite, Satellite)
+!define SatelliteParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SatelliteColor, Satellite, Satellite)
 !define SatelliteParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SatelliteColor, Satellite, Satellite)
 !define SatelliteParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SatelliteColor, Satellite, Satellite)
 

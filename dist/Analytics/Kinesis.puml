@@ -8,9 +8,14 @@ wNV_8MOwwzyez5aNtHNx-0tqlT0PG6HzEN_kqFor30IsrVLZ7a4kh5y6NTe_mi_sRnfUx8tzM--U7sJz
 kR-YBLpWQU-eBTpVtlQB-3nfgX_ilDoc-gKiXAzJ_QGNwpzRqDEIVhr-_VCyUF0L
 }
 
-AWSEntityColoring(Kinesis)
 !define KinesisColor #693CC5
+AWSEntityColoring2(Kinesis, KinesisColor)
+AWSEntityBoundary(Kinesis, KinesisColor)
+!define Kinesis(e_alias, e_label) AWSEntity(e_alias, e_label, KinesisColor, Kinesis, Kinesis)
 !define Kinesis(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, KinesisColor, Kinesis, Kinesis)
 !define Kinesis(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, KinesisColor, Kinesis, Kinesis)
+!define KinesisBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, KinesisColor, Kinesis, Kinesis)
+!define KinesisBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, KinesisColor, Kinesis, Kinesis)
+!define KinesisParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, KinesisColor, Kinesis, Kinesis)
 !define KinesisParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, KinesisColor, Kinesis, Kinesis)
 !define KinesisParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, KinesisColor, Kinesis, Kinesis)

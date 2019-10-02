@@ -9,9 +9,14 @@ EH-1tjWMRTMBm1bleNibUYnQlwHmnXVmGOc86S0YSCohJirKDVvRry4Ph_U3lWv-4JYUdodGdlmKY8Vd
 Lxzc_LJ55g3E8Ri0vBL-hlKxCo8lkp7lzVkWVr1ncs0PalFUFvpqBzheg_tB_VxfVlzslt-ytx_Uxv_lz-_txm_txo_txq_p_dRp_lYpupS
 }
 
-AWSEntityColoring(Toolkit)
 !define ToolkitColor #232F3E
+AWSEntityColoring2(Toolkit, ToolkitColor)
+AWSEntityBoundary(Toolkit, ToolkitColor)
+!define Toolkit(e_alias, e_label) AWSEntity(e_alias, e_label, ToolkitColor, Toolkit, Toolkit)
 !define Toolkit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ToolkitColor, Toolkit, Toolkit)
 !define Toolkit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ToolkitColor, Toolkit, Toolkit)
+!define ToolkitBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ToolkitColor, Toolkit, Toolkit)
+!define ToolkitBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ToolkitColor, Toolkit, Toolkit)
+!define ToolkitParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ToolkitColor, Toolkit, Toolkit)
 !define ToolkitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ToolkitColor, Toolkit, Toolkit)
 !define ToolkitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ToolkitColor, Toolkit, Toolkit)

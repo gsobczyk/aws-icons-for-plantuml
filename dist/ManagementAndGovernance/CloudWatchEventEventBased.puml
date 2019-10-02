@@ -6,9 +6,14 @@ I8nKqMVQS4sl6Z8zZPEIt7qIWohwTLTgUjNanZxzZnxDAndHsxCOND6NTLFg-W2RKDSpRFXVzxtlVU_H
 001Otft_MIDuDB0olB40Wc-I6jXLZHzkJyN7FccaQWZDxW4
 }
 
-AWSEntityColoring(CloudWatchEventEventBased)
 !define CloudWatchEventEventBasedColor #CC2264
+AWSEntityColoring2(CloudWatchEventEventBased, CloudWatchEventEventBasedColor)
+AWSEntityBoundary(CloudWatchEventEventBased, CloudWatchEventEventBasedColor)
+!define CloudWatchEventEventBased(e_alias, e_label) AWSEntity(e_alias, e_label, CloudWatchEventEventBasedColor, CloudWatchEventEventBased, CloudWatchEventEventBased)
 !define CloudWatchEventEventBased(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudWatchEventEventBasedColor, CloudWatchEventEventBased, CloudWatchEventEventBased)
 !define CloudWatchEventEventBased(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudWatchEventEventBasedColor, CloudWatchEventEventBased, CloudWatchEventEventBased)
+!define CloudWatchEventEventBasedBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudWatchEventEventBasedColor, CloudWatchEventEventBased, CloudWatchEventEventBased)
+!define CloudWatchEventEventBasedBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudWatchEventEventBasedColor, CloudWatchEventEventBased, CloudWatchEventEventBased)
+!define CloudWatchEventEventBasedParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudWatchEventEventBasedColor, CloudWatchEventEventBased, CloudWatchEventEventBased)
 !define CloudWatchEventEventBasedParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudWatchEventEventBasedColor, CloudWatchEventEventBased, CloudWatchEventEventBased)
 !define CloudWatchEventEventBasedParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudWatchEventEventBasedColor, CloudWatchEventEventBased, CloudWatchEventEventBased)

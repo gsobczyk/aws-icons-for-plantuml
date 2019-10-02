@@ -8,9 +8,14 @@ ibN05tY_EBIbuuVn8Ot7-MasimAuFTHxFX31ff08uTwWJjAMjy0hSeFoly9ezOV-iaepq9Bmdq-jXjSK
 j7wqVhL_j7znVkZyqlc9yrltX-ult9-ulvKVb5-SdvpVd1-TNvsVdT_T7znVt9-slrNo-9lxe_kh-xEV1W
 }
 
-AWSEntityColoring(VPCFlowLogs)
 !define VPCFlowLogsColor #693CC5
+AWSEntityColoring2(VPCFlowLogs, VPCFlowLogsColor)
+AWSEntityBoundary(VPCFlowLogs, VPCFlowLogsColor)
+!define VPCFlowLogs(e_alias, e_label) AWSEntity(e_alias, e_label, VPCFlowLogsColor, VPCFlowLogs, VPCFlowLogs)
 !define VPCFlowLogs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, VPCFlowLogsColor, VPCFlowLogs, VPCFlowLogs)
 !define VPCFlowLogs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, VPCFlowLogsColor, VPCFlowLogs, VPCFlowLogs)
+!define VPCFlowLogsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, VPCFlowLogsColor, VPCFlowLogs, VPCFlowLogs)
+!define VPCFlowLogsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, VPCFlowLogsColor, VPCFlowLogs, VPCFlowLogs)
+!define VPCFlowLogsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, VPCFlowLogsColor, VPCFlowLogs, VPCFlowLogs)
 !define VPCFlowLogsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, VPCFlowLogsColor, VPCFlowLogs, VPCFlowLogs)
 !define VPCFlowLogsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, VPCFlowLogsColor, VPCFlowLogs, VPCFlowLogs)

@@ -8,9 +8,14 @@ DzQWVMKo0NZROTO9pG2IiLqipwJvuae248tr9h41uxztEyXhS6v85m5q6du2R_U_h_-lz3es0020O21O
 _qF_5_vF_D_A3yelpa_ERywFpg_EpyxlxW_kB-vFtz-c-flxe_kh-xF70W
 }
 
-AWSEntityColoring(IoTAction)
 !define IoTActionColor #3F8624
+AWSEntityColoring2(IoTAction, IoTActionColor)
+AWSEntityBoundary(IoTAction, IoTActionColor)
+!define IoTAction(e_alias, e_label) AWSEntity(e_alias, e_label, IoTActionColor, IoTAction, IoTAction)
 !define IoTAction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTActionColor, IoTAction, IoTAction)
 !define IoTAction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTActionColor, IoTAction, IoTAction)
+!define IoTActionBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTActionColor, IoTAction, IoTAction)
+!define IoTActionBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTActionColor, IoTAction, IoTAction)
+!define IoTActionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTActionColor, IoTAction, IoTAction)
 !define IoTActionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTActionColor, IoTAction, IoTAction)
 !define IoTActionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTActionColor, IoTAction, IoTAction)

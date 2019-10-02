@@ -6,9 +6,14 @@ lS05lrbma8Fr8vMT4lJ8htj-xVBJImXoWLScOXtt0I88mpxVsm3fyFBIMz9IbDnBBmVhP_VsTbrVt9sE
 wQUFAftbLtwawa5CGvdgZVC-TEQzRPjDRFfZ8hIeF_oERW4
 }
 
-AWSEntityColoring(ARVR)
 !define ARVRColor #CC2264
+AWSEntityColoring2(ARVR, ARVRColor)
+AWSEntityBoundary(ARVR, ARVRColor)
+!define ARVR(e_alias, e_label) AWSEntity(e_alias, e_label, ARVRColor, ARVR, ARVR)
 !define ARVR(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ARVRColor, ARVR, ARVR)
 !define ARVR(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ARVRColor, ARVR, ARVR)
+!define ARVRBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ARVRColor, ARVR, ARVR)
+!define ARVRBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ARVRColor, ARVR, ARVR)
+!define ARVRParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ARVRColor, ARVR, ARVR)
 !define ARVRParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ARVRColor, ARVR, ARVR)
 !define ARVRParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ARVRColor, ARVR, ARVR)

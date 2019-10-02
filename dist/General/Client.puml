@@ -6,9 +6,14 @@ zOiUzD9jBh4kTtkFstu876HSzEYaJGSZEyxefDDKd9FINOhWWuWw2AveCpfOqylSw6IACvqSnM6G3O0O
 XmQNTj5ZaaaT4Zbn9j8jubocKyObJSKXANw0Km
 }
 
-AWSEntityColoring(Client)
 !define ClientColor #232F3E
+AWSEntityColoring2(Client, ClientColor)
+AWSEntityBoundary(Client, ClientColor)
+!define Client(e_alias, e_label) AWSEntity(e_alias, e_label, ClientColor, Client, Client)
 !define Client(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ClientColor, Client, Client)
 !define Client(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ClientColor, Client, Client)
+!define ClientBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ClientColor, Client, Client)
+!define ClientBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ClientColor, Client, Client)
+!define ClientParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ClientColor, Client, Client)
 !define ClientParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ClientColor, Client, Client)
 !define ClientParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ClientColor, Client, Client)

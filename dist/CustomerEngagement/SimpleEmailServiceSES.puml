@@ -10,9 +10,14 @@ uU-NtpX6UiFtWEbHqaY4BOIDCMn9iMFmjq1IsTQeXbaaQS4qnNKhIk07w9g0LGLMXNaEMg5e1IRrPtzJ
 QlAvVq-AIQhu6MfKo1qV-PkUfJZqHt3lO1_rjw5tu_S0x26jQuVZovy2uF-D3nz-1G
 }
 
-AWSEntityColoring(SimpleEmailServiceSES)
 !define SimpleEmailServiceSESColor #3B48CC
+AWSEntityColoring2(SimpleEmailServiceSES, SimpleEmailServiceSESColor)
+AWSEntityBoundary(SimpleEmailServiceSES, SimpleEmailServiceSESColor)
+!define SimpleEmailServiceSES(e_alias, e_label) AWSEntity(e_alias, e_label, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSES(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSES(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)

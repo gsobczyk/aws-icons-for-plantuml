@@ -10,9 +10,14 @@ ybfhIZRpK-UtSkh-KrzsyrlE3_uovYzo8MxLL-UNXg3EtZwRihautF3T-hCxms_ZlSt7JlIkmFjtAbik
 yYuV
 }
 
-AWSEntityColoring(ThinkboxSequoia)
 !define ThinkboxSequoiaColor #D86613
+AWSEntityColoring2(ThinkboxSequoia, ThinkboxSequoiaColor)
+AWSEntityBoundary(ThinkboxSequoia, ThinkboxSequoiaColor)
+!define ThinkboxSequoia(e_alias, e_label) AWSEntity(e_alias, e_label, ThinkboxSequoiaColor, ThinkboxSequoia, ThinkboxSequoia)
 !define ThinkboxSequoia(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ThinkboxSequoiaColor, ThinkboxSequoia, ThinkboxSequoia)
 !define ThinkboxSequoia(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ThinkboxSequoiaColor, ThinkboxSequoia, ThinkboxSequoia)
+!define ThinkboxSequoiaBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ThinkboxSequoiaColor, ThinkboxSequoia, ThinkboxSequoia)
+!define ThinkboxSequoiaBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ThinkboxSequoiaColor, ThinkboxSequoia, ThinkboxSequoia)
+!define ThinkboxSequoiaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ThinkboxSequoiaColor, ThinkboxSequoia, ThinkboxSequoia)
 !define ThinkboxSequoiaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ThinkboxSequoiaColor, ThinkboxSequoia, ThinkboxSequoia)
 !define ThinkboxSequoiaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ThinkboxSequoiaColor, ThinkboxSequoia, ThinkboxSequoia)

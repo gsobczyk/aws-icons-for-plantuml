@@ -6,9 +6,14 @@ __jTrbzXXcFZBmAlFpzn_dxQpk_hymV5KkJud_eZ6XpyJkgFyy8V54ksq1ySaXTIIZHGB4MzBwGT7l7_
 btm7V9xbxu3yelvtsdyixR-MzfzB--zd-kl7RrVqru-Vb_kxR7xv_2a9jdZ-k7p-UZn_
 }
 
-AWSEntityColoring(SageMakerNotebook)
 !define SageMakerNotebookColor #1C7B68
+AWSEntityColoring2(SageMakerNotebook, SageMakerNotebookColor)
+AWSEntityBoundary(SageMakerNotebook, SageMakerNotebookColor)
+!define SageMakerNotebook(e_alias, e_label) AWSEntity(e_alias, e_label, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
 !define SageMakerNotebook(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
 !define SageMakerNotebook(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebookBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebookBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebookParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
 !define SageMakerNotebookParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
 !define SageMakerNotebookParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)

@@ -11,9 +11,14 @@ NBw9j1O51wsBVAmyvzewooO6R2JctPydw8imuZy4qbw6NH274z2zIK3Z1-JOLFBn_R017md0XBx4bIjW
 HhOz_j0BuFLRe179-uvz0F9H3D35n_ZZa7CQxVDmOp_6cpT_
 }
 
-AWSEntityColoring(GlobalAccelerator)
 !define GlobalAcceleratorColor #693CC5
+AWSEntityColoring2(GlobalAccelerator, GlobalAcceleratorColor)
+AWSEntityBoundary(GlobalAccelerator, GlobalAcceleratorColor)
+!define GlobalAccelerator(e_alias, e_label) AWSEntity(e_alias, e_label, GlobalAcceleratorColor, GlobalAccelerator, GlobalAccelerator)
 !define GlobalAccelerator(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GlobalAcceleratorColor, GlobalAccelerator, GlobalAccelerator)
 !define GlobalAccelerator(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GlobalAcceleratorColor, GlobalAccelerator, GlobalAccelerator)
+!define GlobalAcceleratorBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, GlobalAcceleratorColor, GlobalAccelerator, GlobalAccelerator)
+!define GlobalAcceleratorBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, GlobalAcceleratorColor, GlobalAccelerator, GlobalAccelerator)
+!define GlobalAcceleratorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, GlobalAcceleratorColor, GlobalAccelerator, GlobalAccelerator)
 !define GlobalAcceleratorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GlobalAcceleratorColor, GlobalAccelerator, GlobalAccelerator)
 !define GlobalAcceleratorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GlobalAcceleratorColor, GlobalAccelerator, GlobalAccelerator)

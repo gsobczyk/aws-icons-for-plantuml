@@ -9,10 +9,15 @@ cXy50TZOA23kv-_xKIFDZEh15gOsHT_OGS33kd1Gt_H3ioYxLsGD8wi9uomcgtvdyD7YupxHMgPy8u3b
 Vi9CuGuZhhGp9AKKUsYSMc6OuVmaxIv6zM6nU9_ggzDflj9d0oxjjJu0lhQN-YPM_xrVwHF1IdkjrtlxMczo-mUya_QZV7ny_0O
 }
 
-AWSEntityColoring(Connect)
 !define ConnectColor #3B48CC
+AWSEntityColoring2(Connect, ConnectColor)
+AWSEntityBoundary(Connect, ConnectColor)
+!define Connect(e_alias, e_label) AWSEntity(e_alias, e_label, ConnectColor, Connect, Connect)
 !define Connect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ConnectColor, Connect, Connect)
 !define Connect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ConnectColor, Connect, Connect)
+!define ConnectBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ConnectColor, Connect, Connect)
+!define ConnectBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ConnectColor, Connect, Connect)
+!define ConnectParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ConnectColor, Connect, Connect)
 !define ConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ConnectColor, Connect, Connect)
 !define ConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ConnectColor, Connect, Connect)
 
@@ -23,10 +28,15 @@ OlBPYpxt8g8gCazCVizw_twVRpot326IR1xM0giu63DvgKi5QL2CurIp-3tsaB6yP_nD0E_oMgc-owj8
 Cv_3Zk17z0O
 }
 
-AWSEntityColoring(CustomerEngagement)
 !define CustomerEngagementColor #3B48CC
+AWSEntityColoring2(CustomerEngagement, CustomerEngagementColor)
+AWSEntityBoundary(CustomerEngagement, CustomerEngagementColor)
+!define CustomerEngagement(e_alias, e_label) AWSEntity(e_alias, e_label, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 
@@ -39,10 +49,15 @@ hFitl_btelV-tPwViSxFA7FNpS_g_8PUt3Q_2ddF-X4-w2A2jENC-aNndbhQjNxgZ_LJxaMQK-jtiqXj
 FumA92zFdLyquFALyvDDbyvl-ThvyM_YYoz-
 }
 
-AWSEntityColoring(Pinpoint)
 !define PinpointColor #3B48CC
+AWSEntityColoring2(Pinpoint, PinpointColor)
+AWSEntityBoundary(Pinpoint, PinpointColor)
+!define Pinpoint(e_alias, e_label) AWSEntity(e_alias, e_label, PinpointColor, Pinpoint, Pinpoint)
 !define Pinpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PinpointColor, Pinpoint, Pinpoint)
 !define Pinpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PinpointColor, Pinpoint, Pinpoint)
+!define PinpointBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, PinpointColor, Pinpoint, Pinpoint)
+!define PinpointBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, PinpointColor, Pinpoint, Pinpoint)
+!define PinpointParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, PinpointColor, Pinpoint, Pinpoint)
 !define PinpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PinpointColor, Pinpoint, Pinpoint)
 !define PinpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PinpointColor, Pinpoint, Pinpoint)
 
@@ -55,10 +70,15 @@ Ft_k-u35mF89NhfySv-zlZgSxTLj-QQ-tq2jugxTzfdwFlsvTeimzMtffyUdzyEjDuoQhdqhDxy-Uj-L
 Lh7tWtBpYWyV1-Nc5QCrZq_B3IyuQ1uiXNkJ31x-vQdUN-R-wNLPNvr5vHVF_ta7
 }
 
-AWSEntityColoring(SESEmail)
 !define SESEmailColor #3B48CC
+AWSEntityColoring2(SESEmail, SESEmailColor)
+AWSEntityBoundary(SESEmail, SESEmailColor)
+!define SESEmail(e_alias, e_label) AWSEntity(e_alias, e_label, SESEmailColor, SESEmail, SESEmail)
 !define SESEmail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SESEmailColor, SESEmail, SESEmail)
 !define SESEmail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SESEmailColor, SESEmail, SESEmail)
+!define SESEmailBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SESEmailColor, SESEmail, SESEmail)
+!define SESEmailBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SESEmailColor, SESEmail, SESEmail)
+!define SESEmailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SESEmailColor, SESEmail, SESEmail)
 !define SESEmailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SESEmailColor, SESEmail, SESEmail)
 !define SESEmailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SESEmailColor, SESEmail, SESEmail)
 
@@ -72,10 +92,15 @@ uU-NtpX6UiFtWEbHqaY4BOIDCMn9iMFmjq1IsTQeXbaaQS4qnNKhIk07w9g0LGLMXNaEMg5e1IRrPtzJ
 QlAvVq-AIQhu6MfKo1qV-PkUfJZqHt3lO1_rjw5tu_S0x26jQuVZovy2uF-D3nz-1G
 }
 
-AWSEntityColoring(SimpleEmailServiceSES)
 !define SimpleEmailServiceSESColor #3B48CC
+AWSEntityColoring2(SimpleEmailServiceSES, SimpleEmailServiceSESColor)
+AWSEntityBoundary(SimpleEmailServiceSES, SimpleEmailServiceSESColor)
+!define SimpleEmailServiceSES(e_alias, e_label) AWSEntity(e_alias, e_label, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSES(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSES(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 

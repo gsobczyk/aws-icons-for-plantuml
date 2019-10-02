@@ -8,9 +8,14 @@ VtlnxV9Vbd-tVoIsU1FQ--VDR-vBVV5rxjCsFsT_bAX_pdSYtVR7srz1qELV6RBjhvyV6Q6y-1AGz_pm
 NNxv-RdwTvEVVdxF-H7D-Ttajtz-j22MaabepldnFUVNzv-Vttz-V__zuVllBxzUZnuz-WG
 }
 
-AWSEntityColoring(FreeRTOS)
 !define FreeRTOSColor #3F8624
+AWSEntityColoring2(FreeRTOS, FreeRTOSColor)
+AWSEntityBoundary(FreeRTOS, FreeRTOSColor)
+!define FreeRTOS(e_alias, e_label) AWSEntity(e_alias, e_label, FreeRTOSColor, FreeRTOS, FreeRTOS)
 !define FreeRTOS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, FreeRTOSColor, FreeRTOS, FreeRTOS)
 !define FreeRTOS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, FreeRTOSColor, FreeRTOS, FreeRTOS)
+!define FreeRTOSBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, FreeRTOSColor, FreeRTOS, FreeRTOS)
+!define FreeRTOSBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, FreeRTOSColor, FreeRTOS, FreeRTOS)
+!define FreeRTOSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, FreeRTOSColor, FreeRTOS, FreeRTOS)
 !define FreeRTOSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, FreeRTOSColor, FreeRTOS, FreeRTOS)
 !define FreeRTOSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, FreeRTOSColor, FreeRTOS, FreeRTOS)

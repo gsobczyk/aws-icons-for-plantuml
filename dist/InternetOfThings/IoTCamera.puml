@@ -10,9 +10,14 @@ cZ-6VoGDDJZllGiLcbk6F-QFr_pNj0Kf0fh8y_MZcDXGMZJBf1-NRzYGfKeEuqxZWp_M3rqo1YBoQHLe
 pEa1qil-iKxG0F_dxbyLdyeEiBS2JOFieMdGhqhoV-x-_Rz_Vfa_l_t9vyV_Fhy
 }
 
-AWSEntityColoring(IoTCamera)
 !define IoTCameraColor #3F8624
+AWSEntityColoring2(IoTCamera, IoTCameraColor)
+AWSEntityBoundary(IoTCamera, IoTCameraColor)
+!define IoTCamera(e_alias, e_label) AWSEntity(e_alias, e_label, IoTCameraColor, IoTCamera, IoTCamera)
 !define IoTCamera(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTCameraColor, IoTCamera, IoTCamera)
 !define IoTCamera(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTCameraColor, IoTCamera, IoTCamera)
+!define IoTCameraBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTCameraColor, IoTCamera, IoTCamera)
+!define IoTCameraBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTCameraColor, IoTCamera, IoTCamera)
+!define IoTCameraParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTCameraColor, IoTCamera, IoTCamera)
 !define IoTCameraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTCameraColor, IoTCamera, IoTCamera)
 !define IoTCameraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTCameraColor, IoTCamera, IoTCamera)

@@ -9,9 +9,14 @@ pzO2TicxBGFhy2cCfE5N8D-zvn_mQlxQw_ch_TDUxvyuF-tr-SdxexsyF_B-QY_lhtn-j9VFZtX-X-zJ
 VeltZm_xlwNNiG4080p3i3NyVp30Ijj9EIAs7p-KNyXFvBVwW_gB-vFxc_kZ-wlxi_kxzuFtY_TJxRUL3Ftc_UZzwltiEm
 }
 
-AWSEntityColoring(VPCNetworkAccessControlList)
 !define VPCNetworkAccessControlListColor #693CC5
+AWSEntityColoring2(VPCNetworkAccessControlList, VPCNetworkAccessControlListColor)
+AWSEntityBoundary(VPCNetworkAccessControlList, VPCNetworkAccessControlListColor)
+!define VPCNetworkAccessControlList(e_alias, e_label) AWSEntity(e_alias, e_label, VPCNetworkAccessControlListColor, VPCNetworkAccessControlList, VPCNetworkAccessControlList)
 !define VPCNetworkAccessControlList(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, VPCNetworkAccessControlListColor, VPCNetworkAccessControlList, VPCNetworkAccessControlList)
 !define VPCNetworkAccessControlList(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, VPCNetworkAccessControlListColor, VPCNetworkAccessControlList, VPCNetworkAccessControlList)
+!define VPCNetworkAccessControlListBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, VPCNetworkAccessControlListColor, VPCNetworkAccessControlList, VPCNetworkAccessControlList)
+!define VPCNetworkAccessControlListBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, VPCNetworkAccessControlListColor, VPCNetworkAccessControlList, VPCNetworkAccessControlList)
+!define VPCNetworkAccessControlListParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, VPCNetworkAccessControlListColor, VPCNetworkAccessControlList, VPCNetworkAccessControlList)
 !define VPCNetworkAccessControlListParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, VPCNetworkAccessControlListColor, VPCNetworkAccessControlList, VPCNetworkAccessControlList)
 !define VPCNetworkAccessControlListParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, VPCNetworkAccessControlListColor, VPCNetworkAccessControlList, VPCNetworkAccessControlList)

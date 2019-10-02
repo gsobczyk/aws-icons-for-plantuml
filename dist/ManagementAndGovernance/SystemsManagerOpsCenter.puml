@@ -11,9 +11,14 @@ ySBEiF4ckvOtkH6sQlp2IjPHZfFFxb83ZTjHQckr7FbJuYItmULeJR9RRXjT_axiK6wh-071vVRnxWxN
 pq6UaXiZrIh_IJhESnjd_mS
 }
 
-AWSEntityColoring(SystemsManagerOpsCenter)
 !define SystemsManagerOpsCenterColor #CC2264
+AWSEntityColoring2(SystemsManagerOpsCenter, SystemsManagerOpsCenterColor)
+AWSEntityBoundary(SystemsManagerOpsCenter, SystemsManagerOpsCenterColor)
+!define SystemsManagerOpsCenter(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerOpsCenterColor, SystemsManagerOpsCenter, SystemsManagerOpsCenter)
 !define SystemsManagerOpsCenter(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerOpsCenterColor, SystemsManagerOpsCenter, SystemsManagerOpsCenter)
 !define SystemsManagerOpsCenter(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerOpsCenterColor, SystemsManagerOpsCenter, SystemsManagerOpsCenter)
+!define SystemsManagerOpsCenterBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerOpsCenterColor, SystemsManagerOpsCenter, SystemsManagerOpsCenter)
+!define SystemsManagerOpsCenterBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerOpsCenterColor, SystemsManagerOpsCenter, SystemsManagerOpsCenter)
+!define SystemsManagerOpsCenterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerOpsCenterColor, SystemsManagerOpsCenter, SystemsManagerOpsCenter)
 !define SystemsManagerOpsCenterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerOpsCenterColor, SystemsManagerOpsCenter, SystemsManagerOpsCenter)
 !define SystemsManagerOpsCenterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerOpsCenterColor, SystemsManagerOpsCenter, SystemsManagerOpsCenter)

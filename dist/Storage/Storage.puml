@@ -7,9 +7,14 @@ TmCEUoNUH7hS9_DDbaxq6PlokNuweikJhi8VsdgZD26Bz98noHBfqzgdIA-i4zP8NxDDyXZe7LXveF_1
 h_utz_yir7jjD7xNXwmzXmZDlLexJKmJPWbW-WXk
 }
 
-AWSEntityColoring(Storage)
 !define StorageColor #3F8624
+AWSEntityColoring2(Storage, StorageColor)
+AWSEntityBoundary(Storage, StorageColor)
+!define Storage(e_alias, e_label) AWSEntity(e_alias, e_label, StorageColor, Storage, Storage)
 !define Storage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, StorageColor, Storage, Storage)
 !define Storage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, StorageColor, Storage, Storage)
+!define StorageBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, StorageColor, Storage, Storage)
+!define StorageBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, StorageColor, Storage, Storage)
+!define StorageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, StorageColor, Storage, Storage)
 !define StorageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, StorageColor, Storage, Storage)
 !define StorageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, StorageColor, Storage, Storage)

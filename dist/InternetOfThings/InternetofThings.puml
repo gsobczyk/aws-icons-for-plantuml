@@ -8,9 +8,14 @@ Vi_-CNxxvy-pVyoVtVFtnVVvEr0_BxxNpqZzFljUlqFzu-5x_nZiNztt_ZNOFvtMYw_gH1V6-xUAK-Sk
 U-hZPSP3V_pnvryVVZGlVkxwfNjdCXLptVim4N_tQkQ7O_Qu09oC_04v0G
 }
 
-AWSEntityColoring(InternetofThings)
 !define InternetofThingsColor #3F8624
+AWSEntityColoring2(InternetofThings, InternetofThingsColor)
+AWSEntityBoundary(InternetofThings, InternetofThingsColor)
+!define InternetofThings(e_alias, e_label) AWSEntity(e_alias, e_label, InternetofThingsColor, InternetofThings, InternetofThings)
 !define InternetofThings(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, InternetofThingsColor, InternetofThings, InternetofThings)
 !define InternetofThings(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, InternetofThingsColor, InternetofThings, InternetofThings)
+!define InternetofThingsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, InternetofThingsColor, InternetofThings, InternetofThings)
+!define InternetofThingsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, InternetofThingsColor, InternetofThings, InternetofThings)
+!define InternetofThingsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, InternetofThingsColor, InternetofThings, InternetofThings)
 !define InternetofThingsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, InternetofThingsColor, InternetofThings, InternetofThings)
 !define InternetofThingsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, InternetofThingsColor, InternetofThings, InternetofThings)

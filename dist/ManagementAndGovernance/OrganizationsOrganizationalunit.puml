@@ -8,9 +8,14 @@ Y3BMA14nXMF-hZhe2v-XEvdpG9m7IES-xClxd0MSpCl4gTS7dtFGrVm3cpEVmSjPSVu43jo9Dr3bD3N-
 fF_q5iAbJw0Nsmy7xj87C0llmRxGztPLXxL_rjhRKf-cF-7-nwz_-Vxpo_VVNr1ywV7BYu-VNjPl_m8
 }
 
-AWSEntityColoring(OrganizationsOrganizationalunit)
 !define OrganizationsOrganizationalunitColor #CC2264
+AWSEntityColoring2(OrganizationsOrganizationalunit, OrganizationsOrganizationalunitColor)
+AWSEntityBoundary(OrganizationsOrganizationalunit, OrganizationsOrganizationalunitColor)
+!define OrganizationsOrganizationalunit(e_alias, e_label) AWSEntity(e_alias, e_label, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
 !define OrganizationsOrganizationalunit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
 !define OrganizationsOrganizationalunit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
+!define OrganizationsOrganizationalunitBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
+!define OrganizationsOrganizationalunitBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
+!define OrganizationsOrganizationalunitParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
 !define OrganizationsOrganizationalunitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
 !define OrganizationsOrganizationalunitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)

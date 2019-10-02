@@ -11,9 +11,14 @@ xd_anyeFv7RTSn6adBQFzTliNuLmAD2pWCckg30_zszpVWweBkIIdFD5GRj2i9loUNusvzVhpQVT3_lK
 h_mA5UX_otSeZ_NBEvzXFjPFxtm2uhv-O_uaHPVwRQaVbHVfLJzkwjSqviyQsV3nK3-_QgsVr_hzLPa5_xP_MFiNzul-vVl-wVl-xVl-yVl-zVl--Tl-_Ly
 }
 
-AWSEntityColoring(ClassicLoadBalancer)
 !define ClassicLoadBalancerColor #693CC5
+AWSEntityColoring2(ClassicLoadBalancer, ClassicLoadBalancerColor)
+AWSEntityBoundary(ClassicLoadBalancer, ClassicLoadBalancerColor)
+!define ClassicLoadBalancer(e_alias, e_label) AWSEntity(e_alias, e_label, ClassicLoadBalancerColor, ClassicLoadBalancer, ClassicLoadBalancer)
 !define ClassicLoadBalancer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ClassicLoadBalancerColor, ClassicLoadBalancer, ClassicLoadBalancer)
 !define ClassicLoadBalancer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ClassicLoadBalancerColor, ClassicLoadBalancer, ClassicLoadBalancer)
+!define ClassicLoadBalancerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ClassicLoadBalancerColor, ClassicLoadBalancer, ClassicLoadBalancer)
+!define ClassicLoadBalancerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ClassicLoadBalancerColor, ClassicLoadBalancer, ClassicLoadBalancer)
+!define ClassicLoadBalancerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ClassicLoadBalancerColor, ClassicLoadBalancer, ClassicLoadBalancer)
 !define ClassicLoadBalancerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ClassicLoadBalancerColor, ClassicLoadBalancer, ClassicLoadBalancer)
 !define ClassicLoadBalancerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ClassicLoadBalancerColor, ClassicLoadBalancer, ClassicLoadBalancer)

@@ -10,9 +10,14 @@ n31YQH0K_-Z-ZIXOLV_g--Ch4thIzkVr_eg_mwhxg-R7UroqT_aboo9lyclEJpr_zVnydz_mFh__b5x7
 VtD_T7zrVtP_ztxmVl5-slrMoTDlte_UhzxFlWO
 }
 
-AWSEntityColoring(VPCPeering)
 !define VPCPeeringColor #693CC5
+AWSEntityColoring2(VPCPeering, VPCPeeringColor)
+AWSEntityBoundary(VPCPeering, VPCPeeringColor)
+!define VPCPeering(e_alias, e_label) AWSEntity(e_alias, e_label, VPCPeeringColor, VPCPeering, VPCPeering)
 !define VPCPeering(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, VPCPeeringColor, VPCPeering, VPCPeering)
 !define VPCPeering(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, VPCPeeringColor, VPCPeering, VPCPeering)
+!define VPCPeeringBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, VPCPeeringColor, VPCPeering, VPCPeering)
+!define VPCPeeringBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, VPCPeeringColor, VPCPeering, VPCPeering)
+!define VPCPeeringParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, VPCPeeringColor, VPCPeering, VPCPeering)
 !define VPCPeeringParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, VPCPeeringColor, VPCPeering, VPCPeering)
 !define VPCPeeringParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, VPCPeeringColor, VPCPeering, VPCPeering)

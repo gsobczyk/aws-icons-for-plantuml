@@ -11,9 +11,14 @@ QB6PyCY2p_UBxoTng2EaVETdmlFzpi9V3wIBmFgcArgBcP9oVWWx8FoL3fWuFzpFBvKzZspVbIp5Gqv_
 _ldPmZa___3y_hFxmm_lBtzwVxBtjsJkRp-xF_xz_TM_F_yb_W4
 }
 
-AWSEntityColoring(LambdaLambdaFunction)
 !define LambdaLambdaFunctionColor #D86613
+AWSEntityColoring2(LambdaLambdaFunction, LambdaLambdaFunctionColor)
+AWSEntityBoundary(LambdaLambdaFunction, LambdaLambdaFunctionColor)
+!define LambdaLambdaFunction(e_alias, e_label) AWSEntity(e_alias, e_label, LambdaLambdaFunctionColor, LambdaLambdaFunction, LambdaLambdaFunction)
 !define LambdaLambdaFunction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, LambdaLambdaFunctionColor, LambdaLambdaFunction, LambdaLambdaFunction)
 !define LambdaLambdaFunction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, LambdaLambdaFunctionColor, LambdaLambdaFunction, LambdaLambdaFunction)
+!define LambdaLambdaFunctionBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, LambdaLambdaFunctionColor, LambdaLambdaFunction, LambdaLambdaFunction)
+!define LambdaLambdaFunctionBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, LambdaLambdaFunctionColor, LambdaLambdaFunction, LambdaLambdaFunction)
+!define LambdaLambdaFunctionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, LambdaLambdaFunctionColor, LambdaLambdaFunction, LambdaLambdaFunction)
 !define LambdaLambdaFunctionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, LambdaLambdaFunctionColor, LambdaLambdaFunction, LambdaLambdaFunction)
 !define LambdaLambdaFunctionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, LambdaLambdaFunctionColor, LambdaLambdaFunction, LambdaLambdaFunction)

@@ -9,10 +9,15 @@ f8hlB_ODs9xlCEa9o3Clq4P6STzVJ4l-w2FP53BtDGFPtTotZQ-vkMSWrxblh8hGz-cptGtGolRESso0
 9quhaDxdtkvy_W2RUy1uaG5lV2YNXQatB6RdtkjYpj-Z__tlCm
 }
 
-AWSEntityColoring(Budgets)
 !define BudgetsColor #3F8624
+AWSEntityColoring2(Budgets, BudgetsColor)
+AWSEntityBoundary(Budgets, BudgetsColor)
+!define Budgets(e_alias, e_label) AWSEntity(e_alias, e_label, BudgetsColor, Budgets, Budgets)
 !define Budgets(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BudgetsColor, Budgets, Budgets)
 !define Budgets(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BudgetsColor, Budgets, Budgets)
+!define BudgetsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, BudgetsColor, Budgets, Budgets)
+!define BudgetsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, BudgetsColor, Budgets, Budgets)
+!define BudgetsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, BudgetsColor, Budgets, Budgets)
 !define BudgetsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BudgetsColor, Budgets, Budgets)
 !define BudgetsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BudgetsColor, Budgets, Budgets)
 
@@ -25,10 +30,15 @@ OWLW1g1S6tzIjqsMn0HhYrmz8BhIXV4lhO1A5XGf8xcEWyo86dRkzp9_j0OYrQE5ub96KxxY-Sr7B5KW
 hdkA8nbWgKUaVOBtFcc75lGjTAV4T782EIBz2Ds2lr8QIVTzWcc1UkTXh_nUHZzEe09_vrFyMyfn1yCYtxw1lsRlSM693_m-mPeKdqUI-4Nvv9D_0G
 }
 
-AWSEntityColoring(CostExplorer)
 !define CostExplorerColor #3F8624
+AWSEntityColoring2(CostExplorer, CostExplorerColor)
+AWSEntityBoundary(CostExplorer, CostExplorerColor)
+!define CostExplorer(e_alias, e_label) AWSEntity(e_alias, e_label, CostExplorerColor, CostExplorer, CostExplorer)
 !define CostExplorer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CostExplorerColor, CostExplorer, CostExplorer)
 !define CostExplorer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CostExplorerColor, CostExplorer, CostExplorer)
+!define CostExplorerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CostExplorerColor, CostExplorer, CostExplorer)
+!define CostExplorerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CostExplorerColor, CostExplorer, CostExplorer)
+!define CostExplorerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CostExplorerColor, CostExplorer, CostExplorer)
 !define CostExplorerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CostExplorerColor, CostExplorer, CostExplorer)
 !define CostExplorerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CostExplorerColor, CostExplorer, CostExplorer)
 
@@ -39,10 +49,15 @@ Ddx-ZQslH9w5FL6JuOXSiFKzfSp2EQKk3MBoO9j_fU-LVhOkV_vjVHhd_x74cH3hL3zAgSkHPCpqJv__
 DxUFlwhyHRlPoz-yo-kVx_w9r_z8a8TLl_HJZXwd46oz3tPUHxz0f0a8dy4F
 }
 
-AWSEntityColoring(CostManagement)
 !define CostManagementColor #3F8624
+AWSEntityColoring2(CostManagement, CostManagementColor)
+AWSEntityBoundary(CostManagement, CostManagementColor)
+!define CostManagement(e_alias, e_label) AWSEntity(e_alias, e_label, CostManagementColor, CostManagement, CostManagement)
 !define CostManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CostManagementColor, CostManagement, CostManagement)
 !define CostManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CostManagementColor, CostManagement, CostManagement)
+!define CostManagementBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CostManagementColor, CostManagement, CostManagement)
+!define CostManagementBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CostManagementColor, CostManagement, CostManagement)
+!define CostManagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CostManagementColor, CostManagement, CostManagement)
 !define CostManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CostManagementColor, CostManagement, CostManagement)
 !define CostManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CostManagementColor, CostManagement, CostManagement)
 
@@ -54,10 +69,15 @@ HerywRSqkFGiIyhV_dvUq4TybJ_dXF8CZzLFCwu8BnpgdrZU42c3lVvTfLSi63aoF-Dxa7EwaQMdXSny
 6Vx4_QaaP4xTtqhcrFwWDCxjByhS_ZI_lytlZ_Fxwv_F3p_y0W
 }
 
-AWSEntityColoring(CostandUsageReport)
 !define CostandUsageReportColor #3F8624
+AWSEntityColoring2(CostandUsageReport, CostandUsageReportColor)
+AWSEntityBoundary(CostandUsageReport, CostandUsageReportColor)
+!define CostandUsageReport(e_alias, e_label) AWSEntity(e_alias, e_label, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReport(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReport(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReportBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReportBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReportParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReportParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReportParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CostandUsageReportColor, CostandUsageReport, CostandUsageReport)
 
@@ -69,10 +89,15 @@ JpQNFw9n_emE3dneP6ESlsEByBWFSBuOxryUzm72sHi6EUF1_ZcnVq_K3z8O5_3x-YKQry-iQw5tzLF2
 GuU-0G
 }
 
-AWSEntityColoring(ReservedInstanceReporting)
 !define ReservedInstanceReportingColor #3F8624
+AWSEntityColoring2(ReservedInstanceReporting, ReservedInstanceReportingColor)
+AWSEntityBoundary(ReservedInstanceReporting, ReservedInstanceReportingColor)
+!define ReservedInstanceReporting(e_alias, e_label) AWSEntity(e_alias, e_label, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReporting(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReporting(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReportingBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReportingBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReportingParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReportingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReportingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ReservedInstanceReportingColor, ReservedInstanceReporting, ReservedInstanceReporting)
 

@@ -10,9 +10,14 @@ x_zjuePHlElpTSrs_yfXt-kUwwtVUv_MzUzNQxb_7wRR_yzrtklZSFCpy_Ew5Yy_nX1wv6jgDlnQNmfs
 FF_ZveUIrDQ7qJjGZisuUZzNRzSxMRedfV1OVvxvSFSVdo0Sjp_AFm
 }
 
-AWSEntityColoring(DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflowColor #3B48CC
+AWSEntityColoring2(DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflowColor)
+AWSEntityBoundary(DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflowColor)
+!define DMSDatabaseMigrationWorkflow(e_alias, e_label) AWSEntity(e_alias, e_label, DMSDatabaseMigrationWorkflowColor, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DMSDatabaseMigrationWorkflowColor, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DMSDatabaseMigrationWorkflowColor, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DMSDatabaseMigrationWorkflowColor, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DMSDatabaseMigrationWorkflowColor, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DMSDatabaseMigrationWorkflowColor, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DMSDatabaseMigrationWorkflowColor, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DMSDatabaseMigrationWorkflowColor, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)

@@ -8,9 +8,14 @@ ry-TIjUh3SBRlaEo1cc-Vk-qgtq0EZITx1K0Xfkl_uLU0GYQSgMr1hGNjKElhQRNNg7kcajSv5RMRuO-
 Rz_OvpJH5llCHKuBmk22PbfXvgPCt-uM
 }
 
-AWSEntityColoring(TrustedAdvisorCheckSecurity)
 !define TrustedAdvisorCheckSecurityColor #CC2264
+AWSEntityColoring2(TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurityColor)
+AWSEntityBoundary(TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurityColor)
+!define TrustedAdvisorCheckSecurity(e_alias, e_label) AWSEntity(e_alias, e_label, TrustedAdvisorCheckSecurityColor, TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurity)
 !define TrustedAdvisorCheckSecurity(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TrustedAdvisorCheckSecurityColor, TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurity)
 !define TrustedAdvisorCheckSecurity(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TrustedAdvisorCheckSecurityColor, TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurity)
+!define TrustedAdvisorCheckSecurityBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TrustedAdvisorCheckSecurityColor, TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurity)
+!define TrustedAdvisorCheckSecurityBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TrustedAdvisorCheckSecurityColor, TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurity)
+!define TrustedAdvisorCheckSecurityParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TrustedAdvisorCheckSecurityColor, TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurity)
 !define TrustedAdvisorCheckSecurityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TrustedAdvisorCheckSecurityColor, TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurity)
 !define TrustedAdvisorCheckSecurityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TrustedAdvisorCheckSecurityColor, TrustedAdvisorCheckSecurity, TrustedAdvisorCheckSecurity)

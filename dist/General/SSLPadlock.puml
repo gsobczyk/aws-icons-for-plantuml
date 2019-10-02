@@ -11,9 +11,14 @@ PT_oMvwjiVm5EgMzyd4oAxwXpjoBN-8h_0BlO7_bWqXuvVU3tvI-u8rMV4VF7yxmsIsK9szUX0eKm-jI
 w_tHLyknvseUWZy_OoG4OUx6bpHjNuLyNRu1DBzzMrar__Jzyz_g_m
 }
 
-AWSEntityColoring(SSLPadlock)
 !define SSLPadlockColor #232F3E
+AWSEntityColoring2(SSLPadlock, SSLPadlockColor)
+AWSEntityBoundary(SSLPadlock, SSLPadlockColor)
+!define SSLPadlock(e_alias, e_label) AWSEntity(e_alias, e_label, SSLPadlockColor, SSLPadlock, SSLPadlock)
 !define SSLPadlock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SSLPadlockColor, SSLPadlock, SSLPadlock)
 !define SSLPadlock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SSLPadlockColor, SSLPadlock, SSLPadlock)
+!define SSLPadlockBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SSLPadlockColor, SSLPadlock, SSLPadlock)
+!define SSLPadlockBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SSLPadlockColor, SSLPadlock, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SSLPadlockColor, SSLPadlock, SSLPadlock)
 !define SSLPadlockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SSLPadlockColor, SSLPadlock, SSLPadlock)
 !define SSLPadlockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SSLPadlockColor, SSLPadlock, SSLPadlock)

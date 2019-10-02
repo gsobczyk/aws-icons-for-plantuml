@@ -7,9 +7,14 @@ TlnTVMx6bARu13Hoe8hzlv7tHV2yW6TojVztSh7_xo0NlLK0kyc-u3xD9K--iHKKpuPZAmW-tNEsWjf_
 2m
 }
 
-AWSEntityColoring(IAMPermissions)
 !define IAMPermissionsColor #D6242D
+AWSEntityColoring2(IAMPermissions, IAMPermissionsColor)
+AWSEntityBoundary(IAMPermissions, IAMPermissionsColor)
+!define IAMPermissions(e_alias, e_label) AWSEntity(e_alias, e_label, IAMPermissionsColor, IAMPermissions, IAMPermissions)
 !define IAMPermissions(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMPermissionsColor, IAMPermissions, IAMPermissions)
 !define IAMPermissions(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMPermissionsColor, IAMPermissions, IAMPermissions)
+!define IAMPermissionsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IAMPermissionsColor, IAMPermissions, IAMPermissions)
+!define IAMPermissionsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IAMPermissionsColor, IAMPermissions, IAMPermissions)
+!define IAMPermissionsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IAMPermissionsColor, IAMPermissions, IAMPermissions)
 !define IAMPermissionsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMPermissionsColor, IAMPermissions, IAMPermissions)
 !define IAMPermissionsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMPermissionsColor, IAMPermissions, IAMPermissions)

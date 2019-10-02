@@ -6,9 +6,14 @@ Y0Q6_Qj5W9KQkNxNv-k-CjMsTbB7jPABvgkbsgYIWBdDlws3_0magWYOVjy_9SWrbvUzNjBn_ElDsjz9
 zSDOluprqrw_dNFEtG4
 }
 
-AWSEntityColoring(IoTGreengrassConnector)
 !define IoTGreengrassConnectorColor #3F8624
+AWSEntityColoring2(IoTGreengrassConnector, IoTGreengrassConnectorColor)
+AWSEntityBoundary(IoTGreengrassConnector, IoTGreengrassConnectorColor)
+!define IoTGreengrassConnector(e_alias, e_label) AWSEntity(e_alias, e_label, IoTGreengrassConnectorColor, IoTGreengrassConnector, IoTGreengrassConnector)
 !define IoTGreengrassConnector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTGreengrassConnectorColor, IoTGreengrassConnector, IoTGreengrassConnector)
 !define IoTGreengrassConnector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTGreengrassConnectorColor, IoTGreengrassConnector, IoTGreengrassConnector)
+!define IoTGreengrassConnectorBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTGreengrassConnectorColor, IoTGreengrassConnector, IoTGreengrassConnector)
+!define IoTGreengrassConnectorBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTGreengrassConnectorColor, IoTGreengrassConnector, IoTGreengrassConnector)
+!define IoTGreengrassConnectorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTGreengrassConnectorColor, IoTGreengrassConnector, IoTGreengrassConnector)
 !define IoTGreengrassConnectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTGreengrassConnectorColor, IoTGreengrassConnector, IoTGreengrassConnector)
 !define IoTGreengrassConnectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTGreengrassConnectorColor, IoTGreengrassConnector, IoTGreengrassConnector)

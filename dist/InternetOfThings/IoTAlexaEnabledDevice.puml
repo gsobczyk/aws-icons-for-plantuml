@@ -10,9 +10,14 @@ ICMWjqyixxs1PVaX62RbsB7m1LU3T63i8Ug44l3DBvJ5HrA5gRB1FWKTqCDw3omua-LbVy9MTmRC8770
 WAvosHVPE6BVRzOVVOdTNkmMv1lTffVDBBXlvhuJIb_khbxq_FjPZcL7Gr3vS_a5
 }
 
-AWSEntityColoring(IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDeviceColor #3F8624
+AWSEntityColoring2(IoTAlexaEnabledDevice, IoTAlexaEnabledDeviceColor)
+AWSEntityBoundary(IoTAlexaEnabledDevice, IoTAlexaEnabledDeviceColor)
+!define IoTAlexaEnabledDevice(e_alias, e_label) AWSEntity(e_alias, e_label, IoTAlexaEnabledDeviceColor, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDevice(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTAlexaEnabledDeviceColor, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDevice(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTAlexaEnabledDeviceColor, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDeviceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTAlexaEnabledDeviceColor, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDeviceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTAlexaEnabledDeviceColor, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDeviceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTAlexaEnabledDeviceColor, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDeviceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTAlexaEnabledDeviceColor, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDeviceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTAlexaEnabledDeviceColor, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)

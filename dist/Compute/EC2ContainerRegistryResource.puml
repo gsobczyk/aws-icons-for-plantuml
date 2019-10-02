@@ -7,9 +7,14 @@ sVT0PHSWa0btD4velWSI6HxwVVHjkt2dV0_iPx-DFkD2PlCziDa-He4SewVUUASVyqhgM3Twu_zpt_Un
 -s5slthlh_uFcp_zd_g_R-WNrs_UFzUlgfzLloC_AByWFoc_8Jyglpe_kpq
 }
 
-AWSEntityColoring(EC2ContainerRegistryResource)
 !define EC2ContainerRegistryResourceColor #D86613
+AWSEntityColoring2(EC2ContainerRegistryResource, EC2ContainerRegistryResourceColor)
+AWSEntityBoundary(EC2ContainerRegistryResource, EC2ContainerRegistryResourceColor)
+!define EC2ContainerRegistryResource(e_alias, e_label) AWSEntity(e_alias, e_label, EC2ContainerRegistryResourceColor, EC2ContainerRegistryResource, EC2ContainerRegistryResource)
 !define EC2ContainerRegistryResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EC2ContainerRegistryResourceColor, EC2ContainerRegistryResource, EC2ContainerRegistryResource)
 !define EC2ContainerRegistryResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EC2ContainerRegistryResourceColor, EC2ContainerRegistryResource, EC2ContainerRegistryResource)
+!define EC2ContainerRegistryResourceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EC2ContainerRegistryResourceColor, EC2ContainerRegistryResource, EC2ContainerRegistryResource)
+!define EC2ContainerRegistryResourceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EC2ContainerRegistryResourceColor, EC2ContainerRegistryResource, EC2ContainerRegistryResource)
+!define EC2ContainerRegistryResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EC2ContainerRegistryResourceColor, EC2ContainerRegistryResource, EC2ContainerRegistryResource)
 !define EC2ContainerRegistryResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EC2ContainerRegistryResourceColor, EC2ContainerRegistryResource, EC2ContainerRegistryResource)
 !define EC2ContainerRegistryResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EC2ContainerRegistryResourceColor, EC2ContainerRegistryResource, EC2ContainerRegistryResource)

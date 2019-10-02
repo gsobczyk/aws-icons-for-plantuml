@@ -8,9 +8,14 @@ XntWBghsy2CG7xwfQa_hnx4mVk4v__PJx1jNS4dCvUut_D3kVk78kTkqXvjlHBqJr6_pVdyWtowUaxuW
 T8GUlU_MPXVccFuz5nSNtm
 }
 
-AWSEntityColoring(ClientVPN)
 !define ClientVPNColor #693CC5
+AWSEntityColoring2(ClientVPN, ClientVPNColor)
+AWSEntityBoundary(ClientVPN, ClientVPNColor)
+!define ClientVPN(e_alias, e_label) AWSEntity(e_alias, e_label, ClientVPNColor, ClientVPN, ClientVPN)
 !define ClientVPN(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ClientVPNColor, ClientVPN, ClientVPN)
 !define ClientVPN(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ClientVPNColor, ClientVPN, ClientVPN)
+!define ClientVPNBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ClientVPNColor, ClientVPN, ClientVPN)
+!define ClientVPNBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ClientVPNColor, ClientVPN, ClientVPN)
+!define ClientVPNParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ClientVPNColor, ClientVPN, ClientVPN)
 !define ClientVPNParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ClientVPNColor, ClientVPN, ClientVPN)
 !define ClientVPNParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ClientVPNColor, ClientVPN, ClientVPN)

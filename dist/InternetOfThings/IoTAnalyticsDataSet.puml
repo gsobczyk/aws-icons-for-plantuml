@@ -6,9 +6,14 @@ Alg1GV_lOyu89iyXfBmdwkRVWkCvYxnBD_-LQDaJ6UoyYvgYHyJ5Vp7YWM7_dtyqAmXW3YdwnYi971-u
 __bxU6_TCGi0gr5rVXmY1AkT_yudND3xSCm3u6hyp_y3UqvZTARNQJVsLUZHA6tx6qYz2S7Sqdjc_-AUkWPBlPBGswQMu3wc
 }
 
-AWSEntityColoring(IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSetColor #3F8624
+AWSEntityColoring2(IoTAnalyticsDataSet, IoTAnalyticsDataSetColor)
+AWSEntityBoundary(IoTAnalyticsDataSet, IoTAnalyticsDataSetColor)
+!define IoTAnalyticsDataSet(e_alias, e_label) AWSEntity(e_alias, e_label, IoTAnalyticsDataSetColor, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSet(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTAnalyticsDataSetColor, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSet(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTAnalyticsDataSetColor, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSetBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTAnalyticsDataSetColor, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSetBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTAnalyticsDataSetColor, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSetParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTAnalyticsDataSetColor, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSetParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTAnalyticsDataSetColor, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSetParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTAnalyticsDataSetColor, IoTAnalyticsDataSet, IoTAnalyticsDataSet)

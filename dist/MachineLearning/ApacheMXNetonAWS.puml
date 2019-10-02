@@ -8,9 +8,14 @@ LyXdlfEaEYSqj2l-cFc3EF_j-G0keFwZt-dAAnW-fq1Zww9tNoME14Nn1nIIhzlXtw_Z0lKd2Ww_vsE-
 Ye9wlmVSh_qruZzXaWFu8N9uriNyDOEnsKFi3JnMdZvOfzlbjISGg_dodI_WrNm9PM1JIo5rGrIrWdL6MdedWBlvEsYb5kyRLVMtCKllVad-yO__0G
 }
 
-AWSEntityColoring(ApacheMXNetonAWS)
 !define ApacheMXNetonAWSColor #1C7B68
+AWSEntityColoring2(ApacheMXNetonAWS, ApacheMXNetonAWSColor)
+AWSEntityBoundary(ApacheMXNetonAWS, ApacheMXNetonAWSColor)
+!define ApacheMXNetonAWS(e_alias, e_label) AWSEntity(e_alias, e_label, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
 !define ApacheMXNetonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
 !define ApacheMXNetonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
 !define ApacheMXNetonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
 !define ApacheMXNetonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)

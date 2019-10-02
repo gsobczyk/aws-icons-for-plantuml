@@ -9,9 +9,14 @@ ucI5s52Klln5VV4NebT3lx50nX0KRhwtXR_nURMAS40pTDChbszXqL_xd076o-6hRW_zNB_a0VABJtf4
 APFp4dgD-eHOdL_ODxyG_5jkRcvk_W4
 }
 
-AWSEntityColoring(CloudMap)
 !define CloudMapColor #693CC5
+AWSEntityColoring2(CloudMap, CloudMapColor)
+AWSEntityBoundary(CloudMap, CloudMapColor)
+!define CloudMap(e_alias, e_label) AWSEntity(e_alias, e_label, CloudMapColor, CloudMap, CloudMap)
 !define CloudMap(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudMapColor, CloudMap, CloudMap)
 !define CloudMap(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudMapColor, CloudMap, CloudMap)
+!define CloudMapBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudMapColor, CloudMap, CloudMap)
+!define CloudMapBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudMapColor, CloudMap, CloudMap)
+!define CloudMapParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudMapColor, CloudMap, CloudMap)
 !define CloudMapParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudMapColor, CloudMap, CloudMap)
 !define CloudMapParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudMapColor, CloudMap, CloudMap)

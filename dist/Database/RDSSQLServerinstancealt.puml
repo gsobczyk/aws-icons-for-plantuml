@@ -8,9 +8,14 @@ aW4etVI7yvlwt4VsIQuSigX0LRThXsbjqlQfCW3SDZla-kP_eqLE_3U_-YYtlF3VygdzEYW000A00FQ-
 V-pyQ_-VU_zU
 }
 
-AWSEntityColoring(RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealtColor #3B48CC
+AWSEntityColoring2(RDSSQLServerinstancealt, RDSSQLServerinstancealtColor)
+AWSEntityBoundary(RDSSQLServerinstancealt, RDSSQLServerinstancealtColor)
+!define RDSSQLServerinstancealt(e_alias, e_label) AWSEntity(e_alias, e_label, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)

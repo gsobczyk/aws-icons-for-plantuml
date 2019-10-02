@@ -8,9 +8,14 @@ e6dSQN-q2cCsm1MEcG8mxlafqBbcFhN_VRzjOFjrSsbcSTCt4nXpFEvOxUZwsHU-Gqq1GnQegWXsuA5_
 F_gNH9xCdxqW0BAKMekKH9ItOH4_wt_fNOim4qjDAnzpx7SIx3___EcNrz__NZ_yz_hblzTFr-kt_rO__fVwzMVEt_pDFm
 }
 
-AWSEntityColoring(Timestream)
 !define TimestreamColor #3B48CC
+AWSEntityColoring2(Timestream, TimestreamColor)
+AWSEntityBoundary(Timestream, TimestreamColor)
+!define Timestream(e_alias, e_label) AWSEntity(e_alias, e_label, TimestreamColor, Timestream, Timestream)
 !define Timestream(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TimestreamColor, Timestream, Timestream)
 !define Timestream(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TimestreamColor, Timestream, Timestream)
+!define TimestreamBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TimestreamColor, Timestream, Timestream)
+!define TimestreamBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TimestreamColor, Timestream, Timestream)
+!define TimestreamParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TimestreamColor, Timestream, Timestream)
 !define TimestreamParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TimestreamColor, Timestream, Timestream)
 !define TimestreamParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TimestreamColor, Timestream, Timestream)

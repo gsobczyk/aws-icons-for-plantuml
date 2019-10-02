@@ -9,9 +9,14 @@ OVrHyGlhZse6MQe8eWfGxpmJJ7ltnm0ycXY1FEV_TlkTdcgsT3WgmpPDVx__J4yD1HIHUOZtVflawUVt
 DTmyVgkUNSNmt7UBCCyVEkd2T_D-_Zhjt5k39F7R7YXQ-xOFPSj-ry--uybQPetVIU_nxtlrwXy
 }
 
-AWSEntityColoring(CodeBuild)
 !define CodeBuildColor #3B48CC
+AWSEntityColoring2(CodeBuild, CodeBuildColor)
+AWSEntityBoundary(CodeBuild, CodeBuildColor)
+!define CodeBuild(e_alias, e_label) AWSEntity(e_alias, e_label, CodeBuildColor, CodeBuild, CodeBuild)
 !define CodeBuild(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CodeBuildColor, CodeBuild, CodeBuild)
 !define CodeBuild(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CodeBuildColor, CodeBuild, CodeBuild)
+!define CodeBuildBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CodeBuildColor, CodeBuild, CodeBuild)
+!define CodeBuildBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CodeBuildColor, CodeBuild, CodeBuild)
+!define CodeBuildParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CodeBuildColor, CodeBuild, CodeBuild)
 !define CodeBuildParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CodeBuildColor, CodeBuild, CodeBuild)
 !define CodeBuildParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CodeBuildColor, CodeBuild, CodeBuild)

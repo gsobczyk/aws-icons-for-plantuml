@@ -9,9 +9,14 @@ X6PAl_4Eyv1qhS7gPdPqWiS0EflxTqODvEoX7ImrBMoVFwc34-CVl4aMcRj-DWT_yqqgixjl-G6mh13-
 JTAC_LTC2gibAPi-0kEGSgeszw95nIQ-woEnXsq1KxGky6VUOSrGFaC_yf6NWZ_s-kT__zkl_zVJp3UlyatUlNwJ99TFETlZv6Z-AY1z4PL_Gtu4
 }
 
-AWSEntityColoring(MachineLearning)
 !define MachineLearningColor #1C7B68
+AWSEntityColoring2(MachineLearning, MachineLearningColor)
+AWSEntityBoundary(MachineLearning, MachineLearningColor)
+!define MachineLearning(e_alias, e_label) AWSEntity(e_alias, e_label, MachineLearningColor, MachineLearning, MachineLearning)
 !define MachineLearning(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MachineLearningColor, MachineLearning, MachineLearning)
 !define MachineLearning(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearningBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearningBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearningParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, MachineLearningColor, MachineLearning, MachineLearning)
 !define MachineLearningParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MachineLearningColor, MachineLearning, MachineLearning)
 !define MachineLearningParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MachineLearningColor, MachineLearning, MachineLearning)

@@ -8,9 +8,14 @@ QuaZilvs_JXXsgFvEVPvgjNyM28vIXbB-RbzTQ2Bt7BKFrGooP7p89aivdlfz_Zf8knFZxNoeZN6_Sdi
 StaR327zy2_npNbu-0G
 }
 
-AWSEntityColoring(DeepLens)
 !define DeepLensColor #1C7B68
+AWSEntityColoring2(DeepLens, DeepLensColor)
+AWSEntityBoundary(DeepLens, DeepLensColor)
+!define DeepLens(e_alias, e_label) AWSEntity(e_alias, e_label, DeepLensColor, DeepLens, DeepLens)
 !define DeepLens(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeepLensColor, DeepLens, DeepLens)
 !define DeepLens(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeepLensColor, DeepLens, DeepLens)
+!define DeepLensBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DeepLensColor, DeepLens, DeepLens)
+!define DeepLensBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DeepLensColor, DeepLens, DeepLens)
+!define DeepLensParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DeepLensColor, DeepLens, DeepLens)
 !define DeepLensParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeepLensColor, DeepLens, DeepLens)
 !define DeepLensParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeepLensColor, DeepLens, DeepLens)

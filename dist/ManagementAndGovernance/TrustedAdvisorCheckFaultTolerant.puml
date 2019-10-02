@@ -9,9 +9,14 @@ a7jurkDiS1X2911MBvLLJIsMLIFfsfhbY_JEQD-bBGu6Ed0YGVrFjj61ZychEjZemh7NTRHHXPzsj_RN
 ZFq4WqP6xIt6FYU3uDxDNm
 }
 
-AWSEntityColoring(TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerantColor #CC2264
+AWSEntityColoring2(TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerantColor)
+AWSEntityBoundary(TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerantColor)
+!define TrustedAdvisorCheckFaultTolerant(e_alias, e_label) AWSEntity(e_alias, e_label, TrustedAdvisorCheckFaultTolerantColor, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerant(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TrustedAdvisorCheckFaultTolerantColor, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerant(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TrustedAdvisorCheckFaultTolerantColor, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
+!define TrustedAdvisorCheckFaultTolerantBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TrustedAdvisorCheckFaultTolerantColor, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
+!define TrustedAdvisorCheckFaultTolerantBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TrustedAdvisorCheckFaultTolerantColor, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
+!define TrustedAdvisorCheckFaultTolerantParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TrustedAdvisorCheckFaultTolerantColor, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerantParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TrustedAdvisorCheckFaultTolerantColor, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerantParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TrustedAdvisorCheckFaultTolerantColor, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)

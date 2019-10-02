@@ -9,9 +9,14 @@ aFrW3_Z34FpPR9hCdfiGMWIZhrGMETqt1L3NHc4TaZ5kRJ9H08JRJb8gnGtv0bcOEUT22a3ySm42yQNQ
 tLRVOQZtNEuQcUEVSYcjsPDySkQopTH-nWS7ixEJDgrCyhUDKrE8YRHzhQRvoHGqj3_IALXTVZPiPgpWMxFdOPpthOm_8_xYNm
 }
 
-AWSEntityColoring(IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdateColor #3F8624
+AWSEntityColoring2(IoTOverTheAirUpdate, IoTOverTheAirUpdateColor)
+AWSEntityBoundary(IoTOverTheAirUpdate, IoTOverTheAirUpdateColor)
+!define IoTOverTheAirUpdate(e_alias, e_label) AWSEntity(e_alias, e_label, IoTOverTheAirUpdateColor, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTOverTheAirUpdateColor, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTOverTheAirUpdateColor, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdateBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTOverTheAirUpdateColor, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdateBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTOverTheAirUpdateColor, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTOverTheAirUpdateColor, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTOverTheAirUpdateColor, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTOverTheAirUpdateColor, IoTOverTheAirUpdate, IoTOverTheAirUpdate)

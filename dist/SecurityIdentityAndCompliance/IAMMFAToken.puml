@@ -9,9 +9,14 @@ A5s0FwcVhAJ0Ar-bGOf4FEiVOfwddddDvjsXbluvzcyYhYfF7RN11wfisSXB_nw_duqtPQfucqUUoVUp
 YVTR_mV-B_sV-B_H3-eNz1Fw3VseVdK_kz-zFtX_yVxa-GG
 }
 
-AWSEntityColoring(IAMMFAToken)
 !define IAMMFATokenColor #D6242D
+AWSEntityColoring2(IAMMFAToken, IAMMFATokenColor)
+AWSEntityBoundary(IAMMFAToken, IAMMFATokenColor)
+!define IAMMFAToken(e_alias, e_label) AWSEntity(e_alias, e_label, IAMMFATokenColor, IAMMFAToken, IAMMFAToken)
 !define IAMMFAToken(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMMFATokenColor, IAMMFAToken, IAMMFAToken)
 !define IAMMFAToken(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMMFATokenColor, IAMMFAToken, IAMMFAToken)
+!define IAMMFATokenBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IAMMFATokenColor, IAMMFAToken, IAMMFAToken)
+!define IAMMFATokenBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IAMMFATokenColor, IAMMFAToken, IAMMFAToken)
+!define IAMMFATokenParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IAMMFATokenColor, IAMMFAToken, IAMMFAToken)
 !define IAMMFATokenParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMMFATokenColor, IAMMFAToken, IAMMFAToken)
 !define IAMMFATokenParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMMFATokenColor, IAMMFAToken, IAMMFAToken)

@@ -7,9 +7,14 @@ YeU7VpoRNSpy-0wRgJyRikUyunYNytjaZ_ehUCI2VzGVLJnE4rOyGRWTiepw9RAa_BlzW-RyfUJfukbQ
 yTrV0bgl_FswyjFNdxhzQDkljlze-wzo_52DN_hnKpz-Q-SFxVobdJ-LyxTY_V1xrZ_wzPj-_HZNhxOpmb6xVbQltzEOtls3-GVx9_t-KRz_rU-VzVa
 }
 
-AWSEntityColoring(IoTMedicalEmergency)
 !define IoTMedicalEmergencyColor #3F8624
+AWSEntityColoring2(IoTMedicalEmergency, IoTMedicalEmergencyColor)
+AWSEntityBoundary(IoTMedicalEmergency, IoTMedicalEmergencyColor)
+!define IoTMedicalEmergency(e_alias, e_label) AWSEntity(e_alias, e_label, IoTMedicalEmergencyColor, IoTMedicalEmergency, IoTMedicalEmergency)
 !define IoTMedicalEmergency(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTMedicalEmergencyColor, IoTMedicalEmergency, IoTMedicalEmergency)
 !define IoTMedicalEmergency(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTMedicalEmergencyColor, IoTMedicalEmergency, IoTMedicalEmergency)
+!define IoTMedicalEmergencyBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTMedicalEmergencyColor, IoTMedicalEmergency, IoTMedicalEmergency)
+!define IoTMedicalEmergencyBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTMedicalEmergencyColor, IoTMedicalEmergency, IoTMedicalEmergency)
+!define IoTMedicalEmergencyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTMedicalEmergencyColor, IoTMedicalEmergency, IoTMedicalEmergency)
 !define IoTMedicalEmergencyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTMedicalEmergencyColor, IoTMedicalEmergency, IoTMedicalEmergency)
 !define IoTMedicalEmergencyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTMedicalEmergencyColor, IoTMedicalEmergency, IoTMedicalEmergency)

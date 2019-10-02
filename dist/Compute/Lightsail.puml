@@ -8,9 +8,14 @@ zLBV4OPU8xBhvNK6K0BY8MGG8vUCColCnfwoNQ2vVzaVLzLp6XtkclHl-wlChTzJmCaVzkVi0awWR_kx
 Yx0z40OexFRauqF9kLJh_n8tRjnu0G
 }
 
-AWSEntityColoring(Lightsail)
 !define LightsailColor #D86613
+AWSEntityColoring2(Lightsail, LightsailColor)
+AWSEntityBoundary(Lightsail, LightsailColor)
+!define Lightsail(e_alias, e_label) AWSEntity(e_alias, e_label, LightsailColor, Lightsail, Lightsail)
 !define Lightsail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, LightsailColor, Lightsail, Lightsail)
 !define Lightsail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, LightsailColor, Lightsail, Lightsail)
+!define LightsailBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, LightsailColor, Lightsail, Lightsail)
+!define LightsailBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, LightsailColor, Lightsail, Lightsail)
+!define LightsailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, LightsailColor, Lightsail, Lightsail)
 !define LightsailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, LightsailColor, Lightsail, Lightsail)
 !define LightsailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, LightsailColor, Lightsail, Lightsail)

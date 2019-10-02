@@ -7,9 +7,14 @@ OoK0XLiYWlEW0AUPAWx4kTOMvCtMnN6-Iec8f689sVceBsWRfODVMk3daqx_T0JEE28l-K6cpJmZd1CD
 oec6Cgx8ST6GIKCSTmLjU_q_dVAEnBiCuqoOZTi5si9wnaEaSyOWFfc004YyKoJEAQHEPg1gZpzrRb0WgFcZVk0NfW7IkCaZNedEPrnpsfRL-MVOxNQxNm
 }
 
-AWSEntityColoring(ServerlessApplicationRepository)
 !define ServerlessApplicationRepositoryColor #D86613
+AWSEntityColoring2(ServerlessApplicationRepository, ServerlessApplicationRepositoryColor)
+AWSEntityBoundary(ServerlessApplicationRepository, ServerlessApplicationRepositoryColor)
+!define ServerlessApplicationRepository(e_alias, e_label) AWSEntity(e_alias, e_label, ServerlessApplicationRepositoryColor, ServerlessApplicationRepository, ServerlessApplicationRepository)
 !define ServerlessApplicationRepository(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ServerlessApplicationRepositoryColor, ServerlessApplicationRepository, ServerlessApplicationRepository)
 !define ServerlessApplicationRepository(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ServerlessApplicationRepositoryColor, ServerlessApplicationRepository, ServerlessApplicationRepository)
+!define ServerlessApplicationRepositoryBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ServerlessApplicationRepositoryColor, ServerlessApplicationRepository, ServerlessApplicationRepository)
+!define ServerlessApplicationRepositoryBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ServerlessApplicationRepositoryColor, ServerlessApplicationRepository, ServerlessApplicationRepository)
+!define ServerlessApplicationRepositoryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ServerlessApplicationRepositoryColor, ServerlessApplicationRepository, ServerlessApplicationRepository)
 !define ServerlessApplicationRepositoryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ServerlessApplicationRepositoryColor, ServerlessApplicationRepository, ServerlessApplicationRepository)
 !define ServerlessApplicationRepositoryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ServerlessApplicationRepositoryColor, ServerlessApplicationRepository, ServerlessApplicationRepository)

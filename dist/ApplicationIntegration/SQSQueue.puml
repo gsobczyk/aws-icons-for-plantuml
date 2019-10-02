@@ -6,9 +6,14 @@ UMc0dthWqFq1w1v1ym6wZm2IdNcR04JDMzU0FFCPQCwgtYG0zcNV9P9HFUTn2L_su-9brdmRGpZpO_0M
 VMYFVGjly-ozFQ7tD4RMynUUVv7VLRprxwzxszxFcpqlbNjtR2wwtUuA
 }
 
-AWSEntityColoring(SQSQueue)
 !define SQSQueueColor #CC2264
+AWSEntityColoring2(SQSQueue, SQSQueueColor)
+AWSEntityBoundary(SQSQueue, SQSQueueColor)
+!define SQSQueue(e_alias, e_label) AWSEntity(e_alias, e_label, SQSQueueColor, SQSQueue, SQSQueue)
 !define SQSQueue(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SQSQueueColor, SQSQueue, SQSQueue)
 !define SQSQueue(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SQSQueueColor, SQSQueue, SQSQueue)
+!define SQSQueueBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SQSQueueColor, SQSQueue, SQSQueue)
+!define SQSQueueBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SQSQueueColor, SQSQueue, SQSQueue)
+!define SQSQueueParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SQSQueueColor, SQSQueue, SQSQueue)
 !define SQSQueueParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SQSQueueColor, SQSQueue, SQSQueue)
 !define SQSQueueParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SQSQueueColor, SQSQueue, SQSQueue)

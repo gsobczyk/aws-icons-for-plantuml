@@ -9,9 +9,14 @@ RFQHFKOsF3d-r8TsH2di5HZHx0hWp_swIbgoWpSVPOhEnVuM6qkJB3C-uMf_Wmw7J_djSBc_shhzoV_4
 L_kRD27FybURy-bbdk1S-l_C5FyJthpv1m
 }
 
-AWSEntityColoring(CodeCommit)
 !define CodeCommitColor #3B48CC
+AWSEntityColoring2(CodeCommit, CodeCommitColor)
+AWSEntityBoundary(CodeCommit, CodeCommitColor)
+!define CodeCommit(e_alias, e_label) AWSEntity(e_alias, e_label, CodeCommitColor, CodeCommit, CodeCommit)
 !define CodeCommit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CodeCommitColor, CodeCommit, CodeCommit)
 !define CodeCommit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CodeCommitColor, CodeCommit, CodeCommit)
+!define CodeCommitBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CodeCommitColor, CodeCommit, CodeCommit)
+!define CodeCommitBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CodeCommitColor, CodeCommit, CodeCommit)
+!define CodeCommitParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CodeCommitColor, CodeCommit, CodeCommit)
 !define CodeCommitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CodeCommitColor, CodeCommit, CodeCommit)
 !define CodeCommitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CodeCommitColor, CodeCommit, CodeCommit)

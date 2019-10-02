@@ -8,9 +8,14 @@ dBEOB-Ahzn20ieX8XI9VVEksDBvft-H7UW9Y_mtTKqyOiOz_tPkEXxhxDNVQ0ryQj3tS2yIhB0ZtVGyK
 --Mr-9tAdudydQeVy_LhldxEr-_v_Z7Tl-Rxvsp_dfmV9kQNW_EJBK2QdDycvyUv-NLoVlwRytlwx_QV-VrjH7x3_ZgrFy_p2G
 }
 
-AWSEntityColoring(DenseComputeNodeResource2)
 !define DenseComputeNodeResource2Color #3B48CC
+AWSEntityColoring2(DenseComputeNodeResource2, DenseComputeNodeResource2Color)
+AWSEntityBoundary(DenseComputeNodeResource2, DenseComputeNodeResource2Color)
+!define DenseComputeNodeResource2(e_alias, e_label) AWSEntity(e_alias, e_label, DenseComputeNodeResource2Color, DenseComputeNodeResource2, DenseComputeNodeResource2)
 !define DenseComputeNodeResource2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DenseComputeNodeResource2Color, DenseComputeNodeResource2, DenseComputeNodeResource2)
 !define DenseComputeNodeResource2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DenseComputeNodeResource2Color, DenseComputeNodeResource2, DenseComputeNodeResource2)
+!define DenseComputeNodeResource2Boundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DenseComputeNodeResource2Color, DenseComputeNodeResource2, DenseComputeNodeResource2)
+!define DenseComputeNodeResource2Boundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DenseComputeNodeResource2Color, DenseComputeNodeResource2, DenseComputeNodeResource2)
+!define DenseComputeNodeResource2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, DenseComputeNodeResource2Color, DenseComputeNodeResource2, DenseComputeNodeResource2)
 !define DenseComputeNodeResource2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DenseComputeNodeResource2Color, DenseComputeNodeResource2, DenseComputeNodeResource2)
 !define DenseComputeNodeResource2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DenseComputeNodeResource2Color, DenseComputeNodeResource2, DenseComputeNodeResource2)

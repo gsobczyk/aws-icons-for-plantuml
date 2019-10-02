@@ -9,9 +9,14 @@ mnV4UnGRdUZf_5s2dn-eKo8xBgbe57AjLL7gQVy7UR-Q1DyqQc1vHATocKuWbfW7VTcl4X92wDvecJ4X
 sHhqUxk5h1L9dLUaf-F-PpH0UzwA4Cr7oHU1JR23th8Gn-kj5lCNkeY4QdvahVU2vk_OCl-F-FBbovS_
 }
 
-AWSEntityColoring(DeepRacer)
 !define DeepRacerColor #1C7B68
+AWSEntityColoring2(DeepRacer, DeepRacerColor)
+AWSEntityBoundary(DeepRacer, DeepRacerColor)
+!define DeepRacer(e_alias, e_label) AWSEntity(e_alias, e_label, DeepRacerColor, DeepRacer, DeepRacer)
 !define DeepRacer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeepRacerColor, DeepRacer, DeepRacer)
 !define DeepRacer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeepRacerColor, DeepRacer, DeepRacer)
+!define DeepRacerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DeepRacerColor, DeepRacer, DeepRacer)
+!define DeepRacerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DeepRacerColor, DeepRacer, DeepRacer)
+!define DeepRacerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DeepRacerColor, DeepRacer, DeepRacer)
 !define DeepRacerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeepRacerColor, DeepRacer, DeepRacer)
 !define DeepRacerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeepRacerColor, DeepRacer, DeepRacer)

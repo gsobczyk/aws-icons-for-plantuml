@@ -6,9 +6,14 @@ pcN6My1CU3QPyMnM8aOykLsxQJNrUsfftF0wSlp90AahBfMwgiVlUB988etQwxSyKmDslDFlEFcsuxth
 6JWNb8_NR-6yl-rNus6VR3-h2RnRC9NFzhyWf3i553uz_enojyXNdjzwD_x0zz_Y5p___TzwgsT-g9s7Y1dAxhonFiJkWXFiCcBx4p5JVv3u6Rq3
 }
 
-AWSEntityColoring(Analytics)
 !define AnalyticsColor #693CC5
+AWSEntityColoring2(Analytics, AnalyticsColor)
+AWSEntityBoundary(Analytics, AnalyticsColor)
+!define Analytics(e_alias, e_label) AWSEntity(e_alias, e_label, AnalyticsColor, Analytics, Analytics)
 !define Analytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AnalyticsColor, Analytics, Analytics)
 !define Analytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AnalyticsColor, Analytics, Analytics)
+!define AnalyticsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, AnalyticsColor, Analytics, Analytics)
+!define AnalyticsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, AnalyticsColor, Analytics, Analytics)
+!define AnalyticsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, AnalyticsColor, Analytics, Analytics)
 !define AnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AnalyticsColor, Analytics, Analytics)
 !define AnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AnalyticsColor, Analytics, Analytics)

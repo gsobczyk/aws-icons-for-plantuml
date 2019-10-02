@@ -8,9 +8,14 @@ pxzNumFjEfl_mzXQfN0o_qi8Cl_VzIF4-Vz_wj_tAxvlqFon7pf03uT-0Le3ofaFb34BSUgF1-dKruUD
 nlbjBgKlW-J-Uzu2
 }
 
-AWSEntityColoring(CertificateAuthority)
 !define CertificateAuthorityColor #D6242D
+AWSEntityColoring2(CertificateAuthority, CertificateAuthorityColor)
+AWSEntityBoundary(CertificateAuthority, CertificateAuthorityColor)
+!define CertificateAuthority(e_alias, e_label) AWSEntity(e_alias, e_label, CertificateAuthorityColor, CertificateAuthority, CertificateAuthority)
 !define CertificateAuthority(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CertificateAuthorityColor, CertificateAuthority, CertificateAuthority)
 !define CertificateAuthority(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CertificateAuthorityColor, CertificateAuthority, CertificateAuthority)
+!define CertificateAuthorityBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CertificateAuthorityColor, CertificateAuthority, CertificateAuthority)
+!define CertificateAuthorityBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CertificateAuthorityColor, CertificateAuthority, CertificateAuthority)
+!define CertificateAuthorityParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CertificateAuthorityColor, CertificateAuthority, CertificateAuthority)
 !define CertificateAuthorityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CertificateAuthorityColor, CertificateAuthority, CertificateAuthority)
 !define CertificateAuthorityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CertificateAuthorityColor, CertificateAuthority, CertificateAuthority)

@@ -5,9 +5,14 @@ xPS5ZWCn34KdpFdtF-rIX5jRTSaYFy7W2vElJ-18f7QQ89b9f3UmD85U0OnQRgW3GBshUs27lnl__rFO
 BB_SFpUUQ2gHZreOAaG-Zug_WsS8ylQZ4VSVZTFspJVVVFFDDzzyyrNEFnYTOUYS7nSBjDjF__nOWIhxHkC1p4R5Rsr247zT2U2HHA2XBP2i5XJYvmVv1W
 }
 
-AWSEntityColoring(MobileClient)
 !define MobileClientColor #232F3E
+AWSEntityColoring2(MobileClient, MobileClientColor)
+AWSEntityBoundary(MobileClient, MobileClientColor)
+!define MobileClient(e_alias, e_label) AWSEntity(e_alias, e_label, MobileClientColor, MobileClient, MobileClient)
 !define MobileClient(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MobileClientColor, MobileClient, MobileClient)
 !define MobileClient(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MobileClientColor, MobileClient, MobileClient)
+!define MobileClientBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, MobileClientColor, MobileClient, MobileClient)
+!define MobileClientBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, MobileClientColor, MobileClient, MobileClient)
+!define MobileClientParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, MobileClientColor, MobileClient, MobileClient)
 !define MobileClientParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MobileClientColor, MobileClient, MobileClient)
 !define MobileClientParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MobileClientColor, MobileClient, MobileClient)

@@ -7,9 +7,14 @@ OlBPYpxt8g8gCazCVizw_twVRpot326IR1xM0giu63DvgKi5QL2CurIp-3tsaB6yP_nD0E_oMgc-owj8
 Cv_3Zk17z0O
 }
 
-AWSEntityColoring(CustomerEngagement)
 !define CustomerEngagementColor #3B48CC
+AWSEntityColoring2(CustomerEngagement, CustomerEngagementColor)
+AWSEntityBoundary(CustomerEngagement, CustomerEngagementColor)
+!define CustomerEngagement(e_alias, e_label) AWSEntity(e_alias, e_label, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)

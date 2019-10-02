@@ -6,9 +6,14 @@ nTT74WGX20NG3tQmazp_j9DdQT75r_BjpG70S5CEcm284GHG8-Xd_AmXsKm-xLU4h6xxwQZJ6-qNgqit
 T8xVUZYqK_pcwoV-_oS8MxyEzmG
 }
 
-AWSEntityColoring(Forums)
 !define ForumsColor #232F3E
+AWSEntityColoring2(Forums, ForumsColor)
+AWSEntityBoundary(Forums, ForumsColor)
+!define Forums(e_alias, e_label) AWSEntity(e_alias, e_label, ForumsColor, Forums, Forums)
 !define Forums(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ForumsColor, Forums, Forums)
 !define Forums(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ForumsColor, Forums, Forums)
+!define ForumsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ForumsColor, Forums, Forums)
+!define ForumsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ForumsColor, Forums, Forums)
+!define ForumsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ForumsColor, Forums, Forums)
 !define ForumsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ForumsColor, Forums, Forums)
 !define ForumsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ForumsColor, Forums, Forums)

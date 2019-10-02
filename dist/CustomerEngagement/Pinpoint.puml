@@ -9,9 +9,14 @@ hFitl_btelV-tPwViSxFA7FNpS_g_8PUt3Q_2ddF-X4-w2A2jENC-aNndbhQjNxgZ_LJxaMQK-jtiqXj
 FumA92zFdLyquFALyvDDbyvl-ThvyM_YYoz-
 }
 
-AWSEntityColoring(Pinpoint)
 !define PinpointColor #3B48CC
+AWSEntityColoring2(Pinpoint, PinpointColor)
+AWSEntityBoundary(Pinpoint, PinpointColor)
+!define Pinpoint(e_alias, e_label) AWSEntity(e_alias, e_label, PinpointColor, Pinpoint, Pinpoint)
 !define Pinpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PinpointColor, Pinpoint, Pinpoint)
 !define Pinpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PinpointColor, Pinpoint, Pinpoint)
+!define PinpointBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, PinpointColor, Pinpoint, Pinpoint)
+!define PinpointBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, PinpointColor, Pinpoint, Pinpoint)
+!define PinpointParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, PinpointColor, Pinpoint, Pinpoint)
 !define PinpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PinpointColor, Pinpoint, Pinpoint)
 !define PinpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PinpointColor, Pinpoint, Pinpoint)

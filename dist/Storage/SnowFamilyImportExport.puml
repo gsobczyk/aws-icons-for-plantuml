@@ -8,9 +8,14 @@ ogsLem1MlgO2dGS4dFiPQ3p00J3saD37Drg5Cbul7BQHJX8zvGN8EU8xCMVfVzUVTLkAd_KnVZYF7z6r
 zF0DGe7g1m0bGlVXmuQN7mx2T4Vnhv1BlECR_a7hj-pVf-Zxj-I7CzJy8Fdb2f9VrFnqZkIdc_djRdwycLzlvkVR-Vt3Xwy
 }
 
-AWSEntityColoring(SnowFamilyImportExport)
 !define SnowFamilyImportExportColor #3F8624
+AWSEntityColoring2(SnowFamilyImportExport, SnowFamilyImportExportColor)
+AWSEntityBoundary(SnowFamilyImportExport, SnowFamilyImportExportColor)
+!define SnowFamilyImportExport(e_alias, e_label) AWSEntity(e_alias, e_label, SnowFamilyImportExportColor, SnowFamilyImportExport, SnowFamilyImportExport)
 !define SnowFamilyImportExport(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SnowFamilyImportExportColor, SnowFamilyImportExport, SnowFamilyImportExport)
 !define SnowFamilyImportExport(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SnowFamilyImportExportColor, SnowFamilyImportExport, SnowFamilyImportExport)
+!define SnowFamilyImportExportBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SnowFamilyImportExportColor, SnowFamilyImportExport, SnowFamilyImportExport)
+!define SnowFamilyImportExportBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SnowFamilyImportExportColor, SnowFamilyImportExport, SnowFamilyImportExport)
+!define SnowFamilyImportExportParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SnowFamilyImportExportColor, SnowFamilyImportExport, SnowFamilyImportExport)
 !define SnowFamilyImportExportParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SnowFamilyImportExportColor, SnowFamilyImportExport, SnowFamilyImportExport)
 !define SnowFamilyImportExportParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SnowFamilyImportExportColor, SnowFamilyImportExport, SnowFamilyImportExport)

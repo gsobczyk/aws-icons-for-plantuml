@@ -6,9 +6,14 @@ NekpLnYhSbbXFCbx8FLx9mdeJtaFxj3CWJ_b8-Nmi11F-tnucD_GDzzyyulenS_9ld_JBDx7HUq3-ChF
 -R3lhm9-xOrBmD8lESPrWq0shW6P8EqQu2BPk0PaeXEk0O1n3G2KQu1o3L2k0S8rmFZXWEdGS39-E21KN0A2yDlFFm
 }
 
-AWSEntityColoring(OpsWorksDeployments)
 !define OpsWorksDeploymentsColor #CC2264
+AWSEntityColoring2(OpsWorksDeployments, OpsWorksDeploymentsColor)
+AWSEntityBoundary(OpsWorksDeployments, OpsWorksDeploymentsColor)
+!define OpsWorksDeployments(e_alias, e_label) AWSEntity(e_alias, e_label, OpsWorksDeploymentsColor, OpsWorksDeployments, OpsWorksDeployments)
 !define OpsWorksDeployments(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OpsWorksDeploymentsColor, OpsWorksDeployments, OpsWorksDeployments)
 !define OpsWorksDeployments(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OpsWorksDeploymentsColor, OpsWorksDeployments, OpsWorksDeployments)
+!define OpsWorksDeploymentsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, OpsWorksDeploymentsColor, OpsWorksDeployments, OpsWorksDeployments)
+!define OpsWorksDeploymentsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, OpsWorksDeploymentsColor, OpsWorksDeployments, OpsWorksDeployments)
+!define OpsWorksDeploymentsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, OpsWorksDeploymentsColor, OpsWorksDeployments, OpsWorksDeployments)
 !define OpsWorksDeploymentsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OpsWorksDeploymentsColor, OpsWorksDeployments, OpsWorksDeployments)
 !define OpsWorksDeploymentsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OpsWorksDeploymentsColor, OpsWorksDeployments, OpsWorksDeployments)

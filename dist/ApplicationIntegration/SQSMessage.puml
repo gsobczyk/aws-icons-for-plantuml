@@ -7,9 +7,14 @@ hjP_9791nqM442MXeyNyq7vwRZyj3D6X_TJQVzVJwrX-PQoQ_rj-C1CwY1cWaw_5NAd_KZhtNqe4d_ew
 9pZVzscBURtvPo-_lVqcC8sVnzl_x7hx-c5VloOmhT-6_UE5vv_z_321wVnaEx-zwldLVdwVmAIttf-izpVh_T5wVxNUd-sy0G
 }
 
-AWSEntityColoring(SQSMessage)
 !define SQSMessageColor #CC2264
+AWSEntityColoring2(SQSMessage, SQSMessageColor)
+AWSEntityBoundary(SQSMessage, SQSMessageColor)
+!define SQSMessage(e_alias, e_label) AWSEntity(e_alias, e_label, SQSMessageColor, SQSMessage, SQSMessage)
 !define SQSMessage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SQSMessageColor, SQSMessage, SQSMessage)
 !define SQSMessage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SQSMessageColor, SQSMessage, SQSMessage)
+!define SQSMessageBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SQSMessageColor, SQSMessage, SQSMessage)
+!define SQSMessageBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SQSMessageColor, SQSMessage, SQSMessage)
+!define SQSMessageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SQSMessageColor, SQSMessage, SQSMessage)
 !define SQSMessageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SQSMessageColor, SQSMessage, SQSMessage)
 !define SQSMessageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SQSMessageColor, SQSMessage, SQSMessage)

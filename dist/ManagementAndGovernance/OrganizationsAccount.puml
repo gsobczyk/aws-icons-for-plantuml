@@ -9,9 +9,14 @@ e6nklvQhiWFltQKANpZ2RkV8NyiaypNkaiU1NxcJA_nUjpm6ZlmKhXL3yL_xF0r7lgqFVeBn1_B3IzvT
 FYNpzLM7YiSPfdcFflydbO6LOTghCWBgCEsNMyifycsDAIV-g_GN
 }
 
-AWSEntityColoring(OrganizationsAccount)
 !define OrganizationsAccountColor #CC2264
+AWSEntityColoring2(OrganizationsAccount, OrganizationsAccountColor)
+AWSEntityBoundary(OrganizationsAccount, OrganizationsAccountColor)
+!define OrganizationsAccount(e_alias, e_label) AWSEntity(e_alias, e_label, OrganizationsAccountColor, OrganizationsAccount, OrganizationsAccount)
 !define OrganizationsAccount(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OrganizationsAccountColor, OrganizationsAccount, OrganizationsAccount)
 !define OrganizationsAccount(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OrganizationsAccountColor, OrganizationsAccount, OrganizationsAccount)
+!define OrganizationsAccountBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, OrganizationsAccountColor, OrganizationsAccount, OrganizationsAccount)
+!define OrganizationsAccountBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, OrganizationsAccountColor, OrganizationsAccount, OrganizationsAccount)
+!define OrganizationsAccountParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, OrganizationsAccountColor, OrganizationsAccount, OrganizationsAccount)
 !define OrganizationsAccountParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OrganizationsAccountColor, OrganizationsAccount, OrganizationsAccount)
 !define OrganizationsAccountParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OrganizationsAccountColor, OrganizationsAccount, OrganizationsAccount)

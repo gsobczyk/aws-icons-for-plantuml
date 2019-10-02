@@ -10,9 +10,14 @@ F7DYVscZ0C3mdu5mVBtDjsVS65Xxc3vpx7L_q1fae4l6Aaq6xFQTJu5s3QSGWoasTPoCcWVWYC6xkmJv
 2xaf3hAXIEgu8UUtUVOYkDG6lgCjRqveIENZ_1gS_F_pytD-0G
 }
 
-AWSEntityColoring(S3Bucket)
 !define S3BucketColor #3F8624
+AWSEntityColoring2(S3Bucket, S3BucketColor)
+AWSEntityBoundary(S3Bucket, S3BucketColor)
+!define S3Bucket(e_alias, e_label) AWSEntity(e_alias, e_label, S3BucketColor, S3Bucket, S3Bucket)
 !define S3Bucket(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, S3BucketColor, S3Bucket, S3Bucket)
 !define S3Bucket(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, S3BucketColor, S3Bucket, S3Bucket)
+!define S3BucketBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, S3BucketColor, S3Bucket, S3Bucket)
+!define S3BucketBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, S3BucketColor, S3Bucket, S3Bucket)
+!define S3BucketParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, S3BucketColor, S3Bucket, S3Bucket)
 !define S3BucketParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, S3BucketColor, S3Bucket, S3Bucket)
 !define S3BucketParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, S3BucketColor, S3Bucket, S3Bucket)

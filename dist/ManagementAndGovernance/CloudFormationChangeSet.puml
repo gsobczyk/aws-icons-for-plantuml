@@ -10,9 +10,14 @@ DUMGohnAlOMlmRFwTH01ujBt6eoZc6Ub3USWCKWhNpfTZFwPaNwZT-Swf8K_QhptLOLP_v8P5FJJfPWB
 VV_v-Ns-
 }
 
-AWSEntityColoring(CloudFormationChangeSet)
 !define CloudFormationChangeSetColor #CC2264
+AWSEntityColoring2(CloudFormationChangeSet, CloudFormationChangeSetColor)
+AWSEntityBoundary(CloudFormationChangeSet, CloudFormationChangeSetColor)
+!define CloudFormationChangeSet(e_alias, e_label) AWSEntity(e_alias, e_label, CloudFormationChangeSetColor, CloudFormationChangeSet, CloudFormationChangeSet)
 !define CloudFormationChangeSet(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudFormationChangeSetColor, CloudFormationChangeSet, CloudFormationChangeSet)
 !define CloudFormationChangeSet(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudFormationChangeSetColor, CloudFormationChangeSet, CloudFormationChangeSet)
+!define CloudFormationChangeSetBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudFormationChangeSetColor, CloudFormationChangeSet, CloudFormationChangeSet)
+!define CloudFormationChangeSetBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudFormationChangeSetColor, CloudFormationChangeSet, CloudFormationChangeSet)
+!define CloudFormationChangeSetParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudFormationChangeSetColor, CloudFormationChangeSet, CloudFormationChangeSet)
 !define CloudFormationChangeSetParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudFormationChangeSetColor, CloudFormationChangeSet, CloudFormationChangeSet)
 !define CloudFormationChangeSetParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudFormationChangeSetColor, CloudFormationChangeSet, CloudFormationChangeSet)

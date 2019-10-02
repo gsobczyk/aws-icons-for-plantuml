@@ -7,9 +7,14 @@ jIxQt8hqM6CsilgTF9k7B8ABJ9INUHQ4JRuWhkyO21wyN5Es-BIEbpBBgD_e2ntnrmUnkgTZ_lazqgNz
 DEPl5rRWzI3_cUG0N3tyGO_cSOQiX-DHIGV8JOVFWOwEZexV
 }
 
-AWSEntityColoring(Cloud9)
 !define Cloud9Color #3B48CC
+AWSEntityColoring2(Cloud9, Cloud9Color)
+AWSEntityBoundary(Cloud9, Cloud9Color)
+!define Cloud9(e_alias, e_label) AWSEntity(e_alias, e_label, Cloud9Color, Cloud9, Cloud9)
 !define Cloud9(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, Cloud9Color, Cloud9, Cloud9)
 !define Cloud9(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, Cloud9Color, Cloud9, Cloud9)
+!define Cloud9Boundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, Cloud9Color, Cloud9, Cloud9)
+!define Cloud9Boundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, Cloud9Color, Cloud9, Cloud9)
+!define Cloud9Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, Cloud9Color, Cloud9, Cloud9)
 !define Cloud9Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, Cloud9Color, Cloud9, Cloud9)
 !define Cloud9Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, Cloud9Color, Cloud9, Cloud9)

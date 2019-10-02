@@ -8,9 +8,14 @@ Gpi9mfC-QgTV-gwT2F79yy_QCSRw93RvyVE_lE2DXoQrKx0PJFUeLuUWJmsY5A7fKu2kXtq0-nmaBi_S
 uQm1iwQKpqCzxLLvgkf5hz0c3ymMzBANd0ynXYzYZDxzJV-Vl_jeD-AHldEZ7-aRzBRJeHthJLViLV-xxtbZjxszs7wxTjj_iRpOVcswqhWsNcm_kmFZj_m1
 }
 
-AWSEntityColoring(StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibraryColor #3F8624
+AWSEntityColoring2(StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibraryColor)
+AWSEntityBoundary(StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibraryColor)
+!define StorageGatewayVirtualTapeLibrary(e_alias, e_label) AWSEntity(e_alias, e_label, StorageGatewayVirtualTapeLibraryColor, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibrary(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, StorageGatewayVirtualTapeLibraryColor, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibrary(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, StorageGatewayVirtualTapeLibraryColor, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibraryBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, StorageGatewayVirtualTapeLibraryColor, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibraryBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, StorageGatewayVirtualTapeLibraryColor, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibraryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, StorageGatewayVirtualTapeLibraryColor, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibraryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, StorageGatewayVirtualTapeLibraryColor, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibraryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, StorageGatewayVirtualTapeLibraryColor, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)

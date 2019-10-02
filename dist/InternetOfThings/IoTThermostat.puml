@@ -10,9 +10,14 @@ vhDIMP1v_fZdhmtO7l_d-MkUFn_UYC9CykSqVui8A0LYyLd-djQFAYkkOOc0IVsOrwygauWUwNHIl-Rr
 -bT_KH6WrVvviNzVkp_y1_UdzVlZ-lrr_Vwyhcy
 }
 
-AWSEntityColoring(IoTThermostat)
 !define IoTThermostatColor #3F8624
+AWSEntityColoring2(IoTThermostat, IoTThermostatColor)
+AWSEntityBoundary(IoTThermostat, IoTThermostatColor)
+!define IoTThermostat(e_alias, e_label) AWSEntity(e_alias, e_label, IoTThermostatColor, IoTThermostat, IoTThermostat)
 !define IoTThermostat(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTThermostatColor, IoTThermostat, IoTThermostat)
 !define IoTThermostat(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTThermostatColor, IoTThermostat, IoTThermostat)
+!define IoTThermostatBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTThermostatColor, IoTThermostat, IoTThermostat)
+!define IoTThermostatBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTThermostatColor, IoTThermostat, IoTThermostat)
+!define IoTThermostatParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTThermostatColor, IoTThermostat, IoTThermostat)
 !define IoTThermostatParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTThermostatColor, IoTThermostat, IoTThermostat)
 !define IoTThermostatParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTThermostatColor, IoTThermostat, IoTThermostat)

@@ -9,9 +9,14 @@ vx-7vmlynVpfsIakvswpydnABq4A2vo1a9F2F5wCv6Hvy0cV93CTwMQHAsCqht1U29n9TXq0ggpDsMoF
 84bXSFWeIRRmaLudoIetzzMbmwVtLyRfBmNmHy-DVwTlVUjN
 }
 
-AWSEntityColoring(Batch)
 !define BatchColor #D86613
+AWSEntityColoring2(Batch, BatchColor)
+AWSEntityBoundary(Batch, BatchColor)
+!define Batch(e_alias, e_label) AWSEntity(e_alias, e_label, BatchColor, Batch, Batch)
 !define Batch(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BatchColor, Batch, Batch)
 !define Batch(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BatchColor, Batch, Batch)
+!define BatchBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, BatchColor, Batch, Batch)
+!define BatchBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, BatchColor, Batch, Batch)
+!define BatchParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, BatchColor, Batch, Batch)
 !define BatchParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BatchColor, Batch, Batch)
 !define BatchParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BatchColor, Batch, Batch)

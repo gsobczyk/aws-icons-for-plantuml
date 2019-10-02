@@ -7,9 +7,14 @@ Ddx-ZQslH9w5FL6JuOXSiFKzfSp2EQKk3MBoO9j_fU-LVhOkV_vjVHhd_x74cH3hL3zAgSkHPCpqJv__
 DxUFlwhyHRlPoz-yo-kVx_w9r_z8a8TLl_HJZXwd46oz3tPUHxz0f0a8dy4F
 }
 
-AWSEntityColoring(CostManagement)
 !define CostManagementColor #3F8624
+AWSEntityColoring2(CostManagement, CostManagementColor)
+AWSEntityBoundary(CostManagement, CostManagementColor)
+!define CostManagement(e_alias, e_label) AWSEntity(e_alias, e_label, CostManagementColor, CostManagement, CostManagement)
 !define CostManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CostManagementColor, CostManagement, CostManagement)
 !define CostManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CostManagementColor, CostManagement, CostManagement)
+!define CostManagementBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CostManagementColor, CostManagement, CostManagement)
+!define CostManagementBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CostManagementColor, CostManagement, CostManagement)
+!define CostManagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CostManagementColor, CostManagement, CostManagement)
 !define CostManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CostManagementColor, CostManagement, CostManagement)
 !define CostManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CostManagementColor, CostManagement, CostManagement)

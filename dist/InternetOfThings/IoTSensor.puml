@@ -9,9 +9,14 @@ hlwT_tjT2H1qPUInBq5VYYANaw-Szr7Nnw2CdYOVQpzx3IcQt6afkjtx1lGuZoTtUySbo101ucPV8Bi4
 I24a8ExqdaiQ_vIXwqOl4O0it_PYHpwy_ClyOBBLxvlx7Z_MAR_r_XvyvRZzwR_Wv3Vy2G
 }
 
-AWSEntityColoring(IoTSensor)
 !define IoTSensorColor #3F8624
+AWSEntityColoring2(IoTSensor, IoTSensorColor)
+AWSEntityBoundary(IoTSensor, IoTSensorColor)
+!define IoTSensor(e_alias, e_label) AWSEntity(e_alias, e_label, IoTSensorColor, IoTSensor, IoTSensor)
 !define IoTSensor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTSensorColor, IoTSensor, IoTSensor)
 !define IoTSensor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTSensorColor, IoTSensor, IoTSensor)
+!define IoTSensorBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTSensorColor, IoTSensor, IoTSensor)
+!define IoTSensorBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTSensorColor, IoTSensor, IoTSensor)
+!define IoTSensorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTSensorColor, IoTSensor, IoTSensor)
 !define IoTSensorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTSensorColor, IoTSensor, IoTSensor)
 !define IoTSensorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTSensorColor, IoTSensor, IoTSensor)

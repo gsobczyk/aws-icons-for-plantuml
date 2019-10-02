@@ -7,9 +7,14 @@ sENKeXV3riut1mgtWrhoue7Jox7HD-ok1I_VyUBg6sMIk9z3c_Lg6tQgBpsuA0POrQpdXaFwi5EAf1HW
 zi7D-px1LJHpKGrMjRhzjKnbXEwQkEWfaI-e7OhBlYyziRVgUxb-cvVu3Rwtx8k6bHaVyh0mur_hgITBVgNohTVG_9xzxtzl0G
 }
 
-AWSEntityColoring(CodePipeline)
 !define CodePipelineColor #3B48CC
+AWSEntityColoring2(CodePipeline, CodePipelineColor)
+AWSEntityBoundary(CodePipeline, CodePipelineColor)
+!define CodePipeline(e_alias, e_label) AWSEntity(e_alias, e_label, CodePipelineColor, CodePipeline, CodePipeline)
 !define CodePipeline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CodePipelineColor, CodePipeline, CodePipeline)
 !define CodePipeline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CodePipelineColor, CodePipeline, CodePipeline)
+!define CodePipelineBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CodePipelineColor, CodePipeline, CodePipeline)
+!define CodePipelineBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CodePipelineColor, CodePipeline, CodePipeline)
+!define CodePipelineParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CodePipelineColor, CodePipeline, CodePipeline)
 !define CodePipelineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CodePipelineColor, CodePipeline, CodePipeline)
 !define CodePipelineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CodePipelineColor, CodePipeline, CodePipeline)

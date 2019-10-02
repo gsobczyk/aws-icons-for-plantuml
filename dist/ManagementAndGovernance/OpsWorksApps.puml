@@ -5,9 +5,14 @@ xTUr0SD044JHOuR-gpMxWLcnvkSlEbmbJnim_U5jmhKNDrEG-VWQeUhVHmKLh-3fwHFcqyVhrWBcGsjQ
 p_AU
 }
 
-AWSEntityColoring(OpsWorksApps)
 !define OpsWorksAppsColor #CC2264
+AWSEntityColoring2(OpsWorksApps, OpsWorksAppsColor)
+AWSEntityBoundary(OpsWorksApps, OpsWorksAppsColor)
+!define OpsWorksApps(e_alias, e_label) AWSEntity(e_alias, e_label, OpsWorksAppsColor, OpsWorksApps, OpsWorksApps)
 !define OpsWorksApps(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OpsWorksAppsColor, OpsWorksApps, OpsWorksApps)
 !define OpsWorksApps(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OpsWorksAppsColor, OpsWorksApps, OpsWorksApps)
+!define OpsWorksAppsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, OpsWorksAppsColor, OpsWorksApps, OpsWorksApps)
+!define OpsWorksAppsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, OpsWorksAppsColor, OpsWorksApps, OpsWorksApps)
+!define OpsWorksAppsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, OpsWorksAppsColor, OpsWorksApps, OpsWorksApps)
 !define OpsWorksAppsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OpsWorksAppsColor, OpsWorksApps, OpsWorksApps)
 !define OpsWorksAppsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OpsWorksAppsColor, OpsWorksApps, OpsWorksApps)

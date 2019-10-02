@@ -9,9 +9,14 @@ zsXSCEd3-RxCUakLuyHofaVePC9CFDN3MC63NltclhSLoRRf_mqaG6pzHMdzIMdzJJT0v_OJuVORvUr7
 Cqq1
 }
 
-AWSEntityColoring(IoTHardwareBoard)
 !define IoTHardwareBoardColor #3F8624
+AWSEntityColoring2(IoTHardwareBoard, IoTHardwareBoardColor)
+AWSEntityBoundary(IoTHardwareBoard, IoTHardwareBoardColor)
+!define IoTHardwareBoard(e_alias, e_label) AWSEntity(e_alias, e_label, IoTHardwareBoardColor, IoTHardwareBoard, IoTHardwareBoard)
 !define IoTHardwareBoard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTHardwareBoardColor, IoTHardwareBoard, IoTHardwareBoard)
 !define IoTHardwareBoard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTHardwareBoardColor, IoTHardwareBoard, IoTHardwareBoard)
+!define IoTHardwareBoardBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTHardwareBoardColor, IoTHardwareBoard, IoTHardwareBoard)
+!define IoTHardwareBoardBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTHardwareBoardColor, IoTHardwareBoard, IoTHardwareBoard)
+!define IoTHardwareBoardParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTHardwareBoardColor, IoTHardwareBoard, IoTHardwareBoard)
 !define IoTHardwareBoardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTHardwareBoardColor, IoTHardwareBoard, IoTHardwareBoard)
 !define IoTHardwareBoardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTHardwareBoardColor, IoTHardwareBoard, IoTHardwareBoard)

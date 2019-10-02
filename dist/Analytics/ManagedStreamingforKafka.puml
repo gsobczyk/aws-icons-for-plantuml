@@ -9,9 +9,14 @@ mLbbEwlns_t7whkNC7MUGDBScm3PvpgnN2WrtkkV0mFnM5q1C0Dqq5iSb3lzQoJYU7qsBe-Qc2ZaUWxS
 2drQ7kbCZzIf-Ux6Y6scPhiCMW8cnUvSdQ8v07hU69HK4vsDAZf50cxsN-D_Zgrd6iVMpsWdvIQggHsFperS_0Rbvy077_m5
 }
 
-AWSEntityColoring(ManagedStreamingforKafka)
 !define ManagedStreamingforKafkaColor #693CC5
+AWSEntityColoring2(ManagedStreamingforKafka, ManagedStreamingforKafkaColor)
+AWSEntityBoundary(ManagedStreamingforKafka, ManagedStreamingforKafkaColor)
+!define ManagedStreamingforKafka(e_alias, e_label) AWSEntity(e_alias, e_label, ManagedStreamingforKafkaColor, ManagedStreamingforKafka, ManagedStreamingforKafka)
 !define ManagedStreamingforKafka(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagedStreamingforKafkaColor, ManagedStreamingforKafka, ManagedStreamingforKafka)
 !define ManagedStreamingforKafka(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagedStreamingforKafkaColor, ManagedStreamingforKafka, ManagedStreamingforKafka)
+!define ManagedStreamingforKafkaBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ManagedStreamingforKafkaColor, ManagedStreamingforKafka, ManagedStreamingforKafka)
+!define ManagedStreamingforKafkaBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ManagedStreamingforKafkaColor, ManagedStreamingforKafka, ManagedStreamingforKafka)
+!define ManagedStreamingforKafkaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ManagedStreamingforKafkaColor, ManagedStreamingforKafka, ManagedStreamingforKafka)
 !define ManagedStreamingforKafkaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagedStreamingforKafkaColor, ManagedStreamingforKafka, ManagedStreamingforKafka)
 !define ManagedStreamingforKafkaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagedStreamingforKafkaColor, ManagedStreamingforKafka, ManagedStreamingforKafka)

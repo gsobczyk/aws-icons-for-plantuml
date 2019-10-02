@@ -10,9 +10,14 @@ jesIIx6D4i3RT_3xNmXjQH3gN0GaLq9mLT1OQg1j5DisUDj-nIMg6Hthxn8K0kw7niYuH1w303QzUlpw
 _ldNF_9L_yZd_ID7_zZh_h6ZV-Hj_n2HFp6_4Pw9NijZz_CV
 }
 
-AWSEntityColoring(SNSEmailNotification)
 !define SNSEmailNotificationColor #CC2264
+AWSEntityColoring2(SNSEmailNotification, SNSEmailNotificationColor)
+AWSEntityBoundary(SNSEmailNotification, SNSEmailNotificationColor)
+!define SNSEmailNotification(e_alias, e_label) AWSEntity(e_alias, e_label, SNSEmailNotificationColor, SNSEmailNotification, SNSEmailNotification)
 !define SNSEmailNotification(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SNSEmailNotificationColor, SNSEmailNotification, SNSEmailNotification)
 !define SNSEmailNotification(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SNSEmailNotificationColor, SNSEmailNotification, SNSEmailNotification)
+!define SNSEmailNotificationBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SNSEmailNotificationColor, SNSEmailNotification, SNSEmailNotification)
+!define SNSEmailNotificationBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SNSEmailNotificationColor, SNSEmailNotification, SNSEmailNotification)
+!define SNSEmailNotificationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SNSEmailNotificationColor, SNSEmailNotification, SNSEmailNotification)
 !define SNSEmailNotificationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SNSEmailNotificationColor, SNSEmailNotification, SNSEmailNotification)
 !define SNSEmailNotificationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SNSEmailNotificationColor, SNSEmailNotification, SNSEmailNotification)

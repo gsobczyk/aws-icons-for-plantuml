@@ -5,9 +5,14 @@ xTUt5SD040DHakVjzj-jujLv4s9Il5y0dbkztq9leICj5L_kFrhiAtmmquMQDyzqvfw7XuU7XuU7XuU7
 cU-v-8-3_-hvxel_ElZF_tFndo_r0m
 }
 
-AWSEntityColoring(StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolumeColor #3F8624
+AWSEntityColoring2(StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolumeColor)
+AWSEntityBoundary(StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolumeColor)
+!define StorageGatewayNonCachedVolume(e_alias, e_label) AWSEntity(e_alias, e_label, StorageGatewayNonCachedVolumeColor, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, StorageGatewayNonCachedVolumeColor, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, StorageGatewayNonCachedVolumeColor, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolumeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, StorageGatewayNonCachedVolumeColor, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolumeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, StorageGatewayNonCachedVolumeColor, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolumeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, StorageGatewayNonCachedVolumeColor, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, StorageGatewayNonCachedVolumeColor, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, StorageGatewayNonCachedVolumeColor, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)

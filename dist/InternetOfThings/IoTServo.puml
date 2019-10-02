@@ -8,9 +8,14 @@ SK87jckzcHhO3b3CSRlKPwZ0gcnvqGA-7CU5lXAY2AaHjkdU2Bl2s42Txa_Ojas3jTR19llaKEpv_9Zj
 V_xv3m
 }
 
-AWSEntityColoring(IoTServo)
 !define IoTServoColor #3F8624
+AWSEntityColoring2(IoTServo, IoTServoColor)
+AWSEntityBoundary(IoTServo, IoTServoColor)
+!define IoTServo(e_alias, e_label) AWSEntity(e_alias, e_label, IoTServoColor, IoTServo, IoTServo)
 !define IoTServo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTServoColor, IoTServo, IoTServo)
 !define IoTServo(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTServoColor, IoTServo, IoTServo)
+!define IoTServoBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTServoColor, IoTServo, IoTServo)
+!define IoTServoBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTServoColor, IoTServo, IoTServo)
+!define IoTServoParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTServoColor, IoTServo, IoTServo)
 !define IoTServoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTServoColor, IoTServo, IoTServo)
 !define IoTServoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTServoColor, IoTServo, IoTServo)

@@ -11,9 +11,14 @@ E0YkQdHTweOljnCyL9rmBxGRktR8k7ewYimSQRFMfST6Mz8ZvUK8zNPwFv4NeDtAepx6knt76mF_FMYp
 1R7WK3PyQm1qud6rONHq6udHtdzheFuygq2MRMWDypFSu-TC6cQeg_4Cy8HO3T_9kVt_Jx0KFbG1WZ_4GFpN_nyBJ9_Cxn9_AQNN_rQ_0m
 }
 
-AWSEntityColoring(SystemsManagerAutomation)
 !define SystemsManagerAutomationColor #CC2264
+AWSEntityColoring2(SystemsManagerAutomation, SystemsManagerAutomationColor)
+AWSEntityBoundary(SystemsManagerAutomation, SystemsManagerAutomationColor)
+!define SystemsManagerAutomation(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerAutomationColor, SystemsManagerAutomation, SystemsManagerAutomation)
 !define SystemsManagerAutomation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerAutomationColor, SystemsManagerAutomation, SystemsManagerAutomation)
 !define SystemsManagerAutomation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerAutomationColor, SystemsManagerAutomation, SystemsManagerAutomation)
+!define SystemsManagerAutomationBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerAutomationColor, SystemsManagerAutomation, SystemsManagerAutomation)
+!define SystemsManagerAutomationBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerAutomationColor, SystemsManagerAutomation, SystemsManagerAutomation)
+!define SystemsManagerAutomationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerAutomationColor, SystemsManagerAutomation, SystemsManagerAutomation)
 !define SystemsManagerAutomationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerAutomationColor, SystemsManagerAutomation, SystemsManagerAutomation)
 !define SystemsManagerAutomationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerAutomationColor, SystemsManagerAutomation, SystemsManagerAutomation)

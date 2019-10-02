@@ -9,9 +9,14 @@ CrBJA4hIS7VXrDF3TBVNII9bbURl2tQw_xcfbo_zoobJ_6pAwupnm0FotdMK38uIZHAF90sFH76ZDVhc
 Zbpi5FUI0JUz9hpLsiQKhbmk7PgtjE9-Ob_wAvF4dzl__lS9
 }
 
-AWSEntityColoring(Transcribe)
 !define TranscribeColor #1C7B68
+AWSEntityColoring2(Transcribe, TranscribeColor)
+AWSEntityBoundary(Transcribe, TranscribeColor)
+!define Transcribe(e_alias, e_label) AWSEntity(e_alias, e_label, TranscribeColor, Transcribe, Transcribe)
 !define Transcribe(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TranscribeColor, Transcribe, Transcribe)
 !define Transcribe(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TranscribeColor, Transcribe, Transcribe)
+!define TranscribeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TranscribeColor, Transcribe, Transcribe)
+!define TranscribeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TranscribeColor, Transcribe, Transcribe)
+!define TranscribeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TranscribeColor, Transcribe, Transcribe)
 !define TranscribeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TranscribeColor, Transcribe, Transcribe)
 !define TranscribeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TranscribeColor, Transcribe, Transcribe)

@@ -9,9 +9,14 @@ hBufp9BMMbkhhRKwWDFy7aXfQR-RxmQ9yNYfdAWDVVWIW7NpCagpeFOHpdYZsK4_vHyM_Q21oQ39kT11
 z0-l7uDaA28cf1ojd6aGvXoyJpu68CXAXlQuVdwNE7FrYvvcbZiarc0p46IJ3DHBgpiGPPi4KCESryR6hFa-hdCmMcjZMSajGeS7pSldSQbsrT5hjFBRy9yl
 }
 
-AWSEntityColoring(IoTPolicy)
 !define IoTPolicyColor #3F8624
+AWSEntityColoring2(IoTPolicy, IoTPolicyColor)
+AWSEntityBoundary(IoTPolicy, IoTPolicyColor)
+!define IoTPolicy(e_alias, e_label) AWSEntity(e_alias, e_label, IoTPolicyColor, IoTPolicy, IoTPolicy)
 !define IoTPolicy(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTPolicyColor, IoTPolicy, IoTPolicy)
 !define IoTPolicy(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTPolicyColor, IoTPolicy, IoTPolicy)
+!define IoTPolicyBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTPolicyColor, IoTPolicy, IoTPolicy)
+!define IoTPolicyBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTPolicyColor, IoTPolicy, IoTPolicy)
+!define IoTPolicyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTPolicyColor, IoTPolicy, IoTPolicy)
 !define IoTPolicyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTPolicyColor, IoTPolicy, IoTPolicy)
 !define IoTPolicyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTPolicyColor, IoTPolicy, IoTPolicy)

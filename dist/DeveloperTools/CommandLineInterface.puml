@@ -6,9 +6,14 @@ _mmN-dkFdtaOVkAHkuAV-192mJSzMK3sP07PamLaJnRGFLz0ztm1tJjYw1tVzgZT-btsdEj-vN3iKltA
 kEQTQCcllQGdxMOyvldyP5Xcl4_d9rPPVEJlV_3viIs-yldHmJizutVHktSV
 }
 
-AWSEntityColoring(CommandLineInterface)
 !define CommandLineInterfaceColor #3B48CC
+AWSEntityColoring2(CommandLineInterface, CommandLineInterfaceColor)
+AWSEntityBoundary(CommandLineInterface, CommandLineInterfaceColor)
+!define CommandLineInterface(e_alias, e_label) AWSEntity(e_alias, e_label, CommandLineInterfaceColor, CommandLineInterface, CommandLineInterface)
 !define CommandLineInterface(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CommandLineInterfaceColor, CommandLineInterface, CommandLineInterface)
 !define CommandLineInterface(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CommandLineInterfaceColor, CommandLineInterface, CommandLineInterface)
+!define CommandLineInterfaceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CommandLineInterfaceColor, CommandLineInterface, CommandLineInterface)
+!define CommandLineInterfaceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CommandLineInterfaceColor, CommandLineInterface, CommandLineInterface)
+!define CommandLineInterfaceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CommandLineInterfaceColor, CommandLineInterface, CommandLineInterface)
 !define CommandLineInterfaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CommandLineInterfaceColor, CommandLineInterface, CommandLineInterface)
 !define CommandLineInterfaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CommandLineInterfaceColor, CommandLineInterface, CommandLineInterface)

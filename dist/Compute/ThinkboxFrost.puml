@@ -8,9 +8,14 @@ yM4a1u3F5Jm0YWm8_oi_2y2HWEECJsfMpP9i1G3c_gILgQNJ6T-dieLMpnm0kDLBAhDB_NRL4GESr3Xg
 qgtsn-kd1PFBra-szNErVkLq_J8Wb-jtDBdVFwIDtVrhP_zqGDZTlxVEZztpQ-Fyt3s_z-U7_VbbVtxQdz_svyVz-NL_VjwFJtpYAm
 }
 
-AWSEntityColoring(ThinkboxFrost)
 !define ThinkboxFrostColor #D86613
+AWSEntityColoring2(ThinkboxFrost, ThinkboxFrostColor)
+AWSEntityBoundary(ThinkboxFrost, ThinkboxFrostColor)
+!define ThinkboxFrost(e_alias, e_label) AWSEntity(e_alias, e_label, ThinkboxFrostColor, ThinkboxFrost, ThinkboxFrost)
 !define ThinkboxFrost(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ThinkboxFrostColor, ThinkboxFrost, ThinkboxFrost)
 !define ThinkboxFrost(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ThinkboxFrostColor, ThinkboxFrost, ThinkboxFrost)
+!define ThinkboxFrostBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ThinkboxFrostColor, ThinkboxFrost, ThinkboxFrost)
+!define ThinkboxFrostBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ThinkboxFrostColor, ThinkboxFrost, ThinkboxFrost)
+!define ThinkboxFrostParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ThinkboxFrostColor, ThinkboxFrost, ThinkboxFrost)
 !define ThinkboxFrostParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ThinkboxFrostColor, ThinkboxFrost, ThinkboxFrost)
 !define ThinkboxFrostParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ThinkboxFrostColor, ThinkboxFrost, ThinkboxFrost)

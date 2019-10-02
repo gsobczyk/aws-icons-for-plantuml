@@ -8,9 +8,14 @@ SkyklZsKuhxZ0W-t-UArS2gzdLyNg1L4fb4KqDu4lNe1fBiLqDggllXtqr9Yy4woukBkCt-vR-7TIlc6
 YkTvVlv-Tki_r7-f_rJ_BVvZ_DV-p_NV3m
 }
 
-AWSEntityColoring(RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealtColor #3B48CC
+AWSEntityColoring2(RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealtColor)
+AWSEntityBoundary(RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealtColor)
+!define RDSPostgreSQLinstancealt(e_alias, e_label) AWSEntity(e_alias, e_label, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)

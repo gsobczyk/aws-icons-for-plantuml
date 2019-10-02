@@ -9,9 +9,14 @@ xJEfkhC2Qm4SpEf73khJxVxHKNrXcW1V1qbhbsxvp-DR9IxBFlD96U_tPx7oMf3cZVXRVnPBMIp0yak_
 NeyXGFLdrV5UVnw3SlLLNvwSxezXsr__GBSU1acoHxeTGmSzrUTnQtwg-m_DpzkhlTeV
 }
 
-AWSEntityColoring(EFSInfrequentAccess)
 !define EFSInfrequentAccessColor #3F8624
+AWSEntityColoring2(EFSInfrequentAccess, EFSInfrequentAccessColor)
+AWSEntityBoundary(EFSInfrequentAccess, EFSInfrequentAccessColor)
+!define EFSInfrequentAccess(e_alias, e_label) AWSEntity(e_alias, e_label, EFSInfrequentAccessColor, EFSInfrequentAccess, EFSInfrequentAccess)
 !define EFSInfrequentAccess(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EFSInfrequentAccessColor, EFSInfrequentAccess, EFSInfrequentAccess)
 !define EFSInfrequentAccess(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EFSInfrequentAccessColor, EFSInfrequentAccess, EFSInfrequentAccess)
+!define EFSInfrequentAccessBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EFSInfrequentAccessColor, EFSInfrequentAccess, EFSInfrequentAccess)
+!define EFSInfrequentAccessBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EFSInfrequentAccessColor, EFSInfrequentAccess, EFSInfrequentAccess)
+!define EFSInfrequentAccessParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EFSInfrequentAccessColor, EFSInfrequentAccess, EFSInfrequentAccess)
 !define EFSInfrequentAccessParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EFSInfrequentAccessColor, EFSInfrequentAccess, EFSInfrequentAccess)
 !define EFSInfrequentAccessParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EFSInfrequentAccessColor, EFSInfrequentAccess, EFSInfrequentAccess)

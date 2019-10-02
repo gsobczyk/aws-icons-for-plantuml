@@ -10,9 +10,14 @@ ETBwnVwpG9NRLScEY3puRe1sRwxg9Yv3TSZ9j_qZA3Q7Hq5h07Bf7wP_-GRH9h3Lgj2AoP_fdwiDuSA1
 QlsRSHSkU3VnSq_l_0Ah-nBtwxS8wFW22iJVhryjiRGDOFlVGOzDVra2lLrg9VvY_Vwddr-Udzz-_Vpur_WF
 }
 
-AWSEntityColoring(IoTCoffeePot)
 !define IoTCoffeePotColor #3F8624
+AWSEntityColoring2(IoTCoffeePot, IoTCoffeePotColor)
+AWSEntityBoundary(IoTCoffeePot, IoTCoffeePotColor)
+!define IoTCoffeePot(e_alias, e_label) AWSEntity(e_alias, e_label, IoTCoffeePotColor, IoTCoffeePot, IoTCoffeePot)
 !define IoTCoffeePot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTCoffeePotColor, IoTCoffeePot, IoTCoffeePot)
 !define IoTCoffeePot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTCoffeePotColor, IoTCoffeePot, IoTCoffeePot)
+!define IoTCoffeePotBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTCoffeePotColor, IoTCoffeePot, IoTCoffeePot)
+!define IoTCoffeePotBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTCoffeePotColor, IoTCoffeePot, IoTCoffeePot)
+!define IoTCoffeePotParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTCoffeePotColor, IoTCoffeePot, IoTCoffeePot)
 !define IoTCoffeePotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTCoffeePotColor, IoTCoffeePot, IoTCoffeePot)
 !define IoTCoffeePotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTCoffeePotColor, IoTCoffeePot, IoTCoffeePot)

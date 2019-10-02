@@ -6,9 +6,14 @@ vtkpdhpqt8KGqgJdQCeppmmN0mgdl7guIfxu1koeCkc7v1rYvy4F2JxDUvNAvYL_lOG8dDfy8RM8QwIg
 3khQzwiZmZKk_hyXGP1rVVn4X4vT7h-guzRyYPZsjlbhNp_Mrw_rzNDz_RRj7vVrtx5_sTeyDlyJp__3MZlpItrvY9Eb_DxxcEp5uF2LEEVDEH4S4dluEte5
 }
 
-AWSEntityColoring(MediaServices)
 !define MediaServicesColor #D86613
+AWSEntityColoring2(MediaServices, MediaServicesColor)
+AWSEntityBoundary(MediaServices, MediaServicesColor)
+!define MediaServices(e_alias, e_label) AWSEntity(e_alias, e_label, MediaServicesColor, MediaServices, MediaServices)
 !define MediaServices(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MediaServicesColor, MediaServices, MediaServices)
 !define MediaServices(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServicesBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServicesBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServicesParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, MediaServicesColor, MediaServices, MediaServices)
 !define MediaServicesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MediaServicesColor, MediaServices, MediaServices)
 !define MediaServicesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MediaServicesColor, MediaServices, MediaServices)

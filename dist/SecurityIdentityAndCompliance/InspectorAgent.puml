@@ -12,9 +12,14 @@ W9EiZD8ZCkyjEz8EqSxpYvyPJCvmVY73RF2EcZ0Jb4fzR2CnQ_vxRCuen5yBVVKp4r6nfJkchqFE3E41
 apPogMgCNW9uVWYFWbOWPkiiGwH9U0sWdVG6TX8-OBQym2myXj8hpCBZR-0LPk4JfiOxgF1wSRo6TX86zcj0-68ve9AtWF00-l4zBCv5sluNv6BqPliB-0S
 }
 
-AWSEntityColoring(InspectorAgent)
 !define InspectorAgentColor #D6242D
+AWSEntityColoring2(InspectorAgent, InspectorAgentColor)
+AWSEntityBoundary(InspectorAgent, InspectorAgentColor)
+!define InspectorAgent(e_alias, e_label) AWSEntity(e_alias, e_label, InspectorAgentColor, InspectorAgent, InspectorAgent)
 !define InspectorAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, InspectorAgentColor, InspectorAgent, InspectorAgent)
 !define InspectorAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, InspectorAgentColor, InspectorAgent, InspectorAgent)
+!define InspectorAgentBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, InspectorAgentColor, InspectorAgent, InspectorAgent)
+!define InspectorAgentBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, InspectorAgentColor, InspectorAgent, InspectorAgent)
+!define InspectorAgentParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, InspectorAgentColor, InspectorAgent, InspectorAgent)
 !define InspectorAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, InspectorAgentColor, InspectorAgent, InspectorAgent)
 !define InspectorAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, InspectorAgentColor, InspectorAgent, InspectorAgent)

@@ -7,9 +7,14 @@ e3XjVHXDtFX88H_zj3CzofXJOA_10DTBC4VzCLLPGdonoY5VrPn8OIOPPyjdWEJ6K4klrL_hFtNyzFcZ
 A_SNxVwatT-K-wDoV_r1sB3X
 }
 
-AWSEntityColoring(ElasticLoadBalancing)
 !define ElasticLoadBalancingColor #693CC5
+AWSEntityColoring2(ElasticLoadBalancing, ElasticLoadBalancingColor)
+AWSEntityBoundary(ElasticLoadBalancing, ElasticLoadBalancingColor)
+!define ElasticLoadBalancing(e_alias, e_label) AWSEntity(e_alias, e_label, ElasticLoadBalancingColor, ElasticLoadBalancing, ElasticLoadBalancing)
 !define ElasticLoadBalancing(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticLoadBalancingColor, ElasticLoadBalancing, ElasticLoadBalancing)
 !define ElasticLoadBalancing(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticLoadBalancingColor, ElasticLoadBalancing, ElasticLoadBalancing)
+!define ElasticLoadBalancingBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElasticLoadBalancingColor, ElasticLoadBalancing, ElasticLoadBalancing)
+!define ElasticLoadBalancingBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElasticLoadBalancingColor, ElasticLoadBalancing, ElasticLoadBalancing)
+!define ElasticLoadBalancingParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElasticLoadBalancingColor, ElasticLoadBalancing, ElasticLoadBalancing)
 !define ElasticLoadBalancingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticLoadBalancingColor, ElasticLoadBalancing, ElasticLoadBalancing)
 !define ElasticLoadBalancingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticLoadBalancingColor, ElasticLoadBalancing, ElasticLoadBalancing)

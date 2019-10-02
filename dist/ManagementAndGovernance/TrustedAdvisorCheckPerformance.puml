@@ -8,9 +8,14 @@ o_utqgdpVyxkX9yTzUPBBzuK-wYryQMcJxw2tNDrDey-GTFDL-TwvwVoCCochQCs68atRtiICMCvWw_i
 AVrZQVevysMG6r3bmS_MxgwQNRP_7CFizThc7Zg6MqPnfvVPDBETVcxjnSpVzte7NXRlmUtsDoFkB_HghShBz-t-G-j-_Vgnxh-qvjUld-UUhbNEzoy
 }
 
-AWSEntityColoring(TrustedAdvisorCheckPerformance)
 !define TrustedAdvisorCheckPerformanceColor #CC2264
+AWSEntityColoring2(TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformanceColor)
+AWSEntityBoundary(TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformanceColor)
+!define TrustedAdvisorCheckPerformance(e_alias, e_label) AWSEntity(e_alias, e_label, TrustedAdvisorCheckPerformanceColor, TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformance)
 !define TrustedAdvisorCheckPerformance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TrustedAdvisorCheckPerformanceColor, TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformance)
 !define TrustedAdvisorCheckPerformance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TrustedAdvisorCheckPerformanceColor, TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformance)
+!define TrustedAdvisorCheckPerformanceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TrustedAdvisorCheckPerformanceColor, TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformance)
+!define TrustedAdvisorCheckPerformanceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TrustedAdvisorCheckPerformanceColor, TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformance)
+!define TrustedAdvisorCheckPerformanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TrustedAdvisorCheckPerformanceColor, TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformance)
 !define TrustedAdvisorCheckPerformanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TrustedAdvisorCheckPerformanceColor, TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformance)
 !define TrustedAdvisorCheckPerformanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TrustedAdvisorCheckPerformanceColor, TrustedAdvisorCheckPerformance, TrustedAdvisorCheckPerformance)

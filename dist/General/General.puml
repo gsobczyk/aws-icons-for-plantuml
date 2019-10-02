@@ -6,9 +6,14 @@ V1OAJqGF97dTLqksZjbJSuy_BcMyIX7oRS5d_F6NISpvVHzexYaiU9d_VbdmNkR7J_oAdvw_HJ-vVXH-
 ll62psYMy8yjDIlw5xokVw7OuV6Kid_3e_xLy-FogF-j-UKSwdzhVXg3-j-Utz-pFo0_tzy-zgPCVUOtSknPSCTOVOmmFeb57mR_rNa
 }
 
-AWSEntityColoring(General)
 !define GeneralColor #232F3E
+AWSEntityColoring2(General, GeneralColor)
+AWSEntityBoundary(General, GeneralColor)
+!define General(e_alias, e_label) AWSEntity(e_alias, e_label, GeneralColor, General, General)
 !define General(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GeneralColor, General, General)
 !define General(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GeneralColor, General, General)
+!define GeneralBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, GeneralColor, General, General)
+!define GeneralBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, GeneralColor, General, General)
+!define GeneralParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, GeneralColor, General, General)
 !define GeneralParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GeneralColor, General, General)
 !define GeneralParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GeneralColor, General, General)

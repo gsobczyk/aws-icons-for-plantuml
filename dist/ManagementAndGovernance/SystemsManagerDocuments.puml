@@ -6,9 +6,14 @@ v7867hy6VkZHWD_t6GxuVS83Vey7_1uF-3qUmBvqbyhP7m83oBFU_mN5X0yru3q0ligbcdQftTRDllxk
 bUU6xFUizjmCNpfG_g7tx-qbw9LYtZG7V6Sx6V34p87pFxIChuL2tem_xclGfx9hpldZThu4VSSZDJRfnvlmf9EUqrWvqtWvBTGM
 }
 
-AWSEntityColoring(SystemsManagerDocuments)
 !define SystemsManagerDocumentsColor #CC2264
+AWSEntityColoring2(SystemsManagerDocuments, SystemsManagerDocumentsColor)
+AWSEntityBoundary(SystemsManagerDocuments, SystemsManagerDocumentsColor)
+!define SystemsManagerDocuments(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerDocumentsColor, SystemsManagerDocuments, SystemsManagerDocuments)
 !define SystemsManagerDocuments(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerDocumentsColor, SystemsManagerDocuments, SystemsManagerDocuments)
 !define SystemsManagerDocuments(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerDocumentsColor, SystemsManagerDocuments, SystemsManagerDocuments)
+!define SystemsManagerDocumentsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerDocumentsColor, SystemsManagerDocuments, SystemsManagerDocuments)
+!define SystemsManagerDocumentsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerDocumentsColor, SystemsManagerDocuments, SystemsManagerDocuments)
+!define SystemsManagerDocumentsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerDocumentsColor, SystemsManagerDocuments, SystemsManagerDocuments)
 !define SystemsManagerDocumentsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerDocumentsColor, SystemsManagerDocuments, SystemsManagerDocuments)
 !define SystemsManagerDocumentsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerDocumentsColor, SystemsManagerDocuments, SystemsManagerDocuments)

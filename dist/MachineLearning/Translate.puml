@@ -9,9 +9,14 @@ WNpomi-TVuQUuYPS_ZcM9Bn-_-cHCm95vLc08BpwRW0x57xnDR0yANvxX0g__Pt08WYNvoWMri2MmUMV
 fxz__odhFPT_7l3evEafA-tFFw7SpZ_J-GxJEPl-diRFGn1pAL8HogUymWkpmIjf-9h62qSjfOhKygKgcZWJ8Ryc_wftx_u3
 }
 
-AWSEntityColoring(Translate)
 !define TranslateColor #1C7B68
+AWSEntityColoring2(Translate, TranslateColor)
+AWSEntityBoundary(Translate, TranslateColor)
+!define Translate(e_alias, e_label) AWSEntity(e_alias, e_label, TranslateColor, Translate, Translate)
 !define Translate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TranslateColor, Translate, Translate)
 !define Translate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TranslateColor, Translate, Translate)
+!define TranslateBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, TranslateColor, Translate, Translate)
+!define TranslateBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, TranslateColor, Translate, Translate)
+!define TranslateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, TranslateColor, Translate, Translate)
 !define TranslateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TranslateColor, Translate, Translate)
 !define TranslateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TranslateColor, Translate, Translate)

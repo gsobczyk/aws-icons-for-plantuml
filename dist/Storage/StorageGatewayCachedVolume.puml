@@ -7,9 +7,14 @@ U3ygilhP-1_xg3MbF86WaLXo6jpBIqh9xNaa5Xco_G-r35T56eL6G6WEOsFciEVDOHPzflNlrttttNVV
 rvuFpj_chVqYTt3-MZ2hwBn6--VF5p_-zNu
 }
 
-AWSEntityColoring(StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolumeColor #3F8624
+AWSEntityColoring2(StorageGatewayCachedVolume, StorageGatewayCachedVolumeColor)
+AWSEntityBoundary(StorageGatewayCachedVolume, StorageGatewayCachedVolumeColor)
+!define StorageGatewayCachedVolume(e_alias, e_label) AWSEntity(e_alias, e_label, StorageGatewayCachedVolumeColor, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, StorageGatewayCachedVolumeColor, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, StorageGatewayCachedVolumeColor, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, StorageGatewayCachedVolumeColor, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, StorageGatewayCachedVolumeColor, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, StorageGatewayCachedVolumeColor, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, StorageGatewayCachedVolumeColor, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, StorageGatewayCachedVolumeColor, StorageGatewayCachedVolume, StorageGatewayCachedVolume)

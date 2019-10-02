@@ -10,9 +10,14 @@ J15WXXBY-kHACei758EuLbcprsYyCcICWdJ95sGhCZEmKY9w7EeC9C_Ncm4YccLW3TI5aH3KzfQqSNcp
 jldiOf7nK_Nf_yJFrH_t544f4U9uKHe188tNrMkLyUVel_xh1m
 }
 
-AWSEntityColoring(Rekognition)
 !define RekognitionColor #1C7B68
+AWSEntityColoring2(Rekognition, RekognitionColor)
+AWSEntityBoundary(Rekognition, RekognitionColor)
+!define Rekognition(e_alias, e_label) AWSEntity(e_alias, e_label, RekognitionColor, Rekognition, Rekognition)
 !define Rekognition(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RekognitionColor, Rekognition, Rekognition)
 !define Rekognition(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RekognitionColor, Rekognition, Rekognition)
+!define RekognitionBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RekognitionColor, Rekognition, Rekognition)
+!define RekognitionBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RekognitionColor, Rekognition, Rekognition)
+!define RekognitionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RekognitionColor, Rekognition, Rekognition)
 !define RekognitionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RekognitionColor, Rekognition, Rekognition)
 !define RekognitionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RekognitionColor, Rekognition, Rekognition)

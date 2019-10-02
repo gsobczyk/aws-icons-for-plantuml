@@ -8,9 +8,14 @@ _T7vqVos_afTYP3aJTPzDVt7_1Zmhp_AcqBE_k8YaFF-NVoIg_YE-T7loJE_uYUQnFSyFvhV-Vogxzm_
 0G393S9cpW
 }
 
-AWSEntityColoring(SystemsManagerInventory)
 !define SystemsManagerInventoryColor #CC2264
+AWSEntityColoring2(SystemsManagerInventory, SystemsManagerInventoryColor)
+AWSEntityBoundary(SystemsManagerInventory, SystemsManagerInventoryColor)
+!define SystemsManagerInventory(e_alias, e_label) AWSEntity(e_alias, e_label, SystemsManagerInventoryColor, SystemsManagerInventory, SystemsManagerInventory)
 !define SystemsManagerInventory(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SystemsManagerInventoryColor, SystemsManagerInventory, SystemsManagerInventory)
 !define SystemsManagerInventory(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SystemsManagerInventoryColor, SystemsManagerInventory, SystemsManagerInventory)
+!define SystemsManagerInventoryBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SystemsManagerInventoryColor, SystemsManagerInventory, SystemsManagerInventory)
+!define SystemsManagerInventoryBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SystemsManagerInventoryColor, SystemsManagerInventory, SystemsManagerInventory)
+!define SystemsManagerInventoryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SystemsManagerInventoryColor, SystemsManagerInventory, SystemsManagerInventory)
 !define SystemsManagerInventoryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SystemsManagerInventoryColor, SystemsManagerInventory, SystemsManagerInventory)
 !define SystemsManagerInventoryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SystemsManagerInventoryColor, SystemsManagerInventory, SystemsManagerInventory)

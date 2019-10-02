@@ -11,9 +11,14 @@ _bpDtoRVhlDxcL_kJtqLWw-brCctKehO3xLD-mltaq2gVb3-7pV-hsl_5qnZwfVG-ZXBZruqjD95RNuJ
 ynVhzw-z7xxyVldw--dhxxUlln-__dxz-llvg-_tVm
 }
 
-AWSEntityColoring(ELBApplicationLoadBalancer)
 !define ELBApplicationLoadBalancerColor #693CC5
+AWSEntityColoring2(ELBApplicationLoadBalancer, ELBApplicationLoadBalancerColor)
+AWSEntityBoundary(ELBApplicationLoadBalancer, ELBApplicationLoadBalancerColor)
+!define ELBApplicationLoadBalancer(e_alias, e_label) AWSEntity(e_alias, e_label, ELBApplicationLoadBalancerColor, ELBApplicationLoadBalancer, ELBApplicationLoadBalancer)
 !define ELBApplicationLoadBalancer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ELBApplicationLoadBalancerColor, ELBApplicationLoadBalancer, ELBApplicationLoadBalancer)
 !define ELBApplicationLoadBalancer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ELBApplicationLoadBalancerColor, ELBApplicationLoadBalancer, ELBApplicationLoadBalancer)
+!define ELBApplicationLoadBalancerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ELBApplicationLoadBalancerColor, ELBApplicationLoadBalancer, ELBApplicationLoadBalancer)
+!define ELBApplicationLoadBalancerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ELBApplicationLoadBalancerColor, ELBApplicationLoadBalancer, ELBApplicationLoadBalancer)
+!define ELBApplicationLoadBalancerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ELBApplicationLoadBalancerColor, ELBApplicationLoadBalancer, ELBApplicationLoadBalancer)
 !define ELBApplicationLoadBalancerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ELBApplicationLoadBalancerColor, ELBApplicationLoadBalancer, ELBApplicationLoadBalancer)
 !define ELBApplicationLoadBalancerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ELBApplicationLoadBalancerColor, ELBApplicationLoadBalancer, ELBApplicationLoadBalancer)

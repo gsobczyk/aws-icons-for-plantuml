@@ -11,9 +11,14 @@ qx1dpKftMBmNQoOVSxf8YBbQQrPp328TbuzDcfmqvXyOhwtf_uWl3bx-Qxms3at_Ktnsu7O3F7yV7nem
 p2nFycJ8nxG4EGbPvNVu6m
 }
 
-AWSEntityColoring(IoTCertificateManager)
 !define IoTCertificateManagerColor #3F8624
+AWSEntityColoring2(IoTCertificateManager, IoTCertificateManagerColor)
+AWSEntityBoundary(IoTCertificateManager, IoTCertificateManagerColor)
+!define IoTCertificateManager(e_alias, e_label) AWSEntity(e_alias, e_label, IoTCertificateManagerColor, IoTCertificateManager, IoTCertificateManager)
 !define IoTCertificateManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTCertificateManagerColor, IoTCertificateManager, IoTCertificateManager)
 !define IoTCertificateManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTCertificateManagerColor, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManagerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTCertificateManagerColor, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManagerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTCertificateManagerColor, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTCertificateManagerColor, IoTCertificateManager, IoTCertificateManager)
 !define IoTCertificateManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTCertificateManagerColor, IoTCertificateManager, IoTCertificateManager)
 !define IoTCertificateManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTCertificateManagerColor, IoTCertificateManager, IoTCertificateManager)

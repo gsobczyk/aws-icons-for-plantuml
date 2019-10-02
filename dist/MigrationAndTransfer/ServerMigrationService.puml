@@ -7,9 +7,14 @@ pw1p_JsNlv-t_IHWEiDpG1w_Vt5rIBhB-voMmjmt-oi0gBeZSbXjlfaIh51OTyPhYGqGjlI4YFxUH9L9
 wTCt
 }
 
-AWSEntityColoring(ServerMigrationService)
 !define ServerMigrationServiceColor #1C7B68
+AWSEntityColoring2(ServerMigrationService, ServerMigrationServiceColor)
+AWSEntityBoundary(ServerMigrationService, ServerMigrationServiceColor)
+!define ServerMigrationService(e_alias, e_label) AWSEntity(e_alias, e_label, ServerMigrationServiceColor, ServerMigrationService, ServerMigrationService)
 !define ServerMigrationService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ServerMigrationServiceColor, ServerMigrationService, ServerMigrationService)
 !define ServerMigrationService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ServerMigrationServiceColor, ServerMigrationService, ServerMigrationService)
+!define ServerMigrationServiceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ServerMigrationServiceColor, ServerMigrationService, ServerMigrationService)
+!define ServerMigrationServiceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ServerMigrationServiceColor, ServerMigrationService, ServerMigrationService)
+!define ServerMigrationServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ServerMigrationServiceColor, ServerMigrationService, ServerMigrationService)
 !define ServerMigrationServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ServerMigrationServiceColor, ServerMigrationService, ServerMigrationService)
 !define ServerMigrationServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ServerMigrationServiceColor, ServerMigrationService, ServerMigrationService)

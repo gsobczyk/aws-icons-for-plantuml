@@ -8,9 +8,14 @@ x4Zaid88sOx4X4vk-TGUC9RU7IvSNtaWTEMMtm2ljBke8jMkdEg1jkkdILLM55uKLBkNjEzROCOq4TcA
 5qvEv-ydfl7zw__h5QsTxf-4JtkyX_kdE_gJNs0q7kqVvvC_xlUFodlUh-X_19zyyWK
 }
 
-AWSEntityColoring(ManagementConsole)
 !define ManagementConsoleColor #CC2264
+AWSEntityColoring2(ManagementConsole, ManagementConsoleColor)
+AWSEntityBoundary(ManagementConsole, ManagementConsoleColor)
+!define ManagementConsole(e_alias, e_label) AWSEntity(e_alias, e_label, ManagementConsoleColor, ManagementConsole, ManagementConsole)
 !define ManagementConsole(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagementConsoleColor, ManagementConsole, ManagementConsole)
 !define ManagementConsole(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagementConsoleColor, ManagementConsole, ManagementConsole)
+!define ManagementConsoleBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ManagementConsoleColor, ManagementConsole, ManagementConsole)
+!define ManagementConsoleBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ManagementConsoleColor, ManagementConsole, ManagementConsole)
+!define ManagementConsoleParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ManagementConsoleColor, ManagementConsole, ManagementConsole)
 !define ManagementConsoleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagementConsoleColor, ManagementConsole, ManagementConsole)
 !define ManagementConsoleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagementConsoleColor, ManagementConsole, ManagementConsole)

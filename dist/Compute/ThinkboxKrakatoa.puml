@@ -10,9 +10,14 @@ yVP6CkSqE_5JhqGwzNvMNNFzdV1nnyY7NZEGzT3dZsF1DWZ3LT7kmJhqDFrFGwyCtrMg0uljw0u00Tpd
 4v4begJNfbofv6Vh--lWSC7OzBqXuHVIutgjvGTLxPyZ1w_h0m24r_MHY2Y-hjS3s_7cpNy
 }
 
-AWSEntityColoring(ThinkboxKrakatoa)
 !define ThinkboxKrakatoaColor #D86613
+AWSEntityColoring2(ThinkboxKrakatoa, ThinkboxKrakatoaColor)
+AWSEntityBoundary(ThinkboxKrakatoa, ThinkboxKrakatoaColor)
+!define ThinkboxKrakatoa(e_alias, e_label) AWSEntity(e_alias, e_label, ThinkboxKrakatoaColor, ThinkboxKrakatoa, ThinkboxKrakatoa)
 !define ThinkboxKrakatoa(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ThinkboxKrakatoaColor, ThinkboxKrakatoa, ThinkboxKrakatoa)
 !define ThinkboxKrakatoa(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ThinkboxKrakatoaColor, ThinkboxKrakatoa, ThinkboxKrakatoa)
+!define ThinkboxKrakatoaBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ThinkboxKrakatoaColor, ThinkboxKrakatoa, ThinkboxKrakatoa)
+!define ThinkboxKrakatoaBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ThinkboxKrakatoaColor, ThinkboxKrakatoa, ThinkboxKrakatoa)
+!define ThinkboxKrakatoaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ThinkboxKrakatoaColor, ThinkboxKrakatoa, ThinkboxKrakatoa)
 !define ThinkboxKrakatoaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ThinkboxKrakatoaColor, ThinkboxKrakatoa, ThinkboxKrakatoa)
 !define ThinkboxKrakatoaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ThinkboxKrakatoaColor, ThinkboxKrakatoa, ThinkboxKrakatoa)

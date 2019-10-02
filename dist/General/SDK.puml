@@ -8,9 +8,14 @@ b5hd94-6enlpF8hB01dllumt0I2OIVwFhqxYNTNn3Ll5dSUcqZGyZIdYpviQtXpzYtZgNqR5d_qJUM6m
 Tm98ulpMx0-KFvuOvVw2l6f_uRL7F7ketz-GPyRfzqVarViZ3p7oB3dw_HbvlZ_hz_VEJ-_lA8Fg_NzywONd5vGIFkFyHEUtLvuVVxRy0m
 }
 
-AWSEntityColoring(SDK)
 !define SDKColor #232F3E
+AWSEntityColoring2(SDK, SDKColor)
+AWSEntityBoundary(SDK, SDKColor)
+!define SDK(e_alias, e_label) AWSEntity(e_alias, e_label, SDKColor, SDK, SDK)
 !define SDK(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SDKColor, SDK, SDK)
 !define SDK(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SDKColor, SDK, SDK)
+!define SDKBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SDKColor, SDK, SDK)
+!define SDKBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SDKColor, SDK, SDK)
+!define SDKParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SDKColor, SDK, SDK)
 !define SDKParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SDKColor, SDK, SDK)
 !define SDKParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SDKColor, SDK, SDK)

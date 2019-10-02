@@ -9,9 +9,14 @@ jN2JMz-lX_Jg-xKJElxnIVdZzSRL_zVaUh0OjEmVzbXq-CUoVrdTPTpRcd-QN3CmGNxdtpewmY_VqL5j
 olojLgstPoc-0d6fVr1GVm7jrD4_hFGl5He0TQb_sU-Vzlita_Y5_d5Tnk_spxlz--RwONVzihb-sbs_RQuVTzUl--ldVVq1
 }
 
-AWSEntityColoring(IoTAlexaSkill)
 !define IoTAlexaSkillColor #3F8624
+AWSEntityColoring2(IoTAlexaSkill, IoTAlexaSkillColor)
+AWSEntityBoundary(IoTAlexaSkill, IoTAlexaSkillColor)
+!define IoTAlexaSkill(e_alias, e_label) AWSEntity(e_alias, e_label, IoTAlexaSkillColor, IoTAlexaSkill, IoTAlexaSkill)
 !define IoTAlexaSkill(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTAlexaSkillColor, IoTAlexaSkill, IoTAlexaSkill)
 !define IoTAlexaSkill(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTAlexaSkillColor, IoTAlexaSkill, IoTAlexaSkill)
+!define IoTAlexaSkillBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTAlexaSkillColor, IoTAlexaSkill, IoTAlexaSkill)
+!define IoTAlexaSkillBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTAlexaSkillColor, IoTAlexaSkill, IoTAlexaSkill)
+!define IoTAlexaSkillParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTAlexaSkillColor, IoTAlexaSkill, IoTAlexaSkill)
 !define IoTAlexaSkillParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTAlexaSkillColor, IoTAlexaSkill, IoTAlexaSkill)
 !define IoTAlexaSkillParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTAlexaSkillColor, IoTAlexaSkill, IoTAlexaSkill)

@@ -7,9 +7,14 @@ pHvvMZ5pOy-lQKc6j92LourETcx7zzEAIjgHwT-QxtpbqkFDSmNJVQTlX7U-iazPtmE0CWpE_BNSYH3d
 fxV-OO0e8ulAVVdunUidtJ_f-H6TN-dz4TnVKVoGnozv_9J7Rtd-4ESlUVwKvczX_I2eNoxMJoe3KLY_2Uj7MVqgh9__PlqU_xl-Hzw_3LQ-l7-LzyzoVW
 }
 
-AWSEntityColoring(EMRHDFScluster)
 !define EMRHDFSclusterColor #693CC5
+AWSEntityColoring2(EMRHDFScluster, EMRHDFSclusterColor)
+AWSEntityBoundary(EMRHDFScluster, EMRHDFSclusterColor)
+!define EMRHDFScluster(e_alias, e_label) AWSEntity(e_alias, e_label, EMRHDFSclusterColor, EMRHDFScluster, EMRHDFScluster)
 !define EMRHDFScluster(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EMRHDFSclusterColor, EMRHDFScluster, EMRHDFScluster)
 !define EMRHDFScluster(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EMRHDFSclusterColor, EMRHDFScluster, EMRHDFScluster)
+!define EMRHDFSclusterBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EMRHDFSclusterColor, EMRHDFScluster, EMRHDFScluster)
+!define EMRHDFSclusterBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EMRHDFSclusterColor, EMRHDFScluster, EMRHDFScluster)
+!define EMRHDFSclusterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EMRHDFSclusterColor, EMRHDFScluster, EMRHDFScluster)
 !define EMRHDFSclusterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EMRHDFSclusterColor, EMRHDFScluster, EMRHDFScluster)
 !define EMRHDFSclusterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EMRHDFSclusterColor, EMRHDFScluster, EMRHDFScluster)

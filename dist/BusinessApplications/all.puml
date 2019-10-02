@@ -10,10 +10,15 @@ JSaf6jong0vUfUhlhigJgUJSMa7zN77MkwGUDNd032e6NXNiPtY5eif3Lb8O3atrJ7ZirUGynfiK9nwY
 uwLG5rXMN3mTJo_3m4TGDbw8tsr9wl1Ql8qabSKByOKrigGoUS5IY99YMxp4f93xSburf_Ctzx___Gu
 }
 
-AWSEntityColoring(AlexaForBusiness)
 !define AlexaForBusinessColor #D6242D
+AWSEntityColoring2(AlexaForBusiness, AlexaForBusinessColor)
+AWSEntityBoundary(AlexaForBusiness, AlexaForBusinessColor)
+!define AlexaForBusiness(e_alias, e_label) AWSEntity(e_alias, e_label, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
 !define AlexaForBusiness(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
 !define AlexaForBusiness(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
 !define AlexaForBusinessParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
 !define AlexaForBusinessParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
 
@@ -24,10 +29,15 @@ Vl2DvE99jW-Uv97llMkP7_3-hcozM-xlSZpcehtF-vwpO3S9xlcWm_fc1kVH_5UKsAYW7iv_i48sMlcE
 lEKoZLPAKdnArCPJ4JoJyV1dz1O
 }
 
-AWSEntityColoring(BusinessApplications)
 !define BusinessApplicationsColor #D6242D
+AWSEntityColoring2(BusinessApplications, BusinessApplicationsColor)
+AWSEntityBoundary(BusinessApplications, BusinessApplicationsColor)
+!define BusinessApplications(e_alias, e_label) AWSEntity(e_alias, e_label, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 !define BusinessApplications(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 !define BusinessApplications(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 !define BusinessApplicationsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 !define BusinessApplicationsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 
@@ -40,10 +50,15 @@ YGX8RDhLkKI0JobW2PZfGiko0uq31CeIiEcrZ337IB85XA0BxVtd01hnhJDGWNJoA6j-TX4WPmw_jkY3
 -Y9W3J-XnF2YBmBXWjlHiwysU8Pt1DKNWIVu9BDAh8-VH_hOjatrdoUwcSA_RVxdVxu
 }
 
-AWSEntityColoring(Chime)
 !define ChimeColor #D6242D
+AWSEntityColoring2(Chime, ChimeColor)
+AWSEntityBoundary(Chime, ChimeColor)
+!define Chime(e_alias, e_label) AWSEntity(e_alias, e_label, ChimeColor, Chime, Chime)
 !define Chime(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ChimeColor, Chime, Chime)
 !define Chime(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ChimeColor, Chime, Chime)
+!define ChimeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ChimeColor, Chime, Chime)
+!define ChimeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ChimeColor, Chime, Chime)
+!define ChimeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ChimeColor, Chime, Chime)
 !define ChimeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ChimeColor, Chime, Chime)
 !define ChimeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ChimeColor, Chime, Chime)
 
@@ -52,10 +67,15 @@ xTOt0aGX20PXVJdY_M-xvOPHONDYQhw_9dr4dYUBESdv9PXR2ZvEizeKYpw6Fgdr8PRyr8TEwbgwq4yb
 m6kUj-IwFrwJw_vu3wvx2lAwXm7N_L616_tHWLSz1y2hdWFWLSy1SjqVaxu7LpnwldVlthtxOJOrbBovvUx_zIFol0C
 }
 
-AWSEntityColoring(WorkMail)
 !define WorkMailColor #D6242D
+AWSEntityColoring2(WorkMail, WorkMailColor)
+AWSEntityBoundary(WorkMail, WorkMailColor)
+!define WorkMail(e_alias, e_label) AWSEntity(e_alias, e_label, WorkMailColor, WorkMail, WorkMail)
 !define WorkMail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, WorkMailColor, WorkMail, WorkMail)
 !define WorkMail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, WorkMailColor, WorkMail, WorkMail)
+!define WorkMailBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, WorkMailColor, WorkMail, WorkMail)
+!define WorkMailBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, WorkMailColor, WorkMail, WorkMail)
+!define WorkMailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, WorkMailColor, WorkMail, WorkMail)
 !define WorkMailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, WorkMailColor, WorkMail, WorkMail)
 !define WorkMailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, WorkMailColor, WorkMail, WorkMail)
 

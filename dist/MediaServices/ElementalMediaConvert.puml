@@ -7,9 +7,14 @@ w8qVP0441gL4u01iHJxc9REwrY0uoycyL0HH1LGvYu-YYe_WBu-_pVLhv_2IhFsIBEHxY6lyt7_M-1XE
 fcbj_bZ0KvPZyvTaedwx-TDydJr_Qwu7rmyz7wgbjNEYjcRQpfUBMSxN-Rpj7vHFhfszVs4-T_-YNLxbwsFsRxP_V5jzzTKl
 }
 
-AWSEntityColoring(ElementalMediaConvert)
 !define ElementalMediaConvertColor #D86613
+AWSEntityColoring2(ElementalMediaConvert, ElementalMediaConvertColor)
+AWSEntityBoundary(ElementalMediaConvert, ElementalMediaConvertColor)
+!define ElementalMediaConvert(e_alias, e_label) AWSEntity(e_alias, e_label, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
 !define ElementalMediaConvert(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
 !define ElementalMediaConvert(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvertBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvertBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvertParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
 !define ElementalMediaConvertParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
 !define ElementalMediaConvertParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)

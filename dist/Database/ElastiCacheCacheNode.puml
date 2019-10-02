@@ -7,9 +7,14 @@ j73heCrfoxjPl-xt2M7zuKThVVczrdpr_OlxldEYVleuX-NBvU_F46cytgJS-_sXnb2aKG1bXla1q-rU
 KKY9qdd_rduT4W40m30CfFElU1fwJrF-l1b6Ff_Fv_Fv_C5_nV-i_ntxGVi5-qdx3VjH-zNxsVS
 }
 
-AWSEntityColoring(ElastiCacheCacheNode)
 !define ElastiCacheCacheNodeColor #3B48CC
+AWSEntityColoring2(ElastiCacheCacheNode, ElastiCacheCacheNodeColor)
+AWSEntityBoundary(ElastiCacheCacheNode, ElastiCacheCacheNodeColor)
+!define ElastiCacheCacheNode(e_alias, e_label) AWSEntity(e_alias, e_label, ElastiCacheCacheNodeColor, ElastiCacheCacheNode, ElastiCacheCacheNode)
 !define ElastiCacheCacheNode(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElastiCacheCacheNodeColor, ElastiCacheCacheNode, ElastiCacheCacheNode)
 !define ElastiCacheCacheNode(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElastiCacheCacheNodeColor, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElastiCacheCacheNodeColor, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElastiCacheCacheNodeColor, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElastiCacheCacheNodeColor, ElastiCacheCacheNode, ElastiCacheCacheNode)
 !define ElastiCacheCacheNodeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElastiCacheCacheNodeColor, ElastiCacheCacheNode, ElastiCacheCacheNode)
 !define ElastiCacheCacheNodeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElastiCacheCacheNodeColor, ElastiCacheCacheNode, ElastiCacheCacheNode)

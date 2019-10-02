@@ -13,9 +13,14 @@ I4SqbD6uvrz8-zK_vdWCxVp8yhVVltsqxzrVtRuElfu_uj1ltDyVv_TtEKd0grVEF5d7Y7gLUtJiQvMS
 VjJyp4LIhkwlrg_1r-zdLe5MSoJsz-G_
 }
 
-AWSEntityColoring(DatalakeResourceIcon)
 !define DatalakeResourceIconColor #693CC5
+AWSEntityColoring2(DatalakeResourceIcon, DatalakeResourceIconColor)
+AWSEntityBoundary(DatalakeResourceIcon, DatalakeResourceIconColor)
+!define DatalakeResourceIcon(e_alias, e_label) AWSEntity(e_alias, e_label, DatalakeResourceIconColor, DatalakeResourceIcon, DatalakeResourceIcon)
 !define DatalakeResourceIcon(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DatalakeResourceIconColor, DatalakeResourceIcon, DatalakeResourceIcon)
 !define DatalakeResourceIcon(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DatalakeResourceIconColor, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIconBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DatalakeResourceIconColor, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIconBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DatalakeResourceIconColor, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIconParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DatalakeResourceIconColor, DatalakeResourceIcon, DatalakeResourceIcon)
 !define DatalakeResourceIconParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DatalakeResourceIconColor, DatalakeResourceIcon, DatalakeResourceIcon)
 !define DatalakeResourceIconParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DatalakeResourceIconColor, DatalakeResourceIcon, DatalakeResourceIcon)

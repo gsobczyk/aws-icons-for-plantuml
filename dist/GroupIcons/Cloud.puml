@@ -7,9 +7,14 @@ cwhariMFwo_yQBLVLls2QzmygQj-HV_dYmvk_XnhrG_h-vVmpVCREVDIZdErlBH6pQmbIDAPD8BFaqEe
 2G
 }
 
-AWSEntityColoring(Cloud)
 !define CloudColor #232F3E
+AWSEntityColoring2(Cloud, CloudColor)
+AWSEntityBoundary(Cloud, CloudColor)
+!define Cloud(e_alias, e_label) AWSEntity(e_alias, e_label, CloudColor, Cloud, Cloud)
 !define Cloud(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudColor, Cloud, Cloud)
 !define Cloud(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudColor, Cloud, Cloud)
+!define CloudBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudColor, Cloud, Cloud)
+!define CloudBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudColor, Cloud, Cloud)
+!define CloudParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudColor, Cloud, Cloud)
 !define CloudParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudColor, Cloud, Cloud)
 !define CloudParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudColor, Cloud, Cloud)

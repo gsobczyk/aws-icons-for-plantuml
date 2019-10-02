@@ -8,9 +8,14 @@ fivT3MMkVccAJUWS2eW0oVTx0AjVV9GOKndEAIX67m7HTtehEQ_-3GzeRDNe4Otxv8D-8381wfm8Vdtz
 2Myf9zIvh7Uxl9OtgZ-ldnuHdPUP8hGvIhszWOWbtzq0HqcvYjhT3Ino_mYMcjPAy0L7q11ByuZEUpe0r8R6UtoEhf3LtpM3wE0NS7V-7Fxwwry
 }
 
-AWSEntityColoring(CloudHSM)
 !define CloudHSMColor #D6242D
+AWSEntityColoring2(CloudHSM, CloudHSMColor)
+AWSEntityBoundary(CloudHSM, CloudHSMColor)
+!define CloudHSM(e_alias, e_label) AWSEntity(e_alias, e_label, CloudHSMColor, CloudHSM, CloudHSM)
 !define CloudHSM(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudHSMColor, CloudHSM, CloudHSM)
 !define CloudHSM(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudHSMColor, CloudHSM, CloudHSM)
+!define CloudHSMBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, CloudHSMColor, CloudHSM, CloudHSM)
+!define CloudHSMBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, CloudHSMColor, CloudHSM, CloudHSM)
+!define CloudHSMParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, CloudHSMColor, CloudHSM, CloudHSM)
 !define CloudHSMParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudHSMColor, CloudHSM, CloudHSM)
 !define CloudHSMParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudHSMColor, CloudHSM, CloudHSM)

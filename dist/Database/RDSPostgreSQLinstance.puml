@@ -10,9 +10,14 @@ sgcVU01K-vIbIqPd0d3cR_t3_0JkaHxuLCRNcXtkZyrM202eS9V3_V6txN7tD-e7dgjuVivcERtykKtH
 zkUsFsFlZpo__4iRibHrpLxfxV9VVpI_IFyZ_-pyD7yw_sVdD_xP_ENX-R7Vvx_lVvIUdLyPzKVp7m_Fpz41LF7x_G-0P-VtosFFNp_D7y1V
 }
 
-AWSEntityColoring(RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstanceColor #3B48CC
+AWSEntityColoring2(RDSPostgreSQLinstance, RDSPostgreSQLinstanceColor)
+AWSEntityBoundary(RDSPostgreSQLinstance, RDSPostgreSQLinstanceColor)
+!define RDSPostgreSQLinstance(e_alias, e_label) AWSEntity(e_alias, e_label, RDSPostgreSQLinstanceColor, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSPostgreSQLinstanceColor, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSPostgreSQLinstanceColor, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstanceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RDSPostgreSQLinstanceColor, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstanceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RDSPostgreSQLinstanceColor, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RDSPostgreSQLinstanceColor, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSPostgreSQLinstanceColor, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSPostgreSQLinstanceColor, RDSPostgreSQLinstance, RDSPostgreSQLinstance)

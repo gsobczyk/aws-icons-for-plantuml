@@ -8,9 +8,14 @@ ab3-_EBz_Fl5N-T5eKAyuvzJFFitcnRZdQydVgbOuvzRVEkVTlcuxjHRYQzP2QPuXryFGwz0h9YN_mc0
 TFnpUAk1tZh-kRoiSVW4V-W_pry-p_FNQVyw_O_dRv_d-Vj5SfMNp-RlS_pvzLkyXQCPBNnw_TYkN-UJAdZ-xFhvq-ltLk7i_Y4ymFxfy_l7p-zVFxz__hoU
 }
 
-AWSEntityColoring(IoTWindfarm)
 !define IoTWindfarmColor #3F8624
+AWSEntityColoring2(IoTWindfarm, IoTWindfarmColor)
+AWSEntityBoundary(IoTWindfarm, IoTWindfarmColor)
+!define IoTWindfarm(e_alias, e_label) AWSEntity(e_alias, e_label, IoTWindfarmColor, IoTWindfarm, IoTWindfarm)
 !define IoTWindfarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTWindfarmColor, IoTWindfarm, IoTWindfarm)
 !define IoTWindfarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTWindfarmColor, IoTWindfarm, IoTWindfarm)
+!define IoTWindfarmBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTWindfarmColor, IoTWindfarm, IoTWindfarm)
+!define IoTWindfarmBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTWindfarmColor, IoTWindfarm, IoTWindfarm)
+!define IoTWindfarmParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTWindfarmColor, IoTWindfarm, IoTWindfarm)
 !define IoTWindfarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTWindfarmColor, IoTWindfarm, IoTWindfarm)
 !define IoTWindfarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTWindfarmColor, IoTWindfarm, IoTWindfarm)

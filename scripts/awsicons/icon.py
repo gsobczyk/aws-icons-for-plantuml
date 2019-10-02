@@ -75,10 +75,15 @@ class Icon:
                 stderr=PIPE
             )
             puml_content += result.stdout.decode("UTF-8")
-            puml_content += f"AWSEntityColoring({target})\n"
             puml_content += f"!define {target}Color {color}\n"
+            puml_content += f"AWSEntityColoring2({target}, {target}Color)\n"
+            puml_content += f"AWSEntityBoundary({target}, {target}Color)\n"
+            puml_content += f"!define {target}(e_alias, e_label) AWSEntity(e_alias, e_label, {target}Color, {target}, {target})\n"
             puml_content += f"!define {target}(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, {target}Color, {target}, {target})\n"
             puml_content += f"!define {target}(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, {target}Color, {target}, {target})\n"
+            puml_content += f"!define {target}Boundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, {target}Color, {target}, {target})\n"
+            puml_content += f"!define {target}Boundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, {target}Color, {target}, {target})\n"
+            puml_content += f"!define {target}Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, {target}Color, {target}, {target})\n"
             puml_content += f"!define {target}Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, {target}Color, {target}, {target})\n"
             puml_content += f"!define {target}Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, {target}Color, {target}, {target})\n"
 

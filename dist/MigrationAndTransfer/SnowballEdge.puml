@@ -9,9 +9,14 @@ al4gPRo77OQa0NEHj4neYitu0axOp10DCFe0iwg1ZsCe6VEkgE8Ru4KfnMBChCsh2hu5JdgoGWbIK9hu
 tJq2
 }
 
-AWSEntityColoring(SnowballEdge)
 !define SnowballEdgeColor #1C7B68
+AWSEntityColoring2(SnowballEdge, SnowballEdgeColor)
+AWSEntityBoundary(SnowballEdge, SnowballEdgeColor)
+!define SnowballEdge(e_alias, e_label) AWSEntity(e_alias, e_label, SnowballEdgeColor, SnowballEdge, SnowballEdge)
 !define SnowballEdge(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SnowballEdgeColor, SnowballEdge, SnowballEdge)
 !define SnowballEdge(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SnowballEdgeColor, SnowballEdge, SnowballEdge)
+!define SnowballEdgeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SnowballEdgeColor, SnowballEdge, SnowballEdge)
+!define SnowballEdgeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SnowballEdgeColor, SnowballEdge, SnowballEdge)
+!define SnowballEdgeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SnowballEdgeColor, SnowballEdge, SnowballEdge)
 !define SnowballEdgeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SnowballEdgeColor, SnowballEdge, SnowballEdge)
 !define SnowballEdgeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SnowballEdgeColor, SnowballEdge, SnowballEdge)

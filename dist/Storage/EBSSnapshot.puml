@@ -9,9 +9,14 @@ tPCzCqfASyLZjHQWGvWr5vUlE2WDKWrbSM_OsBHNn43NtdORB4bOlHy7kdNEJXmiZEa9RgHBxag1nICu
 w-LPBx1NsgCqM6kV-eVboaw2WIhCSHLNTIN2UL6wsqHovxKQZOPhylklUxE0B-FxzlPc5Hjo_VNzMtEmvhUXu_rDvZ_o0m
 }
 
-AWSEntityColoring(EBSSnapshot)
 !define EBSSnapshotColor #3F8624
+AWSEntityColoring2(EBSSnapshot, EBSSnapshotColor)
+AWSEntityBoundary(EBSSnapshot, EBSSnapshotColor)
+!define EBSSnapshot(e_alias, e_label) AWSEntity(e_alias, e_label, EBSSnapshotColor, EBSSnapshot, EBSSnapshot)
 !define EBSSnapshot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EBSSnapshotColor, EBSSnapshot, EBSSnapshot)
 !define EBSSnapshot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EBSSnapshotColor, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshotBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EBSSnapshotColor, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshotBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EBSSnapshotColor, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshotParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EBSSnapshotColor, EBSSnapshot, EBSSnapshot)
 !define EBSSnapshotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EBSSnapshotColor, EBSSnapshot, EBSSnapshot)
 !define EBSSnapshotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EBSSnapshotColor, EBSSnapshot, EBSSnapshot)

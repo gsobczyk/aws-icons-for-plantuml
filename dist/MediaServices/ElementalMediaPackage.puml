@@ -8,9 +8,14 @@ BENz-HLP6T_XvGdKz_TNvV9t-67RZT4EPEpmI__Ovxczzg_6b_Xw8FHN0KbrXxTe9GktdcRJdpkynYzd
 bZzsyfU8I6kMlxRpf_6MF_Vpj_7Myzt_X-__ltp__-dw_-rt_1_D__zOVUbBZm
 }
 
-AWSEntityColoring(ElementalMediaPackage)
 !define ElementalMediaPackageColor #D86613
+AWSEntityColoring2(ElementalMediaPackage, ElementalMediaPackageColor)
+AWSEntityBoundary(ElementalMediaPackage, ElementalMediaPackageColor)
+!define ElementalMediaPackage(e_alias, e_label) AWSEntity(e_alias, e_label, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
 !define ElementalMediaPackage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
 !define ElementalMediaPackage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackageBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackageBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
 !define ElementalMediaPackageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
 !define ElementalMediaPackageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)

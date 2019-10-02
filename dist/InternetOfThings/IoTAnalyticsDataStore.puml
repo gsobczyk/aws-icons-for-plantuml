@@ -8,9 +8,14 @@ tQ6MpucvKTu0ls1YpcKbCoTS_ETanla-zv-FEI-GLue_Ai-gqQaHZied4NHY-6lF__R-Zd-_nlxIql9t
 vpy
 }
 
-AWSEntityColoring(IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStoreColor #3F8624
+AWSEntityColoring2(IoTAnalyticsDataStore, IoTAnalyticsDataStoreColor)
+AWSEntityBoundary(IoTAnalyticsDataStore, IoTAnalyticsDataStoreColor)
+!define IoTAnalyticsDataStore(e_alias, e_label) AWSEntity(e_alias, e_label, IoTAnalyticsDataStoreColor, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTAnalyticsDataStoreColor, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTAnalyticsDataStoreColor, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStoreBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTAnalyticsDataStoreColor, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStoreBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTAnalyticsDataStoreColor, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStoreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTAnalyticsDataStoreColor, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTAnalyticsDataStoreColor, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTAnalyticsDataStoreColor, IoTAnalyticsDataStore, IoTAnalyticsDataStore)

@@ -7,9 +7,14 @@ Rtm13KOl4q3Pjaq17SJgPIWSIq6ilZMb2kWsYjXzByOeBOFtFtyrvKUbsdrzCbQ8_lTFq1TbaQml2lAN
 Zm_U_sTtFm
 }
 
-AWSEntityColoring(DynamoDBAttribute)
 !define DynamoDBAttributeColor #3B48CC
+AWSEntityColoring2(DynamoDBAttribute, DynamoDBAttributeColor)
+AWSEntityBoundary(DynamoDBAttribute, DynamoDBAttributeColor)
+!define DynamoDBAttribute(e_alias, e_label) AWSEntity(e_alias, e_label, DynamoDBAttributeColor, DynamoDBAttribute, DynamoDBAttribute)
 !define DynamoDBAttribute(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DynamoDBAttributeColor, DynamoDBAttribute, DynamoDBAttribute)
 !define DynamoDBAttribute(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DynamoDBAttributeColor, DynamoDBAttribute, DynamoDBAttribute)
+!define DynamoDBAttributeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DynamoDBAttributeColor, DynamoDBAttribute, DynamoDBAttribute)
+!define DynamoDBAttributeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DynamoDBAttributeColor, DynamoDBAttribute, DynamoDBAttribute)
+!define DynamoDBAttributeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DynamoDBAttributeColor, DynamoDBAttribute, DynamoDBAttribute)
 !define DynamoDBAttributeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DynamoDBAttributeColor, DynamoDBAttribute, DynamoDBAttribute)
 !define DynamoDBAttributeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DynamoDBAttributeColor, DynamoDBAttribute, DynamoDBAttribute)

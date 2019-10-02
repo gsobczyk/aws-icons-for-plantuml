@@ -9,9 +9,14 @@ GFtyHJRDHtmK560l9NIAdYout605-h4kwzc1HN6zmTBufXNDzGQ-tGrrSyrrGIILKfAPvhhW4S5rWURp
 -bqG_Eq6Wh-DLy5Vn-r_v0S
 }
 
-AWSEntityColoring(SAMLToken)
 !define SAMLTokenColor #232F3E
+AWSEntityColoring2(SAMLToken, SAMLTokenColor)
+AWSEntityBoundary(SAMLToken, SAMLTokenColor)
+!define SAMLToken(e_alias, e_label) AWSEntity(e_alias, e_label, SAMLTokenColor, SAMLToken, SAMLToken)
 !define SAMLToken(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SAMLTokenColor, SAMLToken, SAMLToken)
 !define SAMLToken(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SAMLTokenColor, SAMLToken, SAMLToken)
+!define SAMLTokenBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SAMLTokenColor, SAMLToken, SAMLToken)
+!define SAMLTokenBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SAMLTokenColor, SAMLToken, SAMLToken)
+!define SAMLTokenParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SAMLTokenColor, SAMLToken, SAMLToken)
 !define SAMLTokenParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SAMLTokenColor, SAMLToken, SAMLToken)
 !define SAMLTokenParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SAMLTokenColor, SAMLToken, SAMLToken)

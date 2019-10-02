@@ -9,9 +9,14 @@ gT04KYydo9eSVYi0CNmVGARWu81qES5iSWctWhV5ThaEbxJPcfo9Uqxy70GZUm35wAyKnhxkOsvRJ1Ck
 4F-p_ZzylSjd9N-Tl_VuQbrhlBrAsmrUL-a4U__iL_aT_7lNnkRzfWs_fn2mpEZxHgtXSTgQiJvEcmBrJVQnZtq3
 }
 
-AWSEntityColoring(EFSStandard)
 !define EFSStandardColor #3F8624
+AWSEntityColoring2(EFSStandard, EFSStandardColor)
+AWSEntityBoundary(EFSStandard, EFSStandardColor)
+!define EFSStandard(e_alias, e_label) AWSEntity(e_alias, e_label, EFSStandardColor, EFSStandard, EFSStandard)
 !define EFSStandard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EFSStandardColor, EFSStandard, EFSStandard)
 !define EFSStandard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EFSStandardColor, EFSStandard, EFSStandard)
+!define EFSStandardBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EFSStandardColor, EFSStandard, EFSStandard)
+!define EFSStandardBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EFSStandardColor, EFSStandard, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EFSStandardColor, EFSStandard, EFSStandard)
 !define EFSStandardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EFSStandardColor, EFSStandard, EFSStandard)
 !define EFSStandardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EFSStandardColor, EFSStandard, EFSStandard)

@@ -7,9 +7,14 @@ sp__Wfnl9fWX0-lF2Fk1nreJpFB1L_qlnihsROteqiMF-p_yNc1FxUX9Ne-Dzj4l0JRbBRydL13odcXG
 ZoiNMCLTlk98spiUgMDUcBdbtJDosmhIxJNry7hyJFhwbM_V-11ZcFTipHRRtllp-UNqITfW6Ee94xdnD1CT_pW_7cTr_4Pc8Zl_-xC2
 }
 
-AWSEntityColoring(MigrationandTransfer)
 !define MigrationandTransferColor #1C7B68
+AWSEntityColoring2(MigrationandTransfer, MigrationandTransferColor)
+AWSEntityBoundary(MigrationandTransfer, MigrationandTransferColor)
+!define MigrationandTransfer(e_alias, e_label) AWSEntity(e_alias, e_label, MigrationandTransferColor, MigrationandTransfer, MigrationandTransfer)
 !define MigrationandTransfer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MigrationandTransferColor, MigrationandTransfer, MigrationandTransfer)
 !define MigrationandTransfer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MigrationandTransferColor, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransferBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, MigrationandTransferColor, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransferBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, MigrationandTransferColor, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransferParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, MigrationandTransferColor, MigrationandTransfer, MigrationandTransfer)
 !define MigrationandTransferParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MigrationandTransferColor, MigrationandTransfer, MigrationandTransfer)
 !define MigrationandTransferParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MigrationandTransferColor, MigrationandTransfer, MigrationandTransfer)

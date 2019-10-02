@@ -6,9 +6,14 @@ xPT7TiCm34G1Y174Vl_JfX2CuwRs9jtwkrbyLw4H39zXwJmkywRNCuH2EOMYv2pDmhV-ML9oTOiVjH7V
 JnzffC7I78dfXm4_F_pxGV_VtwxVetxH_etFRtX-mVCJ1DqVyFs50H_St_vs_H_r3zzl-Fs8tg_e_Gpp0W
 }
 
-AWSEntityColoring(DynamoDBGSI)
 !define DynamoDBGSIColor #3B48CC
+AWSEntityColoring2(DynamoDBGSI, DynamoDBGSIColor)
+AWSEntityBoundary(DynamoDBGSI, DynamoDBGSIColor)
+!define DynamoDBGSI(e_alias, e_label) AWSEntity(e_alias, e_label, DynamoDBGSIColor, DynamoDBGSI, DynamoDBGSI)
 !define DynamoDBGSI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DynamoDBGSIColor, DynamoDBGSI, DynamoDBGSI)
 !define DynamoDBGSI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DynamoDBGSIColor, DynamoDBGSI, DynamoDBGSI)
+!define DynamoDBGSIBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, DynamoDBGSIColor, DynamoDBGSI, DynamoDBGSI)
+!define DynamoDBGSIBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, DynamoDBGSIColor, DynamoDBGSI, DynamoDBGSI)
+!define DynamoDBGSIParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, DynamoDBGSIColor, DynamoDBGSI, DynamoDBGSI)
 !define DynamoDBGSIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DynamoDBGSIColor, DynamoDBGSI, DynamoDBGSI)
 !define DynamoDBGSIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DynamoDBGSIColor, DynamoDBGSI, DynamoDBGSI)

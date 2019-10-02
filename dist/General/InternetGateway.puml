@@ -9,9 +9,14 @@ nmIj4QsSLKd8_ZFrnzCUQP-oR2ION1RGpUyy0gOK4-bYDPS75iCtZBlQpHnWMwnqVM2LHKTz70a4ksM4
 5ik9GEDsVaYDXueYLRx5_8iLt4MjNrvU_W4
 }
 
-AWSEntityColoring(InternetGateway)
 !define InternetGatewayColor #232F3E
+AWSEntityColoring2(InternetGateway, InternetGatewayColor)
+AWSEntityBoundary(InternetGateway, InternetGatewayColor)
+!define InternetGateway(e_alias, e_label) AWSEntity(e_alias, e_label, InternetGatewayColor, InternetGateway, InternetGateway)
 !define InternetGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, InternetGatewayColor, InternetGateway, InternetGateway)
 !define InternetGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, InternetGatewayColor, InternetGateway, InternetGateway)
+!define InternetGatewayBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, InternetGatewayColor, InternetGateway, InternetGateway)
+!define InternetGatewayBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, InternetGatewayColor, InternetGateway, InternetGateway)
+!define InternetGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, InternetGatewayColor, InternetGateway, InternetGateway)
 !define InternetGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, InternetGatewayColor, InternetGateway, InternetGateway)
 !define InternetGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, InternetGatewayColor, InternetGateway, InternetGateway)

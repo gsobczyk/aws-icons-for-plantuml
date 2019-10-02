@@ -7,9 +7,14 @@ omNRH1Yi4aquyNrtXH9X9Pbnmo_T6Iu2MrpvlZiVWJskVD-TfsrnmtSRtSPyrrt0Tzq5VDTTm7VTnVp9
 -5OgbJS
 }
 
-AWSEntityColoring(OpsWorksMonitoring)
 !define OpsWorksMonitoringColor #CC2264
+AWSEntityColoring2(OpsWorksMonitoring, OpsWorksMonitoringColor)
+AWSEntityBoundary(OpsWorksMonitoring, OpsWorksMonitoringColor)
+!define OpsWorksMonitoring(e_alias, e_label) AWSEntity(e_alias, e_label, OpsWorksMonitoringColor, OpsWorksMonitoring, OpsWorksMonitoring)
 !define OpsWorksMonitoring(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OpsWorksMonitoringColor, OpsWorksMonitoring, OpsWorksMonitoring)
 !define OpsWorksMonitoring(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OpsWorksMonitoringColor, OpsWorksMonitoring, OpsWorksMonitoring)
+!define OpsWorksMonitoringBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, OpsWorksMonitoringColor, OpsWorksMonitoring, OpsWorksMonitoring)
+!define OpsWorksMonitoringBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, OpsWorksMonitoringColor, OpsWorksMonitoring, OpsWorksMonitoring)
+!define OpsWorksMonitoringParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, OpsWorksMonitoringColor, OpsWorksMonitoring, OpsWorksMonitoring)
 !define OpsWorksMonitoringParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OpsWorksMonitoringColor, OpsWorksMonitoring, OpsWorksMonitoring)
 !define OpsWorksMonitoringParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OpsWorksMonitoringColor, OpsWorksMonitoring, OpsWorksMonitoring)

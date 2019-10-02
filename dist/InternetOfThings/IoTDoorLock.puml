@@ -9,9 +9,14 @@ J3zswbX_WW0Y_I-CzQV6piLkFw52fmQZ_PZjBwPIKZJQdt7_0yRzAyNqZVnPlWl1FU771YqQlb5_jUA1
 uFYl81hg4KI3xYefldZ-_l_zv_Rtnx-D7m
 }
 
-AWSEntityColoring(IoTDoorLock)
 !define IoTDoorLockColor #3F8624
+AWSEntityColoring2(IoTDoorLock, IoTDoorLockColor)
+AWSEntityBoundary(IoTDoorLock, IoTDoorLockColor)
+!define IoTDoorLock(e_alias, e_label) AWSEntity(e_alias, e_label, IoTDoorLockColor, IoTDoorLock, IoTDoorLock)
 !define IoTDoorLock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTDoorLockColor, IoTDoorLock, IoTDoorLock)
 !define IoTDoorLock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTDoorLockColor, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLockBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTDoorLockColor, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLockBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTDoorLockColor, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLockParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTDoorLockColor, IoTDoorLock, IoTDoorLock)
 !define IoTDoorLockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTDoorLockColor, IoTDoorLock, IoTDoorLock)
 !define IoTDoorLockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTDoorLockColor, IoTDoorLock, IoTDoorLock)

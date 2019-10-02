@@ -9,9 +9,14 @@ tV-6rQltVxMtO_SFZ-swf31yvzzOzxyPqE8edHfkB_LPuezybmb8t5__q8_u7_Ze0DJzIrC0PYyvF6rO
 qlO4zpYh06WDQw4gWDJyup5DJG4zlYut1RGbvtWN1IGb0RHSsI2LfUgcRKgtoNRfK3rkhoZvokRNEm
 }
 
-AWSEntityColoring(Route53HostedZone)
 !define Route53HostedZoneColor #693CC5
+AWSEntityColoring2(Route53HostedZone, Route53HostedZoneColor)
+AWSEntityBoundary(Route53HostedZone, Route53HostedZoneColor)
+!define Route53HostedZone(e_alias, e_label) AWSEntity(e_alias, e_label, Route53HostedZoneColor, Route53HostedZone, Route53HostedZone)
 !define Route53HostedZone(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, Route53HostedZoneColor, Route53HostedZone, Route53HostedZone)
 !define Route53HostedZone(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, Route53HostedZoneColor, Route53HostedZone, Route53HostedZone)
+!define Route53HostedZoneBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, Route53HostedZoneColor, Route53HostedZone, Route53HostedZone)
+!define Route53HostedZoneBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, Route53HostedZoneColor, Route53HostedZone, Route53HostedZone)
+!define Route53HostedZoneParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, Route53HostedZoneColor, Route53HostedZone, Route53HostedZone)
 !define Route53HostedZoneParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, Route53HostedZoneColor, Route53HostedZone, Route53HostedZone)
 !define Route53HostedZoneParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, Route53HostedZoneColor, Route53HostedZone, Route53HostedZone)

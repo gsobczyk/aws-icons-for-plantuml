@@ -8,9 +8,14 @@ nrhEptDA4PsUbjPq9vw1xDUONgZFxpOBbcCerqhx9rWW6Thz-siwjZr7tVz6RorAIZgy_phqPZxt-IOe
 9EjuI-RBWpXDTF8pcWX_HDy
 }
 
-AWSEntityColoring(NetworkingandContentDelivery)
 !define NetworkingandContentDeliveryColor #693CC5
+AWSEntityColoring2(NetworkingandContentDelivery, NetworkingandContentDeliveryColor)
+AWSEntityBoundary(NetworkingandContentDelivery, NetworkingandContentDeliveryColor)
+!define NetworkingandContentDelivery(e_alias, e_label) AWSEntity(e_alias, e_label, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
 !define NetworkingandContentDelivery(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
 !define NetworkingandContentDelivery(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
 !define NetworkingandContentDeliveryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
 !define NetworkingandContentDeliveryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)

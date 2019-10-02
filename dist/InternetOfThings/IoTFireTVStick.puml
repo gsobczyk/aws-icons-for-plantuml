@@ -6,9 +6,14 @@ LElPJZpN5oqd1NAjJsmGNbZy0gxrGG3jgH9dSKqsfMeVkWbm7V9rIvqOe4oGkJuC4uBhQUWpXzprOp44
 QP4XKpfJx-j-RY_H7pr_3ry_Zb-_Zby_jvEZzu-3zw_lrpHDym
 }
 
-AWSEntityColoring(IoTFireTVStick)
 !define IoTFireTVStickColor #3F8624
+AWSEntityColoring2(IoTFireTVStick, IoTFireTVStickColor)
+AWSEntityBoundary(IoTFireTVStick, IoTFireTVStickColor)
+!define IoTFireTVStick(e_alias, e_label) AWSEntity(e_alias, e_label, IoTFireTVStickColor, IoTFireTVStick, IoTFireTVStick)
 !define IoTFireTVStick(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTFireTVStickColor, IoTFireTVStick, IoTFireTVStick)
 !define IoTFireTVStick(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTFireTVStickColor, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStickBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IoTFireTVStickColor, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStickBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IoTFireTVStickColor, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStickParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IoTFireTVStickColor, IoTFireTVStick, IoTFireTVStick)
 !define IoTFireTVStickParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTFireTVStickColor, IoTFireTVStick, IoTFireTVStick)
 !define IoTFireTVStickParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTFireTVStickColor, IoTFireTVStick, IoTFireTVStick)

@@ -7,9 +7,14 @@ xn_2lVEYoAnTHv-sDxVVkQ2v_Di-86xgZttOvh4F3vDGjFYoBymBqe3EMCmq62Y6ATB922020UsBNhGG
 wyO5cfjeSlVnS-Vn-yZo09NyoBldGGFsoPhHL_sXSJiq3_D2-lw2ndc2Lqn_gOL8yfIOeA4U6M6he7cUvPE0KWg1kjv__vfBFVzGbylbyWi
 }
 
-AWSEntityColoring(ManagedBlockchain)
 !define ManagedBlockchainColor #D86613
+AWSEntityColoring2(ManagedBlockchain, ManagedBlockchainColor)
+AWSEntityBoundary(ManagedBlockchain, ManagedBlockchainColor)
+!define ManagedBlockchain(e_alias, e_label) AWSEntity(e_alias, e_label, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)

@@ -39,6 +39,25 @@ skinparam participant<<stereo>> {
 }
 !enddefinelong
 
+!definelong AWSEntityColoring2(stereo, color)
+skinparam rectangle<<stereo>> {
+    BackgroundColor AWS_BG_COLOR
+    BorderColor color
+}
+skinparam participant<<stereo>> {
+    BackgroundColor AWS_BG_COLOR
+    BorderColor color
+}
+!enddefinelong
+
+!definelong AWSEntityBoundary(stereo, color)
+skinparam rectangle<<stereo boundary>> {
+    BackgroundColor AWS_BG_COLOR
+    BorderColor color
+	BorderStyle dashed
+}
+!enddefinelong
+
 ' Layout
 ' ##################################
 
@@ -55,12 +74,28 @@ center footer <font color=red>Warning:</font> Created for discussion, needs to b
 ' Elements
 ' ##################################
 
+!definelong AWSEntity(e_alias, e_label, e_color, e_sprite, e_stereo)
+rectangle "==e_label\n<color:e_color><$e_sprite></color>" <<e_stereo>> as e_alias
+!enddefinelong
+
 !definelong AWSEntity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<e_stereo>> as e_alias
 !enddefinelong
 
 !definelong AWSEntity(e_alias, e_label, e_techn, e_descr, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<e_stereo>> as e_alias
+!enddefinelong
+
+!definelong AWSEntityBoundary(e_alias, e_label, e_color, e_sprite, e_stereo)
+rectangle "==e_label\n<color:e_color><$e_sprite{scale=0.6}></color>" <<e_stereo boundary>> as e_alias
+!enddefinelong
+
+!definelong AWSEntityBoundary(e_alias, e_label, e_descr, e_color, e_sprite, e_stereo)
+rectangle "==e_label\n<color:e_color><$e_sprite{scale=0.6}></color>\n\n e_descr" <<e_stereo boundary>> as e_alias
+!enddefinelong
+
+!definelong AWSParticipant(p_alias, p_label, p_color, p_sprite, p_stereo)
+participant "p_label" as p_alias << ($p_sprite, p_color) p_stereo>>
 !enddefinelong
 
 !definelong AWSParticipant(p_alias, p_label, p_techn, p_color, p_sprite, p_stereo)

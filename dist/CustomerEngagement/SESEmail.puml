@@ -9,9 +9,14 @@ Ft_k-u35mF89NhfySv-zlZgSxTLj-QQ-tq2jugxTzfdwFlsvTeimzMtffyUdzyEjDuoQhdqhDxy-Uj-L
 Lh7tWtBpYWyV1-Nc5QCrZq_B3IyuQ1uiXNkJ31x-vQdUN-R-wNLPNvr5vHVF_ta7
 }
 
-AWSEntityColoring(SESEmail)
 !define SESEmailColor #3B48CC
+AWSEntityColoring2(SESEmail, SESEmailColor)
+AWSEntityBoundary(SESEmail, SESEmailColor)
+!define SESEmail(e_alias, e_label) AWSEntity(e_alias, e_label, SESEmailColor, SESEmail, SESEmail)
 !define SESEmail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SESEmailColor, SESEmail, SESEmail)
 !define SESEmail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SESEmailColor, SESEmail, SESEmail)
+!define SESEmailBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SESEmailColor, SESEmail, SESEmail)
+!define SESEmailBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SESEmailColor, SESEmail, SESEmail)
+!define SESEmailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SESEmailColor, SESEmail, SESEmail)
 !define SESEmailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SESEmailColor, SESEmail, SESEmail)
 !define SESEmailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SESEmailColor, SESEmail, SESEmail)

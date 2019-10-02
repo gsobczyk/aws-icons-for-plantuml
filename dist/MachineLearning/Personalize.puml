@@ -9,9 +9,14 @@ I7y6iVx9lb_tBptlNuNsh_RtfdNYy_cXUCoFXBYTN-tZ-TMn3KA5-t1-2gFS6FzUFfZV6fKDl0gylZz4
 WSfn7oF1YT9TOe3YEBuAe-lGimny6p8GD0FVAa3j-1uKrxxtH-oVYazyuWi
 }
 
-AWSEntityColoring(Personalize)
 !define PersonalizeColor #1C7B68
+AWSEntityColoring2(Personalize, PersonalizeColor)
+AWSEntityBoundary(Personalize, PersonalizeColor)
+!define Personalize(e_alias, e_label) AWSEntity(e_alias, e_label, PersonalizeColor, Personalize, Personalize)
 !define Personalize(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PersonalizeColor, Personalize, Personalize)
 !define Personalize(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PersonalizeColor, Personalize, Personalize)
+!define PersonalizeBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, PersonalizeColor, Personalize, Personalize)
+!define PersonalizeBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, PersonalizeColor, Personalize, Personalize)
+!define PersonalizeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, PersonalizeColor, Personalize, Personalize)
 !define PersonalizeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PersonalizeColor, Personalize, Personalize)
 !define PersonalizeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PersonalizeColor, Personalize, Personalize)

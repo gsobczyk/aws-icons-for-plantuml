@@ -6,9 +6,14 @@ xSz9ZiH024HHCcob1Jbm_zlsll4GKbLvZltx0Z_5ththDhTAUvFP6UjLieObFc2Y7eRv2tWFcmtmtkS3
 xEPzDthTJx5tx_u
 }
 
-AWSEntityColoring(WorkDocs)
 !define WorkDocsColor #1C7B68
+AWSEntityColoring2(WorkDocs, WorkDocsColor)
+AWSEntityBoundary(WorkDocs, WorkDocsColor)
+!define WorkDocs(e_alias, e_label) AWSEntity(e_alias, e_label, WorkDocsColor, WorkDocs, WorkDocs)
 !define WorkDocs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, WorkDocsColor, WorkDocs, WorkDocs)
 !define WorkDocs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, WorkDocsColor, WorkDocs, WorkDocs)
+!define WorkDocsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, WorkDocsColor, WorkDocs, WorkDocs)
+!define WorkDocsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, WorkDocsColor, WorkDocs, WorkDocs)
+!define WorkDocsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, WorkDocsColor, WorkDocs, WorkDocs)
 !define WorkDocsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, WorkDocsColor, WorkDocs, WorkDocs)
 !define WorkDocsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, WorkDocsColor, WorkDocs, WorkDocs)

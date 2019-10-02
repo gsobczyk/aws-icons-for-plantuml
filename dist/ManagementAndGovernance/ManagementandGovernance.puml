@@ -7,9 +7,14 @@ KLCVwOIZgTUo_pKLvSM-_f9Viga5h7qk3WUogTUu2JHE_z-u_IX-wlptb8Dz_VTIxXJkqywVVhpJKLsl
 KNV_5BeZ0RNtxtH7ONf-kFg8vwV__ktF_yag7ledbfvO-95cwPkkj-jQeHbBOoVCj68x-XvU
 }
 
-AWSEntityColoring(ManagementandGovernance)
 !define ManagementandGovernanceColor #CC2264
+AWSEntityColoring2(ManagementandGovernance, ManagementandGovernanceColor)
+AWSEntityBoundary(ManagementandGovernance, ManagementandGovernanceColor)
+!define ManagementandGovernance(e_alias, e_label) AWSEntity(e_alias, e_label, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
 !define ManagementandGovernance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
 !define ManagementandGovernance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
+!define ManagementandGovernanceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
+!define ManagementandGovernanceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
+!define ManagementandGovernanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
 !define ManagementandGovernanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
 !define ManagementandGovernanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)

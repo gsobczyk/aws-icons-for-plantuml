@@ -5,9 +5,14 @@ xTOt0aGX20PXVJdY_M-xvOPHONDYQhw_9dr4dYUBESdv9PXR2ZvEizeKYpw6Fgdr8PRyr8TEwbgwq4yb
 m6kUj-IwFrwJw_vu3wvx2lAwXm7N_L616_tHWLSz1y2hdWFWLSy1SjqVaxu7LpnwldVlthtxOJOrbBovvUx_zIFol0C
 }
 
-AWSEntityColoring(WorkMail)
 !define WorkMailColor #D6242D
+AWSEntityColoring2(WorkMail, WorkMailColor)
+AWSEntityBoundary(WorkMail, WorkMailColor)
+!define WorkMail(e_alias, e_label) AWSEntity(e_alias, e_label, WorkMailColor, WorkMail, WorkMail)
 !define WorkMail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, WorkMailColor, WorkMail, WorkMail)
 !define WorkMail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, WorkMailColor, WorkMail, WorkMail)
+!define WorkMailBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, WorkMailColor, WorkMail, WorkMail)
+!define WorkMailBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, WorkMailColor, WorkMail, WorkMail)
+!define WorkMailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, WorkMailColor, WorkMail, WorkMail)
 !define WorkMailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, WorkMailColor, WorkMail, WorkMail)
 !define WorkMailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, WorkMailColor, WorkMail, WorkMail)

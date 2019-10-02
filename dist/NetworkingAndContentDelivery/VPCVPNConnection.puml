@@ -8,9 +8,14 @@ cgm3u-_aN_QtaiiXkIXWqPzVk-ZUz-kBJXJrw7xs-gM12LzywDw7tFf7Mec3wSZdaMZFWN-0sq_r0mfh
 Jc3wZhm5
 }
 
-AWSEntityColoring(VPCVPNConnection)
 !define VPCVPNConnectionColor #693CC5
+AWSEntityColoring2(VPCVPNConnection, VPCVPNConnectionColor)
+AWSEntityBoundary(VPCVPNConnection, VPCVPNConnectionColor)
+!define VPCVPNConnection(e_alias, e_label) AWSEntity(e_alias, e_label, VPCVPNConnectionColor, VPCVPNConnection, VPCVPNConnection)
 !define VPCVPNConnection(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, VPCVPNConnectionColor, VPCVPNConnection, VPCVPNConnection)
 !define VPCVPNConnection(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, VPCVPNConnectionColor, VPCVPNConnection, VPCVPNConnection)
+!define VPCVPNConnectionBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, VPCVPNConnectionColor, VPCVPNConnection, VPCVPNConnection)
+!define VPCVPNConnectionBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, VPCVPNConnectionColor, VPCVPNConnection, VPCVPNConnection)
+!define VPCVPNConnectionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, VPCVPNConnectionColor, VPCVPNConnection, VPCVPNConnection)
 !define VPCVPNConnectionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, VPCVPNConnectionColor, VPCVPNConnection, VPCVPNConnection)
 !define VPCVPNConnectionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, VPCVPNConnectionColor, VPCVPNConnection, VPCVPNConnection)

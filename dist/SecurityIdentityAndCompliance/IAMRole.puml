@@ -9,9 +9,14 @@ SX0dFCHAp-vUFfsl9D-E-WDLcWRUvI4BrbYMM8CSNpysfchQknsFhEVisy-I8-KL8bL-2f5R5ZJbD_2-
 S6RfvCo2Ntu4RN1ZO5tLVB5TZUUj9DJxjbPbTIfqsm8i8fmZUTVvaMnKDj_oVqPCAhM70VxtxRNNNliC
 }
 
-AWSEntityColoring(IAMRole)
 !define IAMRoleColor #D6242D
+AWSEntityColoring2(IAMRole, IAMRoleColor)
+AWSEntityBoundary(IAMRole, IAMRoleColor)
+!define IAMRole(e_alias, e_label) AWSEntity(e_alias, e_label, IAMRoleColor, IAMRole, IAMRole)
 !define IAMRole(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMRoleColor, IAMRole, IAMRole)
 !define IAMRole(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMRoleColor, IAMRole, IAMRole)
+!define IAMRoleBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, IAMRoleColor, IAMRole, IAMRole)
+!define IAMRoleBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, IAMRoleColor, IAMRole, IAMRole)
+!define IAMRoleParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, IAMRoleColor, IAMRole, IAMRole)
 !define IAMRoleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMRoleColor, IAMRole, IAMRole)
 !define IAMRoleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMRoleColor, IAMRole, IAMRole)

@@ -10,9 +10,14 @@ rByLu1hzn3V_ykyyV_WgNKo3Xy6yyiSqVxKaPUFcUVHdBEPVNoDcpflT-b_bZRE2cVCAVuRxRvqt_37u
 t_BL3y3UvxTqVzjezVblJEk7UVsYVLA__3_rqthzjbu_NW1zKZ-krgyTVblzl1vVyHL_
 }
 
-AWSEntityColoring(SageMaker)
 !define SageMakerColor #1C7B68
+AWSEntityColoring2(SageMaker, SageMakerColor)
+AWSEntityBoundary(SageMaker, SageMakerColor)
+!define SageMaker(e_alias, e_label) AWSEntity(e_alias, e_label, SageMakerColor, SageMaker, SageMaker)
 !define SageMaker(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SageMakerColor, SageMaker, SageMaker)
 !define SageMaker(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SageMakerColor, SageMaker, SageMaker)
+!define SageMakerBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SageMakerColor, SageMaker, SageMaker)
+!define SageMakerBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SageMakerColor, SageMaker, SageMaker)
+!define SageMakerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SageMakerColor, SageMaker, SageMaker)
 !define SageMakerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SageMakerColor, SageMaker, SageMaker)
 !define SageMakerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SageMakerColor, SageMaker, SageMaker)

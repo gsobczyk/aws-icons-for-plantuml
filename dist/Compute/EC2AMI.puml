@@ -6,9 +6,14 @@ A07hDdy5qek_RFFbm1yM1mCziHpu1GxAgL_Xe9xpSp846Amq09ACVDvNCXQ0hSI7nrZlyfELqX_tkn-_
 F-tvsVtkTp-J8SU-a77f_L6DTb2gG3iexVR-iMsRrC5a-nZxVev-lmVpGpI_1FDJDBy5ysCqlyRpSvn7
 }
 
-AWSEntityColoring(EC2AMI)
 !define EC2AMIColor #D86613
+AWSEntityColoring2(EC2AMI, EC2AMIColor)
+AWSEntityBoundary(EC2AMI, EC2AMIColor)
+!define EC2AMI(e_alias, e_label) AWSEntity(e_alias, e_label, EC2AMIColor, EC2AMI, EC2AMI)
 !define EC2AMI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EC2AMIColor, EC2AMI, EC2AMI)
 !define EC2AMI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EC2AMIColor, EC2AMI, EC2AMI)
+!define EC2AMIBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, EC2AMIColor, EC2AMI, EC2AMI)
+!define EC2AMIBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, EC2AMIColor, EC2AMI, EC2AMI)
+!define EC2AMIParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, EC2AMIColor, EC2AMI, EC2AMI)
 !define EC2AMIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EC2AMIColor, EC2AMI, EC2AMI)
 !define EC2AMIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EC2AMIColor, EC2AMI, EC2AMI)

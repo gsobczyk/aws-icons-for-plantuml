@@ -9,9 +9,14 @@ wz8wRrX3vt6ulWQabtz3TNk_xK1nVGq0nEX1WF2nLTdrDS3gOzUQ0Cmxk3uLguSYPw-Zw3l3egYVgvAf
 GTH5wLg95d1Vh5ZH-py7NWGsvz_x3myF_m
 }
 
-AWSEntityColoring(InternetAlt2)
 !define InternetAlt2Color #232F3E
+AWSEntityColoring2(InternetAlt2, InternetAlt2Color)
+AWSEntityBoundary(InternetAlt2, InternetAlt2Color)
+!define InternetAlt2(e_alias, e_label) AWSEntity(e_alias, e_label, InternetAlt2Color, InternetAlt2, InternetAlt2)
 !define InternetAlt2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, InternetAlt2Color, InternetAlt2, InternetAlt2)
 !define InternetAlt2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, InternetAlt2Color, InternetAlt2, InternetAlt2)
+!define InternetAlt2Boundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, InternetAlt2Color, InternetAlt2, InternetAlt2)
+!define InternetAlt2Boundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, InternetAlt2Color, InternetAlt2, InternetAlt2)
+!define InternetAlt2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, InternetAlt2Color, InternetAlt2, InternetAlt2)
 !define InternetAlt2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, InternetAlt2Color, InternetAlt2, InternetAlt2)
 !define InternetAlt2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, InternetAlt2Color, InternetAlt2, InternetAlt2)

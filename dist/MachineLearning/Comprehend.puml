@@ -8,9 +8,14 @@ hwCP0-gi_-7mbqYZ1u12gdCswoqFzt-YEJIoH4XgP4AYJVg6GOyB42KLWMI1qsblTHYBL4P8xRqbeDAc
 -jSs61D2X6Hvr_lmcdFA37HksbTCUQFLlMkq6PqZLSGv9nBdFUUC2dY_EGJQAGn8fNZKitszdyH9_UDjevt5pZxew-il
 }
 
-AWSEntityColoring(Comprehend)
 !define ComprehendColor #1C7B68
+AWSEntityColoring2(Comprehend, ComprehendColor)
+AWSEntityBoundary(Comprehend, ComprehendColor)
+!define Comprehend(e_alias, e_label) AWSEntity(e_alias, e_label, ComprehendColor, Comprehend, Comprehend)
 !define Comprehend(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ComprehendColor, Comprehend, Comprehend)
 !define Comprehend(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ComprehendColor, Comprehend, Comprehend)
+!define ComprehendBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ComprehendColor, Comprehend, Comprehend)
+!define ComprehendBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ComprehendColor, Comprehend, Comprehend)
+!define ComprehendParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ComprehendColor, Comprehend, Comprehend)
 !define ComprehendParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ComprehendColor, Comprehend, Comprehend)
 !define ComprehendParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ComprehendColor, Comprehend, Comprehend)

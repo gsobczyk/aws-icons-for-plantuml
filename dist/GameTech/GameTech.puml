@@ -9,9 +9,14 @@ EcTyLyKXcR_rRWcSglwz9qQ7HHL_tPGBU8nywvqcot6__UORn6ng7Cw_4dFZewVbM3h7ytVcdyJiLrm_
 2zeBrzEFqLy
 }
 
-AWSEntityColoring(GameTech)
 !define GameTechColor #693CC5
+AWSEntityColoring2(GameTech, GameTechColor)
+AWSEntityBoundary(GameTech, GameTechColor)
+!define GameTech(e_alias, e_label) AWSEntity(e_alias, e_label, GameTechColor, GameTech, GameTech)
 !define GameTech(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GameTechColor, GameTech, GameTech)
 !define GameTech(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GameTechColor, GameTech, GameTech)
+!define GameTechBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, GameTechColor, GameTech, GameTech)
+!define GameTechBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, GameTechColor, GameTech, GameTech)
+!define GameTechParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, GameTechColor, GameTech, GameTech)
 !define GameTechParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GameTechColor, GameTech, GameTech)
 !define GameTechParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GameTechColor, GameTech, GameTech)

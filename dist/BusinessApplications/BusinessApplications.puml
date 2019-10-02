@@ -7,9 +7,14 @@ Vl2DvE99jW-Uv97llMkP7_3-hcozM-xlSZpcehtF-vwpO3S9xlcWm_fc1kVH_5UKsAYW7iv_i48sMlcE
 lEKoZLPAKdnArCPJ4JoJyV1dz1O
 }
 
-AWSEntityColoring(BusinessApplications)
 !define BusinessApplicationsColor #D6242D
+AWSEntityColoring2(BusinessApplications, BusinessApplicationsColor)
+AWSEntityBoundary(BusinessApplications, BusinessApplicationsColor)
+!define BusinessApplications(e_alias, e_label) AWSEntity(e_alias, e_label, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 !define BusinessApplications(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 !define BusinessApplications(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 !define BusinessApplicationsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 !define BusinessApplicationsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BusinessApplicationsColor, BusinessApplications, BusinessApplications)

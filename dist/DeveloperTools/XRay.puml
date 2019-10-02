@@ -8,9 +8,14 @@ g6y1ygmVsIzW96bbbOWON_hbjN72KHDNZzJYQWFlttf1R0adBM9LNlLbeeDU4LgDrQwE444QzEPwM7we
 u1nvhF2jwVLZiCoMvxWYprwK-qTmX-wSmWp71rFpd0hKdUVB2qpytdow8UyZ3o4JC-NvJjfjQCAJYTfNeLHoBgJjB-K___a2
 }
 
-AWSEntityColoring(XRay)
 !define XRayColor #3B48CC
+AWSEntityColoring2(XRay, XRayColor)
+AWSEntityBoundary(XRay, XRayColor)
+!define XRay(e_alias, e_label) AWSEntity(e_alias, e_label, XRayColor, XRay, XRay)
 !define XRay(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, XRayColor, XRay, XRay)
 !define XRay(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, XRayColor, XRay, XRay)
+!define XRayBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, XRayColor, XRay, XRay)
+!define XRayBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, XRayColor, XRay, XRay)
+!define XRayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, XRayColor, XRay, XRay)
 !define XRayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, XRayColor, XRay, XRay)
 !define XRayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, XRayColor, XRay, XRay)

@@ -10,9 +10,14 @@ mu__RUmbnH12JDL6yEC_R1INn5xwsKiYEKdvzjD8svJdAnAfWM2JSkm5MVxJBz8E89MwxLlD0KX3_xDi
 Tts7iykUgzvDH_vXB_T3hs-y_pKns3VbTtfSQR_QQzY5nb-cI_mtFZx-0m
 }
 
-AWSEntityColoring(RDSonVMware)
 !define RDSonVMwareColor #3B48CC
+AWSEntityColoring2(RDSonVMware, RDSonVMwareColor)
+AWSEntityBoundary(RDSonVMware, RDSonVMwareColor)
+!define RDSonVMware(e_alias, e_label) AWSEntity(e_alias, e_label, RDSonVMwareColor, RDSonVMware, RDSonVMware)
 !define RDSonVMware(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSonVMwareColor, RDSonVMware, RDSonVMware)
 !define RDSonVMware(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSonVMwareColor, RDSonVMware, RDSonVMware)
+!define RDSonVMwareBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, RDSonVMwareColor, RDSonVMware, RDSonVMware)
+!define RDSonVMwareBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, RDSonVMwareColor, RDSonVMware, RDSonVMware)
+!define RDSonVMwareParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, RDSonVMwareColor, RDSonVMware, RDSonVMware)
 !define RDSonVMwareParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSonVMwareColor, RDSonVMware, RDSonVMware)
 !define RDSonVMwareParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSonVMwareColor, RDSonVMware, RDSonVMware)

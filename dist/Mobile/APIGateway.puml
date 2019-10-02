@@ -7,9 +7,14 @@ fGeFy5aoJ8j9-G5-rrGXArCdxJTxaogmoA1AxLRFfhbXMg3DshZPaoJBofYKU82dRBx8yAqyRFo1QS61
 B-Ivx3dsI-bSsd_fPOczpPBMaKJi1rubpHPunzj-Ii9ZxoUScdDuwcjfbgObyijqXmduVqb4FiPn4j7vCS37IH3-zyRYAxxYEm
 }
 
-AWSEntityColoring(APIGateway)
 !define APIGatewayColor #D6242D
+AWSEntityColoring2(APIGateway, APIGatewayColor)
+AWSEntityBoundary(APIGateway, APIGatewayColor)
+!define APIGateway(e_alias, e_label) AWSEntity(e_alias, e_label, APIGatewayColor, APIGateway, APIGateway)
 !define APIGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, APIGatewayColor, APIGateway, APIGateway)
 !define APIGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, APIGatewayColor, APIGateway, APIGateway)
+!define APIGatewayBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, APIGatewayColor, APIGateway, APIGateway)
+!define APIGatewayBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, APIGatewayColor, APIGateway, APIGateway)
+!define APIGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, APIGatewayColor, APIGateway, APIGateway)
 !define APIGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, APIGatewayColor, APIGateway, APIGateway)
 !define APIGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, APIGatewayColor, APIGateway, APIGateway)

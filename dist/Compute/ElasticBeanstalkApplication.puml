@@ -8,9 +8,14 @@ lsgldqTWO1vnBq2qzzu3YG8CkWn1TOR66b06qEaoWiF2j-TPSNc7KO199iyBJ_toBqiDcnkRz_EylYap
 kGx6fwHwTrDp0LX4y92Ch7fR_CREbbHhYnzZpj5xBIdenZO_LUtVuF_p__d__7-UluaFCRW_JEy
 }
 
-AWSEntityColoring(ElasticBeanstalkApplication)
 !define ElasticBeanstalkApplicationColor #D86613
+AWSEntityColoring2(ElasticBeanstalkApplication, ElasticBeanstalkApplicationColor)
+AWSEntityBoundary(ElasticBeanstalkApplication, ElasticBeanstalkApplicationColor)
+!define ElasticBeanstalkApplication(e_alias, e_label) AWSEntity(e_alias, e_label, ElasticBeanstalkApplicationColor, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
 !define ElasticBeanstalkApplication(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticBeanstalkApplicationColor, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
 !define ElasticBeanstalkApplication(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticBeanstalkApplicationColor, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
+!define ElasticBeanstalkApplicationBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElasticBeanstalkApplicationColor, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
+!define ElasticBeanstalkApplicationBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElasticBeanstalkApplicationColor, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
+!define ElasticBeanstalkApplicationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElasticBeanstalkApplicationColor, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
 !define ElasticBeanstalkApplicationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticBeanstalkApplicationColor, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
 !define ElasticBeanstalkApplicationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticBeanstalkApplicationColor, ElasticBeanstalkApplication, ElasticBeanstalkApplication)

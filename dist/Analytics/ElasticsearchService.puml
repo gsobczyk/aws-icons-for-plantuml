@@ -9,9 +9,14 @@ esO0XVGv86lUIIsOxIEZFWRQcey5qz6x66ddm8W1zoNFNfq-3-3tWKLVSHnf7hJgpu5aNFVdGTEsnq25
 ml4rBpXBfZWBVwNq603GwLzBPQRVUjMTrlOYlBbJ_SQh4IF_HVhNl_u3
 }
 
-AWSEntityColoring(ElasticsearchService)
 !define ElasticsearchServiceColor #693CC5
+AWSEntityColoring2(ElasticsearchService, ElasticsearchServiceColor)
+AWSEntityBoundary(ElasticsearchService, ElasticsearchServiceColor)
+!define ElasticsearchService(e_alias, e_label) AWSEntity(e_alias, e_label, ElasticsearchServiceColor, ElasticsearchService, ElasticsearchService)
 !define ElasticsearchService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticsearchServiceColor, ElasticsearchService, ElasticsearchService)
 !define ElasticsearchService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticsearchServiceColor, ElasticsearchService, ElasticsearchService)
+!define ElasticsearchServiceBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, ElasticsearchServiceColor, ElasticsearchService, ElasticsearchService)
+!define ElasticsearchServiceBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, ElasticsearchServiceColor, ElasticsearchService, ElasticsearchService)
+!define ElasticsearchServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, ElasticsearchServiceColor, ElasticsearchService, ElasticsearchService)
 !define ElasticsearchServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticsearchServiceColor, ElasticsearchService, ElasticsearchService)
 !define ElasticsearchServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticsearchServiceColor, ElasticsearchService, ElasticsearchService)

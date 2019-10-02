@@ -7,9 +7,14 @@ I_Xahb78Hu6sYLCEywAem4lpkbBo0cnUH13ZR5vJgejnDYyWojWG1_CQP0KgBcWwpFD8mXta1_CgT9UC
 jptKxxtd2SypMRUp-cN6yqmUokhFUPx9X-RFvppFuOVElUOydvFt7L_B0kzGIDtPlTGPNw7IFV6yRXDikYVC-0XAF7l9totySUtdSlHTsxv7_lEV9m
 }
 
-AWSEntityColoring(Lambda)
 !define LambdaColor #D86613
+AWSEntityColoring2(Lambda, LambdaColor)
+AWSEntityBoundary(Lambda, LambdaColor)
+!define Lambda(e_alias, e_label) AWSEntity(e_alias, e_label, LambdaColor, Lambda, Lambda)
 !define Lambda(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, LambdaColor, Lambda, Lambda)
 !define Lambda(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, LambdaColor, Lambda, Lambda)
+!define LambdaBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, LambdaColor, Lambda, Lambda)
+!define LambdaBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, LambdaColor, Lambda, Lambda)
+!define LambdaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, LambdaColor, Lambda, Lambda)
 !define LambdaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, LambdaColor, Lambda, Lambda)
 !define LambdaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, LambdaColor, Lambda, Lambda)

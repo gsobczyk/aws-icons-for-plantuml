@@ -8,9 +8,14 @@ BmlWKluiVwsKgleTCZd0rc9C-wmV8947GBlwWVPmxReZp6VzmclfmlAyVeK2aRDmB0dwbyTN_y1gSkAg
 WQjzVcpd5xSUJxulC5xCh_FvUJw_p_V7VdyTxi_J_Nr-FvpVB-Vtq_dzTdu__ltumGz-0G
 }
 
-AWSEntityColoring(Snowmobile)
 !define SnowmobileColor #1C7B68
+AWSEntityColoring2(Snowmobile, SnowmobileColor)
+AWSEntityBoundary(Snowmobile, SnowmobileColor)
+!define Snowmobile(e_alias, e_label) AWSEntity(e_alias, e_label, SnowmobileColor, Snowmobile, Snowmobile)
 !define Snowmobile(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SnowmobileColor, Snowmobile, Snowmobile)
 !define Snowmobile(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SnowmobileColor, Snowmobile, Snowmobile)
+!define SnowmobileBoundary(e_alias, e_label) AWSEntityBoundary(e_alias, e_label, SnowmobileColor, Snowmobile, Snowmobile)
+!define SnowmobileBoundary(e_alias, e_label, e_descr) AWSEntityBoundary(e_alias, e_label, e_descr, SnowmobileColor, Snowmobile, Snowmobile)
+!define SnowmobileParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, SnowmobileColor, Snowmobile, Snowmobile)
 !define SnowmobileParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SnowmobileColor, Snowmobile, Snowmobile)
 !define SnowmobileParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SnowmobileColor, Snowmobile, Snowmobile)
