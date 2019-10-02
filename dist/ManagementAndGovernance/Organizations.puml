@@ -8,7 +8,8 @@ xva5Jb-G-NpHpxAbltMofM-vyAVubxyUHDAtWrZwSf3rPRyWqPkVt7n5KbxoevmtwfDSWeNwAFy1N5ny
 }
 
 AWSEntityColoring(Organizations)
-!define Organizations(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, Organizations, Organizations)
-!define Organizations(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, Organizations, Organizations)
-!define OrganizationsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, Organizations, Organizations)
-!define OrganizationsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, Organizations, Organizations)
+!define OrganizationsColor #CC2264
+!define Organizations(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OrganizationsColor, Organizations, Organizations)
+!define Organizations(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OrganizationsColor, Organizations, Organizations)
+!define OrganizationsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OrganizationsColor, Organizations, Organizations)
+!define OrganizationsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OrganizationsColor, Organizations, Organizations)

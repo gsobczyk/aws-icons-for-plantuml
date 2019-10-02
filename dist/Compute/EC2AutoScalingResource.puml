@@ -8,7 +8,8 @@ VhnWmYVdTr8GZTztV-hc_M6jzzxVganZultlHtnhluuA001W28ZsRxqGxslG0NUmNx2VjjyG_I__p_67
 }
 
 AWSEntityColoring(EC2AutoScalingResource)
-!define EC2AutoScalingResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, EC2AutoScalingResource, EC2AutoScalingResource)
-!define EC2AutoScalingResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, EC2AutoScalingResource, EC2AutoScalingResource)
-!define EC2AutoScalingResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, EC2AutoScalingResource, EC2AutoScalingResource)
-!define EC2AutoScalingResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, EC2AutoScalingResource, EC2AutoScalingResource)
+!define EC2AutoScalingResourceColor #D86613
+!define EC2AutoScalingResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
+!define EC2AutoScalingResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
+!define EC2AutoScalingResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)
+!define EC2AutoScalingResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EC2AutoScalingResourceColor, EC2AutoScalingResource, EC2AutoScalingResource)

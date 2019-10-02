@@ -10,7 +10,8 @@ JTAC_LTC2gibAPi-0kEGSgeszw95nIQ-woEnXsq1KxGky6VUOSrGFaC_yf6NWZ_s-kT__zkl_zVJp3Ul
 }
 
 AWSEntityColoring(MachineLearning)
-!define MachineLearning(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, MachineLearning, MachineLearning)
-!define MachineLearning(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MachineLearning, MachineLearning)
-!define MachineLearningParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, MachineLearning, MachineLearning)
-!define MachineLearningParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, MachineLearning, MachineLearning)
+!define MachineLearningColor #1C7B68
+!define MachineLearning(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearning(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearningParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearningParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MachineLearningColor, MachineLearning, MachineLearning)

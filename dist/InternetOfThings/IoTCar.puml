@@ -10,7 +10,8 @@ zxVk_fW6kDqVUmw6EQOh5XSoGFuVmSuISx6p027Zbc-ul_z__tpR-_5lumi
 }
 
 AWSEntityColoring(IoTCar)
-!define IoTCar(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCar, IoTCar)
-!define IoTCar(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCar, IoTCar)
-!define IoTCarParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCar, IoTCar)
-!define IoTCarParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCar, IoTCar)
+!define IoTCarColor #3F8624
+!define IoTCar(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTCarColor, IoTCar, IoTCar)
+!define IoTCar(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTCarColor, IoTCar, IoTCar)
+!define IoTCarParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTCarColor, IoTCar, IoTCar)
+!define IoTCarParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTCarColor, IoTCar, IoTCar)

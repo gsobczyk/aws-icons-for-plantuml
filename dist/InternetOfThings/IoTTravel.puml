@@ -12,7 +12,8 @@ eMENzQziO9J6qxbUkY5hj_wD3MO6NZEALE9Q_qgkX3-0NVvPunM3Hbu3rEoXLtvSlwRfIbT-VFP5_XdN
 }
 
 AWSEntityColoring(IoTTravel)
-!define IoTTravel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTTravel, IoTTravel)
-!define IoTTravel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTTravel, IoTTravel)
-!define IoTTravelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTTravel, IoTTravel)
-!define IoTTravelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTTravel, IoTTravel)
+!define IoTTravelColor #3F8624
+!define IoTTravel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTTravelColor, IoTTravel, IoTTravel)
+!define IoTTravel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTTravelColor, IoTTravel, IoTTravel)
+!define IoTTravelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTTravelColor, IoTTravel, IoTTravel)
+!define IoTTravelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTTravelColor, IoTTravel, IoTTravel)

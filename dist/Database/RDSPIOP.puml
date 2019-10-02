@@ -8,7 +8,8 @@ ZBlpqztvxURyU7D-lJy_tvtVlm4
 }
 
 AWSEntityColoring(RDSPIOP)
-!define RDSPIOP(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSPIOP, RDSPIOP)
-!define RDSPIOP(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPIOP, RDSPIOP)
-!define RDSPIOPParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSPIOP, RDSPIOP)
-!define RDSPIOPParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSPIOP, RDSPIOP)
+!define RDSPIOPColor #3B48CC
+!define RDSPIOP(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSPIOPColor, RDSPIOP, RDSPIOP)
+!define RDSPIOP(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSPIOPColor, RDSPIOP, RDSPIOP)
+!define RDSPIOPParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSPIOPColor, RDSPIOP, RDSPIOP)
+!define RDSPIOPParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSPIOPColor, RDSPIOP, RDSPIOP)

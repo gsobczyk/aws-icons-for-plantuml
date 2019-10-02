@@ -8,7 +8,8 @@ b-V_Vlj-gRywzJsqiXz_MUfBEicNNYomUGDJb_eD9qRPUsO3Qm5ZWRZIIpcff-rd8AcAD2qMSQ6_wJrW
 }
 
 AWSEntityColoring(DirectoryService)
-!define DirectoryService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, DirectoryService, DirectoryService)
-!define DirectoryService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, DirectoryService, DirectoryService)
-!define DirectoryServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, DirectoryService, DirectoryService)
-!define DirectoryServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, DirectoryService, DirectoryService)
+!define DirectoryServiceColor #D6242D
+!define DirectoryService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DirectoryServiceColor, DirectoryService, DirectoryService)
+!define DirectoryService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DirectoryServiceColor, DirectoryService, DirectoryService)
+!define DirectoryServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DirectoryServiceColor, DirectoryService, DirectoryService)
+!define DirectoryServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DirectoryServiceColor, DirectoryService, DirectoryService)

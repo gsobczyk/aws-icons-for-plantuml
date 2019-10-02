@@ -10,7 +10,8 @@ TFaa_ZQVP4I7HVgidZYUQ-w9sJFjhx0CYlsPV7ium-qIg6JlXiUC4aKSykvMvNBgShz_ZGGQGnMvKnnM
 }
 
 AWSEntityColoring(Cloudalt)
-!define Cloudalt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Cloudalt, Cloudalt)
-!define Cloudalt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloudalt, Cloudalt)
-!define CloudaltParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Cloudalt, Cloudalt)
-!define CloudaltParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloudalt, Cloudalt)
+!define CloudaltColor #232F3E
+!define Cloudalt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudaltColor, Cloudalt, Cloudalt)
+!define Cloudalt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudaltColor, Cloudalt, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudaltColor, Cloudalt, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudaltColor, Cloudalt, Cloudalt)

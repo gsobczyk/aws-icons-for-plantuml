@@ -10,7 +10,8 @@ UQzrE4bJPFf-YkIzyvut6u9omTCK4KZDtKTHgE2WNuYcZ_yXbtLmZSzegNg5rW8PdWlzQYG7Laed_QrQ
 }
 
 AWSEntityColoring(Config)
-!define Config(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, Config, Config)
-!define Config(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, Config, Config)
-!define ConfigParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, Config, Config)
-!define ConfigParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, Config, Config)
+!define ConfigColor #CC2264
+!define Config(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ConfigColor, Config, Config)
+!define Config(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ConfigColor, Config, Config)
+!define ConfigParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ConfigColor, Config, Config)
+!define ConfigParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ConfigColor, Config, Config)

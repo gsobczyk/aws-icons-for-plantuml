@@ -8,7 +8,8 @@ YzMtCjDZscfpP6w3TKiiU54FFw9xj4o2BClTO_iapP0-yOvzMRPwIZM4kGOuj9yLycTUQNkxhsqS3jil
 }
 
 AWSEntityColoring(Macie)
-!define Macie(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Macie, Macie)
-!define Macie(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Macie, Macie)
-!define MacieParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Macie, Macie)
-!define MacieParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Macie, Macie)
+!define MacieColor #D6242D
+!define Macie(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MacieColor, Macie, Macie)
+!define Macie(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MacieColor, Macie, Macie)
+!define MacieParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MacieColor, Macie, Macie)
+!define MacieParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MacieColor, Macie, Macie)

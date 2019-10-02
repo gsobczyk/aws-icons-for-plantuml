@@ -10,7 +10,8 @@ hdkA8nbWgKUaVOBtFcc75lGjTAV4T782EIBz2Ds2lr8QIVTzWcc1UkTXh_nUHZzEe09_vrFyMyfn1yCY
 }
 
 AWSEntityColoring(CostExplorer)
-!define CostExplorer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CostExplorer, CostExplorer)
-!define CostExplorer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostExplorer, CostExplorer)
-!define CostExplorerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CostExplorer, CostExplorer)
-!define CostExplorerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CostExplorer, CostExplorer)
+!define CostExplorerColor #3F8624
+!define CostExplorer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CostExplorerColor, CostExplorer, CostExplorer)
+!define CostExplorer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CostExplorerColor, CostExplorer, CostExplorer)
+!define CostExplorerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CostExplorerColor, CostExplorer, CostExplorer)
+!define CostExplorerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CostExplorerColor, CostExplorer, CostExplorer)

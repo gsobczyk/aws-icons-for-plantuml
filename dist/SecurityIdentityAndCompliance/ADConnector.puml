@@ -10,7 +10,8 @@ tklcbnToYpAX3UpOC1xjc8SXmyioqO1HWbUdHse0JMK3hKpq89je7l2ErI1Nq91oJj4x-Ozu1W
 }
 
 AWSEntityColoring(ADConnector)
-!define ADConnector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, ADConnector, ADConnector)
-!define ADConnector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, ADConnector, ADConnector)
-!define ADConnectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, ADConnector, ADConnector)
-!define ADConnectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, ADConnector, ADConnector)
+!define ADConnectorColor #D6242D
+!define ADConnector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ADConnectorColor, ADConnector, ADConnector)
+!define ADConnector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ADConnectorColor, ADConnector, ADConnector)
+!define ADConnectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ADConnectorColor, ADConnector, ADConnector)
+!define ADConnectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ADConnectorColor, ADConnector, ADConnector)

@@ -10,7 +10,8 @@ gT04KYydo9eSVYi0CNmVGARWu81qES5iSWctWhV5ThaEbxJPcfo9Uqxy70GZUm35wAyKnhxkOsvRJ1Ck
 }
 
 AWSEntityColoring(EFSStandard)
-!define EFSStandard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSStandard, EFSStandard)
-!define EFSStandard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSStandard, EFSStandard)
-!define EFSStandardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSStandard, EFSStandard)
-!define EFSStandardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSStandard, EFSStandard)
+!define EFSStandardColor #3F8624
+!define EFSStandard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EFSStandardColor, EFSStandard, EFSStandard)
+!define EFSStandard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EFSStandardColor, EFSStandard, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EFSStandardColor, EFSStandard, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EFSStandardColor, EFSStandard, EFSStandard)

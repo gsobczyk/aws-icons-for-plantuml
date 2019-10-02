@@ -9,7 +9,8 @@ nrhEptDA4PsUbjPq9vw1xDUONgZFxpOBbcCerqhx9rWW6Thz-siwjZr7tVz6RorAIZgy_phqPZxt-IOe
 }
 
 AWSEntityColoring(NetworkingandContentDelivery)
-!define NetworkingandContentDelivery(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, NetworkingandContentDelivery, NetworkingandContentDelivery)
-!define NetworkingandContentDelivery(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, NetworkingandContentDelivery, NetworkingandContentDelivery)
-!define NetworkingandContentDeliveryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, NetworkingandContentDelivery, NetworkingandContentDelivery)
-!define NetworkingandContentDeliveryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryColor #693CC5
+!define NetworkingandContentDelivery(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDelivery(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, NetworkingandContentDeliveryColor, NetworkingandContentDelivery, NetworkingandContentDelivery)

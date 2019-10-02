@@ -8,7 +8,8 @@ cwhariMFwo_yQBLVLls2QzmygQj-HV_dYmvk_XnhrG_h-vVmpVCREVDIZdErlBH6pQmbIDAPD8BFaqEe
 }
 
 AWSEntityColoring(Cloud)
-!define Cloud(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Cloud, Cloud)
-!define Cloud(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud, Cloud)
-!define CloudParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Cloud, Cloud)
-!define CloudParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud, Cloud)
+!define CloudColor #232F3E
+!define Cloud(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudColor, Cloud, Cloud)
+!define Cloud(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudColor, Cloud, Cloud)
+!define CloudParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudColor, Cloud, Cloud)
+!define CloudParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudColor, Cloud, Cloud)

@@ -11,7 +11,8 @@ a19LioMmhezf1eJZNtNzX1O1sxlhfumnzVVbV_xdTm
 }
 
 AWSEntityColoring(FirewallManager)
-!define FirewallManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, FirewallManager, FirewallManager)
-!define FirewallManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, FirewallManager, FirewallManager)
-!define FirewallManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, FirewallManager, FirewallManager)
-!define FirewallManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, FirewallManager, FirewallManager)
+!define FirewallManagerColor #D6242D
+!define FirewallManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, FirewallManagerColor, FirewallManager, FirewallManager)
+!define FirewallManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, FirewallManagerColor, FirewallManager, FirewallManager)
+!define FirewallManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, FirewallManagerColor, FirewallManager, FirewallManager)
+!define FirewallManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, FirewallManagerColor, FirewallManager, FirewallManager)

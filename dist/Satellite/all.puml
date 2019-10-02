@@ -10,10 +10,11 @@ _SlFoyzdlevXbxSZFV5NXHch-zxjQd2qi_dqJHplYp-mLw--0G
 }
 
 AWSEntityColoring(GroundStation)
-!define GroundStation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, GroundStation, GroundStation)
-!define GroundStation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, GroundStation, GroundStation)
-!define GroundStationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, GroundStation, GroundStation)
-!define GroundStationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, GroundStation, GroundStation)
+!define GroundStationColor #3B48CC
+!define GroundStation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GroundStationColor, GroundStation, GroundStation)
+!define GroundStation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GroundStationColor, GroundStation, GroundStation)
+!define GroundStationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GroundStationColor, GroundStation, GroundStation)
+!define GroundStationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GroundStationColor, GroundStation, GroundStation)
 
 sprite $Satellite [64x64/16z] {
 xTLbWk0W38RXBmbEIEv_sjLn3QplzFrNUUe5u8eEk-CuIkWxPqRkkpLGklVTTxC7NWxy-et-yfVNLkgqKxyIM1YYPtunzrxR4EYUj-zNN6WmcAYBnFtgcOaa
@@ -24,8 +25,9 @@ R_mcEWX_HPy1
 }
 
 AWSEntityColoring(Satellite)
-!define Satellite(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Satellite, Satellite)
-!define Satellite(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Satellite, Satellite)
-!define SatelliteParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Satellite, Satellite)
-!define SatelliteParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Satellite, Satellite)
+!define SatelliteColor #3B48CC
+!define Satellite(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SatelliteColor, Satellite, Satellite)
+!define Satellite(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SatelliteColor, Satellite, Satellite)
+!define SatelliteParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SatelliteColor, Satellite, Satellite)
+!define SatelliteParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SatelliteColor, Satellite, Satellite)
 

@@ -12,7 +12,8 @@ c211_lWUog5leNVQL_zWp_i7j7py2zAXxnZenpUAclCQ6ap_PGqjt-gB6bh-knfQ_iiQMlxR6bg-Xtpe
 }
 
 AWSEntityColoring(EFSFilesystem)
-!define EFSFilesystem(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSFilesystem, EFSFilesystem)
-!define EFSFilesystem(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSFilesystem, EFSFilesystem)
-!define EFSFilesystemParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSFilesystem, EFSFilesystem)
-!define EFSFilesystemParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystemColor #3F8624
+!define EFSFilesystem(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EFSFilesystemColor, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystem(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EFSFilesystemColor, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystemParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EFSFilesystemColor, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystemParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EFSFilesystemColor, EFSFilesystem, EFSFilesystem)

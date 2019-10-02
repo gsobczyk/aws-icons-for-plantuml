@@ -9,7 +9,8 @@ Ztq1
 }
 
 AWSEntityColoring(IoTTopic)
-!define IoTTopic(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTTopic, IoTTopic)
-!define IoTTopic(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTTopic, IoTTopic)
-!define IoTTopicParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTTopic, IoTTopic)
-!define IoTTopicParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTTopic, IoTTopic)
+!define IoTTopicColor #3F8624
+!define IoTTopic(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTTopicColor, IoTTopic, IoTTopic)
+!define IoTTopic(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTTopicColor, IoTTopic, IoTTopic)
+!define IoTTopicParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTTopicColor, IoTTopic, IoTTopic)
+!define IoTTopicParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTTopicColor, IoTTopic, IoTTopic)

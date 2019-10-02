@@ -9,7 +9,8 @@ YkTvVlv-Tki_r7-f_rJ_BVvZ_DV-p_NV3m
 }
 
 AWSEntityColoring(RDSPostgreSQLinstancealt)
-!define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
-!define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
-!define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
-!define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtColor #3B48CC
+!define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSPostgreSQLinstancealtColor, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)

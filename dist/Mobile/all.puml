@@ -9,10 +9,11 @@ B-Ivx3dsI-bSsd_fPOczpPBMaKJi1rubpHPunzj-Ii9ZxoUScdDuwcjfbgObyijqXmduVqb4FiPn4j7v
 }
 
 AWSEntityColoring(APIGateway)
-!define APIGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, APIGateway, APIGateway)
-!define APIGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, APIGateway, APIGateway)
-!define APIGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, APIGateway, APIGateway)
-!define APIGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, APIGateway, APIGateway)
+!define APIGatewayColor #D6242D
+!define APIGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, APIGatewayColor, APIGateway, APIGateway)
+!define APIGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, APIGatewayColor, APIGateway, APIGateway)
+!define APIGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, APIGatewayColor, APIGateway, APIGateway)
+!define APIGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, APIGatewayColor, APIGateway, APIGateway)
 
 sprite $APIGatewayEndpoint [64x64/16z] {
 xTU7TeCm30LGInvilV__sYvoTC0HYDRThRDZxcE37BvVYwKpMucNU18SD4bNE4vQkiHxDbkl0Gu_wjG0d_i1FlS3REu6EDmFS3cNJDi-oeND09idqU-A91a1
@@ -22,10 +23,11 @@ JO0azmOui-rvDcv_TS0waU4rsYi09a3olTTLSmkGyQX-6IuMGBtjEvlR5PJilG3bDGNWqFEsZ_iX6Rov
 }
 
 AWSEntityColoring(APIGatewayEndpoint)
-!define APIGatewayEndpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
-!define APIGatewayEndpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
-!define APIGatewayEndpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
-!define APIGatewayEndpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpointColor #D6242D
+!define APIGatewayEndpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, APIGatewayEndpointColor, APIGatewayEndpoint, APIGatewayEndpoint)
 
 sprite $Amplify [64x64/16z] {
 xPLL6iCm38CLvlZ-jzqNZJdfS_unsP9djVA1pMQpoPPKEOW7iNACtXHARmPPZf1qY_0Y1ReVwQvXkqOLSOX7sWCeUPXlIZLPnY12TplCHpXPfS2AHwpGVLWf
@@ -36,10 +38,11 @@ DyO4DvlDvWG
 }
 
 AWSEntityColoring(Amplify)
-!define Amplify(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Amplify, Amplify)
-!define Amplify(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Amplify, Amplify)
-!define AmplifyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Amplify, Amplify)
-!define AmplifyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Amplify, Amplify)
+!define AmplifyColor #D6242D
+!define Amplify(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AmplifyColor, Amplify, Amplify)
+!define Amplify(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AmplifyColor, Amplify, Amplify)
+!define AmplifyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AmplifyColor, Amplify, Amplify)
+!define AmplifyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AmplifyColor, Amplify, Amplify)
 
 sprite $AppSync2 [64x64/16z] {
 xLQ5ZlOm37FA6B__q_xG-xwgEoax41vOD8Y3NXVzdlZ5BxZnERAELakfRIZ9ZxArHOS7N6nAVeXT720XbrfB3WAuedm_lJaWTTtbzmGClfUk2KZpg9daQE-c
@@ -51,10 +54,11 @@ zt7zVyyCnFbk-XJ4TkuF0gcalXFF_INj_KNo_E06r9B30nAhaf_OtxgnltruV_oU-CKl_W8
 }
 
 AWSEntityColoring(AppSync2)
-!define AppSync2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, AppSync2, AppSync2)
-!define AppSync2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, AppSync2, AppSync2)
-!define AppSync2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, AppSync2, AppSync2)
-!define AppSync2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, AppSync2, AppSync2)
+!define AppSync2Color #D6242D
+!define AppSync2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AppSync2Color, AppSync2, AppSync2)
+!define AppSync2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AppSync2Color, AppSync2, AppSync2)
+!define AppSync2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AppSync2Color, AppSync2, AppSync2)
+!define AppSync2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AppSync2Color, AppSync2, AppSync2)
 
 sprite $DeviceFarm [64x64/16z] {
 xPPN0jim34D1xKNY_gVjabMdoxAxleAVp1SgueBzMc-zHVuHRQKOVpzsyu1lvE_H8m0n0c6Gpt5DWEzazq1IFgIj2gGQNv_UrWoQbLQypqRDyoXtyH61E4Xc
@@ -67,10 +71,11 @@ F6kVAYlwqRzRdZtwT3BElUmo7nftV0S0fp_o5W2WxFY0gWc5h_nAfdOHq_lzk_YpVyEsVmFAY2WaNtcI
 }
 
 AWSEntityColoring(DeviceFarm)
-!define DeviceFarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, DeviceFarm, DeviceFarm)
-!define DeviceFarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, DeviceFarm, DeviceFarm)
-!define DeviceFarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, DeviceFarm, DeviceFarm)
-!define DeviceFarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, DeviceFarm, DeviceFarm)
+!define DeviceFarmColor #D6242D
+!define DeviceFarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeviceFarmColor, DeviceFarm, DeviceFarm)
+!define DeviceFarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeviceFarmColor, DeviceFarm, DeviceFarm)
+!define DeviceFarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeviceFarmColor, DeviceFarm, DeviceFarm)
+!define DeviceFarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeviceFarmColor, DeviceFarm, DeviceFarm)
 
 sprite $Mobile [64x64/16z] {
 xTQ5UaCX38RXFy7f8FT_jtkgG6U4-SPRb--u0HijkkLOmjTNXajH2p248s964gq2sDP7gJgVrkzUdbBqKijJLMPxEJ2UuYopusUJdx8qENufoFBK0KNcUyyZ
@@ -79,8 +84,9 @@ h-pPX9vXRH-a5_Nzi3K4hXaFjHpf-s80QiSuh-mb8ULql1zbZoBAdgeqUQLl9lhTxtxtpSh-HxPXs0xJ
 }
 
 AWSEntityColoring(Mobile)
-!define Mobile(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Mobile, Mobile)
-!define Mobile(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Mobile, Mobile)
-!define MobileParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Mobile, Mobile)
-!define MobileParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Mobile, Mobile)
+!define MobileColor #D6242D
+!define Mobile(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MobileColor, Mobile, Mobile)
+!define Mobile(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MobileColor, Mobile, Mobile)
+!define MobileParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MobileColor, Mobile, Mobile)
+!define MobileParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MobileColor, Mobile, Mobile)
 

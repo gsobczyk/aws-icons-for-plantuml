@@ -12,7 +12,8 @@ w_tHLyknvseUWZy_OoG4OUx6bpHjNuLyNRu1DBzzMrar__Jzyz_g_m
 }
 
 AWSEntityColoring(SSLPadlock)
-!define SSLPadlock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SSLPadlock, SSLPadlock)
-!define SSLPadlock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, SSLPadlock, SSLPadlock)
-!define SSLPadlockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, SSLPadlock, SSLPadlock)
-!define SSLPadlockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, SSLPadlock, SSLPadlock)
+!define SSLPadlockColor #232F3E
+!define SSLPadlock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SSLPadlockColor, SSLPadlock, SSLPadlock)
+!define SSLPadlock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SSLPadlockColor, SSLPadlock, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SSLPadlockColor, SSLPadlock, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SSLPadlockColor, SSLPadlock, SSLPadlock)

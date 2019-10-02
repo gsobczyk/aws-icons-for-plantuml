@@ -11,7 +11,8 @@ Tx0485LzzTyuazyXgtFUynsj4XP2rl4s-eY-FwumkdB9kLInySx4md6x0_VmJPcMtkCOgjxyRu7_-8zd
 }
 
 AWSEntityColoring(Athena)
-!define Athena(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Athena, Athena)
-!define Athena(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Athena, Athena)
-!define AthenaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Athena, Athena)
-!define AthenaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Athena, Athena)
+!define AthenaColor #693CC5
+!define Athena(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AthenaColor, Athena, Athena)
+!define Athena(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AthenaColor, Athena, Athena)
+!define AthenaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AthenaColor, Athena, Athena)
+!define AthenaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AthenaColor, Athena, Athena)

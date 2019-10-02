@@ -9,7 +9,8 @@ W_RUd3F-WrsvUf3DL8SYl46AaPTo6S1gxoiNL6yDiBv6g5REaPfJobMmheiASVzs5PJnJac3oxItheBS
 }
 
 AWSEntityColoring(Disk)
-!define Disk(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Disk, Disk)
-!define Disk(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Disk, Disk)
-!define DiskParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Disk, Disk)
-!define DiskParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Disk, Disk)
+!define DiskColor #232F3E
+!define Disk(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DiskColor, Disk, Disk)
+!define Disk(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DiskColor, Disk, Disk)
+!define DiskParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DiskColor, Disk, Disk)
+!define DiskParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DiskColor, Disk, Disk)

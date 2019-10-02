@@ -7,7 +7,8 @@ gE-aw5ky8lfE4Jhugx9fBbDlMqszBAPSAd4M0AxQ6P4kUe0d0wxmOlL49bTvFzdN-Tpt-NPlWcbYjte1
 }
 
 AWSEntityColoring(VPCSubnetPrivate)
-!define VPCSubnetPrivate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, VPCSubnetPrivate, VPCSubnetPrivate)
-!define VPCSubnetPrivate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, VPCSubnetPrivate, VPCSubnetPrivate)
-!define VPCSubnetPrivateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, VPCSubnetPrivate, VPCSubnetPrivate)
-!define VPCSubnetPrivateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, VPCSubnetPrivate, VPCSubnetPrivate)
+!define VPCSubnetPrivateColor #232F3E
+!define VPCSubnetPrivate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, VPCSubnetPrivateColor, VPCSubnetPrivate, VPCSubnetPrivate)
+!define VPCSubnetPrivate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, VPCSubnetPrivateColor, VPCSubnetPrivate, VPCSubnetPrivate)
+!define VPCSubnetPrivateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, VPCSubnetPrivateColor, VPCSubnetPrivate, VPCSubnetPrivate)
+!define VPCSubnetPrivateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, VPCSubnetPrivateColor, VPCSubnetPrivate, VPCSubnetPrivate)

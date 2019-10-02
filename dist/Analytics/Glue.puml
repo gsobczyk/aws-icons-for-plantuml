@@ -8,7 +8,8 @@ oTXhxPJRfiGjjmeIzTVqrag9815BQURe8u2mTm0G7RsO4FdwuM4PaKp89gU6451DRWFe-XQaVb___VS2
 }
 
 AWSEntityColoring(Glue)
-!define Glue(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Glue, Glue)
-!define Glue(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Glue, Glue)
-!define GlueParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Glue, Glue)
-!define GlueParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Glue, Glue)
+!define GlueColor #693CC5
+!define Glue(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GlueColor, Glue, Glue)
+!define Glue(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GlueColor, Glue, Glue)
+!define GlueParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GlueColor, Glue, Glue)
+!define GlueParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GlueColor, Glue, Glue)

@@ -10,7 +10,8 @@ pfzVpzyv-khwGVy7wwVtwyVtwzVtw-VtV0C
 }
 
 AWSEntityColoring(IoTUtility)
-!define IoTUtility(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTUtility, IoTUtility)
-!define IoTUtility(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTUtility, IoTUtility)
-!define IoTUtilityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTUtility, IoTUtility)
-!define IoTUtilityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTUtility, IoTUtility)
+!define IoTUtilityColor #3F8624
+!define IoTUtility(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTUtilityColor, IoTUtility, IoTUtility)
+!define IoTUtility(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTUtilityColor, IoTUtility, IoTUtility)
+!define IoTUtilityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTUtilityColor, IoTUtility, IoTUtility)
+!define IoTUtilityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTUtilityColor, IoTUtility, IoTUtility)

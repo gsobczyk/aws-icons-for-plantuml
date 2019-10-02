@@ -8,7 +8,8 @@ KNV_5BeZ0RNtxtH7ONf-kFg8vwV__ktF_yag7ledbfvO-95cwPkkj-jQeHbBOoVCj68x-XvU
 }
 
 AWSEntityColoring(ManagementandGovernance)
-!define ManagementandGovernance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, ManagementandGovernance, ManagementandGovernance)
-!define ManagementandGovernance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ManagementandGovernance, ManagementandGovernance)
-!define ManagementandGovernanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, ManagementandGovernance, ManagementandGovernance)
-!define ManagementandGovernanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, ManagementandGovernance, ManagementandGovernance)
+!define ManagementandGovernanceColor #CC2264
+!define ManagementandGovernance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
+!define ManagementandGovernance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
+!define ManagementandGovernanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)
+!define ManagementandGovernanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagementandGovernanceColor, ManagementandGovernance, ManagementandGovernance)

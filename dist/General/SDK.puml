@@ -9,7 +9,8 @@ Tm98ulpMx0-KFvuOvVw2l6f_uRL7F7ketz-GPyRfzqVarViZ3p7oB3dw_HbvlZ_hz_VEJ-_lA8Fg_Nzy
 }
 
 AWSEntityColoring(SDK)
-!define SDK(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SDK, SDK)
-!define SDK(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, SDK, SDK)
-!define SDKParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, SDK, SDK)
-!define SDKParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, SDK, SDK)
+!define SDKColor #232F3E
+!define SDK(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SDKColor, SDK, SDK)
+!define SDK(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SDKColor, SDK, SDK)
+!define SDKParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SDKColor, SDK, SDK)
+!define SDKParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SDKColor, SDK, SDK)

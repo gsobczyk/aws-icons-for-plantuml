@@ -13,10 +13,11 @@ LwZoDNzjAsDPKfZyPtScFx7FWTcwSMmy0t1e_3r__F4F
 }
 
 AWSEntityColoring(GameLift)
-!define GameLift(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GameLift, GameLift)
-!define GameLift(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GameLift, GameLift)
-!define GameLiftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GameLift, GameLift)
-!define GameLiftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GameLift, GameLift)
+!define GameLiftColor #693CC5
+!define GameLift(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GameLiftColor, GameLift, GameLift)
+!define GameLift(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GameLiftColor, GameLift, GameLift)
+!define GameLiftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GameLiftColor, GameLift, GameLift)
+!define GameLiftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GameLiftColor, GameLift, GameLift)
 
 sprite $GameTech [64x64/16z] {
 xTO5akmu40RXNoMmBQYy_sqtDE3XCImzocRu6kqAINyADzkvRcNFbwQyhTVQLYa5pOAPDgustlWLlzP_uFzuuEzuV3ZtFTLa6tSzNQbcDMvuS6S93fPlU4Pt
@@ -28,8 +29,9 @@ EcTyLyKXcR_rRWcSglwz9qQ7HHL_tPGBU8nywvqcot6__UORn6ng7Cw_4dFZewVbM3h7ytVcdyJiLrm_
 }
 
 AWSEntityColoring(GameTech)
-!define GameTech(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GameTech, GameTech)
-!define GameTech(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GameTech, GameTech)
-!define GameTechParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GameTech, GameTech)
-!define GameTechParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GameTech, GameTech)
+!define GameTechColor #693CC5
+!define GameTech(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GameTechColor, GameTech, GameTech)
+!define GameTech(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GameTechColor, GameTech, GameTech)
+!define GameTechParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GameTechColor, GameTech, GameTech)
+!define GameTechParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GameTechColor, GameTech, GameTech)
 

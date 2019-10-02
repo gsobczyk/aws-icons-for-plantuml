@@ -8,7 +8,8 @@ wqcwNB_jThj_
 }
 
 AWSEntityColoring(CertificateManager)
-!define CertificateManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, CertificateManager, CertificateManager)
-!define CertificateManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, CertificateManager, CertificateManager)
-!define CertificateManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, CertificateManager, CertificateManager)
-!define CertificateManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, CertificateManager, CertificateManager)
+!define CertificateManagerColor #D6242D
+!define CertificateManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CertificateManagerColor, CertificateManager, CertificateManager)
+!define CertificateManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CertificateManagerColor, CertificateManager, CertificateManager)
+!define CertificateManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CertificateManagerColor, CertificateManager, CertificateManager)
+!define CertificateManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CertificateManagerColor, CertificateManager, CertificateManager)

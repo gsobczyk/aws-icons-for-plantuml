@@ -6,7 +6,8 @@ sEi3hjDRRxsBuGzEx9zIcT9py0-nwV-M-tRjysDuhyB29QAZUeqPQid8taFOjRS-pkmTDlC3-tPkzZ5v
 }
 
 AWSEntityColoring(WorkLink)
-!define WorkLink(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, WorkLink, WorkLink)
-!define WorkLink(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, WorkLink, WorkLink)
-!define WorkLinkParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, WorkLink, WorkLink)
-!define WorkLinkParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, WorkLink, WorkLink)
+!define WorkLinkColor #1C7B68
+!define WorkLink(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, WorkLinkColor, WorkLink, WorkLink)
+!define WorkLink(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, WorkLinkColor, WorkLink, WorkLink)
+!define WorkLinkParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, WorkLinkColor, WorkLink, WorkLink)
+!define WorkLinkParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, WorkLinkColor, WorkLink, WorkLink)

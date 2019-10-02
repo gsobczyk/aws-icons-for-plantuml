@@ -9,7 +9,8 @@ _qF_5_vF_D_A3yelpa_ERywFpg_EpyxlxW_kB-vFtz-c-flxe_kh-xF70W
 }
 
 AWSEntityColoring(IoTAction)
-!define IoTAction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAction, IoTAction)
-!define IoTAction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAction, IoTAction)
-!define IoTActionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAction, IoTAction)
-!define IoTActionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAction, IoTAction)
+!define IoTActionColor #3F8624
+!define IoTAction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTActionColor, IoTAction, IoTAction)
+!define IoTAction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTActionColor, IoTAction, IoTAction)
+!define IoTActionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTActionColor, IoTAction, IoTAction)
+!define IoTActionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTActionColor, IoTAction, IoTAction)

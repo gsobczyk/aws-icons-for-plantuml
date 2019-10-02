@@ -9,7 +9,8 @@ leG3mg1-NVMpuGc-wkUeVZDzXkMgt_oD_GD_O__2tzW_yJVsR_oD_ID_S__wM_2V_xm2
 }
 
 AWSEntityColoring(ElasticFileSystemEFS)
-!define ElasticFileSystemEFS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
-!define ElasticFileSystemEFS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
-!define ElasticFileSystemEFSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
-!define ElasticFileSystemEFSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
+!define ElasticFileSystemEFSColor #3F8624
+!define ElasticFileSystemEFS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticFileSystemEFSColor, ElasticFileSystemEFS, ElasticFileSystemEFS)
+!define ElasticFileSystemEFS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticFileSystemEFSColor, ElasticFileSystemEFS, ElasticFileSystemEFS)
+!define ElasticFileSystemEFSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticFileSystemEFSColor, ElasticFileSystemEFS, ElasticFileSystemEFS)
+!define ElasticFileSystemEFSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticFileSystemEFSColor, ElasticFileSystemEFS, ElasticFileSystemEFS)

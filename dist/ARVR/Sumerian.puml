@@ -10,7 +10,8 @@ Vx5-K6WgIxy59BrWlaNQl3_t0MH-yeqAdFePYA9pdmF0EaUQWszJdu3GDtPTUlP7pNL8gA8hHWGIt_lN
 }
 
 AWSEntityColoring(Sumerian)
-!define Sumerian(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, Sumerian, Sumerian)
-!define Sumerian(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, Sumerian, Sumerian)
-!define SumerianParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, Sumerian, Sumerian)
-!define SumerianParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, Sumerian, Sumerian)
+!define SumerianColor #CC2264
+!define Sumerian(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SumerianColor, Sumerian, Sumerian)
+!define Sumerian(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SumerianColor, Sumerian, Sumerian)
+!define SumerianParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SumerianColor, Sumerian, Sumerian)
+!define SumerianParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SumerianColor, Sumerian, Sumerian)

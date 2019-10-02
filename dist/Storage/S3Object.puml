@@ -8,7 +8,8 @@ HFz6Vb1-GNv2VaD-L7vrVdP-z_pW-SNpazSL
 }
 
 AWSEntityColoring(S3Object)
-!define S3Object(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3Object, S3Object)
-!define S3Object(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Object, S3Object)
-!define S3ObjectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3Object, S3Object)
-!define S3ObjectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3Object, S3Object)
+!define S3ObjectColor #3F8624
+!define S3Object(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, S3ObjectColor, S3Object, S3Object)
+!define S3Object(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, S3ObjectColor, S3Object, S3Object)
+!define S3ObjectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, S3ObjectColor, S3Object, S3Object)
+!define S3ObjectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, S3ObjectColor, S3Object, S3Object)

@@ -9,7 +9,8 @@ NvwFUuP7Zdi1piulP-Udi_FRoVdnvFnwVdu-Ex__0W
 }
 
 AWSEntityColoring(RDSMariaDBinstancealt)
-!define RDSMariaDBinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
-!define RDSMariaDBinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
-!define RDSMariaDBinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
-!define RDSMariaDBinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealtColor #3B48CC
+!define RDSMariaDBinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSMariaDBinstancealtColor, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSMariaDBinstancealtColor, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSMariaDBinstancealtColor, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSMariaDBinstancealtColor, RDSMariaDBinstancealt, RDSMariaDBinstancealt)

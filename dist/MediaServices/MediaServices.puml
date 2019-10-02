@@ -7,7 +7,8 @@ vtkpdhpqt8KGqgJdQCeppmmN0mgdl7guIfxu1koeCkc7v1rYvy4F2JxDUvNAvYL_lOG8dDfy8RM8QwIg
 }
 
 AWSEntityColoring(MediaServices)
-!define MediaServices(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, MediaServices, MediaServices)
-!define MediaServices(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, MediaServices, MediaServices)
-!define MediaServicesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, MediaServices, MediaServices)
-!define MediaServicesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, MediaServices, MediaServices)
+!define MediaServicesColor #D86613
+!define MediaServices(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServices(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServicesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServicesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MediaServicesColor, MediaServices, MediaServices)

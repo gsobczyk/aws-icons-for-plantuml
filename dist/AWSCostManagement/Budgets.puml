@@ -9,7 +9,8 @@ f8hlB_ODs9xlCEa9o3Clq4P6STzVJ4l-w2FP53BtDGFPtTotZQ-vkMSWrxblh8hGz-cptGtGolRESso0
 }
 
 AWSEntityColoring(Budgets)
-!define Budgets(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Budgets, Budgets)
-!define Budgets(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Budgets, Budgets)
-!define BudgetsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Budgets, Budgets)
-!define BudgetsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Budgets, Budgets)
+!define BudgetsColor #3F8624
+!define Budgets(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BudgetsColor, Budgets, Budgets)
+!define Budgets(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BudgetsColor, Budgets, Budgets)
+!define BudgetsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BudgetsColor, Budgets, Budgets)
+!define BudgetsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BudgetsColor, Budgets, Budgets)

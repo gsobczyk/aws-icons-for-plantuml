@@ -9,7 +9,8 @@ BpiyY2ZIgQtvVouV64u-jc-Vl-ru_hP3-wuV0kJJwvVFhv_sNxzzTltuM_llloy
 }
 
 AWSEntityColoring(DocumentDBwithMongoDBcompatibility)
-!define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
-!define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
-!define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
-!define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibilityColor #3B48CC
+!define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DocumentDBwithMongoDBcompatibilityColor, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DocumentDBwithMongoDBcompatibilityColor, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DocumentDBwithMongoDBcompatibilityColor, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DocumentDBwithMongoDBcompatibilityColor, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)

@@ -9,7 +9,8 @@ xZy_V_p-FfeVHlFBQ7uQpM-3-N4mluxdvz7y_Wy
 }
 
 AWSEntityColoring(DataSyncAgent)
-!define DataSyncAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DataSyncAgent, DataSyncAgent)
-!define DataSyncAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSyncAgent, DataSyncAgent)
-!define DataSyncAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DataSyncAgent, DataSyncAgent)
-!define DataSyncAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentColor #1C7B68
+!define DataSyncAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DataSyncAgentColor, DataSyncAgent, DataSyncAgent)

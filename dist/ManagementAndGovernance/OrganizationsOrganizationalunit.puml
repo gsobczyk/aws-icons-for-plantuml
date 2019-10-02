@@ -9,7 +9,8 @@ fF_q5iAbJw0Nsmy7xj87C0llmRxGztPLXxL_rjhRKf-cF-7-nwz_-Vxpo_VVNr1ywV7BYu-VNjPl_m8
 }
 
 AWSEntityColoring(OrganizationsOrganizationalunit)
-!define OrganizationsOrganizationalunit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
-!define OrganizationsOrganizationalunit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
-!define OrganizationsOrganizationalunitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
-!define OrganizationsOrganizationalunitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
+!define OrganizationsOrganizationalunitColor #CC2264
+!define OrganizationsOrganizationalunit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
+!define OrganizationsOrganizationalunit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
+!define OrganizationsOrganizationalunitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)
+!define OrganizationsOrganizationalunitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OrganizationsOrganizationalunitColor, OrganizationsOrganizationalunit, OrganizationsOrganizationalunit)

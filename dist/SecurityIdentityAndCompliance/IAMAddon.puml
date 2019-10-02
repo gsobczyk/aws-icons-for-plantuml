@@ -8,7 +8,8 @@ RVVdbTxx-qhx-p7vVas-dvFlzsJ_cEnVS_tpl_ltOh5O_04
 }
 
 AWSEntityColoring(IAMAddon)
-!define IAMAddon(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMAddon, IAMAddon)
-!define IAMAddon(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMAddon, IAMAddon)
-!define IAMAddonParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMAddon, IAMAddon)
-!define IAMAddonParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMAddon, IAMAddon)
+!define IAMAddonColor #D6242D
+!define IAMAddon(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMAddonColor, IAMAddon, IAMAddon)
+!define IAMAddon(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMAddonColor, IAMAddon, IAMAddon)
+!define IAMAddonParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMAddonColor, IAMAddon, IAMAddon)
+!define IAMAddonParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMAddonColor, IAMAddon, IAMAddon)

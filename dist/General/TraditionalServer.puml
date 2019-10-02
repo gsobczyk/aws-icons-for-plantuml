@@ -6,7 +6,8 @@ s_zloKph_xNr_zot7m
 }
 
 AWSEntityColoring(TraditionalServer)
-!define TraditionalServer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, TraditionalServer, TraditionalServer)
-!define TraditionalServer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, TraditionalServer, TraditionalServer)
-!define TraditionalServerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, TraditionalServer, TraditionalServer)
-!define TraditionalServerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, TraditionalServer, TraditionalServer)
+!define TraditionalServerColor #232F3E
+!define TraditionalServer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TraditionalServerColor, TraditionalServer, TraditionalServer)
+!define TraditionalServer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TraditionalServerColor, TraditionalServer, TraditionalServer)
+!define TraditionalServerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TraditionalServerColor, TraditionalServer, TraditionalServer)
+!define TraditionalServerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TraditionalServerColor, TraditionalServer, TraditionalServer)

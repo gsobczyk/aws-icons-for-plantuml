@@ -9,7 +9,8 @@ XFTMFLo_VytNKG4000G3qM_z2mlnO3BOTWVvWVn2VqX_UNzwV_j-y7xvVkf-8py0ln0_8RyXFng_8Zz_
 }
 
 AWSEntityColoring(DenseStorageNodeResource)
-!define DenseStorageNodeResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
-!define DenseStorageNodeResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
-!define DenseStorageNodeResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
-!define DenseStorageNodeResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
+!define DenseStorageNodeResourceColor #693CC5
+!define DenseStorageNodeResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DenseStorageNodeResourceColor, DenseStorageNodeResource, DenseStorageNodeResource)
+!define DenseStorageNodeResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DenseStorageNodeResourceColor, DenseStorageNodeResource, DenseStorageNodeResource)
+!define DenseStorageNodeResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DenseStorageNodeResourceColor, DenseStorageNodeResource, DenseStorageNodeResource)
+!define DenseStorageNodeResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DenseStorageNodeResourceColor, DenseStorageNodeResource, DenseStorageNodeResource)

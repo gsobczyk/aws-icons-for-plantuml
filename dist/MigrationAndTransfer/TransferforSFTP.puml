@@ -9,7 +9,8 @@ FuPIjK6l7Y44WEreqFFnlAxJdbIaeinv2TZpVSf7nBGMuNN2g_EtXyUCznTFezuE_z7yUkeJSarK-6x-
 }
 
 AWSEntityColoring(TransferforSFTP)
-!define TransferforSFTP(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, TransferforSFTP, TransferforSFTP)
-!define TransferforSFTP(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, TransferforSFTP, TransferforSFTP)
-!define TransferforSFTPParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, TransferforSFTP, TransferforSFTP)
-!define TransferforSFTPParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, TransferforSFTP, TransferforSFTP)
+!define TransferforSFTPColor #1C7B68
+!define TransferforSFTP(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TransferforSFTPColor, TransferforSFTP, TransferforSFTP)
+!define TransferforSFTP(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TransferforSFTPColor, TransferforSFTP, TransferforSFTP)
+!define TransferforSFTPParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TransferforSFTPColor, TransferforSFTP, TransferforSFTP)
+!define TransferforSFTPParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TransferforSFTPColor, TransferforSFTP, TransferforSFTP)

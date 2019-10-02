@@ -10,7 +10,8 @@ zt7zVyyCnFbk-XJ4TkuF0gcalXFF_INj_KNo_E06r9B30nAhaf_OtxgnltruV_oU-CKl_W8
 }
 
 AWSEntityColoring(AppSync2)
-!define AppSync2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, AppSync2, AppSync2)
-!define AppSync2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, AppSync2, AppSync2)
-!define AppSync2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, AppSync2, AppSync2)
-!define AppSync2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, AppSync2, AppSync2)
+!define AppSync2Color #D6242D
+!define AppSync2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AppSync2Color, AppSync2, AppSync2)
+!define AppSync2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AppSync2Color, AppSync2, AppSync2)
+!define AppSync2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AppSync2Color, AppSync2, AppSync2)
+!define AppSync2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AppSync2Color, AppSync2, AppSync2)

@@ -9,7 +9,8 @@ B5wY0PHB9YIVCz2Q02J64dC6uQOMYXQJ1YiANlet31G0wZSCP0n6cnpZ3aCw_YzCu9H4H2Fwh1wVz5bz
 }
 
 AWSEntityColoring(SingleSignOn)
-!define SingleSignOn(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, SingleSignOn, SingleSignOn)
-!define SingleSignOn(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, SingleSignOn, SingleSignOn)
-!define SingleSignOnParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, SingleSignOn, SingleSignOn)
-!define SingleSignOnParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, SingleSignOn, SingleSignOn)
+!define SingleSignOnColor #D6242D
+!define SingleSignOn(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SingleSignOnColor, SingleSignOn, SingleSignOn)
+!define SingleSignOn(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SingleSignOnColor, SingleSignOn, SingleSignOn)
+!define SingleSignOnParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SingleSignOnColor, SingleSignOn, SingleSignOn)
+!define SingleSignOnParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SingleSignOnColor, SingleSignOn, SingleSignOn)

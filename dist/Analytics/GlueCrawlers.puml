@@ -11,7 +11,8 @@ gRiEKIH3FlXs7LJxy1rnrza7zkYdXndKOlYM0JCkfdpmFVIaKEHd_0AW7NsBdIvd-647_kXFc_QKsBxo
 }
 
 AWSEntityColoring(GlueCrawlers)
-!define GlueCrawlers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GlueCrawlers, GlueCrawlers)
-!define GlueCrawlers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GlueCrawlers, GlueCrawlers)
-!define GlueCrawlersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GlueCrawlers, GlueCrawlers)
-!define GlueCrawlersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersColor #693CC5
+!define GlueCrawlers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GlueCrawlersColor, GlueCrawlers, GlueCrawlers)

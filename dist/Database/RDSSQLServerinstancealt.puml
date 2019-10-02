@@ -9,7 +9,8 @@ V-pyQ_-VU_zU
 }
 
 AWSEntityColoring(RDSSQLServerinstancealt)
-!define RDSSQLServerinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
-!define RDSSQLServerinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
-!define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
-!define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtColor #3B48CC
+!define RDSSQLServerinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSSQLServerinstancealtColor, RDSSQLServerinstancealt, RDSSQLServerinstancealt)

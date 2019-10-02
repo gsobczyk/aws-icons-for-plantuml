@@ -10,7 +10,8 @@ Xwno4Tq3ZBph4bmESCn2lnKGX7ul8FJx0Q7V3mZzDZh8xyad
 }
 
 AWSEntityColoring(InternetAlt1)
-!define InternetAlt1(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, InternetAlt1, InternetAlt1)
-!define InternetAlt1(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, InternetAlt1, InternetAlt1)
-!define InternetAlt1Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, InternetAlt1, InternetAlt1)
-!define InternetAlt1Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, InternetAlt1, InternetAlt1)
+!define InternetAlt1Color #232F3E
+!define InternetAlt1(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, InternetAlt1Color, InternetAlt1, InternetAlt1)
+!define InternetAlt1(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, InternetAlt1Color, InternetAlt1, InternetAlt1)
+!define InternetAlt1Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, InternetAlt1Color, InternetAlt1, InternetAlt1)
+!define InternetAlt1Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, InternetAlt1Color, InternetAlt1, InternetAlt1)

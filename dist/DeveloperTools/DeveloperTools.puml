@@ -10,7 +10,8 @@ __f9y9FEJv_-Ey__GjNkfX_yDsNt9CBV5DqzQohtanTXYh3eDoHuXByXz4Va2m
 }
 
 AWSEntityColoring(DeveloperTools)
-!define DeveloperTools(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DeveloperTools, DeveloperTools)
-!define DeveloperTools(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DeveloperTools, DeveloperTools)
-!define DeveloperToolsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DeveloperTools, DeveloperTools)
-!define DeveloperToolsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DeveloperTools, DeveloperTools)
+!define DeveloperToolsColor #3B48CC
+!define DeveloperTools(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeveloperToolsColor, DeveloperTools, DeveloperTools)
+!define DeveloperTools(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeveloperToolsColor, DeveloperTools, DeveloperTools)
+!define DeveloperToolsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeveloperToolsColor, DeveloperTools, DeveloperTools)
+!define DeveloperToolsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeveloperToolsColor, DeveloperTools, DeveloperTools)

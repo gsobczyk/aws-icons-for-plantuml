@@ -6,7 +6,8 @@ xxj3KTvBGD85dn1amKj0LCfV__wrlnv-tck5QuI_M7w4ruWeh_RlTjfUWFp2trQVVSmt5Q7__pdpvisR
 }
 
 AWSEntityColoring(Region)
-!define Region(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Region, Region)
-!define Region(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Region, Region)
-!define RegionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Region, Region)
-!define RegionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Region, Region)
+!define RegionColor #232F3E
+!define Region(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RegionColor, Region, Region)
+!define Region(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RegionColor, Region, Region)
+!define RegionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RegionColor, Region, Region)
+!define RegionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RegionColor, Region, Region)

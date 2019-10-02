@@ -9,7 +9,8 @@ ebpx1dvJ_x-l3EEHS6mku2jKPw43unRafPmRM8_sqlYCZjvgARK-Rk1ZwGP2LTwWFRaxa71hOwe2EaSh
 }
 
 AWSEntityColoring(SimpleAD)
-!define SimpleAD(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, SimpleAD, SimpleAD)
-!define SimpleAD(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, SimpleAD, SimpleAD)
-!define SimpleADParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, SimpleAD, SimpleAD)
-!define SimpleADParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, SimpleAD, SimpleAD)
+!define SimpleADColor #D6242D
+!define SimpleAD(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SimpleADColor, SimpleAD, SimpleAD)
+!define SimpleAD(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SimpleADColor, SimpleAD, SimpleAD)
+!define SimpleADParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SimpleADColor, SimpleAD, SimpleAD)
+!define SimpleADParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SimpleADColor, SimpleAD, SimpleAD)

@@ -9,7 +9,8 @@ qm7GLPwpCybJkmDdbe2VzfKvrVG7x__hzq_VU__stVUFtt__-lttpz_V8m
 }
 
 AWSEntityColoring(IAMAWSSTSAlternate)
-!define IAMAWSSTSAlternate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
-!define IAMAWSSTSAlternate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
-!define IAMAWSSTSAlternateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
-!define IAMAWSSTSAlternateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateColor #D6242D
+!define IAMAWSSTSAlternate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMAWSSTSAlternateColor, IAMAWSSTSAlternate, IAMAWSSTSAlternate)

@@ -10,7 +10,8 @@ Lxzc_LJ55g3E8Ri0vBL-hlKxCo8lkp7lzVkWVr1ncs0PalFUFvpqBzheg_tB_VxfVlzslt-ytx_Uxv_l
 }
 
 AWSEntityColoring(Toolkit)
-!define Toolkit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Toolkit, Toolkit)
-!define Toolkit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Toolkit, Toolkit)
-!define ToolkitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Toolkit, Toolkit)
-!define ToolkitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Toolkit, Toolkit)
+!define ToolkitColor #232F3E
+!define Toolkit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ToolkitColor, Toolkit, Toolkit)
+!define Toolkit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ToolkitColor, Toolkit, Toolkit)
+!define ToolkitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ToolkitColor, Toolkit, Toolkit)
+!define ToolkitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ToolkitColor, Toolkit, Toolkit)

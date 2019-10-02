@@ -10,7 +10,8 @@ yDMZyVhyMBVqmhQSvqVWZVFh3PNJ-MMVdvtIoRa_3kfqVbwStwhiRBusdpYuFBz7_fYpKQbJl94_hlDN
 }
 
 AWSEntityColoring(Artifact)
-!define Artifact(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Artifact, Artifact)
-!define Artifact(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Artifact, Artifact)
-!define ArtifactParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Artifact, Artifact)
-!define ArtifactParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Artifact, Artifact)
+!define ArtifactColor #D6242D
+!define Artifact(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ArtifactColor, Artifact, Artifact)
+!define Artifact(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ArtifactColor, Artifact, Artifact)
+!define ArtifactParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ArtifactColor, Artifact, Artifact)
+!define ArtifactParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ArtifactColor, Artifact, Artifact)

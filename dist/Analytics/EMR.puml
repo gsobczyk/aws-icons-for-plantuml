@@ -9,7 +9,8 @@ nkp-ZOZ5quP-a3xJd-Vw9SYtV9YLot_zI3_ReP-NuhWZVtbIl_t1w093d3y_zDGnwv_9yyi1VkoUdxld
 }
 
 AWSEntityColoring(EMR)
-!define EMR(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMR, EMR)
-!define EMR(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMR, EMR)
-!define EMRParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMR, EMR)
-!define EMRParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMR, EMR)
+!define EMRColor #693CC5
+!define EMR(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EMRColor, EMR, EMR)
+!define EMR(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EMRColor, EMR, EMR)
+!define EMRParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EMRColor, EMR, EMR)
+!define EMRParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EMRColor, EMR, EMR)

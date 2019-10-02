@@ -7,7 +7,8 @@ pcN6My1CU3QPyMnM8aOykLsxQJNrUsfftF0wSlp90AahBfMwgiVlUB988etQwxSyKmDslDFlEFcsuxth
 }
 
 AWSEntityColoring(Analytics)
-!define Analytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Analytics, Analytics)
-!define Analytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Analytics, Analytics)
-!define AnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Analytics, Analytics)
-!define AnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Analytics, Analytics)
+!define AnalyticsColor #693CC5
+!define Analytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AnalyticsColor, Analytics, Analytics)
+!define Analytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AnalyticsColor, Analytics, Analytics)
+!define AnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AnalyticsColor, Analytics, Analytics)
+!define AnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AnalyticsColor, Analytics, Analytics)

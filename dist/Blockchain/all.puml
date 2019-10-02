@@ -8,10 +8,11 @@ U-qpjqxeGN-5lOUnvX9kxrs8_GHliM6iwySQCtG5YP_17G
 }
 
 AWSEntityColoring(Blockchain)
-!define Blockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Blockchain, Blockchain)
-!define Blockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Blockchain, Blockchain)
-!define BlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Blockchain, Blockchain)
-!define BlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Blockchain, Blockchain)
+!define BlockchainColor #D86613
+!define Blockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BlockchainColor, Blockchain, Blockchain)
+!define Blockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BlockchainColor, Blockchain, Blockchain)
+!define BlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BlockchainColor, Blockchain, Blockchain)
+!define BlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BlockchainColor, Blockchain, Blockchain)
 
 sprite $ManagedBlockchain [64x64/16z] {
 xTLLegDG44NHKzVBvp_RXZnto4yRAnxOkEIVvNAvNC9uZh74xwjN0QWK0ff4diM4BXwtfQYecgT4H_TyfXNhLDuW-LgCKnDeq7ndWlEe1SaFEZmFufaV1SU1
@@ -21,10 +22,11 @@ wyO5cfjeSlVnS-Vn-yZo09NyoBldGGFsoPhHL_sXSJiq3_D2-lw2ndc2Lqn_gOL8yfIOeA4U6M6he7cU
 }
 
 AWSEntityColoring(ManagedBlockchain)
-!define ManagedBlockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ManagedBlockchain, ManagedBlockchain)
-!define ManagedBlockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ManagedBlockchain, ManagedBlockchain)
-!define ManagedBlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ManagedBlockchain, ManagedBlockchain)
-!define ManagedBlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainColor #D86613
+!define ManagedBlockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ManagedBlockchainColor, ManagedBlockchain, ManagedBlockchain)
 
 sprite $QuantumLedgerDatabaseQLDB [64x64/16z] {
 xPO56fmm44R7PwBS_xR5LYhv6kh2ly937XPTNhbpvqvlETnKrJoLTbNEIW10l8Pm8wyNz4n0bcllvvtKf0XIPdK3AVtJEqe4QKwFBn_O3URkW6oqGsVqZZho
@@ -35,8 +37,9 @@ t_UFdzy_Vd___E7xvo_VFt_w_ldRdJjtFW
 }
 
 AWSEntityColoring(QuantumLedgerDatabaseQLDB)
-!define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
-!define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
-!define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
-!define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBColor #D86613
+!define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, QuantumLedgerDatabaseQLDBColor, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 

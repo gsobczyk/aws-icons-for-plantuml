@@ -10,7 +10,8 @@ Vf6_ItwL_-FFJmdOxkaRa2RFZtm3y_pu0y-lXYNb0W3j6z509OW6dPNJyWFFx__r-ylr-ziFlp_-Rtm2
 }
 
 AWSEntityColoring(IoTHouse)
-!define IoTHouse(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHouse, IoTHouse)
-!define IoTHouse(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHouse, IoTHouse)
-!define IoTHouseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHouse, IoTHouse)
-!define IoTHouseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHouse, IoTHouse)
+!define IoTHouseColor #3F8624
+!define IoTHouse(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTHouseColor, IoTHouse, IoTHouse)
+!define IoTHouse(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTHouseColor, IoTHouse, IoTHouse)
+!define IoTHouseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTHouseColor, IoTHouse, IoTHouse)
+!define IoTHouseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTHouseColor, IoTHouse, IoTHouse)

@@ -11,7 +11,8 @@ vclj1M2Axv5dm7ARVblhUmb06Bh421GFa5O9060Xn1Xi_vh7HT904e-Hk7f98TWVGjh-YwwE9ehuaKjy
 }
 
 AWSEntityColoring(Aurora)
-!define Aurora(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Aurora, Aurora)
-!define Aurora(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Aurora, Aurora)
-!define AuroraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Aurora, Aurora)
-!define AuroraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Aurora, Aurora)
+!define AuroraColor #3B48CC
+!define Aurora(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AuroraColor, Aurora, Aurora)
+!define Aurora(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AuroraColor, Aurora, Aurora)
+!define AuroraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AuroraColor, Aurora, Aurora)
+!define AuroraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AuroraColor, Aurora, Aurora)

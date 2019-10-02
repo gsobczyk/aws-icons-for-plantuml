@@ -9,7 +9,8 @@ tTJul6bcHcuWB6t6Kne08N_eE4ay42wxvvcBlBSu_BCXQl79RdZg37eL2Blj-V_xWdpFKys_aVyVsDAk
 }
 
 AWSEntityColoring(Workspaces)
-!define Workspaces(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Workspaces, Workspaces)
-!define Workspaces(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Workspaces, Workspaces)
-!define WorkspacesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Workspaces, Workspaces)
-!define WorkspacesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Workspaces, Workspaces)
+!define WorkspacesColor #1C7B68
+!define Workspaces(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, WorkspacesColor, Workspaces, Workspaces)
+!define Workspaces(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, WorkspacesColor, Workspaces, Workspaces)
+!define WorkspacesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, WorkspacesColor, Workspaces, Workspaces)
+!define WorkspacesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, WorkspacesColor, Workspaces, Workspaces)

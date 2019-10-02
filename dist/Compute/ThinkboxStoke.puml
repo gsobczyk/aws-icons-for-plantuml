@@ -11,7 +11,8 @@ Eexe2G2iHmwe--KNChm5UAtUWtXCEERClZXCU1aFeN8x2XyBdrnzwlyV085F0U3b_mHw1B3x3o1U63_7
 }
 
 AWSEntityColoring(ThinkboxStoke)
-!define ThinkboxStoke(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ThinkboxStoke, ThinkboxStoke)
-!define ThinkboxStoke(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxStoke, ThinkboxStoke)
-!define ThinkboxStokeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ThinkboxStoke, ThinkboxStoke)
-!define ThinkboxStokeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStokeColor #D86613
+!define ThinkboxStoke(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStoke(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStokeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStokeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ThinkboxStokeColor, ThinkboxStoke, ThinkboxStoke)

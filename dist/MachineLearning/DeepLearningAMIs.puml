@@ -9,7 +9,8 @@ yEEigm7z__YVswrl8u1X60Y2C-Y_Q8MYTvlY6w35ty7-uVxm_Vp_-F_r-V7vzVxm_lB-xFixxlkxv4Sy
 }
 
 AWSEntityColoring(DeepLearningAMIs)
-!define DeepLearningAMIs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
-!define DeepLearningAMIs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
-!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
-!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIsColor #1C7B68
+!define DeepLearningAMIs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeepLearningAMIsColor, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeepLearningAMIsColor, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeepLearningAMIsColor, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeepLearningAMIsColor, DeepLearningAMIs, DeepLearningAMIs)

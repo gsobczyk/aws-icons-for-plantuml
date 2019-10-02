@@ -12,10 +12,11 @@ UEJ-Kb9YS_2eZhy9AoWxm8mwmD-56MIvraCw77yVl9ZE3H3_15ZZZIljjh_-__ZXXzy
 }
 
 AWSEntityColoring(ElasticTranscoder)
-!define ElasticTranscoder(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElasticTranscoder, ElasticTranscoder)
-!define ElasticTranscoder(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElasticTranscoder, ElasticTranscoder)
-!define ElasticTranscoderParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElasticTranscoder, ElasticTranscoder)
-!define ElasticTranscoderParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoderColor #D86613
+!define ElasticTranscoder(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoder(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoderParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoderParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticTranscoderColor, ElasticTranscoder, ElasticTranscoder)
 
 sprite $ElementalMediaConnect [64x64/16z] {
 xLO7ifqm49ChkEh-jyrO_XCUAHZIozzfD6sJl6p_O-tTteqalmVUzxtpsuDd2zXCVXkwUY16m5VoERf5m1MoE20sycdX1ZQHjPB9mZnh0wi3jiuM5RjlWAjy
@@ -27,10 +28,11 @@ P4R8uydjnML66m1oPfJ9n_l3d3-h_U7xzvVr_lHz-zllsH-F-Vs7shkzsmS
 }
 
 AWSEntityColoring(ElementalMediaConnect)
-!define ElementalMediaConnect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaConnect, ElementalMediaConnect)
-!define ElementalMediaConnect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaConnect, ElementalMediaConnect)
-!define ElementalMediaConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaConnect, ElementalMediaConnect)
-!define ElementalMediaConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaConnect, ElementalMediaConnect)
+!define ElementalMediaConnectColor #D86613
+!define ElementalMediaConnect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaConnectColor, ElementalMediaConnect, ElementalMediaConnect)
+!define ElementalMediaConnect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaConnectColor, ElementalMediaConnect, ElementalMediaConnect)
+!define ElementalMediaConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaConnectColor, ElementalMediaConnect, ElementalMediaConnect)
+!define ElementalMediaConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaConnectColor, ElementalMediaConnect, ElementalMediaConnect)
 
 sprite $ElementalMediaConvert [64x64/16z] {
 xPO5iiCm34HNCgH6tV-q7pIZITafunQ2JsIKjzLNN_NLgilvoWnmFfUk7eWHyFKyvu0l8iK3PuNGN19LSarUI2sldK_JMknvIHw9KSJE2Q1aLmMSHdHnmDJM
@@ -40,10 +42,11 @@ fcbj_bZ0KvPZyvTaedwx-TDydJr_Qwu7rmyz7wgbjNEYjcRQpfUBMSxN-Rpj7vHFhfszVs4-T_-YNLxb
 }
 
 AWSEntityColoring(ElementalMediaConvert)
-!define ElementalMediaConvert(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaConvert, ElementalMediaConvert)
-!define ElementalMediaConvert(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaConvert, ElementalMediaConvert)
-!define ElementalMediaConvertParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaConvert, ElementalMediaConvert)
-!define ElementalMediaConvertParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvertColor #D86613
+!define ElementalMediaConvert(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvert(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvertParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvertParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaConvertColor, ElementalMediaConvert, ElementalMediaConvert)
 
 sprite $ElementalMediaLive [64x64/16z] {
 xPO7bYCX34GBC1d4_M-x3whZXawRPrpEnb-o4atxi7hhBGb1sdCb3UZqb2ulm3dWLHxX4J2vjVm2uXFU8V1DW7t6voaEk9k1v-_n-M8Qn4F9jxmeUBb0HmqL
@@ -54,10 +57,11 @@ rc67RMJPY8UIkEqoCLgsdHcbdQh6ibhRZdk9jTqJ-KSIwsNcnTlRLYgJsFcUkdgNPn6pLfcbUtX-uWNm
 }
 
 AWSEntityColoring(ElementalMediaLive)
-!define ElementalMediaLive(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaLive, ElementalMediaLive)
-!define ElementalMediaLive(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaLive, ElementalMediaLive)
-!define ElementalMediaLiveParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaLive, ElementalMediaLive)
-!define ElementalMediaLiveParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaLive, ElementalMediaLive)
+!define ElementalMediaLiveColor #D86613
+!define ElementalMediaLive(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaLiveColor, ElementalMediaLive, ElementalMediaLive)
+!define ElementalMediaLive(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaLiveColor, ElementalMediaLive, ElementalMediaLive)
+!define ElementalMediaLiveParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaLiveColor, ElementalMediaLive, ElementalMediaLive)
+!define ElementalMediaLiveParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaLiveColor, ElementalMediaLive, ElementalMediaLive)
 
 sprite $ElementalMediaPackage [64x64/16z] {
 xPO5aZKX38IR33uGxd_Q5V9IMUKnlyjs2LBruUam_bXzwKkSCty7NWcW-grqyvZoxLjeJi1n4fq7aFWoNXoeZ47qL2MuSetMIPzvNSe-tG8GvgRPERQUAnj_
@@ -68,10 +72,11 @@ bZzsyfU8I6kMlxRpf_6MF_Vpj_7Myzt_X-__ltp__-dw_-rt_1_D__zOVUbBZm
 }
 
 AWSEntityColoring(ElementalMediaPackage)
-!define ElementalMediaPackage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaPackage, ElementalMediaPackage)
-!define ElementalMediaPackage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaPackage, ElementalMediaPackage)
-!define ElementalMediaPackageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaPackage, ElementalMediaPackage)
-!define ElementalMediaPackageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackageColor #D86613
+!define ElementalMediaPackage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaPackageColor, ElementalMediaPackage, ElementalMediaPackage)
 
 sprite $ElementalMediaStore [64x64/16z] {
 xPO7rgOW3023xHF4pFrlkoz4irrqU_dpUdI0zEWVAs_o9W3VG-kwAdmpNWQHeS2tqNKIMHQHgS9pUZToWyrEsU6fuKc6R1JaGT8ZDq0P3oGE6mlSDdmMaMc7
@@ -83,10 +88,11 @@ NWe43oLTyRHUuvrNdMyA6dzCLEZqxpaQFJeaGtRZet_tvaSC6lUVvLJEiiRyw0tkN47Xv3yPQ5t17LRX
 }
 
 AWSEntityColoring(ElementalMediaStore)
-!define ElementalMediaStore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaStore, ElementalMediaStore)
-!define ElementalMediaStore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaStore, ElementalMediaStore)
-!define ElementalMediaStoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaStore, ElementalMediaStore)
-!define ElementalMediaStoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaStore, ElementalMediaStore)
+!define ElementalMediaStoreColor #D86613
+!define ElementalMediaStore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaStoreColor, ElementalMediaStore, ElementalMediaStore)
+!define ElementalMediaStore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaStoreColor, ElementalMediaStore, ElementalMediaStore)
+!define ElementalMediaStoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaStoreColor, ElementalMediaStore, ElementalMediaStore)
+!define ElementalMediaStoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaStoreColor, ElementalMediaStore, ElementalMediaStore)
 
 sprite $ElementalMediaTailor [64x64/16z] {
 xPLLWWCn34CL64uozp_jWWfAsPb-5RnOU4RPNT_NllQrKfx29-V6xVGIy6TXsKRd3kZoxlSMVc1aPj5luNli4q_D_39UykFIKdW-vxEr3MK4mipugOu_1s1y
@@ -97,10 +103,11 @@ hGiyazSdMPELqQS3dxpKRBUY_3VGwlzJblFwllQrh_q2
 }
 
 AWSEntityColoring(ElementalMediaTailor)
-!define ElementalMediaTailor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaTailor, ElementalMediaTailor)
-!define ElementalMediaTailor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaTailor, ElementalMediaTailor)
-!define ElementalMediaTailorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaTailor, ElementalMediaTailor)
-!define ElementalMediaTailorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorColor #D86613
+!define ElementalMediaTailor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElementalMediaTailorColor, ElementalMediaTailor, ElementalMediaTailor)
 
 sprite $MediaServices [64x64/16z] {
 xTP5WYGn34JHaAcCYlkVjhcOB0zFvz-_H1Em9OiTE9PoU-yGIxPLCk3bYpiKMXj0EFfCjVMB_EOtp-iCdjfRRwVrrWrU0wwBqvuLjLzMK3ZhYoWlKyaMVzs7
@@ -109,8 +116,9 @@ vtkpdhpqt8KGqgJdQCeppmmN0mgdl7guIfxu1koeCkc7v1rYvy4F2JxDUvNAvYL_lOG8dDfy8RM8QwIg
 }
 
 AWSEntityColoring(MediaServices)
-!define MediaServices(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, MediaServices, MediaServices)
-!define MediaServices(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, MediaServices, MediaServices)
-!define MediaServicesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, MediaServices, MediaServices)
-!define MediaServicesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, MediaServices, MediaServices)
+!define MediaServicesColor #D86613
+!define MediaServices(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServices(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServicesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MediaServicesColor, MediaServices, MediaServices)
+!define MediaServicesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MediaServicesColor, MediaServices, MediaServices)
 

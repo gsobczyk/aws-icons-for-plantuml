@@ -10,7 +10,8 @@ as_WNaikTURO5vZy6xWj11Ry0DPNWVm5NzCbm0xZ2_vDeAD-mRy9y9Ty4x2NxPr_L-_XJlvDe7EZ-AQ_
 }
 
 AWSEntityColoring(ApplicationDiscoveryService)
-!define ApplicationDiscoveryService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
-!define ApplicationDiscoveryService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
-!define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
-!define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceColor #1C7B68
+!define ApplicationDiscoveryService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ApplicationDiscoveryServiceColor, ApplicationDiscoveryService, ApplicationDiscoveryService)

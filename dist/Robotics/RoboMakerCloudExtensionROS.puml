@@ -14,7 +14,8 @@ aAtahsH89NoGYOGjZNG9Pkpvp2reTLEcAa81itHep_-_M4knOUjb_h9dOZGVTk84vTAAudM-2wOWg8PF
 }
 
 AWSEntityColoring(RoboMakerCloudExtensionROS)
-!define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
-!define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
-!define RoboMakerCloudExtensionROSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
-!define RoboMakerCloudExtensionROSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROSColor #D6242D
+!define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RoboMakerCloudExtensionROSColor, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RoboMakerCloudExtensionROSColor, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RoboMakerCloudExtensionROSColor, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RoboMakerCloudExtensionROSColor, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)

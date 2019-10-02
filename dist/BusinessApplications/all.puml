@@ -11,10 +11,11 @@ uwLG5rXMN3mTJo_3m4TGDbw8tsr9wl1Ql8qabSKByOKrigGoUS5IY99YMxp4f93xSburf_Ctzx___Gu
 }
 
 AWSEntityColoring(AlexaForBusiness)
-!define AlexaForBusiness(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, AlexaForBusiness, AlexaForBusiness)
-!define AlexaForBusiness(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, AlexaForBusiness, AlexaForBusiness)
-!define AlexaForBusinessParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, AlexaForBusiness, AlexaForBusiness)
-!define AlexaForBusinessParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessColor #D6242D
+!define AlexaForBusiness(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusiness(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, AlexaForBusinessColor, AlexaForBusiness, AlexaForBusiness)
 
 sprite $BusinessApplications [64x64/16z] {
 xTO50gGm38NXbwGjQQVatV-qwmnhI9drvH-N3pVWJYxsvBYKBg-AN7siwe391owgg1nj1jBgdJ7Mh_6t9t_h-9apN_1aIkHbp-wgtddP5wYYlE2Dj6kUJKMG
@@ -24,10 +25,11 @@ lEKoZLPAKdnArCPJ4JoJyV1dz1O
 }
 
 AWSEntityColoring(BusinessApplications)
-!define BusinessApplications(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, BusinessApplications, BusinessApplications)
-!define BusinessApplications(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, BusinessApplications, BusinessApplications)
-!define BusinessApplicationsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, BusinessApplications, BusinessApplications)
-!define BusinessApplicationsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsColor #D6242D
+!define BusinessApplications(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplications(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, BusinessApplicationsColor, BusinessApplications, BusinessApplications)
 
 sprite $Chime [64x64/16z] {
 xPRNefj034H7R6MR_lzlSrbTUI45cRoapXFjZ8zfWd_R_C__L3UJVfRte6q3t3EgTfPq-C6Sa1_XE-9hQMVcWFuCXm8UVKeymxSu1PJSb_xex-2T7VhIzr2g
@@ -39,10 +41,11 @@ YGX8RDhLkKI0JobW2PZfGiko0uq31CeIiEcrZ337IB85XA0BxVtd01hnhJDGWNJoA6j-TX4WPmw_jkY3
 }
 
 AWSEntityColoring(Chime)
-!define Chime(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Chime, Chime)
-!define Chime(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Chime, Chime)
-!define ChimeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Chime, Chime)
-!define ChimeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Chime, Chime)
+!define ChimeColor #D6242D
+!define Chime(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ChimeColor, Chime, Chime)
+!define Chime(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ChimeColor, Chime, Chime)
+!define ChimeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ChimeColor, Chime, Chime)
+!define ChimeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ChimeColor, Chime, Chime)
 
 sprite $WorkMail [64x64/16z] {
 xTOt0aGX20PXVJdY_M-xvOPHONDYQhw_9dr4dYUBESdv9PXR2ZvEizeKYpw6Fgdr8PRyr8TEwbgwq4ybFwSE0-1TcijUC00kDSy1yfh70BdYCG1UynW0Lpm6
@@ -50,8 +53,9 @@ m6kUj-IwFrwJw_vu3wvx2lAwXm7N_L616_tHWLSz1y2hdWFWLSy1SjqVaxu7LpnwldVlthtxOJOrbBov
 }
 
 AWSEntityColoring(WorkMail)
-!define WorkMail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, WorkMail, WorkMail)
-!define WorkMail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, WorkMail, WorkMail)
-!define WorkMailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, WorkMail, WorkMail)
-!define WorkMailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, WorkMail, WorkMail)
+!define WorkMailColor #D6242D
+!define WorkMail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, WorkMailColor, WorkMail, WorkMail)
+!define WorkMail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, WorkMailColor, WorkMail, WorkMail)
+!define WorkMailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, WorkMailColor, WorkMail, WorkMail)
+!define WorkMailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, WorkMailColor, WorkMail, WorkMail)
 

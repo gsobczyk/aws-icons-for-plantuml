@@ -9,7 +9,8 @@ SkIb09Il_kwS77fx2MOFCTkBxynRgVi0qVNqpU__Dh_rr_hqFTxLwh_3M_-BBz_fHzwkc_-HtnzbSDHK
 }
 
 AWSEntityColoring(S3GlacierVault)
-!define S3GlacierVault(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3GlacierVault, S3GlacierVault)
-!define S3GlacierVault(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3GlacierVault, S3GlacierVault)
-!define S3GlacierVaultParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3GlacierVault, S3GlacierVault)
-!define S3GlacierVaultParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVaultColor #3F8624
+!define S3GlacierVault(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVault(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVaultParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVaultParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, S3GlacierVaultColor, S3GlacierVault, S3GlacierVault)

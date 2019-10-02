@@ -9,7 +9,8 @@ dB_chv_lNx_Vltzu__xb_Vkdz-_VJavEhW
 }
 
 AWSEntityColoring(QLDB)
-!define QLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, QLDB, QLDB)
-!define QLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, QLDB, QLDB)
-!define QLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, QLDB, QLDB)
-!define QLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, QLDB, QLDB)
+!define QLDBColor #3B48CC
+!define QLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, QLDBColor, QLDB, QLDB)
+!define QLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, QLDBColor, QLDB, QLDB)
+!define QLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, QLDBColor, QLDB, QLDB)
+!define QLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, QLDBColor, QLDB, QLDB)

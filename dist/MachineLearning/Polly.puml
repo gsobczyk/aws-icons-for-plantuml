@@ -9,7 +9,8 @@ _KTVxrl_YdAo_qQVBk-_aAQTfeYdnw-NfVHGdjLn83D0pfq_7P4No05bHJft_aOqtiKy-hcL3BnJXrEU
 }
 
 AWSEntityColoring(Polly)
-!define Polly(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Polly, Polly)
-!define Polly(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Polly, Polly)
-!define PollyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Polly, Polly)
-!define PollyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Polly, Polly)
+!define PollyColor #1C7B68
+!define Polly(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PollyColor, Polly, Polly)
+!define Polly(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PollyColor, Polly, Polly)
+!define PollyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PollyColor, Polly, Polly)
+!define PollyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PollyColor, Polly, Polly)

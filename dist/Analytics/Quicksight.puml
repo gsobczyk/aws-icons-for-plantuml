@@ -8,7 +8,8 @@ p_1W2kiu99hyG9OwghWbIRJvYK1bDF6935u9piFpdPvYTYvEyPsUulfOx_N5J_43FcDys1lg7pm_LPGF
 }
 
 AWSEntityColoring(Quicksight)
-!define Quicksight(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Quicksight, Quicksight)
-!define Quicksight(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Quicksight, Quicksight)
-!define QuicksightParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Quicksight, Quicksight)
-!define QuicksightParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Quicksight, Quicksight)
+!define QuicksightColor #693CC5
+!define Quicksight(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, QuicksightColor, Quicksight, Quicksight)
+!define Quicksight(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, QuicksightColor, Quicksight, Quicksight)
+!define QuicksightParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, QuicksightColor, Quicksight, Quicksight)
+!define QuicksightParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, QuicksightColor, Quicksight, Quicksight)

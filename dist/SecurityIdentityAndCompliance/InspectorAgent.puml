@@ -13,7 +13,8 @@ apPogMgCNW9uVWYFWbOWPkiiGwH9U0sWdVG6TX8-OBQym2myXj8hpCBZR-0LPk4JfiOxgF1wSRo6TX86
 }
 
 AWSEntityColoring(InspectorAgent)
-!define InspectorAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, InspectorAgent, InspectorAgent)
-!define InspectorAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, InspectorAgent, InspectorAgent)
-!define InspectorAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, InspectorAgent, InspectorAgent)
-!define InspectorAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, InspectorAgent, InspectorAgent)
+!define InspectorAgentColor #D6242D
+!define InspectorAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, InspectorAgentColor, InspectorAgent, InspectorAgent)
+!define InspectorAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, InspectorAgentColor, InspectorAgent, InspectorAgent)
+!define InspectorAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, InspectorAgentColor, InspectorAgent, InspectorAgent)
+!define InspectorAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, InspectorAgentColor, InspectorAgent, InspectorAgent)

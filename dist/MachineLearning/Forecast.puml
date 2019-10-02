@@ -8,7 +8,8 @@ OVR2Xezof4ZzMV58-kzqTVKD
 }
 
 AWSEntityColoring(Forecast)
-!define Forecast(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Forecast, Forecast)
-!define Forecast(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Forecast, Forecast)
-!define ForecastParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Forecast, Forecast)
-!define ForecastParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Forecast, Forecast)
+!define ForecastColor #1C7B68
+!define Forecast(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ForecastColor, Forecast, Forecast)
+!define Forecast(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ForecastColor, Forecast, Forecast)
+!define ForecastParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ForecastColor, Forecast, Forecast)
+!define ForecastParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ForecastColor, Forecast, Forecast)

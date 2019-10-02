@@ -11,7 +11,8 @@ z0cLSFs8lRfdRqUMFcD0Be6gJxaYtiWVOtDk_IfyyysV
 }
 
 AWSEntityColoring(Inspector)
-!define Inspector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Inspector, Inspector)
-!define Inspector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Inspector, Inspector)
-!define InspectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Inspector, Inspector)
-!define InspectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Inspector, Inspector)
+!define InspectorColor #D6242D
+!define Inspector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, InspectorColor, Inspector, Inspector)
+!define Inspector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, InspectorColor, Inspector, Inspector)
+!define InspectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, InspectorColor, Inspector, Inspector)
+!define InspectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, InspectorColor, Inspector, Inspector)

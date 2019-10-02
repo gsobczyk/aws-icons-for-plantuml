@@ -13,7 +13,8 @@ V8NnKrYTF2baTqjvzQK3PPuF2GqexXv9-vaanw3QMrVRbpyYTXwquFw6aFlGqPxjzp_V0G
 }
 
 AWSEntityColoring(RoboMakerDevEnvironment)
-!define RoboMakerDevEnvironment(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
-!define RoboMakerDevEnvironment(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
-!define RoboMakerDevEnvironmentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
-!define RoboMakerDevEnvironmentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironmentColor #D6242D
+!define RoboMakerDevEnvironment(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RoboMakerDevEnvironmentColor, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironment(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RoboMakerDevEnvironmentColor, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironmentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RoboMakerDevEnvironmentColor, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironmentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RoboMakerDevEnvironmentColor, RoboMakerDevEnvironment, RoboMakerDevEnvironment)

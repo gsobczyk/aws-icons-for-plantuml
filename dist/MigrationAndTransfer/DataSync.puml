@@ -8,7 +8,8 @@ o3-uZofet59kdsWYlXd-u2rvvmL6YO3pbhvHX08W7AjSW6Iy9o7KmGMlMO6sqPkr9kXSCGJVw1PN4Zed
 }
 
 AWSEntityColoring(DataSync)
-!define DataSync(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DataSync, DataSync)
-!define DataSync(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSync, DataSync)
-!define DataSyncParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DataSync, DataSync)
-!define DataSyncParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DataSync, DataSync)
+!define DataSyncColor #1C7B68
+!define DataSync(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DataSyncColor, DataSync, DataSync)
+!define DataSync(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DataSyncColor, DataSync, DataSync)
+!define DataSyncParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DataSyncColor, DataSync, DataSync)
+!define DataSyncParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DataSyncColor, DataSync, DataSync)

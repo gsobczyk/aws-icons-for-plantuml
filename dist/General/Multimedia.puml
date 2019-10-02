@@ -10,7 +10,8 @@ _hG-VrkVFwwV__hyUNt-_Y33BwvVLjTFY-ktrVNZv-S_
 }
 
 AWSEntityColoring(Multimedia)
-!define Multimedia(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Multimedia, Multimedia)
-!define Multimedia(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Multimedia, Multimedia)
-!define MultimediaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Multimedia, Multimedia)
-!define MultimediaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Multimedia, Multimedia)
+!define MultimediaColor #232F3E
+!define Multimedia(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MultimediaColor, Multimedia, Multimedia)
+!define Multimedia(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MultimediaColor, Multimedia, Multimedia)
+!define MultimediaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MultimediaColor, Multimedia, Multimedia)
+!define MultimediaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MultimediaColor, Multimedia, Multimedia)

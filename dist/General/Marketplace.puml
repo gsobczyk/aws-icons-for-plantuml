@@ -10,7 +10,8 @@ ajMFptxun1z4RGw7jlj7FGfrsYW0FyHLjH2cbUg8iynDzLgm8t9H-DFuvfiV
 }
 
 AWSEntityColoring(Marketplace)
-!define Marketplace(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Marketplace, Marketplace)
-!define Marketplace(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Marketplace, Marketplace)
-!define MarketplaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Marketplace, Marketplace)
-!define MarketplaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Marketplace, Marketplace)
+!define MarketplaceColor #232F3E
+!define Marketplace(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MarketplaceColor, Marketplace, Marketplace)
+!define Marketplace(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MarketplaceColor, Marketplace, Marketplace)
+!define MarketplaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MarketplaceColor, Marketplace, Marketplace)
+!define MarketplaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MarketplaceColor, Marketplace, Marketplace)

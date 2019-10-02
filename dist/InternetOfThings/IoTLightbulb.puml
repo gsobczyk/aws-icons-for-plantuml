@@ -10,7 +10,8 @@ QVjl_NGMpFEdy-Vvubt-0usmJFco6Fpw6p-rVmfmB5CS40Rxnpo1sJ--txzQjX0BGFcVG3Ia4aI3VXN3
 }
 
 AWSEntityColoring(IoTLightbulb)
-!define IoTLightbulb(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTLightbulb, IoTLightbulb)
-!define IoTLightbulb(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLightbulb, IoTLightbulb)
-!define IoTLightbulbParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTLightbulb, IoTLightbulb)
-!define IoTLightbulbParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulbColor #3F8624
+!define IoTLightbulb(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTLightbulbColor, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulb(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTLightbulbColor, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulbParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTLightbulbColor, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulbParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTLightbulbColor, IoTLightbulb, IoTLightbulb)

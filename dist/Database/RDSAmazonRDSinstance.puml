@@ -13,7 +13,8 @@ QqJwRlxroVkp5m19xVFl7m3FtT-NVv__EEU_-WK
 }
 
 AWSEntityColoring(RDSAmazonRDSinstance)
-!define RDSAmazonRDSinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
-!define RDSAmazonRDSinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
-!define RDSAmazonRDSinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
-!define RDSAmazonRDSinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstanceColor #3B48CC
+!define RDSAmazonRDSinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RDSAmazonRDSinstanceColor, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RDSAmazonRDSinstanceColor, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RDSAmazonRDSinstanceColor, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RDSAmazonRDSinstanceColor, RDSAmazonRDSinstance, RDSAmazonRDSinstance)

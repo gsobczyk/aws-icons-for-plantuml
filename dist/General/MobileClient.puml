@@ -6,7 +6,8 @@ BB_SFpUUQ2gHZreOAaG-Zug_WsS8ylQZ4VSVZTFspJVVVFFDDzzyyrNEFnYTOUYS7nSBjDjF__nOWIhx
 }
 
 AWSEntityColoring(MobileClient)
-!define MobileClient(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, MobileClient, MobileClient)
-!define MobileClient(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, MobileClient, MobileClient)
-!define MobileClientParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, MobileClient, MobileClient)
-!define MobileClientParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, MobileClient, MobileClient)
+!define MobileClientColor #232F3E
+!define MobileClient(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MobileClientColor, MobileClient, MobileClient)
+!define MobileClient(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MobileClientColor, MobileClient, MobileClient)
+!define MobileClientParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MobileClientColor, MobileClient, MobileClient)
+!define MobileClientParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MobileClientColor, MobileClient, MobileClient)

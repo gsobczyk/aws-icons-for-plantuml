@@ -9,7 +9,8 @@ ovlI1Uyz-NIqgkk-0WnTzHjWiA_w34cDViFNoBeF1a1PzP8CE6JPIuHTLhqF_PUzXA3Btflpw-Uljtxz
 }
 
 AWSEntityColoring(IAMDataEncryptionKey)
-!define IAMDataEncryptionKey(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMDataEncryptionKey, IAMDataEncryptionKey)
-!define IAMDataEncryptionKey(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMDataEncryptionKey, IAMDataEncryptionKey)
-!define IAMDataEncryptionKeyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMDataEncryptionKey, IAMDataEncryptionKey)
-!define IAMDataEncryptionKeyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyColor #D6242D
+!define IAMDataEncryptionKey(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKey(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMDataEncryptionKeyColor, IAMDataEncryptionKey, IAMDataEncryptionKey)

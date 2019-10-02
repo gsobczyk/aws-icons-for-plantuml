@@ -10,10 +10,11 @@ Vi9CuGuZhhGp9AKKUsYSMc6OuVmaxIv6zM6nU9_ggzDflj9d0oxjjJu0lhQN-YPM_xrVwHF1Idkjrtlx
 }
 
 AWSEntityColoring(Connect)
-!define Connect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Connect, Connect)
-!define Connect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Connect, Connect)
-!define ConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Connect, Connect)
-!define ConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Connect, Connect)
+!define ConnectColor #3B48CC
+!define Connect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ConnectColor, Connect, Connect)
+!define Connect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ConnectColor, Connect, Connect)
+!define ConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ConnectColor, Connect, Connect)
+!define ConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ConnectColor, Connect, Connect)
 
 sprite $CustomerEngagement [64x64/16z] {
 xTL7TeKm341HIUx6alQ_st3ePOASdlmtebqw6E0LThPnwChXp8aW56iPqE--g3KvUDVX-Q_xbnU-P_45uHfMWqzOBnKe5azw3QsUsnwhc7s0lQJorSU_PFT3
@@ -23,10 +24,11 @@ Cv_3Zk17z0O
 }
 
 AWSEntityColoring(CustomerEngagement)
-!define CustomerEngagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CustomerEngagement, CustomerEngagement)
-!define CustomerEngagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CustomerEngagement, CustomerEngagement)
-!define CustomerEngagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CustomerEngagement, CustomerEngagement)
-!define CustomerEngagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementColor #3B48CC
+!define CustomerEngagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CustomerEngagementColor, CustomerEngagement, CustomerEngagement)
 
 sprite $Pinpoint [64x64/16z] {
 xLPNbiGW39Ff2M3kVziTOgQIdg_T7VsawjcMPQ3yJNpnHOv3k668-GmvQ3oWGph6JhQoN1Xl24u3oAL4gvHBUsAx6ZA_9kDAyG0HC6pIHu8Q-xTGaNaWR6KG
@@ -38,10 +40,11 @@ FumA92zFdLyquFALyvDDbyvl-ThvyM_YYoz-
 }
 
 AWSEntityColoring(Pinpoint)
-!define Pinpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Pinpoint, Pinpoint)
-!define Pinpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Pinpoint, Pinpoint)
-!define PinpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Pinpoint, Pinpoint)
-!define PinpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Pinpoint, Pinpoint)
+!define PinpointColor #3B48CC
+!define Pinpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PinpointColor, Pinpoint, Pinpoint)
+!define Pinpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PinpointColor, Pinpoint, Pinpoint)
+!define PinpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PinpointColor, Pinpoint, Pinpoint)
+!define PinpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PinpointColor, Pinpoint, Pinpoint)
 
 sprite $SESEmail [64x64/16z] {
 xTHLhlGm341XErIqp_vNUo6AHZTIr4pdP_3xLpW1QVD_GYevwOjOoqcT8xt2a_6OzJxFW2qnXBozye08RDg-n27UushrdQaaKPKC-ps_m26o0OTxaHFNErph
@@ -53,10 +56,11 @@ Lh7tWtBpYWyV1-Nc5QCrZq_B3IyuQ1uiXNkJ31x-vQdUN-R-wNLPNvr5vHVF_ta7
 }
 
 AWSEntityColoring(SESEmail)
-!define SESEmail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, SESEmail, SESEmail)
-!define SESEmail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, SESEmail, SESEmail)
-!define SESEmailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, SESEmail, SESEmail)
-!define SESEmailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, SESEmail, SESEmail)
+!define SESEmailColor #3B48CC
+!define SESEmail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SESEmailColor, SESEmail, SESEmail)
+!define SESEmail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SESEmailColor, SESEmail, SESEmail)
+!define SESEmailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SESEmailColor, SESEmail, SESEmail)
+!define SESEmailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SESEmailColor, SESEmail, SESEmail)
 
 sprite $SimpleEmailServiceSES [64x64/16z] {
 xPNfWeGc40O_4514ldh_fys56KrMrzaS_wPsvwOQkhdy__3X0o_-cUojhRMkRJFmKxlN7BKJS-tm4tihGGgfBBzHKf12sU1TlHSfpitikCrHAfstR6fGhEUS
@@ -69,8 +73,9 @@ QlAvVq-AIQhu6MfKo1qV-PkUfJZqHt3lO1_rjw5tu_S0x26jQuVZovy2uF-D3nz-1G
 }
 
 AWSEntityColoring(SimpleEmailServiceSES)
-!define SimpleEmailServiceSES(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, SimpleEmailServiceSES, SimpleEmailServiceSES)
-!define SimpleEmailServiceSES(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, SimpleEmailServiceSES, SimpleEmailServiceSES)
-!define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, SimpleEmailServiceSES, SimpleEmailServiceSES)
-!define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESColor #3B48CC
+!define SimpleEmailServiceSES(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSES(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SimpleEmailServiceSESColor, SimpleEmailServiceSES, SimpleEmailServiceSES)
 

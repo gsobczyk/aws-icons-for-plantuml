@@ -9,7 +9,8 @@ YDwMjB-0sfF33PS7fmbs5nWwUwsrJxMfTS6QFr5GBWd4GIu92Zgl22ewhmWY1ayAif8LWJmhSD73JPv4
 }
 
 AWSEntityColoring(CloudSearch)
-!define CloudSearch(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, CloudSearch, CloudSearch)
-!define CloudSearch(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, CloudSearch, CloudSearch)
-!define CloudSearchParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, CloudSearch, CloudSearch)
-!define CloudSearchParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, CloudSearch, CloudSearch)
+!define CloudSearchColor #693CC5
+!define CloudSearch(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, CloudSearchColor, CloudSearch, CloudSearch)
+!define CloudSearch(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, CloudSearchColor, CloudSearch, CloudSearch)
+!define CloudSearchParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, CloudSearchColor, CloudSearch, CloudSearch)
+!define CloudSearchParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, CloudSearchColor, CloudSearch, CloudSearch)

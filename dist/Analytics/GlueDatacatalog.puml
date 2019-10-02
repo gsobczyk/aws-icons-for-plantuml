@@ -9,7 +9,8 @@ Va_S7v-zlpv_Vtxs_lu3
 }
 
 AWSEntityColoring(GlueDatacatalog)
-!define GlueDatacatalog(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GlueDatacatalog, GlueDatacatalog)
-!define GlueDatacatalog(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GlueDatacatalog, GlueDatacatalog)
-!define GlueDatacatalogParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GlueDatacatalog, GlueDatacatalog)
-!define GlueDatacatalogParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GlueDatacatalog, GlueDatacatalog)
+!define GlueDatacatalogColor #693CC5
+!define GlueDatacatalog(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
+!define GlueDatacatalog(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
+!define GlueDatacatalogParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)
+!define GlueDatacatalogParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, GlueDatacatalogColor, GlueDatacatalog, GlueDatacatalog)

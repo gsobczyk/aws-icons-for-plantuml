@@ -10,10 +10,11 @@ Ye9wlmVSh_qruZzXaWFu8N9uriNyDOEnsKFi3JnMdZvOfzlbjISGg_dodI_WrNm9PM1JIo5rGrIrWdL6
 }
 
 AWSEntityColoring(ApacheMXNetonAWS)
-!define ApacheMXNetonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ApacheMXNetonAWS, ApacheMXNetonAWS)
-!define ApacheMXNetonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ApacheMXNetonAWS, ApacheMXNetonAWS)
-!define ApacheMXNetonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ApacheMXNetonAWS, ApacheMXNetonAWS)
-!define ApacheMXNetonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSColor #1C7B68
+!define ApacheMXNetonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ApacheMXNetonAWSColor, ApacheMXNetonAWS, ApacheMXNetonAWS)
 
 sprite $Comprehend [64x64/16z] {
 xTQ5aYiX48NXGpFOGFTv_wUzGeJP9AIMgPJdArdzqPXznDSNdotbjfS7ofL-noDP6O05eHobFi1ANtYaS7s0bTu6DiJK1pZVC_O1plTZW7FzP81vpvjRpt46
@@ -24,10 +25,11 @@ hwCP0-gi_-7mbqYZ1u12gdCswoqFzt-YEJIoH4XgP4AYJVg6GOyB42KLWMI1qsblTHYBL4P8xRqbeDAc
 }
 
 AWSEntityColoring(Comprehend)
-!define Comprehend(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Comprehend, Comprehend)
-!define Comprehend(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Comprehend, Comprehend)
-!define ComprehendParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Comprehend, Comprehend)
-!define ComprehendParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Comprehend, Comprehend)
+!define ComprehendColor #1C7B68
+!define Comprehend(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ComprehendColor, Comprehend, Comprehend)
+!define Comprehend(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ComprehendColor, Comprehend, Comprehend)
+!define ComprehendParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ComprehendColor, Comprehend, Comprehend)
+!define ComprehendParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ComprehendColor, Comprehend, Comprehend)
 
 sprite $DeepLearningAMIs [64x64/16z] {
 x947Zc0X3CLUW1_W0_7zJxk5RTEPRQfZLOg3PEAVyy470BosUuPrzn4ytOsnTuzmcwIoY8SmagGqEEf3ybQKWuSiqzKksUJa5zt0fHuFSLMWoJdeOIa8XcGF
@@ -38,10 +40,11 @@ yEEigm7z__YVswrl8u1X60Y2C-Y_Q8MYTvlY6w35ty7-uVxm_Vp_-F_r-V7vzVxm_lB-xFixxlkxv4Sy
 }
 
 AWSEntityColoring(DeepLearningAMIs)
-!define DeepLearningAMIs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
-!define DeepLearningAMIs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
-!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
-!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIsColor #1C7B68
+!define DeepLearningAMIs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeepLearningAMIsColor, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeepLearningAMIsColor, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeepLearningAMIsColor, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeepLearningAMIsColor, DeepLearningAMIs, DeepLearningAMIs)
 
 sprite $DeepLearningContainers [64x64/16z] {
 xTHdiYCX30JWHcGGwllVTXSy6_qmy_pRdtDGIMggXl_u-FWeyQ7pBHqNCRuZe8ufel9Rh4yLdej2-gHsk_7oQ9ipuz-Vpnea_vGGLmZEHbvkvc0UdPD7emaQ
@@ -52,10 +55,11 @@ wybuLHvF0IU8xeOF2EVpIN1VPz1bTZyhGEZFpHEGZNTe07nHun-Q7QJnhXO0I2ojgsgloL-Ng_kqUFmb
 }
 
 AWSEntityColoring(DeepLearningContainers)
-!define DeepLearningContainers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepLearningContainers, DeepLearningContainers)
-!define DeepLearningContainers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepLearningContainers, DeepLearningContainers)
-!define DeepLearningContainersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepLearningContainers, DeepLearningContainers)
-!define DeepLearningContainersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainersColor #1C7B68
+!define DeepLearningContainers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeepLearningContainersColor, DeepLearningContainers, DeepLearningContainers)
 
 sprite $DeepLens [64x64/16z] {
 xPHdeguW44F320eu9FlVxVFYwtsuvPVdAzP33tnx7XxqXPVJUHNJlTrqZkRihRaYUiKNs56LWEi_K3jIRJUVwwy9hl_sJnpw33__3fmHl-gN7eNyG_VPnNro
@@ -66,10 +70,11 @@ StaR327zy2_npNbu-0G
 }
 
 AWSEntityColoring(DeepLens)
-!define DeepLens(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepLens, DeepLens)
-!define DeepLens(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepLens, DeepLens)
-!define DeepLensParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepLens, DeepLens)
-!define DeepLensParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepLens, DeepLens)
+!define DeepLensColor #1C7B68
+!define DeepLens(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeepLensColor, DeepLens, DeepLens)
+!define DeepLens(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeepLensColor, DeepLens, DeepLens)
+!define DeepLensParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeepLensColor, DeepLens, DeepLens)
+!define DeepLensParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeepLensColor, DeepLens, DeepLens)
 
 sprite $DeepRacer [64x64/16z] {
 xPI7hcix24GNk3Vu_xzziR9FYkvrNbVDKjjjOCZW-F_4bozVljYwOUR_XDLo403HcDly2qLQUI41Q8Wng024CURoZmHUqJAM-Gspo1t97okCtllOLD1kJr-W
@@ -81,10 +86,11 @@ sHhqUxk5h1L9dLUaf-F-PpH0UzwA4Cr7oHU1JR23th8Gn-kj5lCNkeY4QdvahVU2vk_OCl-F-FBbovS_
 }
 
 AWSEntityColoring(DeepRacer)
-!define DeepRacer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepRacer, DeepRacer)
-!define DeepRacer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepRacer, DeepRacer)
-!define DeepRacerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepRacer, DeepRacer)
-!define DeepRacerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepRacer, DeepRacer)
+!define DeepRacerColor #1C7B68
+!define DeepRacer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, DeepRacerColor, DeepRacer, DeepRacer)
+!define DeepRacer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, DeepRacerColor, DeepRacer, DeepRacer)
+!define DeepRacerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, DeepRacerColor, DeepRacer, DeepRacer)
+!define DeepRacerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, DeepRacerColor, DeepRacer, DeepRacer)
 
 sprite $ElasticInference [64x64/16z] {
 xTO5pkjM48RXxv0Fpxl_tROUMKafTcu5nH7y-5WQZEtl6F_7_m6lx_uKDzmP6FomPgIyJeUrU6puCRsB95M3cII53Z_0hGMbsODYFwIogfGNVAcPIQ4Px4DI
@@ -98,10 +104,11 @@ MLG7BwjKo1hO_H6MoW8OAYbOK-7YBMbvYHxU7rIlQtieaxI1BYdJLKt9U7m9YAC5nJbrM53vEUIjMyh4
 }
 
 AWSEntityColoring(ElasticInference)
-!define ElasticInference(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ElasticInference, ElasticInference)
-!define ElasticInference(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ElasticInference, ElasticInference)
-!define ElasticInferenceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ElasticInference, ElasticInference)
-!define ElasticInferenceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ElasticInference, ElasticInference)
+!define ElasticInferenceColor #1C7B68
+!define ElasticInference(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ElasticInferenceColor, ElasticInference, ElasticInference)
+!define ElasticInference(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ElasticInferenceColor, ElasticInference, ElasticInference)
+!define ElasticInferenceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ElasticInferenceColor, ElasticInference, ElasticInference)
+!define ElasticInferenceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ElasticInferenceColor, ElasticInference, ElasticInference)
 
 sprite $Forecast [64x64/16z] {
 xT07rfuW48NXom1AdRl_tUO0V_kQYkc9xodMXwR_KLTN9Aa_9-wagimYLYAVyfetgspU00ZFVS1ciNd6BU-MZJAL381xxHEtqmKcPucl_Ak3AMyvIA6s9ZnL
@@ -111,10 +118,11 @@ OVR2Xezof4ZzMV58-kzqTVKD
 }
 
 AWSEntityColoring(Forecast)
-!define Forecast(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Forecast, Forecast)
-!define Forecast(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Forecast, Forecast)
-!define ForecastParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Forecast, Forecast)
-!define ForecastParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Forecast, Forecast)
+!define ForecastColor #1C7B68
+!define Forecast(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, ForecastColor, Forecast, Forecast)
+!define Forecast(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, ForecastColor, Forecast, Forecast)
+!define ForecastParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, ForecastColor, Forecast, Forecast)
+!define ForecastParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, ForecastColor, Forecast, Forecast)
 
 sprite $Lex [64x64/16z] {
 xTH7igmu04JHb45UcVlVRQjCVC600D5lMASivkA1V-FdH-TkvIsVARToWrD1rtt6bauOopjzrWbxjsS_83_VvcxVSP1aWQ25tXyK1U_pGayTKGCN-cbQwBlx
@@ -125,10 +133,11 @@ AZbxTOCWZvgGkyDssLCwza2IDxqWqSDVzyFiXsGmOi3q35lNUqKa5H_QF7vhVS2McbIZHNtI9mnf0s3Q
 }
 
 AWSEntityColoring(Lex)
-!define Lex(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Lex, Lex)
-!define Lex(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Lex, Lex)
-!define LexParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Lex, Lex)
-!define LexParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Lex, Lex)
+!define LexColor #1C7B68
+!define Lex(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, LexColor, Lex, Lex)
+!define Lex(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, LexColor, Lex, Lex)
+!define LexParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, LexColor, Lex, Lex)
+!define LexParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, LexColor, Lex, Lex)
 
 sprite $MachineLearning [64x64/16z] {
 xTO74iCe38LX2IF05FttF-qMZRERQJ7EzlBIopU8EXRvFohwHKH_zLyblRYAdUrPplRcavmypH8vz1VVy6Vvs_l_FS3r-et7gqrmxzs1XnvwEhAs-AEMuJpn
@@ -140,10 +149,11 @@ JTAC_LTC2gibAPi-0kEGSgeszw95nIQ-woEnXsq1KxGky6VUOSrGFaC_yf6NWZ_s-kT__zkl_zVJp3Ul
 }
 
 AWSEntityColoring(MachineLearning)
-!define MachineLearning(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, MachineLearning, MachineLearning)
-!define MachineLearning(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MachineLearning, MachineLearning)
-!define MachineLearningParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, MachineLearning, MachineLearning)
-!define MachineLearningParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, MachineLearning, MachineLearning)
+!define MachineLearningColor #1C7B68
+!define MachineLearning(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearning(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearningParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, MachineLearningColor, MachineLearning, MachineLearning)
+!define MachineLearningParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, MachineLearningColor, MachineLearning, MachineLearning)
 
 sprite $Personalize [64x64/16z] {
 xLO7TYiX31mXUj7U_xR_BKXEN_RtbadSC3Eeu-DFnIS-8Tz7xov_7v_mFG8o4hvPG6eW070p1aE-abqSG861EZypvQzHQ0o49XreIou2hjscPo3qIQksD2AG
@@ -155,10 +165,11 @@ WSfn7oF1YT9TOe3YEBuAe-lGimny6p8GD0FVAa3j-1uKrxxtH-oVYazyuWi
 }
 
 AWSEntityColoring(Personalize)
-!define Personalize(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Personalize, Personalize)
-!define Personalize(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Personalize, Personalize)
-!define PersonalizeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Personalize, Personalize)
-!define PersonalizeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Personalize, Personalize)
+!define PersonalizeColor #1C7B68
+!define Personalize(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PersonalizeColor, Personalize, Personalize)
+!define Personalize(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PersonalizeColor, Personalize, Personalize)
+!define PersonalizeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PersonalizeColor, Personalize, Personalize)
+!define PersonalizeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PersonalizeColor, Personalize, Personalize)
 
 sprite $Polly [64x64/16z] {
 xTG5UiD034JXMV2YfBd_RMlODF25o_0NWazcyrluzy_Q4UE36euaFgWYbfqQ7n_GKFWgmo6zeK-e0UajVRU0z9QU6f3Uqcy3tj2F0S_rFimya9_ggniGdkff
@@ -169,10 +180,11 @@ _KTVxrl_YdAo_qQVBk-_aAQTfeYdnw-NfVHGdjLn83D0pfq_7P4No05bHJft_aOqtiKy-hcL3BnJXrEU
 }
 
 AWSEntityColoring(Polly)
-!define Polly(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Polly, Polly)
-!define Polly(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Polly, Polly)
-!define PollyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Polly, Polly)
-!define PollyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Polly, Polly)
+!define PollyColor #1C7B68
+!define Polly(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, PollyColor, Polly, Polly)
+!define Polly(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, PollyColor, Polly, Polly)
+!define PollyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, PollyColor, Polly, Polly)
+!define PollyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, PollyColor, Polly, Polly)
 
 sprite $Rekognition [64x64/16z] {
 xPDNjkGm24GBb0De_xkTWwn-ViaQT_zCh0_d2qKTF7vN_TT_gRHQIkto2Ymb49PSwi_YZG3sAPUSWhCIzSdsBdKzlNZ0F-T1F_dnG7u-mDxQmqObXAVW6XWc
@@ -185,10 +197,11 @@ jldiOf7nK_Nf_yJFrH_t544f4U9uKHe188tNrMkLyUVel_xh1m
 }
 
 AWSEntityColoring(Rekognition)
-!define Rekognition(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Rekognition, Rekognition)
-!define Rekognition(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Rekognition, Rekognition)
-!define RekognitionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Rekognition, Rekognition)
-!define RekognitionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Rekognition, Rekognition)
+!define RekognitionColor #1C7B68
+!define Rekognition(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RekognitionColor, Rekognition, Rekognition)
+!define Rekognition(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RekognitionColor, Rekognition, Rekognition)
+!define RekognitionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RekognitionColor, Rekognition, Rekognition)
+!define RekognitionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RekognitionColor, Rekognition, Rekognition)
 
 sprite $RekognitionImage [64x64/16z] {
 fPU9alGW28J7soZ2-x_jNr9jnjBntpbwxuqVWSPGvd6MIuLOkhZLvCtZ4_ch2GHn2M-7C80RbIuQVsRxPW0IeHoUgwtFf4baysRwRlSZjnuXFhwMYJr2CJz4
@@ -203,10 +216,11 @@ EdFR44jJ8-CIL8JssaqaWV5KQwNH1efRKYXdiyxbTGHHNam1Nq_Esv1BRLrKy2wtgucu7NzV4QzJuJiS
 }
 
 AWSEntityColoring(RekognitionImage)
-!define RekognitionImage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, RekognitionImage, RekognitionImage)
-!define RekognitionImage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, RekognitionImage, RekognitionImage)
-!define RekognitionImageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, RekognitionImage, RekognitionImage)
-!define RekognitionImageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, RekognitionImage, RekognitionImage)
+!define RekognitionImageColor #1C7B68
+!define RekognitionImage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RekognitionImageColor, RekognitionImage, RekognitionImage)
+!define RekognitionImage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RekognitionImageColor, RekognitionImage, RekognitionImage)
+!define RekognitionImageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RekognitionImageColor, RekognitionImage, RekognitionImage)
+!define RekognitionImageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RekognitionImageColor, RekognitionImage, RekognitionImage)
 
 sprite $RekognitionVideo [64x64/16z] {
 fPS7Sgmm44IL4Khl_hVznReBgn3yjRtjRF66dXwYUPRVIXiS6hrkmPhVAEmTIHeb_hY45TnRETIw_ipE_4mDMexVMxkG6y38zeVs_Pf7xi18vi-ogGF5Vb0X
@@ -221,10 +235,11 @@ BXIe2owvc4ljXrhHkzog3dx5Vwwarwdu9rnFghKq_eWRM_bIDdzKQa0DVuF_0G
 }
 
 AWSEntityColoring(RekognitionVideo)
-!define RekognitionVideo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, RekognitionVideo, RekognitionVideo)
-!define RekognitionVideo(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, RekognitionVideo, RekognitionVideo)
-!define RekognitionVideoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, RekognitionVideo, RekognitionVideo)
-!define RekognitionVideoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoColor #1C7B68
+!define RekognitionVideo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideo(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, RekognitionVideoColor, RekognitionVideo, RekognitionVideo)
 
 sprite $SageMaker [64x64/16z] {
 xPQ7akqe34GRi8q9rld_lzszmgxoIooRNgNHpCqSOhUG_H_n5Ly1_EJjEjrp7HZKVC7Vm-qCqju1hbqAfx5EGqiAENsmJqSf1wK6g_Hr-DYEUYVqNJhM5e6L
@@ -237,10 +252,11 @@ t_BL3y3UvxTqVzjezVblJEk7UVsYVLA__3_rqthzjbu_NW1zKZ-krgyTVblzl1vVyHL_
 }
 
 AWSEntityColoring(SageMaker)
-!define SageMaker(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMaker, SageMaker)
-!define SageMaker(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMaker, SageMaker)
-!define SageMakerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMaker, SageMaker)
-!define SageMakerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMaker, SageMaker)
+!define SageMakerColor #1C7B68
+!define SageMaker(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SageMakerColor, SageMaker, SageMaker)
+!define SageMaker(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SageMakerColor, SageMaker, SageMaker)
+!define SageMakerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SageMakerColor, SageMaker, SageMaker)
+!define SageMakerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SageMakerColor, SageMaker, SageMaker)
 
 sprite $SageMakerGroundTruth [64x64/16z] {
 xTPNcgim343Xumh2jhJ_tTvSum_I2VCsvRnCINwgAFOZ--ilcTLwEijvNIE4OfTAW5ZFQPqW9aYj9KWH9Zt15u-JlcRd-bQ8mozdDZtfkkSmhxzbIFMG3kCG
@@ -252,10 +268,11 @@ MTyzhjVtVxmJV5BBi6HA3gDKoCi-syULf9bwFLHPKx4ptNixMKRAbdp5NtVUr-ccQZ-ml_xw1m
 }
 
 AWSEntityColoring(SageMakerGroundTruth)
-!define SageMakerGroundTruth(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
-!define SageMakerGroundTruth(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
-!define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
-!define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthColor #1C7B68
+!define SageMakerGroundTruth(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruth(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SageMakerGroundTruthColor, SageMakerGroundTruth, SageMakerGroundTruth)
 
 sprite $SageMakerModel [64x64/16z] {
 pPU9mkee34O3XAq4llT_sxd0jCXFAphhFUxQmquCz7kYWwCNND1VwG50CkSdam3upsqMDAAgdrH4G_Z3fXy0Yc_FZiWL0CdNvqFJdkjAcm580f3jLUg-wQEb
@@ -269,10 +286,11 @@ wWoWcDMdCt_SvA_Anw3fnkSbVztdpzrVy-SLzPI_Tx_dx_hxyqFrnq_Vd5zIZmmPUMxQ_loKnldfvD3_
 }
 
 AWSEntityColoring(SageMakerModel)
-!define SageMakerModel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerModel, SageMakerModel)
-!define SageMakerModel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerModel, SageMakerModel)
-!define SageMakerModelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerModel, SageMakerModel)
-!define SageMakerModelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerModel, SageMakerModel)
+!define SageMakerModelColor #1C7B68
+!define SageMakerModel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SageMakerModelColor, SageMakerModel, SageMakerModel)
+!define SageMakerModel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SageMakerModelColor, SageMakerModel, SageMakerModel)
+!define SageMakerModelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SageMakerModelColor, SageMakerModel, SageMakerModel)
+!define SageMakerModelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SageMakerModelColor, SageMakerModel, SageMakerModel)
 
 sprite $SageMakerNotebook [64x64/16z] {
 vPTL0eCm40KRhsGtzxzjSOtZC1_umoRwEWyaZLbUeua7aKtpO9AmvF4TYxRczIiMTR8yPOmL-M99ctq7jC_R_ttr3iIf4knv75z0tDxjUQcKGeF5KjRdNKZV
@@ -281,10 +299,11 @@ btm7V9xbxu3yelvtsdyixR-MzfzB--zd-kl7RrVqru-Vb_kxR7xv_2a9jdZ-k7p-UZn_
 }
 
 AWSEntityColoring(SageMakerNotebook)
-!define SageMakerNotebook(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerNotebook, SageMakerNotebook)
-!define SageMakerNotebook(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerNotebook, SageMakerNotebook)
-!define SageMakerNotebookParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerNotebook, SageMakerNotebook)
-!define SageMakerNotebookParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebookColor #1C7B68
+!define SageMakerNotebook(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebook(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebookParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebookParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SageMakerNotebookColor, SageMakerNotebook, SageMakerNotebook)
 
 sprite $SageMakerTrain [64x64/16z] {
 xPK7qgOW44I50K5It_-qc_YcM6mjzA-uuLLKUJrajx-Q_qX8fRPQqcw_OFk2GVPlQsVyfEQKQq-GD_hUY_P-spq3mFvSZrfmwavugWUknk_kSG3yvP3aYMwg
@@ -295,10 +314,11 @@ KsJINGMg71em-LREk0hWiADX-Ynbqe3XNs9-2iZ1YuYF1UY-1f3F-3eF9qy1x3C-jTz_dnH0Fc7S7aBG
 }
 
 AWSEntityColoring(SageMakerTrain)
-!define SageMakerTrain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerTrain, SageMakerTrain)
-!define SageMakerTrain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerTrain, SageMakerTrain)
-!define SageMakerTrainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerTrain, SageMakerTrain)
-!define SageMakerTrainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerTrain, SageMakerTrain)
+!define SageMakerTrainColor #1C7B68
+!define SageMakerTrain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SageMakerTrainColor, SageMakerTrain, SageMakerTrain)
+!define SageMakerTrain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SageMakerTrainColor, SageMakerTrain, SageMakerTrain)
+!define SageMakerTrainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SageMakerTrainColor, SageMakerTrain, SageMakerTrain)
+!define SageMakerTrainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SageMakerTrainColor, SageMakerTrain, SageMakerTrain)
 
 sprite $TensorFlowonAWS [64x64/16z] {
 xPQ7hkGw28P_m77i4CFxF-szMu94jCuSpr7P-gbC_QXf_gloZt_O-89zpXrz4m80ajh7cx8T1G1n-G83G3dUqJi3qawxWcaJW9SZZ0BKqs-S6r3MkZW89Up4
@@ -309,10 +329,11 @@ Ye9wlmVSh_qruZzXaWFu8N9uriNyDOEnsKFi3JnMdZvOfzlbjISGg_dodI_WrNm9PM1JIo5rGrIrWdL6
 }
 
 AWSEntityColoring(TensorFlowonAWS)
-!define TensorFlowonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
-!define TensorFlowonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
-!define TensorFlowonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
-!define TensorFlowonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSColor #1C7B68
+!define TensorFlowonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TensorFlowonAWSColor, TensorFlowonAWS, TensorFlowonAWS)
 
 sprite $Textract [64x64/16z] {
 xTL5mZCv38JXajcofBh_RUSFV1HqpphFBl0s6kAHZuyFFd0aztLBZGVwZdk3tCtPizzgwEHURhsM_jS83jJWLZ-GRiYfLMJdJj_bzfi9rE2IPDph-TUKYHgq
@@ -324,10 +345,11 @@ zKGmTl2fkFZu-FWF
 }
 
 AWSEntityColoring(Textract)
-!define Textract(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Textract, Textract)
-!define Textract(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Textract, Textract)
-!define TextractParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Textract, Textract)
-!define TextractParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Textract, Textract)
+!define TextractColor #1C7B68
+!define Textract(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TextractColor, Textract, Textract)
+!define Textract(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TextractColor, Textract, Textract)
+!define TextractParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TextractColor, Textract, Textract)
+!define TextractParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TextractColor, Textract, Textract)
 
 sprite $Transcribe [64x64/16z] {
 xTO5ajmm58JX5jDJz_rlcngNQdSWtiXX-eVXCnD_JF_xdrwwnjdROwPBlkCfDtJ5DyHwtyK1gAFgBherW2kURuakj9S1NFDgmD0bhzNXjGQmxpNBKPCEhpKB
@@ -339,10 +361,11 @@ Zbpi5FUI0JUz9hpLsiQKhbmk7PgtjE9-Ob_wAvF4dzl__lS9
 }
 
 AWSEntityColoring(Transcribe)
-!define Transcribe(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Transcribe, Transcribe)
-!define Transcribe(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Transcribe, Transcribe)
-!define TranscribeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Transcribe, Transcribe)
-!define TranscribeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Transcribe, Transcribe)
+!define TranscribeColor #1C7B68
+!define Transcribe(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TranscribeColor, Transcribe, Transcribe)
+!define Transcribe(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TranscribeColor, Transcribe, Transcribe)
+!define TranscribeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TranscribeColor, Transcribe, Transcribe)
+!define TranscribeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TranscribeColor, Transcribe, Transcribe)
 
 sprite $Translate [64x64/16z] {
 xTHNOgGw58JXKiwdzh_Rsm9Xm06VEpEF_Jjru2ivox_gtJlUkZseyhMSLU7vO1sA0JPSSsl0u9N9r7XVZk8siCxF4KXK-CIZ1hC6EEi6dHf_tAv8SGtCM93-
@@ -354,8 +377,9 @@ fxz__odhFPT_7l3evEafA-tFFw7SpZ_J-GxJEPl-diRFGn1pAL8HogUymWkpmIjf-9h62qSjfOhKygKg
 }
 
 AWSEntityColoring(Translate)
-!define Translate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Translate, Translate)
-!define Translate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Translate, Translate)
-!define TranslateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Translate, Translate)
-!define TranslateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Translate, Translate)
+!define TranslateColor #1C7B68
+!define Translate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, TranslateColor, Translate, Translate)
+!define Translate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, TranslateColor, Translate, Translate)
+!define TranslateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, TranslateColor, Translate, Translate)
+!define TranslateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, TranslateColor, Translate, Translate)
 

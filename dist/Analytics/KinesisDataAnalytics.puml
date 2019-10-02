@@ -10,7 +10,8 @@ zZtZYpud1Av1IdtPFvxVWTIdVeHqlS4qwbDVT_UNH7tgio2olmkeN_qnVimG6d-zVeRlq1O_mef3ck35
 }
 
 AWSEntityColoring(KinesisDataAnalytics)
-!define KinesisDataAnalytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
-!define KinesisDataAnalytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
-!define KinesisDataAnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
-!define KinesisDataAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
+!define KinesisDataAnalyticsColor #693CC5
+!define KinesisDataAnalytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, KinesisDataAnalyticsColor, KinesisDataAnalytics, KinesisDataAnalytics)
+!define KinesisDataAnalytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, KinesisDataAnalyticsColor, KinesisDataAnalytics, KinesisDataAnalytics)
+!define KinesisDataAnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, KinesisDataAnalyticsColor, KinesisDataAnalytics, KinesisDataAnalytics)
+!define KinesisDataAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, KinesisDataAnalyticsColor, KinesisDataAnalytics, KinesisDataAnalytics)

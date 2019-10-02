@@ -9,7 +9,8 @@ r_Nhf_gDv_ebsTK_SkmVssMorQx-3Htzspy_ykty69zVu_DpV7wFxu_n_UMCi9lzERQ_i_UG1-w7eVjb
 }
 
 AWSEntityColoring(SQS)
-!define SQS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SQS, SQS)
-!define SQS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SQS, SQS)
-!define SQSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SQS, SQS)
-!define SQSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SQS, SQS)
+!define SQSColor #CC2264
+!define SQS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, SQSColor, SQS, SQS)
+!define SQS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, SQSColor, SQS, SQS)
+!define SQSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, SQSColor, SQS, SQS)
+!define SQSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, SQSColor, SQS, SQS)

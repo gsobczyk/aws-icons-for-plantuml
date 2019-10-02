@@ -9,7 +9,8 @@ _N1__IJrcqtV0q6f7ui1fNwyhtvbrf0Q05gRWTeZjwWjvAiKrZlgzzz_Vx6_lzt__lZz_04
 }
 
 AWSEntityColoring(IoTGeneric)
-!define IoTGeneric(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTGeneric, IoTGeneric)
-!define IoTGeneric(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGeneric, IoTGeneric)
-!define IoTGenericParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTGeneric, IoTGeneric)
-!define IoTGenericParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTGeneric, IoTGeneric)
+!define IoTGenericColor #3F8624
+!define IoTGeneric(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IoTGenericColor, IoTGeneric, IoTGeneric)
+!define IoTGeneric(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IoTGenericColor, IoTGeneric, IoTGeneric)
+!define IoTGenericParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IoTGenericColor, IoTGeneric, IoTGeneric)
+!define IoTGenericParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IoTGenericColor, IoTGeneric, IoTGeneric)

@@ -7,7 +7,8 @@ LZ6V_pbPuHmDECzCsfNEBzx9UPchwVLtMEMcmAKBXyef1OcxYCQBYimf-MsWTBilB_KDVlIQuoQrfFCz
 }
 
 AWSEntityColoring(Outposts)
-!define Outposts(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Outposts, Outposts)
-!define Outposts(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Outposts, Outposts)
-!define OutpostsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Outposts, Outposts)
-!define OutpostsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Outposts, Outposts)
+!define OutpostsColor #D86613
+!define Outposts(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, OutpostsColor, Outposts, Outposts)
+!define Outposts(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, OutpostsColor, Outposts, Outposts)
+!define OutpostsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, OutpostsColor, Outposts, Outposts)
+!define OutpostsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, OutpostsColor, Outposts, Outposts)

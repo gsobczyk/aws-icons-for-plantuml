@@ -6,7 +6,8 @@ xT0tbiL024HHQEzh_xkTM0urvoiRRlw2AleQEm6_vXsYJhAA5rNC4x2oO059oFq20Wa2i3mzuG5a4cLW
 }
 
 AWSEntityColoring(EBSVolume)
-!define EBSVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EBSVolume, EBSVolume)
-!define EBSVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSVolume, EBSVolume)
-!define EBSVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EBSVolume, EBSVolume)
-!define EBSVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EBSVolume, EBSVolume)
+!define EBSVolumeColor #3F8624
+!define EBSVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EBSVolumeColor, EBSVolume, EBSVolume)
+!define EBSVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EBSVolumeColor, EBSVolume, EBSVolume)
+!define EBSVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EBSVolumeColor, EBSVolume, EBSVolume)
+!define EBSVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EBSVolumeColor, EBSVolume, EBSVolume)

@@ -8,7 +8,8 @@ bNq_STRd3y-yzVbnzlzzF8mLUvyW4vpv_TrBFcYqzigJp_dzyjqR_Tntgthe1LSSUxbY_l_u4Ar2y88d
 }
 
 AWSEntityColoring(EndUserComputing)
-!define EndUserComputing(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, EndUserComputing, EndUserComputing)
-!define EndUserComputing(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, EndUserComputing, EndUserComputing)
-!define EndUserComputingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, EndUserComputing, EndUserComputing)
-!define EndUserComputingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, EndUserComputing, EndUserComputing)
+!define EndUserComputingColor #1C7B68
+!define EndUserComputing(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, EndUserComputingColor, EndUserComputing, EndUserComputing)
+!define EndUserComputing(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, EndUserComputingColor, EndUserComputing, EndUserComputing)
+!define EndUserComputingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, EndUserComputingColor, EndUserComputing, EndUserComputing)
+!define EndUserComputingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, EndUserComputingColor, EndUserComputing, EndUserComputing)

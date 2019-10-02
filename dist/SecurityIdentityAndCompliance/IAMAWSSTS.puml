@@ -9,7 +9,8 @@ xVdJnfJErlD8aelUGrk_6MOjo57dFYjthj_PgLxkPjMxvBeFCExTF_xT-xz2amlQeSYxlGxeJavyXovl
 }
 
 AWSEntityColoring(IAMAWSSTS)
-!define IAMAWSSTS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMAWSSTS, IAMAWSSTS)
-!define IAMAWSSTS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMAWSSTS, IAMAWSSTS)
-!define IAMAWSSTSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMAWSSTS, IAMAWSSTS)
-!define IAMAWSSTSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMAWSSTS, IAMAWSSTS)
+!define IAMAWSSTSColor #D6242D
+!define IAMAWSSTS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, IAMAWSSTSColor, IAMAWSSTS, IAMAWSSTS)
+!define IAMAWSSTS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, IAMAWSSTSColor, IAMAWSSTS, IAMAWSSTS)
+!define IAMAWSSTSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, IAMAWSSTSColor, IAMAWSSTS, IAMAWSSTS)
+!define IAMAWSSTSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, IAMAWSSTSColor, IAMAWSSTS, IAMAWSSTS)

@@ -9,7 +9,8 @@ AZbxTOCWZvgGkyDssLCwza2IDxqWqSDVzyFiXsGmOi3q35lNUqKa5H_QF7vhVS2McbIZHNtI9mnf0s3Q
 }
 
 AWSEntityColoring(Lex)
-!define Lex(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Lex, Lex)
-!define Lex(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Lex, Lex)
-!define LexParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Lex, Lex)
-!define LexParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Lex, Lex)
+!define LexColor #1C7B68
+!define Lex(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, LexColor, Lex, Lex)
+!define Lex(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, LexColor, Lex, Lex)
+!define LexParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, LexColor, Lex, Lex)
+!define LexParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, LexColor, Lex, Lex)

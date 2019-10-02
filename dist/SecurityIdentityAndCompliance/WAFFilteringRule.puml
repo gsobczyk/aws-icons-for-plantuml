@@ -11,7 +11,8 @@ LsqKFJ_mymlc8_MnvxFpo-VpKyU6wTdvQU7yrawfAZj-VbiuFxhZy6RX_BXnVjq_F--Vt_Vl3_ltb_tx
 }
 
 AWSEntityColoring(WAFFilteringRule)
-!define WAFFilteringRule(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, WAFFilteringRule, WAFFilteringRule)
-!define WAFFilteringRule(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, WAFFilteringRule, WAFFilteringRule)
-!define WAFFilteringRuleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, WAFFilteringRule, WAFFilteringRule)
-!define WAFFilteringRuleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, WAFFilteringRule, WAFFilteringRule)
+!define WAFFilteringRuleColor #D6242D
+!define WAFFilteringRule(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, WAFFilteringRuleColor, WAFFilteringRule, WAFFilteringRule)
+!define WAFFilteringRule(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, WAFFilteringRuleColor, WAFFilteringRule, WAFFilteringRule)
+!define WAFFilteringRuleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, WAFFilteringRuleColor, WAFFilteringRule, WAFFilteringRule)
+!define WAFFilteringRuleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, WAFFilteringRuleColor, WAFFilteringRule, WAFFilteringRule)
