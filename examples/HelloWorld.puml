@@ -9,7 +9,9 @@
 
 actor "Person" as personAlias
 WorkDocs(desktopAlias, "Label", "Technology", "Optional Description")
-SimpleStorageServiceS3(storageAlias, "Label", "Technology", "Optional Description")
+Route53Boundary(dns, "DNS") {
+  SimpleStorageServiceS3(storageAlias, "Label", "Technology", "Optional Description")
+}
 
 personAlias --> desktopAlias
 desktopAlias --> storageAlias

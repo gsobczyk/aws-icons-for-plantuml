@@ -91,7 +91,9 @@ This is the [`examples/HelloWorld.puml`](<examples/HelloWorld.puml>) diagram cod
 
 actor "Person" as personAlias
 WorkDocs(desktopAlias, "Label", "Technology", "Optional Description")
-SimpleStorageServiceS3(storageAlias, "Label", "Technology", "Optional Description")
+Route53Boundary(dns, "DNS") {
+  SimpleStorageServiceS3(storageAlias, "Label", "Technology", "Optional Description")
+}
 
 personAlias --> desktopAlias
 desktopAlias --> storageAlias
@@ -193,11 +195,13 @@ In some cases, PlantUML diagrams may contain too much information, but are still
 left to right direction
 
 Users(sources, "Events", "millions of users")
-APIGateway(votingAPI, "Voting API", "user votes")
-Cognito(userAuth, "User Authentication", "jwt to submit votes")
-Lambda(generateToken, "User Credentials", "return jwt")
-Lambda(recordVote, "Record Vote", "enter or update vote per user")
-DynamoDB(voteDb, "Vote Database", "one entry per user")
+VPCSubnetPublic(vpc, "VPC") {
+  APIGateway(votingAPI, "Voting API", "user votes")
+  Cognito(userAuth, "User Authentication", "jwt to submit votes")
+  Lambda(generateToken, "User Credentials", "return jwt")
+  Lambda(recordVote, "Record Vote", "enter or update vote per user")
+  DynamoDB(voteDb, "Vote Database", "one entry per user")
+}
 
 sources --> userAuth
 sources --> votingAPI
