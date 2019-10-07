@@ -6,6 +6,7 @@
 !include AWSPuml/AWSCommon.puml
 !include AWSPuml/EndUserComputing/all.puml
 !include AWSPuml/Storage/SimpleStorageServiceS3.puml
+!include AWSPuml/NetworkingAndContentDelivery/Route53.puml
 
 actor "Person" as personAlias
 WorkDocs(desktopAlias, "Label", "Technology", "Optional Description")

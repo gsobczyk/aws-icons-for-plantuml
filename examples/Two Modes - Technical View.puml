@@ -13,10 +13,11 @@
 !include AWSPuml/SecurityIdentityAndCompliance/Cognito.puml
 !include AWSPuml/Compute/Lambda.puml
 !include AWSPuml/Database/DynamoDB.puml
+!include AWSPuml/GroupIcons/VPCSubnetPublic.puml
 
 left to right direction
 
-VPCSubnetPublic(vpc, "VPC") {
+VPCSubnetPublicBoundary(vpc, "VPC") {
   APIGateway(votingAPI, "Voting API", "user votes")
   Cognito(userAuth, "User Authentication", "jwt to submit votes")
   Lambda(generateToken, "User Credentials", "return jwt")

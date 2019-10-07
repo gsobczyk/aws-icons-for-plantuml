@@ -88,6 +88,7 @@ This is the [`examples/HelloWorld.puml`](<examples/HelloWorld.puml>) diagram cod
 !include AWSPuml/AWSCommon.puml
 !include AWSPuml/EndUserComputing/all.puml
 !include AWSPuml/Storage/SimpleStorageServiceS3.puml
+!include AWSPuml/NetworkingAndContentDelivery/Route53.puml
 
 actor "Person" as personAlias
 WorkDocs(desktopAlias, "Label", "Technology", "Optional Description")
@@ -191,11 +192,12 @@ In some cases, PlantUML diagrams may contain too much information, but are still
 !include AWSPuml/SecurityIdentityAndCompliance/Cognito.puml
 !include AWSPuml/Compute/Lambda.puml
 !include AWSPuml/Database/DynamoDB.puml
+!include AWSPuml/GroupIcons/VPCSubnetPublic.puml
 
 left to right direction
 
 Users(sources, "Events", "millions of users")
-VPCSubnetPublic(vpc, "VPC") {
+VPCSubnetPublicBoundary(vpc, "VPC") {
   APIGateway(votingAPI, "Voting API", "user votes")
   Cognito(userAuth, "User Authentication", "jwt to submit votes")
   Lambda(generateToken, "User Credentials", "return jwt")

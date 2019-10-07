@@ -13,6 +13,7 @@
 !include AWSPuml/SecurityIdentityAndCompliance/Cognito.puml
 !include AWSPuml/Compute/Lambda.puml
 !include AWSPuml/Database/DynamoDB.puml
+!include AWSPuml/GroupIcons/VPCSubnetPublic.puml
 
 left to right direction
 
