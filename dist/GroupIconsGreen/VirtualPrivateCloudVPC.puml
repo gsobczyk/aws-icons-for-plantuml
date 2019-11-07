@@ -7,7 +7,7 @@ ETV7_uSK0eBQMlSW-MuC0HG20HJxSZ8-0VCg_M1yQVERiirasYKCac4rw0nqcnJ4wPbWGrXDMaInIK2x
 sUMjs_dugqUrYnYkswp2iLqY7jdM4b3KpZM7eBOTu7DZESA5WAWxoOGBVBKzoZa6EXBIkD8VZyVZ9m
 }
 
-!define VirtualPrivateCloudVPCColor #232F3E
+!define VirtualPrivateCloudVPCColor #3F8624
 AWSEntityColoring2(VirtualPrivateCloudVPC, VirtualPrivateCloudVPCColor)
 AWSEntityBoundary(VirtualPrivateCloudVPC, VirtualPrivateCloudVPCColor)
 !define VirtualPrivateCloudVPC(e_alias, e_label) AWSEntity(e_alias, e_label, VirtualPrivateCloudVPCColor, VirtualPrivateCloudVPC, VirtualPrivateCloudVPC)

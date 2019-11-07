@@ -6,7 +6,7 @@ EmbYZnUa_UCXVJxRJXbot_g_nkiquwdNhQQU5rCkLVmi0lbLEoFA9PzmjdJ9PmprP0FoPSzsClusNsEi
 _dgRDm4nttxyJEM-yxSw-BTx8shtU7sxnrkzvQpVzlnnSZ9tZJ_NPT_IsPhzK6DZ4m
 }
 
-!define VPCSubnetPublicColor #232F3E
+!define VPCSubnetPublicColor #3F8624
 AWSEntityColoring2(VPCSubnetPublic, VPCSubnetPublicColor)
 AWSEntityBoundary(VPCSubnetPublic, VPCSubnetPublicColor)
 !define VPCSubnetPublic(e_alias, e_label) AWSEntity(e_alias, e_label, VPCSubnetPublicColor, VPCSubnetPublic, VPCSubnetPublic)

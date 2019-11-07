@@ -1078,6 +1078,14 @@ Categories:
   - Source: Users
     Target: Users
   SourceDir: _General
+- Name: GroupIconsGreen
+  Color: ForestGreen
+  Services:
+  - Source: VPC-subnet-public
+    Target: VPCSubnetPublic
+  - Source: Virtual-private-cloud-VPC
+    Target: VirtualPrivateCloudVPC
+  SourceDir: _Group Icons#
 - Name: GroupIcons
   Color: SquidInk
   Services:
@@ -1101,8 +1109,4 @@ Categories:
     Target: SpotFleet
   - Source: VPC-subnet-private
     Target: VPCSubnetPrivate
-  - Source: VPC-subnet-public
-    Target: VPCSubnetPublic
-  - Source: Virtual-private-cloud-VPC
-    Target: VirtualPrivateCloudVPC
   SourceDir: _Group Icons

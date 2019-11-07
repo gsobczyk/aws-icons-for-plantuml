@@ -245,8 +245,9 @@ GroupIcons | ServerContents  | ![ServerContents](dist/GroupIcons/ServerContents.
 GroupIcons | SpotFleet  | ![SpotFleet](dist/GroupIcons/SpotFleet.png?raw=true) |GroupIcons/SpotFleet.puml
 GroupIcons | StepFunction  | ![StepFunction](dist/GroupIcons/StepFunction.png?raw=true) |GroupIcons/StepFunction.puml
 GroupIcons | VPCSubnetPrivate  | ![VPCSubnetPrivate](dist/GroupIcons/VPCSubnetPrivate.png?raw=true) |GroupIcons/VPCSubnetPrivate.puml
-GroupIcons | VPCSubnetPublic  | ![VPCSubnetPublic](dist/GroupIcons/VPCSubnetPublic.png?raw=true) |GroupIcons/VPCSubnetPublic.puml
-GroupIcons | VirtualPrivateCloudVPC  | ![VirtualPrivateCloudVPC](dist/GroupIcons/VirtualPrivateCloudVPC.png?raw=true) |GroupIcons/VirtualPrivateCloudVPC.puml
+**GroupIconsGreen** | | | **GroupIconsGreen/all.puml**
+GroupIconsGreen | VPCSubnetPublic  | ![VPCSubnetPublic](dist/GroupIconsGreen/VPCSubnetPublic.png?raw=true) |GroupIconsGreen/VPCSubnetPublic.puml
+GroupIconsGreen | VirtualPrivateCloudVPC  | ![VirtualPrivateCloudVPC](dist/GroupIconsGreen/VirtualPrivateCloudVPC.png?raw=true) |GroupIconsGreen/VirtualPrivateCloudVPC.puml
 **InternetOfThings** | | | **InternetOfThings/all.puml**
 InternetOfThings | FreeRTOS  | ![FreeRTOS](dist/InternetOfThings/FreeRTOS.png?raw=true) |InternetOfThings/FreeRTOS.puml
 InternetOfThings | InternetofThings  | ![InternetofThings](dist/InternetOfThings/InternetofThings.png?raw=true) |InternetOfThings/InternetofThings.puml
